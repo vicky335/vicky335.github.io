@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vicky&#39;s blog</title>
+    <link>http://example.com/</link>
+    <description>Recent content on Vicky&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Sun, 18 Jun 2017 16:38:32 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown入門</title>
+      <link>http://example.com/post/markdown%E5%85%A5%E9%96%80/</link>
+      <pubDate>Sun, 18 Jun 2017 16:38:32 +0800</pubDate>
+      
+      <guid>http://example.com/post/markdown%E5%85%A5%E9%96%80/</guid>
+      <description>Markdown 是一種「輕量級標記式語言」，創始人為約翰·格魯伯（John Gruber）。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並選擇性的轉換成有效的 XHTML (或是HTML)」
+ 特點  純文本，兼容性極強，可以用所有文本編輯器打開 Markdown專注於文字和內容，而不是排版，能讓我們安心寫作 Markdown的語法簡單，有極好的可讀性，常用的標記符號不超過十個 格式轉換方便，除了本身的.md文件外，還能輕鬆轉換為HTML、PDF等格式 如果你是愛折騰的人，Markdown還能支持流程圖、複製的表格、公式等等   語法規則 代碼區域 對於程序員，文章中有代碼是肯定的。我們需要代碼框把代碼引起來，這個時候，我們可以用3個`把代碼引起來就可以了，
+var a =3; int b = 33;   寫法： ``` code ```  標題 可以在標題內容前輸入特定數量的#號來實現對應級別的HTML樣式標題。
+# 一級標題 ## 二級標題 ### 三級標題 #### 四級標題 ##### 五級標題 ###### 六級標題  一級和二級標題還可以寫成：
+一级标题 =================== 二级标题 --------------------  Markdown會轉成：
+&amp;lt;h1&amp;gt;一级标题&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;二级标题&amp;lt;/h2&amp;gt; &amp;lt;h6&amp;gt;六級标题&amp;lt;/h6&amp;gt;  列表 我們知道列表有 有序列表 和 無序列表 兩種。在Markdown下，只需要在文字前加上 - 或 * 即變為無序列表，而有序列表則是直接在文字前面加1. 2.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://example.com/about/</link>
+      <pubDate>Fri, 10 Feb 2017 15:01:33 +0800</pubDate>
+      
+      <guid>http://example.com/about/</guid>
+      <description>Hello Hugo！测试内容</description>
+    </item>
+    
+  </channel>
+</rss>
