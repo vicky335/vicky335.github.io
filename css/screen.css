@@ -251,7 +251,7 @@ body {
     // font-family: "Merriweather", serif;
     font-family: "Hannotate SC", PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
     letter-spacing: 0.01rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
@@ -274,7 +274,7 @@ h4, h5, h6 {
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
-    line-height: 1.15em;
+    // line-height: 1.15em;
     margin: 0 0 0.4em 0;
     // font-family: "Open Sans", sans-serif;
     text-rendering: geometricPrecision;
@@ -292,29 +292,29 @@ h2 {
 }
 
 .post h2 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     padding-bottom: 0.4em;
     border-bottom: 1px solid #EFEFEF;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 
 .post h3 {
-    font-size: 2.4rem;
-}
-
-h4 {
-    font-size: 2.5rem;
-}
-
-h5 {
     font-size: 2rem;
 }
 
-h6 {
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
     font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 1.6rem;
 }
 
 a {
