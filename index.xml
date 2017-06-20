@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vicky&#39;s blog</title>
+    <title>Vicky&#39;s Blog</title>
     <link>https://vicky335.github.io/</link>
-    <description>Recent content on Vicky&#39;s blog</description>
+    <description>Recent content on Vicky&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Sun, 18 Jun 2017 17:05:04 +0800</lastBuildDate>
     
@@ -14,28 +14,19 @@
     
     <item>
       <title>Markdown入门</title>
-      <link>https://vicky335.github.io/post/markdown/markdown%E5%85%A5%E9%97%A8/</link>
+      <link>https://vicky335.github.io/post/markdown/markdown-getting-started/</link>
       <pubDate>Sun, 18 Jun 2017 17:05:04 +0800</pubDate>
       
-      <guid>https://vicky335.github.io/post/markdown/markdown%E5%85%A5%E9%97%A8/</guid>
-      <description>Markdown 是一种“轻量级标记式语言”，创始人为约翰·格鲁伯（John Gruber）。这个语言的目的是希望大家使用“易于阅读、易于撰写的纯文字格式，并选择性的转换成有效的 XHTML (或是HTML)”
+      <guid>https://vicky335.github.io/post/markdown/markdown-getting-started/</guid>
+      <description>Markdown 是一种“轻量级标记式语言”，创始人为约翰·格鲁伯（John Gruber）。这个语言的目的是希望大家使用“易于阅读、易于撰写的纯文字格式，并选择性的转换成有效的 XHTML (或是HTML)”。
  介绍 Markdown 是一种“轻量级标记式语言”，它的语法简单，不像一般的的文字处理软件Word或Pages有大量的排版、字体设置。它使我们只专心于文字和内容，用“标记式语法” 来代替常见的排版格式。从内容到格式，甚至插图，都是键盘就可以通通搞定了。
-目前支持Markdown语法的编辑器和网站都好多。例如：MacDown、typora、Mou、GitHub等等。
+目前支持Markdown语法的编辑器和网站都好多。例如：MacDown、typora、Mou、GitHub、简书等等。
 Markdown能导出多种格式，可以导出HTML格式的文件用来网站发布，也可以导出PDF格式。
  Markdown语法参考：
  创始人约翰·格鲁伯（John Gruber）的Markdown语法 Markdown中文版语法   特点  纯文本，兼容性极强，可以用所有文本编辑器打开 Markdown专注于文字和内容，而不是排版，能让我们安心写作 Markdown的语法简单，有极好的可读性，常用的标记符号不超过十个 格式转换方便，除了本身的.md文件外，还能轻松转换为HTML、PDF等格式 如果你是爱折腾的人，Markdown还能支持流程图、复制的表格、公式等等   语法规则 代码区域 对于程序员，文章中有代码是肯定的。我们需要代码框把代码引起来，这个时候，我们可以用3个`把代码引起来就可以了，
 var a =3; int b = 33;   写法： ``` code ```  标题 可以在标题内容前输入特定数量的#号来实现对应级别的HTML样式标题。
 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题  一级和二级标题还可以写成：
 一级标题 =================== 二级标题 --------------------  Markdown会转成：</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://vicky335.github.io/about/</link>
-      <pubDate>Fri, 10 Feb 2017 15:01:33 +0800</pubDate>
-      
-      <guid>https://vicky335.github.io/about/</guid>
-      <description>Hello Hugo！测试内容</description>
     </item>
     
   </channel>
