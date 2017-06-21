@@ -26,6 +26,10 @@
 
 
 
+    
+    <meta property="fb:pages" content="915701871863863" />
+    
+
   	<meta property="og:title" content="Markdown入门 &middot; vicky335" />
   	<meta property="og:site_name" content="vicky335" />
   	<meta property="og:url" content="https://vicky335.github.io/post/markdown/markdown-getting-started/" />
@@ -392,10 +396,10 @@ int b = 33;
 <li>文字连结。只需要使用<code>[连结文字](连结地址)</code>，如</li>
 </ul>
 
-<pre><code>[Markdown](http://zh.wikipedia.com/wiki/Markdown &quot;Markdown&quot;)
+<pre><code>[vicky335](https://vicky335.github.io &quot;vicky335&quot;)
 </code></pre>
 
-<p>显示效果：<a href="http://zh.wikipedia.com/wiki/Markdown" title="Markdown">Markdown</a></p>
+<p>显示效果：<a href="https://vicky335.github.io" title="vicky335">vicky335</a></p>
 
 <ul>
 <li>索引连结。连结地址可以放在段落后面的注脚，前面放上连结参照标签区分。如，先在内容行内插入</li>
@@ -413,28 +417,28 @@ int b = 33;
 <li>自动连结。Markdown还支持以比较简短的自动连结形式来处理网址和电子邮件，只要使用尖括号<code>&lt;&gt;</code>包起来，就会自动把它转成连结。如</li>
 </ul>
 
-<pre><code>&lt;http://www.example.com&gt;
+<pre><code>&lt;https://vicky335.github.io&gt;
 &lt;address@example.com&gt;
 </code></pre>
 
-<p>显示效果：<a href="http://www.example.com">http://www.example.com</a> <a href="mailto:address@example.com">address@example.com</a></p>
+<p>显示效果：<a href="https://vicky335.github.io">https://vicky335.github.io</a> <a href="mailto:address@example.com">address@example.com</a></p>
 
 <p>此时，Markdown会转为：</p>
 
-<pre><code>&lt;a href=&quot;http://example.com/&quot;&gt;http://example.com/&lt;/a&gt;
+<pre><code>&lt;a href=&quot;https://vicky335.github.io&quot;&gt;https://vicky335.github.io&lt;/a&gt;
 </code></pre>
 
 <h3 id="图片">图片</h3>
 
 <p>插入图片，只需要使用<code>![替代文字(可省略)](图片连结地址 &quot;title文字&quot;)</code>即可。不过目前Markdown还不能指定图片的宽高，如有需要，可以使用普通的<code>&lt;img&gt;</code>标签。</p>
 
-<p><img src="../../../images/logo.png" alt="vicky335" title="vicky335" /></p>
+<p><img src="https://vicky335.github.io/images/logo.png" alt="vicky335" title="vicky335" /></p>
 
 <pre><code>写法:  ![](https://vicky335.github.io/images/logo.png)
 
-![Alt text](images/logo.png)
+![Alt text](/images/logo.png)
 
-![Alt text](images/logo.png &quot;Optional title&quot;)
+![Alt text](/images/logo.png &quot;Optional title&quot;)
 </code></pre>
 
 <p>目前Markdown还不能指定图片的宽高，如有需要，可以使用普通的<code>&lt;img&gt;</code>标签</p>
@@ -450,7 +454,7 @@ int b = 33;
 | zebra stripes | are neat      |    $1 |
 </code></pre>
 
-<p>显示效果</p>
+<p>显示效果：</p>
 
 <table>
 <thead>
@@ -552,7 +556,7 @@ Markdown支持以下这些符号前面加上反斜杠来帮助插入普通的符
 
 <li><p>缩进</p>
 
-<p>程序中常用的tab即缩进是</p>
+<p>程序中常用的tab缩进是</p>
 
 <pre><code>写法：` `这样写就会缩进了。
 </code></pre></li>
