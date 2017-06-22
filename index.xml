@@ -122,18 +122,18 @@ int b = 33;
 
 &lt;p&gt;Markdown會轉成：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;ol&amp;gt;
-    &amp;lt;li&amp;gt;列表1&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;列表2&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;列表3&amp;lt;/li&amp;gt;
-&amp;lt;/ol&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
 &lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
     &amp;lt;li&amp;gt;列表1&amp;lt;/li&amp;gt;
     &amp;lt;li&amp;gt;列表2&amp;lt;/li&amp;gt;
     &amp;lt;li&amp;gt;列表3&amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ol&amp;gt;
+    &amp;lt;li&amp;gt;列表1&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;列表2&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;列表3&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;strong&gt;注意：符號與文字之間要加上一個字符的空格&lt;/strong&gt;&lt;/p&gt;
