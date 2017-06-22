@@ -186,17 +186,14 @@ int b = 33;
 &lt;h3 id=&#34;連結&#34;&gt;連結&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;文字連結。只需要使用&lt;code&gt;[連結文字](連結地址)&lt;/code&gt;，如&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;文字連結。只需要使用&lt;code&gt;[連結文字](連結地址)&lt;/code&gt;，如&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;[Markdown](http://zh.wikipedia.com/wiki/Markdown &amp;quot;Markdown&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;顯示效果：&lt;a href=&#34;http://zh.wikipedia.com/wiki/Markdown&#34; title=&#34;Markdown&#34;&gt;Markdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;顯示效果：&lt;a href=&#34;http://zh.wikipedia.com/wiki/Markdown&#34; title=&#34;Markdown&#34;&gt;Markdown&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;ul&gt;
-&lt;li&gt;索引連結。連結地址可以放在段落後面的注腳，前面放上連結參照標籤區分。如，先在內容行內插入&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;索引連結。連結地址可以放在段落後面的注腳，前面放上連結參照標籤區分。如，先在內容行內插入&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;[連結文字][連結引用標籤]
 &lt;/code&gt;&lt;/pre&gt;
@@ -204,11 +201,9 @@ int b = 33;
 &lt;p&gt;然後在段落後面（或文件結尾）放上以下內容，就可以生成連結：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;[連結引用標籤]：連結地址 &amp;quot;連結標題&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;ul&gt;
-&lt;li&gt;自動連結。Markdown還支持以比較簡短的自動連結形式來處理網址和電子郵件，只要使用尖括號&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包起來，就會自動把它轉成連結。如&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;自動連結。Markdown還支持以比較簡短的自動連結形式來處理網址和電子郵件，只要使用尖括號&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包起來，就會自動把它轉成連結。如&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;https://vicky335.github.io&amp;gt;
 &amp;lt;address@example.com&amp;gt;
@@ -219,7 +214,8 @@ int b = 33;
 &lt;p&gt;此時，Markdown會轉為：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://example.com/&amp;quot;&amp;gt;http://example.com/&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;如果希望添加的連結是另開新視窗打開：&lt;/p&gt;
 
