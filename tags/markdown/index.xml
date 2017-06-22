@@ -169,15 +169,17 @@ int b = 33;
 
 &lt;h3 id=&#34;換行&#34;&gt;換行&lt;/h3&gt;
 
-&lt;p&gt;單一段落&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;單一段落&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;p&gt;多行&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;多行&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;br /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;如果你真的想在Markdown中插入換行標籤&lt;br/&gt;，你可以在行尾輸入兩個或以上的空格，然後Enter。 這樣插入換行十分麻煩，但是「每個換行都轉換為&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;」在 Markdown中並不合適，所以只在你確定你需要時手動添加。&lt;/p&gt;
 
