@@ -1273,6 +1273,10 @@ body:not(.post-template) .post-title {
     color: #50585D;
 }
 
+.post-ad {
+    width: 100%;
+}
+
 
 /* ==========================================================================
    6. Author profile
