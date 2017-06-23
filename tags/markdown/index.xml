@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>
              Markdown on vicky335 
@@ -10,8 +10,12 @@
         </description>
         <language>zh</language>
         
+        <copyright>All rights reserved - 2017</copyright>
+        
+        
         <lastBuildDate>Sun, 18 Jun 2017 17:05:04 +0800</lastBuildDate>
         
+        <atom:link href="https://vicky335.github.io/tags/markdown/" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Mackdown入門</title>
