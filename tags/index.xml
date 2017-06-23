@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Tags on vicky335</title>
+        <title>
+             Tags on vicky335 
+        </title>
         <link>https://vicky335.github.io/tags/</link>
-        <description>Recent content in Tags on vicky335</description>
-        <generator>Hugo -- gohugo.io</generator>
+        <description>
+            This is vicky335&#39;s blog
+        </description>
         <language>zh</language>
-        <copyright>All rights reserved - 2017</copyright>
+        
         <lastBuildDate>Sun, 18 Jun 2017 17:05:04 +0800</lastBuildDate>
-        <atom:link href="https://vicky335.github.io/tags/" rel="self" type="application/rss+xml" /> 
+        
+        
         <item>
             <title>Markdown</title>
             <link>https://vicky335.github.io/tags/markdown/</link>
-            <pubDate>Sun, 18 Jun 2017 17:05:04 +0800</pubDate>
-            
             <guid>https://vicky335.github.io/tags/markdown/</guid>
+            <pubDate>Sun, 18 Jun 2017 17:05:04 +0800</pubDate>
             
             <description></description>
         </item>
         
     </channel>
 </rss>
-

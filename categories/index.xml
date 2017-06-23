@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Categories on vicky335</title>
+        <title>
+             Categories on vicky335 
+        </title>
         <link>https://vicky335.github.io/categories/</link>
-        <description>Recent content in Categories on vicky335</description>
-        <generator>Hugo -- gohugo.io</generator>
+        <description>
+            This is vicky335&#39;s blog
+        </description>
         <language>zh</language>
-        <copyright>All rights reserved - 2017</copyright>
-        <atom:link href="https://vicky335.github.io/categories/" rel="self" type="application/rss+xml" /> 
+        
+        
     </channel>
 </rss>
-

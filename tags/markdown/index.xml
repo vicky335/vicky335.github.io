@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Markdown on vicky335</title>
+        <title>
+             Markdown on vicky335 
+        </title>
         <link>https://vicky335.github.io/tags/markdown/</link>
-        <description>Recent content in Markdown on vicky335</description>
-        <generator>Hugo -- gohugo.io</generator>
+        <description>
+            This is vicky335&#39;s blog
+        </description>
         <language>zh</language>
-        <copyright>All rights reserved - 2017</copyright>
+        
         <lastBuildDate>Sun, 18 Jun 2017 17:05:04 +0800</lastBuildDate>
-        <atom:link href="https://vicky335.github.io/tags/markdown/" rel="self" type="application/rss+xml" /> 
+        
+        
         <item>
             <title>Mackdown入門</title>
             <link>https://vicky335.github.io/post/markdown/markdown-getting-started/</link>
-            <pubDate>Sun, 18 Jun 2017 17:05:04 +0800</pubDate>
-            
             <guid>https://vicky335.github.io/post/markdown/markdown-getting-started/</guid>
+            <pubDate>Sun, 18 Jun 2017 17:05:04 +0800</pubDate>
             
             <description>
 
@@ -26,7 +29,7 @@
 
 &lt;h2 id=&#34;介紹&#34;&gt;介紹&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，它的語法簡單，不像一般的的文字處理軟件Word或Pages有大量的排版、字體設置。它使我們只專心於文字和內容，用&lt;strong&gt;「標記式語法」&lt;/strong&gt; 來代替常見的排版格式。從內容到格式，甚至插圖，都是鍵盤就可以通通搞定了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，它的語法簡單，不像一般的文字處理軟件Word或Pages有大量的排版、字體設置。它使我們只專心於文字和內容，用&lt;strong&gt;「標記式語法」&lt;/strong&gt; 來代替常見的排版格式。從內容到格式，甚至插圖，都是鍵盤就可以通通搞定了。&lt;/p&gt;
 
 &lt;p&gt;目前支持Markdown語法的編輯器和網站都好多。例如：&lt;a href=&#34;https://macdown.uranusjr.com/&#34;&gt;MacDown&lt;/a&gt;、&lt;a href=&#34;https://typora.io/&#34;&gt;typora&lt;/a&gt;、&lt;a href=&#34;http://25.io/mou/&#34;&gt;Mou&lt;/a&gt;、&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;、&lt;a href=&#34;http://www.jianshu.com/&#34;&gt;簡書&lt;/a&gt;等等。&lt;/p&gt;
 
@@ -191,10 +194,10 @@ int b = 33;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;文字連結。只需要使用&lt;code&gt;[連結文字](連結地址)&lt;/code&gt;，如&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;[Markdown](http://zh.wikipedia.com/wiki/Markdown &amp;quot;Markdown&amp;quot;)
+&lt;pre&gt;&lt;code&gt;[vicky335](https://vicky335.github.io &amp;quot;vicky335&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;顯示效果：&lt;a href=&#34;http://zh.wikipedia.com/wiki/Markdown&#34; title=&#34;Markdown&#34;&gt;Markdown&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;顯示效果：&lt;a href=&#34;https://vicky335.github.io&#34; title=&#34;vicky335&#34;&gt;vicky335&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;索引連結。連結地址可以放在段落後面的注腳，前面放上連結參照標籤區分。如，先在內容行內插入&lt;/p&gt;
 
@@ -267,9 +270,9 @@ int b = 33;
 
 &lt;p&gt;插入圖片，只需要使用 &lt;code&gt;![替代文字(可省略)](圖片連結地址 &amp;quot;title文字&amp;quot;)&lt;/code&gt; 即可。不過目前Markdown還不能指定圖片的寬高，如有需要，可以使用普通的 &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; 標籤。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://zh.wikipedia.org/static/images/project-logos/zhwiki.png&#34; alt=&#34;維基百科&#34; title=&#34;維基百科&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../images/logo.png&#34; alt=&#34;vicky335&#34; title=&#34;vicky335&#34; /&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;寫法:  ![](https://zh.wikipedia.org/static/images/project-logos/zhwiki.png)
+&lt;pre&gt;&lt;code&gt;寫法:  ![](https://vicky335.github.io/images/logo.png)
 
 ![Alt text](/path/to/img.jpg)
 
@@ -419,4 +422,3 @@ Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符
         
     </channel>
 </rss>
-
