@@ -20,10 +20,8 @@
             <link>https://vicky335.github.io/post/markdown/markdown-getting-started/</link>
             <guid>https://vicky335.github.io/post/markdown/markdown-getting-started/</guid>
             <pubDate>Sun, 18 Jun 2017 17:05:04 +0800</pubDate>
-            
+            <author>vicky335(https://vicky335.github.io/)</author>
             <description>
-
-&lt;!-- # Mackdown入門 --&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34; title=&#34;Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，創始人為&lt;strong&gt;約翰·格魯伯（John Gruber）&lt;/strong&gt;。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並選擇性的轉換成有效的 XHTML (或是HTML)」。&lt;/p&gt;
