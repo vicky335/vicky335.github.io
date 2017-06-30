@@ -4,14 +4,37 @@
         <title>
              Categories on vicky335 
         </title>
+
         <link>https://vicky335.github.io/categories/</link>
+
+        
+        <author>vicky335 (https://vicky335.github.io/)</author>
+        
+
+        
+        <managingEditor>vicky335 (https://vicky335.github.io/)</managingEditor>
+        
+
+        
+        <webMaster>vicky335 (https://vicky335.github.io/)</webMaster>
+        
+
         <description>
             This is vicky335&#39;s blog
         </description>
-        <language>zh</language>
-        <copyright><a href="https://vicky335.github.io/">vicky335</a> All rights reserved - 2017</copyright>
+
         
+        <language>zh</language>
+        
+
+        <copyright>
+            <a href="https://vicky335.github.io/">vicky335</a> All rights reserved - 2017
+        </copyright>
+
+        
+
         <atom:link href="https://vicky335.github.io/categories/" rel="self" type="application/rss+xml" />
+
         
     </channel>
 </rss>

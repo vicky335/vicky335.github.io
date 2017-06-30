@@ -64,6 +64,10 @@
     
 
     
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/solarized-dark.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    
 
     
       
@@ -233,6 +237,25 @@
     <script type="text/javascript" src="https://vicky335.github.io/js/index.js"></script>
     
 
+    
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1155862327852170',
+          xfbml      : true,
+          version    : 'v2.9'
+        });
+        FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/zh_hk/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
     
 </body>
 </html>
