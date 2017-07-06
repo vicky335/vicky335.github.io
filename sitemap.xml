@@ -13,7 +13,18 @@
   </url>
   
   <url>
+    <loc>https://vicky335.github.io/post/f2e/tag-height.html</loc>
+    <lastmod>2014-06-06T14:30:35+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vicky335.github.io/categories.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vicky335.github.io/tags/html.html</loc>
+    <lastmod>2014-06-06T14:30:35+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,8 +41,14 @@
   </url>
   
   <url>
+    <loc>https://vicky335.github.io/tags/tag.html</loc>
+    <lastmod>2014-06-06T14:30:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vicky335.github.io/tags.html</loc>
-    <lastmod>2017-06-18T17:05:04+08:00</lastmod>
+    <lastmod>2014-06-06T14:30:35+08:00</lastmod>
     <priority>0</priority>
   </url>
   
