@@ -5,7 +5,7 @@
              Categories on vicky335 
         </title>
 
-        <link>https://vicky335.github.io/categories/</link>
+        <link>https://vicky335.github.io/categories.html</link>
 
         
         <author>vicky335 (https://vicky335.github.io/)</author>
@@ -33,7 +33,7 @@
 
         
 
-        <atom:link href="https://vicky335.github.io/categories/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://vicky335.github.io/categories.html" rel="self" type="application/rss+xml" />
 
         
     </channel>
