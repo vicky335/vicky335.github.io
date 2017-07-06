@@ -32,11 +32,28 @@
         </copyright>
 
         
-        <lastBuildDate>Sun, 18 Jun 2017 17:05:04 UTC+08:00</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jun 2017 16:03:43 UTC+08:00</lastBuildDate>
         
 
         <atom:link href="https://vicky335.github.io/" rel="self" type="application/rss+xml" />
 
+        
+        <item>
+            <title>About me...</title>
+
+            <link>https://vicky335.github.io/aboutme/</link>
+
+            <pubDate>Mon, 19 Jun 2017 16:03:43 UTC+08:00</pubDate>
+
+            
+            <author>vicky335 (https://vicky335.github.io/)</author>
+            
+
+            <guid>https://vicky335.github.io/aboutme/</guid>
+
+            <description></description>
+
+        </item>
         
         <item>
             <title>Mackdown入門</title>
