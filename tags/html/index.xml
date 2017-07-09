@@ -63,7 +63,7 @@
 
 &lt;p&gt;實際上，在瀏覽器看到之間存在的空白是由[ ( 行高 - 字的像素 ) / 2 + 間距 ]而來的。（解釋如圖）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../images/f2e/tagsHeight.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/f2e/tagsHeight.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;所以在調整網頁上的間距時，要注意行高所帶來的影響。&lt;/p&gt;
 </description>
