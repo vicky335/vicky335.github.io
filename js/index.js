@@ -21,11 +21,11 @@
         });
 
         // ad
-        // var $postContentAd = $('.post-content-ad');
-        // if ($postContentAd.length > 0) {
-        //     var html = ['<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">\x3c/script>', '<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-7900212994905360" data-ad-slot="2530825933"></ins>', '<script>(adsbygoogle = window.adsbygoogle || []).push({});\x3c/script>'].join('');
-        //     $('.post-content-ad').append(html);
-        // }
+        var $postContentAd = $('.post-content-ad');
+        if ($postContentAd.length > 0) {
+            var html = ['<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">\x3c/script>', '<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-7900212994905360" data-ad-slot="2530825933"></ins>', '<script>(adsbygoogle = window.adsbygoogle || []).push({});\x3c/script>'].join('');
+            $('.post-content-ad').append(html);
+        }
         // ad end
 
     });
