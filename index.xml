@@ -91,7 +91,7 @@
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&#34;post-content-ad&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;ui_adblock&#34;&gt;&lt;/div&gt;
 
 &lt;h2 id=&#34;特点&#34;&gt;特点&lt;/h2&gt;
 
@@ -488,7 +488,7 @@ Markdown支持以下这些符号前面加上反斜杠来帮助插入普通的符
 
 &lt;p&gt;这次主要是讲Html里面标签的行高所带来的问题。&lt;/p&gt;
 
-&lt;div class=&#34;post-content-ad&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;ui_adblock&#34;&gt;&lt;/div&gt;
 
 &lt;p&gt;在做Html时，是否有设置过某个标签元素的行高（line-height）呢？以&lt;code&gt;&amp;lt;P&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;为例，你们在里面写入好几段文字，之后输入来用浏览器看的时候有发现每行文字之间都存在一定的距离吗？那就是行高所造成的。&lt;/p&gt;
 
