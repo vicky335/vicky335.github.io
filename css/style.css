@@ -16,7 +16,7 @@
 .ui_adblock {
     margin-bottom: 1rem;
     text-align: center;
-    background-color: #eee;
+    /* background-color: #eee; */
     line-height: 0;
 }
 
@@ -40,6 +40,7 @@
 }
 
 .ui_adblock>.title {
+    display: none;
     padding: 1rem 0rem;
     margin-bottom: 0.5rem;
     font-size: 14px;
