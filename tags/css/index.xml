@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>
+             Css on vicky335 
+        </title>
+
+        <link>https://vicky335.github.io/tags/css.html</link>
+
+        
+        <author>vicky335 (https://vicky335.github.io/)</author>
+        
+
+        
+        <managingEditor>vicky335 (https://vicky335.github.io/)</managingEditor>
+        
+
+        
+        <webMaster>vicky335 (https://vicky335.github.io/)</webMaster>
+        
+
+        <description>
+            This is vicky335&#39;s blog
+        </description>
+
+        
+        <language>zh-cn</language>
+        
+
+        <copyright>
+            <a href="https://vicky335.github.io/">vicky335</a> All rights reserved - 2017
+        </copyright>
+
+        
+        <lastBuildDate>Fri, 06 Jun 2014 14:30:35 UTC+08:00</lastBuildDate>
+        
+
+        <atom:link href="https://vicky335.github.io/tags/css.html" rel="self" type="application/rss+xml" />
+
+        
+        <item>
+            <title>“标签的行高”和“标签之间的间距”问题</title>
+
+            <link>https://vicky335.github.io/post/f2e/tag-height.html</link>
+
+            <pubDate>Fri, 06 Jun 2014 14:30:35 UTC+08:00</pubDate>
+
+            
+            <author>vicky335 (https://vicky335.github.io/)</author>
+            
+
+            <guid>https://vicky335.github.io/post/f2e/tag-height.html</guid>
+
+            <description>&lt;p&gt;第一次写文章，不是很会取标题，写的不好请见谅~~谢谢~&lt;/p&gt;
+
+&lt;p&gt;这次主要是讲Html里面标签的行高所带来的问题。&lt;/p&gt;
+
+&lt;p&gt;在做Html时，是否有设置过某个标签元素的行高（line-height）呢？以&lt;code&gt;&amp;lt;P&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;为例，你们在里面写入好几段文字，之后输入来用浏览器看的时候有发现每行文字之间都存在一定的距离吗？那就是行高所造成的。&lt;/p&gt;
+
+&lt;p&gt;那标签之间的间距又是怎么回事呢？&lt;/p&gt;
+
+&lt;div class=&#34;ui_adblock&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;做重构的童鞋们肯定知道margin和padding是用来做什么，在这也解释下吧！margin是用来设置某个标签元素的外边距的，而padding则是设定它的内边距的。如果设置了这两个或其中一个，就会造成标签之间的间距了。当然，如果你没有设置margin和padding，但有设定行高的话，那也会造成标签之间的间距的。&lt;/p&gt;
+
+&lt;p&gt;实际上，在浏览器看到之间存在的空白是由[ ( 行高 - 字的像素 ) / 2 + 间距 ]而来的。（解释如图）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/f2e/tagsHeight.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;所以在调整网页上的间距时，要注意行高所带来的影响。&lt;/p&gt;
+</description>
+
+        </item>
+        
+    </channel>
+</rss>
