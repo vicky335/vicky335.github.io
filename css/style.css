@@ -29,23 +29,6 @@
     display: -ms-flexbox;
 }
 
-@media only screen and (max-width:750px) {
-    .ui_block>.title {
-        padding: 1rem;
-    }
-    .adunit,
-    .ui_adblock>.content>.adunit {
-        margin-bottom: 1rem;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .adunit:last-child,
-    .ui_adblock>.content>.adunit:last-child {
-        margin-bottom: 0
-    }
-}
-
 .ui_adblock>.title {
     display: none;
     padding: 1rem 0rem;
@@ -69,4 +52,20 @@
     text-align: center;
     margin: 0 auto;
     overflow: hidden
+}
+
+@media only screen and (max-width:750px) {
+    .ui_block>.title {
+        padding: 1rem;
+    }
+
+    .ui_adblock>.content>.adunit {
+        margin-bottom: 1rem;
+        flex: 0 0 100%;
+        max-width: 300px;
+    }
+
+    .ui_adblock>.content>.adunit:last-child {
+        margin-bottom: 0
+    }
 }
