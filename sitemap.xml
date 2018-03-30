@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vicky335.github.io/post/other/other-country.html</loc>
+    <lastmod>2018-03-30T17:53:21+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vicky335.github.io/aboutme.html</loc>
     <lastmod>2017-06-19T16:03:43+08:00</lastmod>
   </url>
@@ -41,8 +46,14 @@
   </url>
   
   <url>
+    <loc>https://vicky335.github.io/tags/other.html</loc>
+    <lastmod>2018-03-30T17:53:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vicky335.github.io/post.html</loc>
-    <lastmod>2017-06-18T17:05:04+08:00</lastmod>
+    <lastmod>2018-03-30T17:53:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -54,7 +65,7 @@
   
   <url>
     <loc>https://vicky335.github.io/</loc>
-    <lastmod>2017-06-19T16:03:43+08:00</lastmod>
+    <lastmod>2018-03-30T17:53:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
