@@ -228,9 +228,31 @@ rtsp://124.75.34.37/PLTV/88888888/224/3221226229/1000010000000006000000000073408
 rtsp://124.75.34.37/PLTV/88888888/224/3221226161/00000100000000060000000000087201_0.smil
 #EXTINF:-1 ,VIUTV
 http://viutv99-i.akamaihd.net/hls/live/265284/live1/master.m3u8
+
 #EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",香港HKTV
 http://14.198.245.129:8088/hktvlive/hktv_576p_track.m3u8?t=12e9a7f66f3a892b396e94d81206eb6c&udid=2ab17bc1-2ee0-44d4-934e-053430671eb4&uid=1&vid=1&mxres=1920&s=0f9ab3830cf484d7f5843628b25eb9a7
 #EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",香港HKTVHD劇集
 http://r5.s5.stream.omc.hk:8088/hktvlive/hktv_576p_track.m3u8?t=12e9a7f66f3a892b396e94d81206eb6c&udid=2f20b078-fb0f-4272-9372-5cee7d109e32&uid=1&vid=1&mxres=1920&s=6ef3a2f25a54f82a0be88c12c842ac94
 #EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",翡翠兒童
 rtsp://2.itvitv.com/tvbq
+
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",新加坡5频道
+http://dlau142f16b92.cloudfront.net/hls/ch5pcweb/04.m3u8
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",新加坡8频道
+http://d34e90s3s13i7n.cloudfront.net/hls/ch8pcweb/03.m3u8
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",新加坡U频道
+http://d3inlz9elsutjl.cloudfront.net/hls/chupcweb/04.m3u8
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",港台RTHK31
+http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_810_av-b.m3u8?sd=10&rebase=on
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",香港奇妙电视
+http://media.fantv.hk/m3u8/archive/channel2.m3u8
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",ViuTV99
+http://183.179.83.131:9981/strea ... 83&profile=pass
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",ViuTV99
+p2p://172.107.95.67:6004/5a5dc5f30004cb9e5871033f38f08b54.ts
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",ViuTV99
+p2p://172.107.95.67:6004/5a5dc5c5000db69d587051d7fde36604.ts
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",ViuTV99
+http://viutv99-i.akamaihd.net/hls/live/265284/live1/master.m3u8
+#EXTINF:tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png",ViuTVsix
+http://183.179.83.131:9981/strea ... 64&profile=pass
