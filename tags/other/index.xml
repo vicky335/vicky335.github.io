@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>
+             Other on vicky335 
+        </title>
+
+        <link>https://vicky335.github.io/tags/other.html</link>
+
+        
+        <author>vicky335 (https://vicky335.github.io/)</author>
+        
+
+        
+        <managingEditor>vicky335 (https://vicky335.github.io/)</managingEditor>
+        
+
+        
+        <webMaster>vicky335 (https://vicky335.github.io/)</webMaster>
+        
+
+        <description>
+            This is vicky335&#39;s blog
+        </description>
+
+        
+        <language>zh-hant</language>
+        
+
+        <copyright>
+            <a href="https://vicky335.github.io/">vicky335</a> All rights reserved - 2017
+        </copyright>
+
+        
+        <lastBuildDate>Mon, 28 May 2018 15:00:21 UTC+08:00</lastBuildDate>
+        
+
+        <atom:link href="https://vicky335.github.io/tags/other.html" rel="self" type="application/rss+xml" />
+
+        
+        <item>
+            <title>干货 - Mac 常用快捷键整理</title>
+
+            <link>https://vicky335.github.io/post/other/other-mac-shortcutkey.html</link>
+
+            <pubDate>Mon, 28 May 2018 15:00:21 UTC+08:00</pubDate>
+
+            
+            <author>vicky335 (https://vicky335.github.io/)</author>
+            
+
+            <guid>https://vicky335.github.io/post/other/other-mac-shortcutkey.html</guid>
+
+            <description>
+
+&lt;h2 id=&#34;文本编辑&#34;&gt;文本编辑&lt;/h2&gt;
+
+&lt;p&gt;以下适用于文本编辑器，浏览器等：&lt;/p&gt;
+
+&lt;p&gt;跳到页首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;  类似windows下的 &lt;code&gt;ctrl + home&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;跳到页尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;  类似windows下的 &lt;code&gt;ctrl + end&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;光标移到行首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt;  类似windows下的 &lt;code&gt;home&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;光标移到行尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;  类似windows下的 &lt;code&gt;end&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;选择一行  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt; 或 &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;选择一个单词  &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt; 或 &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;向上滚一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;向下滚一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;删除一整行文字  &lt;code&gt;cmd + delete&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;删除一个单词    &lt;code&gt;option + delete&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;光标移动一个单词 &lt;code&gt;option + ←&lt;/code&gt; 或者 &lt;code&gt;option + →&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;##截屏&lt;/p&gt;
+
+&lt;p&gt;全屏截图自动保存为文件 &lt;code&gt;cmd + shift + 3&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;区域截图自动保存为文件 &lt;code&gt;cmd + shift + 4&lt;/code&gt;，这里有个小技巧，按下&lt;code&gt;cmd + shift + 4&lt;/code&gt;后单击空格键，会出现一个相机的icon，表示自动捕捉这个区域。&lt;/p&gt;
+
+&lt;p&gt;##窗口&lt;/p&gt;
+
+&lt;p&gt;关闭当前窗口  &lt;code&gt;cmd + w&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;退出当前程序  &lt;code&gt;cmd + q&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;最小化窗口  &lt;code&gt;cmd + m&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;切换窗口程序  &lt;code&gt;cmd + tab&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;快速显示桌面  &lt;code&gt;cmd + F3&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;显示当前程序缩略图  &lt;code&gt;ctl + F3&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;显示桌面和缩略图  &lt;code&gt;F3&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;显示Dashboard  &lt;code&gt;F4&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;terminal-终端&#34;&gt;Terminal 终端&lt;/h2&gt;
+
+&lt;p&gt;Mac不像&lt;code&gt;Ubuntu&lt;/code&gt;可以使用 Ctrl+T 快捷键呼出终端，但是可以通过&lt;code&gt;control+space&lt;/code&gt;呼出&lt;code&gt;Spotlight&lt;/code&gt;，然后输入terminal回车快速打开终端。&lt;/p&gt;
+
+&lt;p&gt;光标移到行首 &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;A&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;光标移到行尾  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;E&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;清除一行  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;撤销清除  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;Y&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;清屏  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;L&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;新建一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;关闭一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;文件相关&#34;&gt;文件相关&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# 创建目录
+$ mkdir newDir
+# 删除目录及子目录中的内容, 慎用!!
+$ rm -rf newDir
+# 复制
+$ cp file toDir
+# 设置目录读写权限
+$ sudo chmod 777 /etc/hosts
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;进程相关&#34;&gt;进程相关&lt;/h2&gt;
+
+&lt;p&gt;mac os x 下杀死进程&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 找到要杀死进程的id
+$ ps -ef | grep idea
+# 强制kill掉进程
+$ kill 91107
+# 根据项目找对应的进程id
+$ ps -ef | grep m-web
+$ lsof -i:55010
+
+$ lsof -i:55010
+COMMAND  PID    USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+java    6227 fanyong    9u  IPv4 0xf526b9f45ed7c075      0t0  TCP *:55010 (LISTEN)
+$ lsof -i:9001
+COMMAND  PID    USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+java    6227 fanyong  254u  IPv6 0xf526b9f456b4bcf5      0t0  TCP *:etlservicemgr (LISTEN)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;cmd + opt + esc&lt;/code&gt; ，打开类似windows下任务管理器的快捷键。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/other/kill-window.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;网络相关&#34;&gt;网络相关&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# 查看本机IP、Mac地址等信息
+$ ifconfig en0
+# 查看nameserver 修改 nameserver 172.19.8.1 -&amp;gt; nameserver 172.19.8.2
+$ sudo vim /etc/resolv.conf
+# 诊断
+$ dig lujs.cn
+$ nslookup lujs.cn
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;chrome-快捷键&#34;&gt;chrome 快捷键&lt;/h2&gt;
+
+&lt;p&gt;新建一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;关闭一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;打开开发者工具，&lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;I&lt;/code&gt; Mac下F12不管用,因为系统默认把&lt;code&gt;F12&lt;/code&gt;分配给了音量&lt;/p&gt;
+
+&lt;p&gt;查看源代码  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;调试js - step over &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;调试js - step in &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;调试js - step out &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;快速定位Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;1/2/3/等&lt;/code&gt;
+向左切换Tab顺序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;{&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;向右切换Tab顺序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;}&lt;/code&gt;&lt;/p&gt;
+</description>
+
+        </item>
+        
+        <item>
+            <title>各國網路名稱縮寫</title>
+
+            <link>https://vicky335.github.io/post/other/other-country.html</link>
+
+            <pubDate>Fri, 30 Mar 2018 17:53:21 UTC+08:00</pubDate>
+
+            
+            <author>vicky335 (https://vicky335.github.io/)</author>
+            
+
+            <guid>https://vicky335.github.io/post/other/other-country.html</guid>
+
+            <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;縮寫&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;英文&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;中文&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;位置&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ac&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ascension Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞森欣島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在南太平洋，屬英&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ad&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Andorra&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;安道爾侯國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於法國和西班牙交界之東庇里牛斯山中&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ae&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Unuted Arab Emirates&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿拉伯聯合大公國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;af&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Afghanistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿富汗&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞洲西部高原上&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ai&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Anguilla&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;安圭拉島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;英屬西印度群島中之一島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;al&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Albania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿爾巴尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴爾幹島的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;am&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Armenia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞美尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在伊朗西北部，蘇聯之一共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;an&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Netherlands Antilles&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;荷屬安地列斯群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ao&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Angola&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;安哥拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於西南非之共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;aq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Antartica&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南極洲&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;as&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Argentina&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿根廷&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南美洲之一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;at&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Austria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;奧地利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;au&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Australia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;澳大利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;aw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aruba&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿盧巴島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在委內瑞拉海岸以北20哩的島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;az&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Azerbaijan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞塞拜然共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ba&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bosnia and Herzegovina&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;波士尼亞和赫芝格微納&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴爾幹半島上的兩個地區&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bb&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Barbados&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴貝多&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島東端的一個島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bd&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bangladesh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;孟加拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞洲一個國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;be&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Belgium&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;比利時&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Burkina Faso&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;布基納法索&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;舊：上伏爾塔&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bulgaria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;保加利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bahrain&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴林&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Burundi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蒲隆地&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲東部的共國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Benin&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;貝南&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西部一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bermuda&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;百慕達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Brunei Darussalam&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;汶萊&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bolivia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;波利維亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;br&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Brazil&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴西&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bs&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bahamas&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴哈馬&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bhutan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;不丹&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bouvet Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;鮑威島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;by&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Byelorussian SSR&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;白俄羅斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Belize&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;貝里斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;中美洲的一個國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ca&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Canada&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;加拿大&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cocos(Keeling) Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;可可斯群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;澳屬&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cd&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Congo,Democratic People&amp;rsquo;s Requblic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剛果民主共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Central African Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;中非共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於非洲中部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Republic of Congo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剛果&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ch&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Switzerland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;瑞士&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ci&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lvory Coast&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;象牙海岸&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ck&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cook Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;科克群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為南太平洋，屬紐西蘭&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Chile&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;智利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cameroon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;喀麥隆&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西非大西洋岸的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;China&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;中國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;co&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Colombia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哥倫比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Costa Rica&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哥斯大黎加&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cuba&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;古巴&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cap Verde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;維德角&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cx&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Christmas Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖誕島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1.在印度洋，近爪哇，屬澳; 2.在太平洋，近赤道，屬英&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cyprus&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;賽普勒斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於地中海東部的一島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Czech Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;捷克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;de&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Germany&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;德國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Djibouti&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;吉布地&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲東部的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Denmark&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;丹麥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Dominica&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;多米尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島中的一島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;do&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Dominican Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;多明尼加共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;居西印度群島中 希斯盤鈕拉島的東半部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Algeria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿爾及利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ec&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ecuador&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;厄瓜多爾&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南美西北部的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ee&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Estonia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;愛沙尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於波羅的海沿岸&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;eg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Egypt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;埃及&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;　&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;eh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Western Sahara&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西撒哈拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;　&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;er&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Eritrea&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;埃立特里亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;衣索比亞北部的一自治省&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;es&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Spain&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西班牙&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;et&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ethiopia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;衣索比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Finland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;芬蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Fiji&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;斐濟&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Faljland Islands(Malvina)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;福克蘭群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Micronesia,Federal State of&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;麥克羅尼西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;太平洋西北部的島群&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Faroe Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法羅群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於北大西洋&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;France&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ga&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Gabon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;加彭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西南部之一共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gd&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Grenada&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;格瑞納達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於西印度群島東部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ge&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Georgia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;喬治亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;French Guiana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法屬圭亞那&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guernsey&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;根西島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;海峽群島中的第二大島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ghana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;迦納&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於非洲西部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Gibraltar&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;直布羅陀&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Greenland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;格林蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Gambia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;甘比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西部之大英國協內一獨立共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guinea&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;幾內亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guadeloupe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哥德普落&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為西印度群島的一部份&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Equatorial Guinea&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;赤道幾內亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Greece&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;希臘&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gs&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;South Georgia and the South Sandwuch Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南喬治亞和南三明治群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guatemala&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;瓜地馬拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guam&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;關島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guinea-Bissau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;幾內亞比索&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guyana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蓋亞納&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南美北部的共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Hong Kong&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;香港&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Heard and McDonald Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;赫德-麥唐納群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Honduras&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;宏都拉斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Croatia/Hrvatska&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;克羅埃西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ht&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Haiti&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;海地&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Hungary&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;匈牙利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;id&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Indonesia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;印尼共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ie&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ireland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;愛爾蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;il&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Israel&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;以色列&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;im&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Isle of Man&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;曼島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在愛爾蘭海中，英國所屬的一個島嶼&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;in&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;India&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;印度&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;io&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;British Indian Ocean Territory&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;英聯邦的印度洋領域&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;iq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Iraq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;伊拉克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ir&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Iran (Islamic Republic of)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;伊朗&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;is&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Iceland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;冰島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;it&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Italy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;義大利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;je&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Jersey&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;澤西島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;jm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Jamaica&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;牙買加&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;jo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Jordan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;約旦王國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;jp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Japan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;日本&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ke&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Kenya&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;肯亞共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;kyrgyzstan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;吉爾吉斯斯坦&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cambodia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;柬埔寨&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ki&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Kiribati&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;吉里巴斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;太平洋中西部的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;km&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Comoros&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;科摩羅&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Saint Kitts and Nevis&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖基次吉尼維斯群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Korea, Democratia People&amp;rsquo;s Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南韓&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Korea, Republic of&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;韓國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Kuwait&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;科威特&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ky&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cayman Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;開曼群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;英屬西印度群島之一部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Kazakhstan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哈薩克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;la&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lao People&amp;rsquo;s Democratic Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;寮國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lb&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lebanon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;黎巴嫩&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Saint Lucia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖露西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島東半部的一個國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;li&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Liechtenstein&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;列之敦斯登&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於歐洲中部奧地利，和瑞士之間的一個小公國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sri Lanka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;斯里蘭卡&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Liberia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;賴比瑞亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ls&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lesotho&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;賴索扥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lithuania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;立陶宛&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Luxembourg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;盧森堡&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Latvia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;拉脫維亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於波羅的海沿岸&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ly&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Libyan Arab Jamahiriya&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;利比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ma&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Morocco&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;摩洛哥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Monaco&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;摩納哥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;md&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Moldova,Republic of&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;摩爾達維亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Madagascar&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬達加斯加&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Marshall Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬紹爾群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Macedonia, Former Yugoslav Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬其頓&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ml&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mali&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Myanmar&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;緬甸&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mongolia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蒙古&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Macau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;澳門&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Northern Mariana Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;北馬里亞納群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Martinique&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬丁尼克島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島中法屬之一島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mauritania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;茅利塔尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ms&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Montserrat&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蒙特塞拉特島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Malta&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬爾他&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mauritius&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;摩里西斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Maldives&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬爾地夫&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Malawi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬拉威&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mx&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mexico&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;墨西哥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;my&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Malaysia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬來西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mozambique&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;莫三比克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;na&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Namibia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;那米比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西南部的聯合國直轄區&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;New Caledonia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;新喀里多尼亞島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在西南太平洋&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ne&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Niger&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尼日&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Norfolk Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;諾福克島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ng&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nigeria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;奈及利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ni&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nicaragua&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尼加拉瓜&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Netherlands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;荷蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;no&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Norway&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;挪威&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;np&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尼泊爾&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nauru&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;諾魯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Niue&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尼烏亞島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為紐西蘭屬地&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;New Zealand&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;紐西蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;om&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Oman&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿曼&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在阿拉伯東南部的一個王國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Panama&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴拿馬&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Peru&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;祕魯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;French Polynesia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法屬波里尼西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Papua New Guinea&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴布亞新幾內亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ph&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Philippines&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;菲律賓&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Pakistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴基斯坦&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Poland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;波蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;St. Pierre and Miquelon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖彼爾及米可龍群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;加拿大鈕芬蘭南岸外&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Pitcairn Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;皮特肯島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;屬英&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Puerto Rico&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;波多黎各&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ps&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Palestinian Territories&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴勒斯坦&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Portugal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;葡萄牙&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Palau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;帛琉群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;py&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Paraguay&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴拉圭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;qa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Qatar&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;卡達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;re&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Reunion Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;留尼旺島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ro&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Romania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;羅馬尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ru&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Russian Federation&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;俄羅斯聯邦&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;rw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Rwanda&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;盧安達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Saudi Arabia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;沙烏地阿拉伯王國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sb&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Solomon Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;所羅門群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Seychelles&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;塞席爾群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sd&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sudan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蘇丹&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;se&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sweden&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;瑞典&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Singapore&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;新加坡&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;St. Helena&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖赫勒拿島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;si&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Slovenia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;斯拉維尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Svalbard and Jan Maven Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;冷岸群島，斯瓦爾巴特-堅麥因群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Slovak Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;斯洛伐克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sierra Leone&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;獅子山&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西岸的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;San Marino&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖馬利諾共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在義大利東部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Senegal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;塞內加爾&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西非的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;so&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Somalia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;索馬利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Suriname&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蘇利南&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;st&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sao Tome and Principe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖多美及普林西比&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;El Salvador&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;薩爾瓦多&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Syrian Arab Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;敘利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Swaziland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;史瓦濟蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Turks and Ciacos Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;土克斯及開卡斯群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為西印度群島中之二個島群&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;td&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Chad&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;查德&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於非洲中北部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;French Southern Territories&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法屬南方領土&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Togo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;多哥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西部之一共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;th&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Thailand&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;泰國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tajikistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;塔吉克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tokelau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;扥客勞群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在中太平洋&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Turkmenistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;土庫曼蘇維埃社會主義共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tunisia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;突尼西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;to&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tonga&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;東加王國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;East Timor&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;東帝汶&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Turkey&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;土耳其&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Trinidad and Tobago&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;千里達共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島之一獨立國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tuvalu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;土瓦魯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;太平洋中南部的一個島國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Taiwan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;台灣&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;福爾摩沙&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tanzania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;坦尚尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ua&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ukraine&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;烏克蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ug&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Uganda&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;烏干達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;uk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;United kingdom&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聯合王國，英國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;um&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;US Minor Outlying Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;美國邊遠島嶼&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;us&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;United States&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;美國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;uy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Uruguay&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;烏拉圭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;uz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Uzbekistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;烏茲別克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;va&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Holy See (City Vatican State)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;梵蒂岡 (羅馬教庭)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Saint Vincent and Grenadines&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖文森及格瑞那丁&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在西印度群島的一國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ve&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Venezuela&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;委內瑞拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Virgin Islands (British)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;英國的&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Virgin Islands (USA)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;美國的&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Vietnam&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;越南&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Vanuatu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;萬那社&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於太平洋西南部的共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;wf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Wallis and Futun Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;沃利斯和富圖納群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西南太平洋的二個群島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ws&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Western Samoa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西薩摩亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為大英國協的一個國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ye&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Yemen&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;葉門&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;yt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mayotte&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;梅約特&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於印度洋&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;yu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Yugoslavia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南斯拉夫&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;za&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;South Africa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南非&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Zambia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尚比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Zaire&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;薩伊&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Zimbabwe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;辛巴威&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;　&lt;/p&gt;
+</description>
+
+        </item>
+        
+    </channel>
+</rss>
