@@ -51,7 +51,9 @@
 
             <guid>https://vicky335.github.io/post/other/other-mac-shortcutkey.html</guid>
 
-            <description>&lt;p&gt;##文本编辑&lt;/p&gt;
+            <description>
+
+&lt;h2 id=&#34;文本编辑&#34;&gt;文本编辑&lt;/h2&gt;
 
 &lt;p&gt;以下适用于文本编辑器，浏览器等：&lt;/p&gt;
 
@@ -101,7 +103,7 @@
 
 &lt;p&gt;显示Dashboard  &lt;code&gt;F4&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;##Terminal 终端&lt;/p&gt;
+&lt;h2 id=&#34;terminal-终端&#34;&gt;Terminal 终端&lt;/h2&gt;
 
 &lt;p&gt;Mac不像&lt;code&gt;Ubuntu&lt;/code&gt;可以使用 Ctrl+T 快捷键呼出终端，但是可以通过&lt;code&gt;control+space&lt;/code&gt;呼出&lt;code&gt;Spotlight&lt;/code&gt;，然后输入terminal回车快速打开终端。&lt;/p&gt;
 
@@ -119,7 +121,7 @@
 
 &lt;p&gt;关闭一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;##文件相关&lt;/p&gt;
+&lt;h2 id=&#34;文件相关&#34;&gt;文件相关&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;# 创建目录
 $ mkdir newDir
@@ -132,7 +134,7 @@ $ sudo chmod 777 /etc/hosts
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;##进程相关&lt;/p&gt;
+&lt;h2 id=&#34;进程相关&#34;&gt;进程相关&lt;/h2&gt;
 
 &lt;p&gt;mac os x 下杀死进程&lt;/p&gt;
 
@@ -157,7 +159,7 @@ java    6227 fanyong  254u  IPv6 0xf526b9f456b4bcf5      0t0  TCP *:etlservicemg
 
 &lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/other/kill-window.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;##网络相关&lt;/p&gt;
+&lt;h2 id=&#34;网络相关&#34;&gt;网络相关&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;# 查看本机IP、Mac地址等信息
 $ ifconfig en0
@@ -169,7 +171,7 @@ $ nslookup lujs.cn
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;##chrome 快捷键&lt;/p&gt;
+&lt;h2 id=&#34;chrome-快捷键&#34;&gt;chrome 快捷键&lt;/h2&gt;
 
 &lt;p&gt;新建一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
 
