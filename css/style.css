@@ -69,3 +69,11 @@
         margin-bottom: 0
     }
 }
+
+
+.test-form {
+    display: flex;
+    align-items: center;
+}
+.test-form .label {}
+.test-form .content {}
