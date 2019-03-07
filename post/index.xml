@@ -41,7 +41,7 @@
         <item>
             <title>Sass基本語法 - 常用函數</title>
 
-            <link>https://vicky335.github.io/post/f2e/post-title.html</link>
+            <link>https://vicky335.github.io/post/f2e/sass_fun.html</link>
 
             <pubDate>Wed, 06 Mar 2019 15:29:02 UTC+08:00</pubDate>
 
@@ -49,7 +49,7 @@
             <author>vicky335 (https://vicky335.github.io/)</author>
             
 
-            <guid>https://vicky335.github.io/post/f2e/post-title.html</guid>
+            <guid>https://vicky335.github.io/post/f2e/sass_fun.html</guid>
 
             <description>
 
@@ -247,7 +247,7 @@ if(false,1px,2px)
         <item>
             <title>Mac 常用快捷键整理</title>
 
-            <link>https://vicky335.github.io/post/other/other-mac-shortcutkey.html</link>
+            <link>https://vicky335.github.io/post/other/mac_shortcutkeys.html</link>
 
             <pubDate>Mon, 28 May 2018 15:00:21 UTC+08:00</pubDate>
 
@@ -255,7 +255,7 @@ if(false,1px,2px)
             <author>vicky335 (https://vicky335.github.io/)</author>
             
 
-            <guid>https://vicky335.github.io/post/other/other-mac-shortcutkey.html</guid>
+            <guid>https://vicky335.github.io/post/other/mac_shortcutkeys.html</guid>
 
             <description>
 
@@ -404,7 +404,7 @@ $ nslookup lujs.cn
         <item>
             <title>各國網路名稱縮寫</title>
 
-            <link>https://vicky335.github.io/post/other/other-country.html</link>
+            <link>https://vicky335.github.io/post/other/country.html</link>
 
             <pubDate>Fri, 30 Mar 2018 17:53:21 UTC+08:00</pubDate>
 
@@ -412,7 +412,7 @@ $ nslookup lujs.cn
             <author>vicky335 (https://vicky335.github.io/)</author>
             
 
-            <guid>https://vicky335.github.io/post/other/other-country.html</guid>
+            <guid>https://vicky335.github.io/post/other/country.html</guid>
 
             <description>&lt;table&gt;
 &lt;thead&gt;
@@ -2122,7 +2122,7 @@ $ nslookup lujs.cn
         <item>
             <title>Markdown入門</title>
 
-            <link>https://vicky335.github.io/post/markdown/markdown-getting-started.html</link>
+            <link>https://vicky335.github.io/post/markdown/markdown.html</link>
 
             <pubDate>Sun, 18 Jun 2017 17:05:04 UTC+08:00</pubDate>
 
@@ -2130,7 +2130,7 @@ $ nslookup lujs.cn
             <author>vicky335 (https://vicky335.github.io/)</author>
             
 
-            <guid>https://vicky335.github.io/post/markdown/markdown-getting-started.html</guid>
+            <guid>https://vicky335.github.io/post/markdown/markdown.html</guid>
 
             <description>
 
@@ -2162,10 +2162,7 @@ $ nslookup lujs.cn
 &lt;li&gt;Markdown專注於文字和內容，而不是排版，能讓我們安心寫作&lt;/li&gt;
 &lt;li&gt;Markdown的語法簡單，有極好的可讀性，常用的標記符號不超過十個&lt;/li&gt;
 &lt;li&gt;格式轉換方便，除了本身的.md文件外，還能輕鬆轉換為HTML、PDF等格式&lt;/li&gt;
-&lt;li&gt;Markdown還能支持流程圖、複雜的表格、公式等等
-
-
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Markdown還能支持流程圖、複雜的表格、公式等等&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&#34;語法規則&#34;&gt;語法規則&lt;/h2&gt;
@@ -2179,7 +2176,7 @@ int b = 33;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;	寫法：
-	
+
 	```
 	code
 	```
@@ -2346,11 +2343,11 @@ int b = 33;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
     var links = document.links;
-        
+
     for (var i = 0, linksLength = links.length; i &amp;lt; linksLength; i++) {
        if (links[i].hostname != window.location.hostname) {
            links[i].target = &#39;_blank&#39;;
-       } 
+       }
     }
 &amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -2447,7 +2444,7 @@ int b = 33;
 &lt;p&gt;使用2個&lt;code&gt;**&lt;/code&gt;或用2個&lt;code&gt;__&lt;/code&gt;，把要加粗的內容包住，如：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;**粗體**
-    
+
 __粗體__
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
@@ -2456,7 +2453,7 @@ __粗體__
 &lt;p&gt;使用2個&lt;code&gt;**&lt;/code&gt;或用2個&lt;code&gt;__&lt;/code&gt;，把需要顯示斜體的內容包住，如：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;*斜體*
-    
+
 _粗體_
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
@@ -2465,7 +2462,7 @@ _粗體_
 &lt;p&gt;使用3個&lt;code&gt;***&lt;/code&gt; 或用2個&lt;code&gt;___&lt;/code&gt;，把要加粗斜體的內容包住，如：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;***斜體***
-    
+
 ___粗體___
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2535,7 +2532,7 @@ Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符
         <item>
             <title>「標籤的行高」和「標籤之間的間距」問題</title>
 
-            <link>https://vicky335.github.io/post/f2e/tag-height.html</link>
+            <link>https://vicky335.github.io/post/f2e/tagheight.html</link>
 
             <pubDate>Fri, 06 Jun 2014 14:30:35 UTC+08:00</pubDate>
 
@@ -2543,7 +2540,7 @@ Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符
             <author>vicky335 (https://vicky335.github.io/)</author>
             
 
-            <guid>https://vicky335.github.io/post/f2e/tag-height.html</guid>
+            <guid>https://vicky335.github.io/post/f2e/tagheight.html</guid>
 
             <description>&lt;p&gt;第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~&lt;/p&gt;
 
