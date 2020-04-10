@@ -54,12 +54,12 @@
   overflow: hidden;
 }
 
-.post-content .ui_adblock {
+/* .post-content .ui_adblock {
   background-color: #eee;
 }
 .post-content .ui_adblock > .title {
   display: block;
-}
+} */
 
 @media only screen and (max-width: 750px) {
   .ui_block > .title {
