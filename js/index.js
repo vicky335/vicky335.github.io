@@ -35,7 +35,7 @@
     // ad end
 
     // ad
-    if (page && page === "article") {
+    if (typeof page !== "undefined" && page === "article") {
       const adHtml = `
         <div class="ui_adblock">
           <h3 class="title">Advertisements</h3>
