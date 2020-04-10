@@ -37,7 +37,7 @@
     // ad
     if (typeof page !== "undefined" && page === "list") {
       const listAdHtml = `
-        <div class="ui_adblock">
+        <div class="ui_adblock post">
           <h3 class="title">Sponsored Ad</h3>
           <div class="content">
             <div class="adunit">
