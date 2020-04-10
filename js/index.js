@@ -38,7 +38,7 @@
     if (typeof page !== "undefined" && page === "article") {
       const adHtml = `
         <div class="ui_adblock">
-          <h3 class="title">Advertisements</h3>
+          <h3 class="title">Sponsored Ad</h3>
           <div class="content">
             <div class="adunit">
               <ins class="adsbygoogle"
