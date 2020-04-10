@@ -53,7 +53,8 @@
         </div>
       `;
       $("article.post").each(function(index) {
-        if ((index % 3) - 2 == 0) {
+        // if ((index % 3) - 2 == 0) {
+        if ((index % 2) - 1 == 0) {
           const $this = $(this);
           $this.after(listAdHtml);
           (adsbygoogle = window.adsbygoogle || []).push({});
