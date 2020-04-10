@@ -37,22 +37,22 @@
     // ad
     if (page === "article") {
       const adHtml = `
-      <div class="ui_adblock">
-        <h3 class="title">Advertisements</h3>
-        <div class="content">
-          <div class="adunit">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">\x3c/script>
-            <ins class="adsbygoogle"
-              style="display:block; text-align:center;"
-              data-ad-layout="in-article"
-              data-ad-format="fluid"
-              data-ad-client="ca-pub-7900212994905360"
-              data-ad-slot="2530825933"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});\x3c/script>
+        <div class="ui_adblock">
+          <h3 class="title">Advertisements</h3>
+          <div class="content">
+            <div class="adunit">
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">\x3c/script>
+              <ins class="adsbygoogle"
+                style="display:block; text-align:center;"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-7900212994905360"
+                data-ad-slot="2530825933"></ins>
+              <script>(adsbygoogle = window.adsbygoogle || []).push({});\x3c/script>
+            </div>
           </div>
         </div>
-    </div>
-    `;
+      `;
       let heightSum = 0;
       let adCount = 0;
       $(".post-content")
