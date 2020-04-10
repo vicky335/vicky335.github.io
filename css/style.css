@@ -12,11 +12,11 @@
 }
 
 .ui_adblock {
-  margin: 0.4em 0;
+  margin: 1em 0;
   /* margin-bottom: 1rem; */
   text-align: center;
   /* background-color: #eee; */
-  line-height: 0;
+  /* line-height: 0; */
 }
 
 .ui_adblock:last-child {
@@ -38,10 +38,6 @@
   color: #aaa;
 }
 
-.post-content .ui_adblock > .title {
-  display: block;
-}
-
 .ui_adblock > .content {
   display: flex;
   -ms-flex-wrap: wrap;
@@ -55,6 +51,13 @@
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.post-content .ui_adblock {
+  background-color: #eee;
+}
+.post-content .ui_adblock > .title {
+  display: block;
 }
 
 @media only screen and (max-width: 750px) {
