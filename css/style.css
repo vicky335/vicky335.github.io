@@ -54,6 +54,11 @@
   overflow: hidden;
 }
 
+.ui_adblock.post {
+  margin: 4rem auto;
+  padding-bottom: 4rem;
+}
+
 /* .post-content .ui_adblock {
   background-color: #eee;
 }
