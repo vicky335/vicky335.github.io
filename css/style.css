@@ -23,12 +23,6 @@
   margin-bottom: 0;
 }
 
-.ui_adblock > .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  margin: 0 auto;
-}
-
 .ui_adblock > .title {
   display: none;
   padding: 1rem 0rem;
@@ -41,8 +35,11 @@
 
 .ui_adblock > .content {
   display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .ui_adblock > .content > .adunit {
