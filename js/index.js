@@ -35,8 +35,33 @@
     // ad end
 
     // ad
+    if (typeof page !== "undefined" && page === "list") {
+      const listAdHtml = `
+        <div class="ui_adblock">
+          <h3 class="title">Sponsored Ad</h3>
+          <div class="content">
+            <div class="adunit">
+              <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-7900212994905360"
+                data-ad-slot="9671567970"
+                data-ad-format="auto"
+                data-ad-channel="2883212005"
+                data-full-width-responsive="true"></ins>
+            </div>
+          </div>
+        </div>
+      `;
+      $("article.post").each(function(index) {
+        if ((index % 3) - 2 == 0) {
+          const $this = $(this);
+          $this.after(listAdHtml);
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+      });
+    }
     if (typeof page !== "undefined" && page === "article") {
-      const adHtml = `
+      const postAdHtml = `
         <div class="ui_adblock">
           <h3 class="title">Sponsored Ad</h3>
           <div class="content">
@@ -61,7 +86,7 @@
           let $this = $(this);
           heightSum += $this.height();
           if (heightSum > 500) {
-            $this.after(adHtml);
+            $this.after(postAdHtml);
             (adsbygoogle = window.adsbygoogle || []).push({});
 
             heightSum = 0;
