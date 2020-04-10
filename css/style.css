@@ -26,6 +26,7 @@
 .ui_adblock > .content {
   display: -webkit-box;
   display: -ms-flexbox;
+  margin: 0 auto;
 }
 
 .ui_adblock > .title {
