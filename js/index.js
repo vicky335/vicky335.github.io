@@ -42,10 +42,11 @@
           <div class="content">
             <div class="adunit">
               <ins class="adsbygoogle"
-                style="display:block; text-align:center;"
-                data-ad-layout="in-article"
-                data-ad-format="fluid"
+                style="display:block"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
                 data-ad-client="ca-pub-7900212994905360"
+                data-ad-channel="2883212005"
                 data-ad-slot="2530825933"></ins>
             </div>
           </div>
