@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vicky335.github.io/post/f2e/rndirectorystructure.html</loc>
+    <lastmod>2020-04-12T20:52:15+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vicky335.github.io/post/f2e/sass_fun.html</loc>
     <lastmod>2019-03-06T15:29:02+08:00</lastmod>
   </url>
@@ -45,7 +50,7 @@
   
   <url>
     <loc>https://vicky335.github.io/tags/f2e.html</loc>
-    <lastmod>2019-03-06T15:29:02+08:00</lastmod>
+    <lastmod>2020-04-12T20:52:15+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,7 +74,13 @@
   
   <url>
     <loc>https://vicky335.github.io/post.html</loc>
-    <lastmod>2019-03-06T15:29:02+08:00</lastmod>
+    <lastmod>2020-04-12T20:52:15+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vicky335.github.io/tags/reactnative.html</loc>
+    <lastmod>2020-04-12T20:52:15+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,7 +104,7 @@
   
   <url>
     <loc>https://vicky335.github.io/</loc>
-    <lastmod>2019-03-06T15:29:02+08:00</lastmod>
+    <lastmod>2020-04-12T20:52:15+08:00</lastmod>
     <priority>0</priority>
   </url>
   

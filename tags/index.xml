@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>
-             Tags on vicky335 
+             Tags on Vicky Blog 
         </title>
 
         <link>https://vicky335.github.io/tags.html</link>
@@ -28,7 +28,7 @@
         
 
         <copyright>
-            <a href="https://vicky335.github.io/">vicky335</a> All rights reserved - 2017
+            <a href="https://vicky335.github.io/">Vicky Blog</a> All rights reserved - 2017
         </copyright>
 
         
@@ -58,7 +58,7 @@
 
             <link>https://vicky335.github.io/tags/f2e.html</link>
 
-            <pubDate>Wed, 06 Mar 2019 15:29:02 UTC+08:00</pubDate>
+            <pubDate>Sun, 12 Apr 2020 20:52:15 UTC+08:00</pubDate>
 
             
 
@@ -108,6 +108,21 @@
             
 
             <guid>https://vicky335.github.io/tags/other.html</guid>
+
+            <description></description>
+
+        </item>
+        
+        <item>
+            <title>Reactnative</title>
+
+            <link>https://vicky335.github.io/tags/reactnative.html</link>
+
+            <pubDate>Sun, 12 Apr 2020 20:52:15 UTC+08:00</pubDate>
+
+            
+
+            <guid>https://vicky335.github.io/tags/reactnative.html</guid>
 
             <description></description>
 

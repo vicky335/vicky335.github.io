@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>
+             Reactnative on Vicky Blog 
+        </title>
+
+        <link>https://vicky335.github.io/tags/reactnative.html</link>
+
+        
+        <author>vicky335 (https://vicky335.github.io/)</author>
+        
+
+        
+        <managingEditor>vicky335 (https://vicky335.github.io/)</managingEditor>
+        
+
+        
+        <webMaster>vicky335 (https://vicky335.github.io/)</webMaster>
+        
+
+        <description>
+            This is vicky335&#39;s blog
+        </description>
+
+        
+        <language>zh-hant</language>
+        
+
+        <copyright>
+            <a href="https://vicky335.github.io/">Vicky Blog</a> All rights reserved - 2017
+        </copyright>
+
+        
+        <lastBuildDate>Sun, 12 Apr 2020 20:52:15 UTC+08:00</lastBuildDate>
+        
+
+        <atom:link href="https://vicky335.github.io/tags/reactnative.html" rel="self" type="application/rss+xml" />
+
+        
+        <item>
+            <title>React Native目录结构</title>
+
+            <link>https://vicky335.github.io/post/f2e/rndirectorystructure.html</link>
+
+            <pubDate>Sun, 12 Apr 2020 20:52:15 UTC+08:00</pubDate>
+
+            
+            <author>vicky335 (https://vicky335.github.io/)</author>
+            
+
+            <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
+
+            <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;名称&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;android目录&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Android专案目录，包含了使用AndroidStudio开发专案的环境配置档案；&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ios目录&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;iOS专案目录，包含了XCode的环境&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;node_modules目录&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;基于node档案依赖系统产生的相关依赖和第三方lib&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;index.js&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;ios或android的入口，已经使用index.js代替index.ios.js/index.android.js，android中配置application档案的getJSMainModuleName()配置入口&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;app.json&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;app的json档案&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;package.json&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;专案基本资讯以及依赖资讯&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;package-lock.json&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;npm install生成的档案，记录当前npm package的资讯&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;App.js&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;相当于Android的MainActivity，可以根据自己的需要进行修改或者删除（同时要修改index.js的注册的元件入口js档名）&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.babelrc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Babel配置档案，在.babelrc配置档案中，主要是对预设（presets）和外挂（plugins）进行配置，因此不同的转译器作用不同的配置项&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.buckconfig&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Buck的配置档案，buck是Facebook开源的高效构建系统&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.flowconfig&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Flow的配置档案，flowconfig是是Flow的配置档案&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.gitattributes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;git配置档案，指定非文字档案的对比合并方式&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.gitignore&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;git配置档案，用于忽略你不想提交到Git上的档案&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.watchmanconfig&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;watchman的配置档案，watchman用于监控档案变化，辅助实现工程修改资讯&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+
+        </item>
+        
+    </channel>
+</rss>

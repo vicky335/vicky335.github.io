@@ -47,7 +47,7 @@
 
 
 
-<meta name="twitter:title" content="Sass基本語法 - 常用函數"/>
+<meta name="twitter:title" content="React Native目录结构"/>
 <meta name="twitter:description" content=""/>
 <meta name="twitter:site" content="@"/>
 
@@ -57,9 +57,9 @@
     <meta property="fb:pages" content="915701871863863" />
     
 
-    <meta property="og:title" content="Sass基本語法 - 常用函數 &middot; Vicky Blog" />
+    <meta property="og:title" content="React Native目录结构 &middot; Vicky Blog" />
     <meta property="og:site_name" content="Vicky Blog" />
-    <meta property="og:url" content="https://vicky335.github.io/post/f2e/sass_fun.html" />
+    <meta property="og:url" content="https://vicky335.github.io/post/f2e/rndirectorystructure.html" />
 
     
         
@@ -70,19 +70,19 @@
     
     <meta property="og:description" content="" />
     <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2019-03-06T15:29:02&#43;08:00" />
+    <meta property="article:published_time" content="2020-04-12T20:52:15&#43;08:00" />
 
     
     <meta property="article:tag" content="f2e" />
     
-    <meta property="article:tag" content="sass" />
+    <meta property="article:tag" content="reactNative" />
     
     
 
-    <title>Sass基本語法 - 常用函數 &middot; Vicky Blog</title>
+    <title>React Native目录结构 &middot; Vicky Blog</title>
 
     
-    <meta name="description" content="字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中" />
+    <meta name="description" content="名称 描述 android目录 Android专案目录，包含了使用AndroidStudio开发专案的环境配置档案； ios目录 iOS专案目录，包含" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -116,7 +116,7 @@
     
     <meta name="generator" content="Hugo 0.21" />
 
-    <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html" />
+    <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html" />
 
     
       
@@ -155,23 +155,23 @@
         "description": I&#39;m a Front-end Engineer
         
     },
-    "headline": Sass基本語法 - 常用函數,
-    "name": Sass基本語法 - 常用函數,
-    "wordCount": 2501,
-    "timeRequired": "PT5M",
+    "headline": React Native目录结构,
+    "name": React Native目录结构,
+    "wordCount": 574,
+    "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
-    "url": https://vicky335.github.io/post/f2e/sass_fun.html,
-    "datePublished": 2019-03-06T15:29Z,
-    "dateModified": 2019-03-06T15:29Z,
+    "url": https://vicky335.github.io/post/f2e/rndirectorystructure.html,
+    "datePublished": 2020-04-12T20:52Z,
+    "dateModified": 2020-04-12T20:52Z,
     
-    "keywords": f2e, sass,
+    "keywords": f2e, reactNative,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": https://vicky335.github.io/post/f2e/sass_fun.html
+        "@id": https://vicky335.github.io/post/f2e/rndirectorystructure.html
     }
 }
     </script>
@@ -254,19 +254,19 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">Sass基本語法 - 常用函數</h1>
+        <h1 class="post-title">React Native目录结构</h1>
         <small></small>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2019-03-06T15:29:02&#43;08:00">
-            Mar 6, 2019
+          <time class="post-date" datetime="2020-04-12T20:52:15&#43;08:00">
+            Apr 12, 2020
           </time>
         
          
           <span class="post-tag small"><a href="https://vicky335.github.io/tags/f2e">#f2e</a></span>
          
-          <span class="post-tag small"><a href="https://vicky335.github.io/tags/sass">#sass</a></span>
+          <span class="post-tag small"><a href="https://vicky335.github.io/tags/reactnative">#reactNative</a></span>
          
         </section>
     </header>
@@ -294,195 +294,86 @@
 
     <section class="post-content">
 
-      
+      <table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="center">描述</th>
+</tr>
+</thead>
 
-<h2 id="字符串函數">字符串函數</h2>
+<tbody>
+<tr>
+<td align="center">android目录</td>
+<td align="center">Android专案目录，包含了使用AndroidStudio开发专案的环境配置档案；</td>
+</tr>
 
-<ul>
-<li><p>unquote($string)：刪除字符串中的引號；</p>
+<tr>
+<td align="center">ios目录</td>
+<td align="center">iOS专案目录，包含了XCode的环境</td>
+</tr>
 
-<p>unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中間的引號。如果字符沒有帶引號，返回的將是字符串本身。</p></li>
+<tr>
+<td align="center">node_modules目录</td>
+<td align="center">基于node档案依赖系统产生的相关依赖和第三方lib</td>
+</tr>
 
-<li><p>quote($string)：給字符串添加引號。</p>
+<tr>
+<td align="center">index.js</td>
+<td align="center">ios或android的入口，已经使用index.js代替index.ios.js/index.android.js，android中配置application档案的getJSMainModuleName()配置入口</td>
+</tr>
 
-<p>quote() 函數只能給字符串增加雙引號，而且字符串中間有單引號或者空格時，需要用單引號或雙引號括起，否則編譯的時候將會報錯。</p></li>
+<tr>
+<td align="center">app.json</td>
+<td align="center">app的json档案</td>
+</tr>
 
-<li><p>To-upper-case()：函數將字符串小寫字母轉換成大寫字母</p></li>
+<tr>
+<td align="center">package.json</td>
+<td align="center">专案基本资讯以及依赖资讯</td>
+</tr>
 
-<li><p>To-lower-case()：函數 與 To-upper-case() 剛好相反，將字符串轉換成小寫字母</p></li>
-</ul>
+<tr>
+<td align="center">package-lock.json</td>
+<td align="center">npm install生成的档案，记录当前npm package的资讯</td>
+</tr>
 
-<h2 id="數字函數">數字函數</h2>
+<tr>
+<td align="center">App.js</td>
+<td align="center">相当于Android的MainActivity，可以根据自己的需要进行修改或者删除（同时要修改index.js的注册的元件入口js档名）</td>
+</tr>
 
-<p>Sass 中的數字函數提要針對數字方面提供一系列的函數功能：</p>
+<tr>
+<td align="center">.babelrc</td>
+<td align="center">Babel配置档案，在.babelrc配置档案中，主要是对预设（presets）和外挂（plugins）进行配置，因此不同的转译器作用不同的配置项</td>
+</tr>
 
-<ul>
-<li>percentage($value)：將一個不帶單位的數轉換成百分比值；</li>
-<li>round($value)：將數值四捨五入，轉換成一個最接近的整數；（四捨五入）</li>
-<li>ceil($value)：將大於自己的小數轉換成下一位整數；（向上取整）</li>
-<li>floor($value)：將一個數去除他的小數部分；（向下取整）</li>
-<li>abs($value)：返回一個數的絕對值；（絕對整數）</li>
-<li>min($numbers…)：找出幾個數值之間的最小值；（min（1，2，3））</li>
-<li>max($numbers…)：找出幾個數值之間的最大值；</li>
-<li>random(): 獲取隨機數（random（））</li>
-</ul>
+<tr>
+<td align="center">.buckconfig</td>
+<td align="center">Buck的配置档案，buck是Facebook开源的高效构建系统</td>
+</tr>
 
-<h2 id="列表函數">列表函數</h2>
+<tr>
+<td align="center">.flowconfig</td>
+<td align="center">Flow的配置档案，flowconfig是是Flow的配置档案</td>
+</tr>
 
-<p>列表函數主要包括一些對列表參數的函數使用，主要包括以下幾種：</p>
+<tr>
+<td align="center">.gitattributes</td>
+<td align="center">git配置档案，指定非文字档案的对比合并方式</td>
+</tr>
 
-<ul>
-<li>length($list)：返回一個列表的長度值；===length(border 1px solid)===3</li>
-<li>nth($list, $n)：返回一個列表中指定的某個標籤值===nth(border 1px solid,1)===border</li>
-<li>join($list1, $list2, [$separator])：將兩個列給連接在一起，變成一個列表；===</li>
-</ul>
+<tr>
+<td align="center">.gitignore</td>
+<td align="center">git配置档案，用于忽略你不想提交到Git上的档案</td>
+</tr>
 
-<pre><code>    join(10px 20px, 30px 40px)
-    (10px 20px 30px 40px)
-
-    join((blue,red),(#abc,#def))
-    (#0000ff, #ff0000, #aabbcc, #ddeeff)
-
-    join((blue,red),(#abc #def))
-    (#0000ff, #ff0000, #aabbcc, #ddeeff)
-</code></pre>
-
-<ul>
-<li>append($list1, $val, [$separator])：將某個值放在列表的最後；</li>
-</ul>
-
-<pre><code>    append(10px 20px ,30px)
-    (10px 20px 30px)
-
-    append((10px,20px),30px)
-    (10px, 20px, 30px)
-
-    append(green,red)
-    (#008000 #ff0000)
-
-    append(red,(green,blue))
-    (#ff0000 (#008000, #0000ff))
-</code></pre>
-
-<p>如果沒有明確的指定 $separator 參數值，其默認值是 auto。</p>
-
-<p>如果列表只有一個列表項時，那麼插入進來的值將和原來的值會以空格的方式分隔。</p>
-
-<p>如果列表中列表項是以空格分隔列表項，那麼插入進來的列表項也將以空格分隔；</p>
-
-<p>如果列表中列表項是以逗號分隔列表項，那麼插入進來的列表項也將以逗號分隔。</p>
-
-<ul>
-<li>zip($lists…)：將幾個列表結合成一個多維的列表；（ 每個單一的列表個數值必須是相同的）</li>
-</ul>
-
-<pre><code>zip(1px 2px 3px,solid dashed dotted,green blue red)
-((1px &quot;solid&quot; #008000), (2px &quot;dashed&quot; #0000ff), (3px &quot;dotted&quot; #ff0000))
-</code></pre>
-
-<p>zip()函數中每個單一列表的值對應的取其相同位置值：</p>
-
-<pre><code>|--- List ---|--- nth(1) ---|--- nth(2) ---|--- nth(3) ---|
-|------------|--------------|--------------|--------------|
-|    List1   |      1px     |      2px     |      3px     |
-|------------|--------------|--------------|--------------|
-|    List2   |      solid   |      dashed  |     dotted   |
-|------------|--------------|--------------|--------------|
-|    List3   |      green   |      blue    |      red     |
-|------------|--------------|--------------|--------------|
-</code></pre>
-
-<ul>
-<li>index($list, $value)：返回一個值在列表中的位置值。</li>
-</ul>
-
-<pre><code>index(1px solid red,dotted) //列表中沒有找到 dotted
-false
-index(1px solid red,solid) //列表中找到 solid 值，並且返回他的位置值 2
-2
-</code></pre>
-
-<h2 id="introspection函數">Introspection函數</h2>
-
-<p>Introspection函數包括了幾個判斷型函數：</p>
-
-<ul>
-<li>type-of($value)：返回一個值的類型
-返回值：</li>
-</ul>
-
-<pre><code>number 為數值型。
-string 為字符串型。
-bool 為布爾型。
-color 為顏色型。
-</code></pre>
-
-<ul>
-<li><p>unit($number)：返回一個值的單位；</p>
-
-<p>碰到複雜的計算時，其能根據運算得到一個「多單位組合」的值，不過只充許乘、除運算：</p>
-
-<p>但加、減碰到不同單位時，unit() 函數將會報錯，除 px 與 cm、mm 運算之外</p></li>
-
-<li><p>comparable($number-1, $number-2)：判斷兩個值是否可以做加、減和合併</p></li>
-</ul>
-
-<h2 id="miscellaneous函數">Miscellaneous函數</h2>
-
-<p>Miscellaneous 函數稱為三元條件函數，主要因為他和 JavaScript 中的三元判斷非常的相似。他有兩個值，當條件成立返回一種值，當條件不成立時返回另一種值：</p>
-
-<pre><code>if($condition,$if-true,$if-false)
-</code></pre>
-
-<p>上面表達式的意思是當 $condition 條件成立時，返回的值為 $if-true，否則返回的是 $if-false 值。</p>
-
-<pre><code>if(true,1px,2px)
-1px
-if(false,1px,2px)
-2px
-</code></pre>
-
-<h2 id="顏色函數">顏色函數</h2>
-
-<h3 id="rgb顏色函數簡介">RGB顏色函數簡介</h3>
-
-<p>RGB 顏色只是顏色中的一種表達式，其中 R 是 red 表示紅色，G 是 green 表示綠色而 B 是 blue 表示藍色。在 Sass 中為 RGB 顏色提供六種函數：</p>
-
-<ul>
-<li>rgb($red,$green,$blue)：根據紅、綠、藍三個值創建一個顏色；</li>
-<li>rgba($red,$green,$blue,$alpha)：根據紅、綠、藍和透明度值創建一個顏色；</li>
-<li>red($color)：從一個顏色中獲取其中紅色值；</li>
-<li>green($color)：從一個顏色中獲取其中綠色值；</li>
-<li>blue($color)：從一個顏色中獲取其中藍色值；</li>
-<li>mix($color-1,$color-2,[$weight])：把兩種顏色混合在一起。[$weight]是合併的比例</li>
-</ul>
-
-<h3 id="hsl函數簡介">HSL函數簡介</h3>
-
-<ul>
-<li>hsl($hue,$saturation,$lightness)：通過色相（hue）、飽和度(saturation)和亮度（lightness）的值創建一個顏色；</li>
-<li>hsla($hue,$saturation,$lightness,$alpha)：通過色相（hue）、飽和度(saturation)、亮度（lightness）和透明（alpha）的值創建一個顏色；</li>
-<li>hue($color)：從一個顏色中獲取色相（hue）值；</li>
-<li>saturation($color)：從一個顏色中獲取飽和度（saturation）值；</li>
-<li>lightness($color)：從一個顏色中獲取亮度（lightness）值；</li>
-<li>adjust-hue($color,$degrees)：通過改變一個顏色的色相值，創建一個新的顏色；</li>
-<li>lighten($color,$amount)：通過改變顏色的亮度值，讓顏色變亮，創建一個新的顏色；</li>
-<li>darken($color,$amount)：通過改變顏色的亮度值，讓顏色變暗，創建一個新的顏色；</li>
-<li>saturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更飽和，從而創建一個新的顏色</li>
-<li>desaturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更少的飽和，從而創建出一個新的顏色；</li>
-<li>grayscale($color)：將一個顏色變成灰色，相當於desaturate($color,100%);</li>
-<li>complement($color)：返回一個補充色，相當於adjust-hue($color,180deg);</li>
-<li>invert($color)：反回一個反相色，紅、綠、藍色值倒過來，而透明度不變。</li>
-</ul>
-
-<h3 id="opacity函數簡介">Opacity函數簡介</h3>
-
-<ul>
-<li>alpha($color) /opacity($color)：獲取顏色透明度值；</li>
-<li>rgba($color, $alpha)：改變顏色的透明度值；</li>
-<li>opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；</li>
-<li>transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。</li>
-</ul>
+<tr>
+<td align="center">.watchmanconfig</td>
+<td align="center">watchman的配置档案，watchman用于监控档案变化，辅助实现工程修改资讯</td>
+</tr>
+</tbody>
+</table>
 
 
     </section>
@@ -560,16 +451,16 @@ if(false,1px,2px)
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Sass%e5%9f%ba%e6%9c%ac%e8%aa%9e%e6%b3%95%20-%20%e5%b8%b8%e7%94%a8%e5%87%bd%e6%95%b8&nbsp;-&nbsp;Vicky%20Blog&amp;url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fsass_fun.html"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=React%20Native%e7%9b%ae%e5%bd%95%e7%bb%93%e6%9e%84&nbsp;-&nbsp;Vicky%20Blog&amp;url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2frndirectorystructure.html"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fsass_fun.html"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2frndirectorystructure.html"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
  
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fsass_fun.html"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2frndirectorystructure.html"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -582,7 +473,7 @@ if(false,1px,2px)
 <div id="disqus_thread"></div>
 <script type="text/javascript">
   var disqus_shortname = 'vicky335';
-  var disqus_url = 'https:\/\/vicky335.github.io\/post\/f2e\/sass_fun.html';
+  var disqus_url = 'https:\/\/vicky335.github.io\/post\/f2e\/rndirectorystructure.html';
   (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -628,17 +519,10 @@ if(false,1px,2px)
   
 <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
-          <section class="post">
-              <h2>React Native目录结构</h2>
-              
-          </section>
-      </a>
   
-  
-      <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
+      <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/f2e/sass_fun.html">
           <section class="post">
-              <h2>Mac 常用快捷键整理</h2>
+              <h2>Sass基本語法 - 常用函數</h2>
           </section>
       </a>
   
