@@ -52,13 +52,45 @@
             <guid>https://vicky335.github.io/post/f2e/git.html</guid>
 
             <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
-            
+
             <content:encoded>
+                
                 <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
 
-<h2 id="新建代碼庫">新建代碼庫</h2>
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Git常用命令清單</title>
+                    </head>
 
-<pre><code># 在當前目錄新建一個Git代碼庫
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
+                                
+                                <title>
+                                    Git常用命令清單
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            
+
+&lt;h2 id=&#34;新建代碼庫&#34;&gt;新建代碼庫&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# 在當前目錄新建一個Git代碼庫
 $ git init
 
 # 新建一個目錄，將其初始化為Git代碼庫
@@ -67,47 +99,47 @@ $ git init [project-name]
 # 下載一個項目和它的整個代碼歷史
 $ git clone [url]
 
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<ul>
-<li><p>git clone：當你已經有一個遠程的Git版本庫，只需要在本地克隆一份，例如：
-<code>git clone git://github.com/someone/some_project.git some_project</code>
-上面的命令就是將<code>git://github.com/someone/some_project.git</code>這個URL地址的遠程版本庫，完全克隆到本地<code>some_project</code>目錄下</p></li>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;git clone：當你已經有一個遠程的Git版本庫，只需要在本地克隆一份，例如：
+&lt;code&gt;git clone git://github.com/someone/some_project.git some_project&lt;/code&gt;
+上面的命令就是將&lt;code&gt;git://github.com/someone/some_project.git&lt;/code&gt;這個URL地址的遠程版本庫，完全克隆到本地&lt;code&gt;some_project&lt;/code&gt;目錄下&lt;/p&gt;&lt;/li&gt;
 
-<li><p>git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&rsquo;git init&rsquo;命令進行初始化；Git以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的URL記錄下來，此時你就可以利用&rsquo;git remote add&rsquo;命令來增加一個遠程服務器端，例如：
-<code>git remote add origin git://github.com/someone/another_project.git</code>
-上面的命令就會增加URL地址為<code>git://github.com/someone/another_project.git</code>，名稱為<code>origin</code>的遠程服務器，以後提交代碼的時候只需要使用<code>origin</code>別名即可</p></li>
-</ul>
+&lt;li&gt;&lt;p&gt;git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&amp;rsquo;git init&amp;rsquo;命令進行初始化；Git以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的URL記錄下來，此時你就可以利用&amp;rsquo;git remote add&amp;rsquo;命令來增加一個遠程服務器端，例如：
+&lt;code&gt;git remote add origin git://github.com/someone/another_project.git&lt;/code&gt;
+上面的命令就會增加URL地址為&lt;code&gt;git://github.com/someone/another_project.git&lt;/code&gt;，名稱為&lt;code&gt;origin&lt;/code&gt;的遠程服務器，以後提交代碼的時候只需要使用&lt;code&gt;origin&lt;/code&gt;別名即可&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="配置">配置</h2>
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
 
-<p>Git的設置文件為<code>.gitconfig</code>，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。</p>
+&lt;p&gt;Git的設置文件為&lt;code&gt;.gitconfig&lt;/code&gt;，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。&lt;/p&gt;
 
-<pre><code># 顯示當前的Git配置
+&lt;pre&gt;&lt;code&gt;# 顯示當前的Git配置
 $ git config --list
 
 # 編輯Git配置文件
 $ git config -e [--global]
 
 # 設置提交代碼時的用戶信息
-$ git config [--global] user.name &quot;[name]&quot;
-$ git config [--global] user.email &quot;[email address]&quot;
-</code></pre>
+$ git config [--global] user.name &amp;quot;[name]&amp;quot;
+$ git config [--global] user.email &amp;quot;[email address]&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="忽略一些文件-文件夾不提交">忽略一些文件、文件夾不提交</h2>
+&lt;h2 id=&#34;忽略一些文件-文件夾不提交&#34;&gt;忽略一些文件、文件夾不提交&lt;/h2&gt;
 
-<p>在倉庫根目錄下創建名稱為<code>.gitignore</code>的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如</p>
+&lt;p&gt;在倉庫根目錄下創建名稱為&lt;code&gt;.gitignore&lt;/code&gt;的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如&lt;/p&gt;
 
-<pre><code>target
+&lt;pre&gt;&lt;code&gt;target
 
 bin
 
 *.db
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="增加-刪除文件">增加/刪除文件</h2>
+&lt;h2 id=&#34;增加-刪除文件&#34;&gt;增加/刪除文件&lt;/h2&gt;
 
-<pre><code># 添加指定文件到暫存區
+&lt;pre&gt;&lt;code&gt;# 添加指定文件到暫存區
 $ git add [file1] [file2] ...
 
 # 添加指定目錄到暫存區，包括子目錄
@@ -128,11 +160,11 @@ $ git rm --cached [file]
 
 # 改名文件，並且將這個改名放入暫存區
 $ git mv [file-original] [file-renamed]
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="代碼提交">代碼提交</h2>
+&lt;h2 id=&#34;代碼提交&#34;&gt;代碼提交&lt;/h2&gt;
 
-<pre><code># 提交暫存區到倉庫區
+&lt;pre&gt;&lt;code&gt;# 提交暫存區到倉庫區
 $ git commit -m [message]
 
 # 提交暫存區的指定文件到倉庫區
@@ -150,11 +182,11 @@ $ git commit --amend -m [message]
 
 # 重做上一次commit，並包括指定文件的新變化
 $ git commit --amend [file1] [file2] ...
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="分支">分支</h2>
+&lt;h2 id=&#34;分支&#34;&gt;分支&lt;/h2&gt;
 
-<pre><code># 列出所有本地分支
+&lt;pre&gt;&lt;code&gt;# 列出所有本地分支
 $ git branch
 
 # 列出所有遠程分支
@@ -196,11 +228,11 @@ $ git branch -d [branch-name]
 # 刪除遠程分支
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="標籤-tag">標籤(tag)</h2>
+&lt;h2 id=&#34;標籤-tag&#34;&gt;標籤(tag)&lt;/h2&gt;
 
-<pre><code># 列出所有tag
+&lt;pre&gt;&lt;code&gt;# 列出所有tag
 $ git tag
 
 # 新建一個tag在當前commit
@@ -226,11 +258,11 @@ $ git push [remote] --tags
 
 # 新建一個分支，指向某個tag
 $ git checkout -b [branch] [tag]
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="子模塊-submodule">子模塊(submodule)</h2>
+&lt;h2 id=&#34;子模塊-submodule&#34;&gt;子模塊(submodule)&lt;/h2&gt;
 
-<pre><code># 添加子模塊
+&lt;pre&gt;&lt;code&gt;# 添加子模塊
 $ git submodule add [url] [path]
 
 # 初始化子模塊，只在首次檢出倉庫時運行一次就行
@@ -244,11 +276,11 @@ $ git submodule update
 - 編輯 .gitmodules 文件，將子模塊的相關配置節點刪除掉
 - 編輯 .git/config 文件，將子模塊的相關配置節點刪除掉
 - 手動刪除子模塊殘留的目錄
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="查看信息">查看信息</h2>
+&lt;h2 id=&#34;查看信息&#34;&gt;查看信息&lt;/h2&gt;
 
-<pre><code># 顯示有變更的文件
+&lt;pre&gt;&lt;code&gt;# 顯示有變更的文件
 $ git status
 
 # 顯示當前分支的版本歷史
@@ -263,7 +295,7 @@ $ git log -S [keyword]
 # 顯示某個commit之後的所有變動，每個commit佔據一行
 $ git log [tag] HEAD --pretty=format:%s
 
-# 顯示某個commit之後的所有變動，其&quot;提交說明&quot;必須符合搜索條件
+# 顯示某個commit之後的所有變動，其&amp;quot;提交說明&amp;quot;必須符合搜索條件
 $ git log [tag] HEAD --grep feature
 
 # 顯示某個文件的版本歷史，包括文件改名
@@ -295,7 +327,7 @@ $ git diff HEAD
 $ git diff [first-branch]...[second-branch]
 
 # 顯示今天你寫了多少行代碼
-$ git diff --shortstat &quot;@{0 day ago}&quot;
+$ git diff --shortstat &amp;quot;@{0 day ago}&amp;quot;
 
 # 顯示某次提交的元數據和內容變化
 $ git show [commit]
@@ -308,11 +340,11 @@ $ git show [commit]:[filename]
 
 # 顯示當前分支的最近幾次提交
 $ git reflog
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="遠程同步">遠程同步</h2>
+&lt;h2 id=&#34;遠程同步&#34;&gt;遠程同步&lt;/h2&gt;
 
-<pre><code># 下載遠程倉庫的所有變動
+&lt;pre&gt;&lt;code&gt;# 下載遠程倉庫的所有變動
 $ git fetch [remote]
 
 # 顯示所有遠程倉庫
@@ -335,11 +367,11 @@ $ git push [remote] --force
 
 # 推送所有分支到遠程倉庫
 $ git push [remote] --all
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="撤銷">撤銷</h2>
+&lt;h2 id=&#34;撤銷&#34;&gt;撤銷&lt;/h2&gt;
 
-<pre><code># 恢復暫存區的指定文件到工作區
+&lt;pre&gt;&lt;code&gt;# 恢復暫存區的指定文件到工作區
 $ git checkout [file]
 
 # 恢復某個commit的指定文件到暫存區和工作區
@@ -370,14 +402,24 @@ $ git revert [commit]
 # 暫時將未提交的變化移除，稍後再移入
 $ git stash
 $ git stash pop
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="其他">其他</h2>
+&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
 
-<pre><code># 生成一個可供發佈的壓縮包
+&lt;pre&gt;&lt;code&gt;# 生成一個可供發佈的壓縮包
 $ git archive
-</code></pre>
-]]>
+&lt;/code&gt;&lt;/pre&gt;
+
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
@@ -395,89 +437,131 @@ $ git archive
             <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
 
             <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
-            
+
             <content:encoded>
-                <![CDATA[<table>
-<thead>
-<tr>
-<th align="center">名稱</th>
-<th align="center">描述</th>
-</tr>
-</thead>
+                
+                <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
 
-<tbody>
-<tr>
-<td align="center">android目錄</td>
-<td align="center">Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案；</td>
-</tr>
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>React Native目錄結構</title>
+                    </head>
 
-<tr>
-<td align="center">ios目錄</td>
-<td align="center">iOS專案目錄，包含了XCode的環境</td>
-</tr>
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+                                
+                                <title>
+                                    React Native目錄結構
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;名稱&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-<tr>
-<td align="center">node_modules目錄</td>
-<td align="center">基於node檔案依賴系統產生的相關依賴和第三方lib</td>
-</tr>
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;android目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案；&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">index.js</td>
-<td align="center">ios或android的入口，已經使用index.js代替index.ios.js/index.android.js，android中配置application檔案的getJSMainModuleName()配置入口</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ios目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;iOS專案目錄，包含了XCode的環境&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">app.json</td>
-<td align="center">app的json檔案</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;node_modules目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;基於node檔案依賴系統產生的相關依賴和第三方lib&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">package.json</td>
-<td align="center">專案基本資訊以及依賴資訊</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;index.js&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;ios或android的入口，已經使用index.js代替index.ios.js/index.android.js，android中配置application檔案的getJSMainModuleName()配置入口&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">package-lock.json</td>
-<td align="center">npm install生成的檔案，記錄當前npm package的資訊</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;app.json&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;app的json檔案&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">App.js</td>
-<td align="center">相當於Android的MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改index.js的註冊的元件入口js檔名）</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;package.json&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;專案基本資訊以及依賴資訊&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">.babelrc</td>
-<td align="center">Babel配置檔案，在.babelrc配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;package-lock.json&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;npm install生成的檔案，記錄當前npm package的資訊&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">.buckconfig</td>
-<td align="center">Buck的配置檔案，buck是Facebook開源的高效構建系統</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;App.js&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;相當於Android的MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改index.js的註冊的元件入口js檔名）&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">.flowconfig</td>
-<td align="center">Flow的配置檔案，flowconfig是是Flow的配置檔案</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.babelrc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Babel配置檔案，在.babelrc配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">.gitattributes</td>
-<td align="center">git配置檔案，指定非文字檔案的對比合併方式</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.buckconfig&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Buck的配置檔案，buck是Facebook開源的高效構建系統&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">.gitignore</td>
-<td align="center">git配置檔案，用於忽略你不想提交到Git上的檔案</td>
-</tr>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.flowconfig&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Flow的配置檔案，flowconfig是是Flow的配置檔案&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td align="center">.watchmanconfig</td>
-<td align="center">watchman的配置檔案，watchman用於監控檔案變化，輔助實現工程修改資訊</td>
-</tr>
-</tbody>
-</table>
-]]>
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.gitattributes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;git配置檔案，指定非文字檔案的對比合併方式&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.gitignore&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;git配置檔案，用於忽略你不想提交到Git上的檔案&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;.watchmanconfig&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;watchman的配置檔案，watchman用於監控檔案變化，輔助實現工程修改資訊&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
@@ -495,52 +579,84 @@ $ git archive
             <guid>https://vicky335.github.io/post/f2e/sass_fun.html</guid>
 
             <description>字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中</description>
-            
+
             <content:encoded>
+                
                 <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
 
-<h2 id="字符串函數">字符串函數</h2>
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Sass基本語法 - 常用函數</title>
+                    </head>
 
-<ul>
-<li><p>unquote($string)：刪除字符串中的引號；</p>
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html">
+                                
+                                <title>
+                                    Sass基本語法 - 常用函數
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            
 
-<p>unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中間的引號。如果字符沒有帶引號，返回的將是字符串本身。</p></li>
+&lt;h2 id=&#34;字符串函數&#34;&gt;字符串函數&lt;/h2&gt;
 
-<li><p>quote($string)：給字符串添加引號。</p>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;unquote($string)：刪除字符串中的引號；&lt;/p&gt;
 
-<p>quote() 函數只能給字符串增加雙引號，而且字符串中間有單引號或者空格時，需要用單引號或雙引號括起，否則編譯的時候將會報錯。</p></li>
+&lt;p&gt;unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中間的引號。如果字符沒有帶引號，返回的將是字符串本身。&lt;/p&gt;&lt;/li&gt;
 
-<li><p>To-upper-case()：函數將字符串小寫字母轉換成大寫字母</p></li>
+&lt;li&gt;&lt;p&gt;quote($string)：給字符串添加引號。&lt;/p&gt;
 
-<li><p>To-lower-case()：函數 與 To-upper-case() 剛好相反，將字符串轉換成小寫字母</p></li>
-</ul>
+&lt;p&gt;quote() 函數只能給字符串增加雙引號，而且字符串中間有單引號或者空格時，需要用單引號或雙引號括起，否則編譯的時候將會報錯。&lt;/p&gt;&lt;/li&gt;
 
-<h2 id="數字函數">數字函數</h2>
+&lt;li&gt;&lt;p&gt;To-upper-case()：函數將字符串小寫字母轉換成大寫字母&lt;/p&gt;&lt;/li&gt;
 
-<p>Sass 中的數字函數提要針對數字方面提供一系列的函數功能：</p>
+&lt;li&gt;&lt;p&gt;To-lower-case()：函數 與 To-upper-case() 剛好相反，將字符串轉換成小寫字母&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<ul>
-<li>percentage($value)：將一個不帶單位的數轉換成百分比值；</li>
-<li>round($value)：將數值四捨五入，轉換成一個最接近的整數；（四捨五入）</li>
-<li>ceil($value)：將大於自己的小數轉換成下一位整數；（向上取整）</li>
-<li>floor($value)：將一個數去除他的小數部分；（向下取整）</li>
-<li>abs($value)：返回一個數的絕對值；（絕對整數）</li>
-<li>min($numbers…)：找出幾個數值之間的最小值；（min（1，2，3））</li>
-<li>max($numbers…)：找出幾個數值之間的最大值；</li>
-<li>random(): 獲取隨機數（random（））</li>
-</ul>
+&lt;h2 id=&#34;數字函數&#34;&gt;數字函數&lt;/h2&gt;
 
-<h2 id="列表函數">列表函數</h2>
+&lt;p&gt;Sass 中的數字函數提要針對數字方面提供一系列的函數功能：&lt;/p&gt;
 
-<p>列表函數主要包括一些對列表參數的函數使用，主要包括以下幾種：</p>
+&lt;ul&gt;
+&lt;li&gt;percentage($value)：將一個不帶單位的數轉換成百分比值；&lt;/li&gt;
+&lt;li&gt;round($value)：將數值四捨五入，轉換成一個最接近的整數；（四捨五入）&lt;/li&gt;
+&lt;li&gt;ceil($value)：將大於自己的小數轉換成下一位整數；（向上取整）&lt;/li&gt;
+&lt;li&gt;floor($value)：將一個數去除他的小數部分；（向下取整）&lt;/li&gt;
+&lt;li&gt;abs($value)：返回一個數的絕對值；（絕對整數）&lt;/li&gt;
+&lt;li&gt;min($numbers…)：找出幾個數值之間的最小值；（min（1，2，3））&lt;/li&gt;
+&lt;li&gt;max($numbers…)：找出幾個數值之間的最大值；&lt;/li&gt;
+&lt;li&gt;random(): 獲取隨機數（random（））&lt;/li&gt;
+&lt;/ul&gt;
 
-<ul>
-<li>length($list)：返回一個列表的長度值；===length(border 1px solid)===3</li>
-<li>nth($list, $n)：返回一個列表中指定的某個標籤值===nth(border 1px solid,1)===border</li>
-<li>join($list1, $list2, [$separator])：將兩個列給連接在一起，變成一個列表；===</li>
-</ul>
+&lt;h2 id=&#34;列表函數&#34;&gt;列表函數&lt;/h2&gt;
 
-<pre><code>    join(10px 20px, 30px 40px)
+&lt;p&gt;列表函數主要包括一些對列表參數的函數使用，主要包括以下幾種：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;length($list)：返回一個列表的長度值；===length(border 1px solid)===3&lt;/li&gt;
+&lt;li&gt;nth($list, $n)：返回一個列表中指定的某個標籤值===nth(border 1px solid,1)===border&lt;/li&gt;
+&lt;li&gt;join($list1, $list2, [$separator])：將兩個列給連接在一起，變成一個列表；===&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    join(10px 20px, 30px 40px)
     (10px 20px 30px 40px)
 
     join((blue,red),(#abc,#def))
@@ -548,13 +664,13 @@ $ git archive
 
     join((blue,red),(#abc #def))
     (#0000ff, #ff0000, #aabbcc, #ddeeff)
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<ul>
-<li>append($list1, $val, [$separator])：將某個值放在列表的最後；</li>
-</ul>
+&lt;ul&gt;
+&lt;li&gt;append($list1, $val, [$separator])：將某個值放在列表的最後；&lt;/li&gt;
+&lt;/ul&gt;
 
-<pre><code>    append(10px 20px ,30px)
+&lt;pre&gt;&lt;code&gt;    append(10px 20px ,30px)
     (10px 20px 30px)
 
     append((10px,20px),30px)
@@ -565,27 +681,27 @@ $ git archive
 
     append(red,(green,blue))
     (#ff0000 (#008000, #0000ff))
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>如果沒有明確的指定 $separator 參數值，其默認值是 auto。</p>
+&lt;p&gt;如果沒有明確的指定 $separator 參數值，其默認值是 auto。&lt;/p&gt;
 
-<p>如果列表只有一個列表項時，那麼插入進來的值將和原來的值會以空格的方式分隔。</p>
+&lt;p&gt;如果列表只有一個列表項時，那麼插入進來的值將和原來的值會以空格的方式分隔。&lt;/p&gt;
 
-<p>如果列表中列表項是以空格分隔列表項，那麼插入進來的列表項也將以空格分隔；</p>
+&lt;p&gt;如果列表中列表項是以空格分隔列表項，那麼插入進來的列表項也將以空格分隔；&lt;/p&gt;
 
-<p>如果列表中列表項是以逗號分隔列表項，那麼插入進來的列表項也將以逗號分隔。</p>
+&lt;p&gt;如果列表中列表項是以逗號分隔列表項，那麼插入進來的列表項也將以逗號分隔。&lt;/p&gt;
 
-<ul>
-<li>zip($lists…)：將幾個列表結合成一個多維的列表；（ 每個單一的列表個數值必須是相同的）</li>
-</ul>
+&lt;ul&gt;
+&lt;li&gt;zip($lists…)：將幾個列表結合成一個多維的列表；（ 每個單一的列表個數值必須是相同的）&lt;/li&gt;
+&lt;/ul&gt;
 
-<pre><code>zip(1px 2px 3px,solid dashed dotted,green blue red)
-((1px &quot;solid&quot; #008000), (2px &quot;dashed&quot; #0000ff), (3px &quot;dotted&quot; #ff0000))
-</code></pre>
+&lt;pre&gt;&lt;code&gt;zip(1px 2px 3px,solid dashed dotted,green blue red)
+((1px &amp;quot;solid&amp;quot; #008000), (2px &amp;quot;dashed&amp;quot; #0000ff), (3px &amp;quot;dotted&amp;quot; #ff0000))
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>zip()函數中每個單一列表的值對應的取其相同位置值：</p>
+&lt;p&gt;zip()函數中每個單一列表的值對應的取其相同位置值：&lt;/p&gt;
 
-<pre><code>|--- List ---|--- nth(1) ---|--- nth(2) ---|--- nth(3) ---|
+&lt;pre&gt;&lt;code&gt;|--- List ---|--- nth(1) ---|--- nth(2) ---|--- nth(3) ---|
 |------------|--------------|--------------|--------------|
 |    List1   |      1px     |      2px     |      3px     |
 |------------|--------------|--------------|--------------|
@@ -593,100 +709,110 @@ $ git archive
 |------------|--------------|--------------|--------------|
 |    List3   |      green   |      blue    |      red     |
 |------------|--------------|--------------|--------------|
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<ul>
-<li>index($list, $value)：返回一個值在列表中的位置值。</li>
-</ul>
+&lt;ul&gt;
+&lt;li&gt;index($list, $value)：返回一個值在列表中的位置值。&lt;/li&gt;
+&lt;/ul&gt;
 
-<pre><code>index(1px solid red,dotted) //列表中沒有找到 dotted
+&lt;pre&gt;&lt;code&gt;index(1px solid red,dotted) //列表中沒有找到 dotted
 false
 index(1px solid red,solid) //列表中找到 solid 值，並且返回他的位置值 2
 2
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="introspection函數">Introspection函數</h2>
+&lt;h2 id=&#34;introspection函數&#34;&gt;Introspection函數&lt;/h2&gt;
 
-<p>Introspection函數包括了幾個判斷型函數：</p>
+&lt;p&gt;Introspection函數包括了幾個判斷型函數：&lt;/p&gt;
 
-<ul>
-<li>type-of($value)：返回一個值的類型
-返回值：</li>
-</ul>
+&lt;ul&gt;
+&lt;li&gt;type-of($value)：返回一個值的類型
+返回值：&lt;/li&gt;
+&lt;/ul&gt;
 
-<pre><code>number 為數值型。
+&lt;pre&gt;&lt;code&gt;number 為數值型。
 string 為字符串型。
 bool 為布爾型。
 color 為顏色型。
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<ul>
-<li><p>unit($number)：返回一個值的單位；</p>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;unit($number)：返回一個值的單位；&lt;/p&gt;
 
-<p>碰到複雜的計算時，其能根據運算得到一個「多單位組合」的值，不過只充許乘、除運算：</p>
+&lt;p&gt;碰到複雜的計算時，其能根據運算得到一個「多單位組合」的值，不過只充許乘、除運算：&lt;/p&gt;
 
-<p>但加、減碰到不同單位時，unit() 函數將會報錯，除 px 與 cm、mm 運算之外</p></li>
+&lt;p&gt;但加、減碰到不同單位時，unit() 函數將會報錯，除 px 與 cm、mm 運算之外&lt;/p&gt;&lt;/li&gt;
 
-<li><p>comparable($number-1, $number-2)：判斷兩個值是否可以做加、減和合併</p></li>
-</ul>
+&lt;li&gt;&lt;p&gt;comparable($number-1, $number-2)：判斷兩個值是否可以做加、減和合併&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="miscellaneous函數">Miscellaneous函數</h2>
+&lt;h2 id=&#34;miscellaneous函數&#34;&gt;Miscellaneous函數&lt;/h2&gt;
 
-<p>Miscellaneous 函數稱為三元條件函數，主要因為他和 JavaScript 中的三元判斷非常的相似。他有兩個值，當條件成立返回一種值，當條件不成立時返回另一種值：</p>
+&lt;p&gt;Miscellaneous 函數稱為三元條件函數，主要因為他和 JavaScript 中的三元判斷非常的相似。他有兩個值，當條件成立返回一種值，當條件不成立時返回另一種值：&lt;/p&gt;
 
-<pre><code>if($condition,$if-true,$if-false)
-</code></pre>
+&lt;pre&gt;&lt;code&gt;if($condition,$if-true,$if-false)
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>上面表達式的意思是當 $condition 條件成立時，返回的值為 $if-true，否則返回的是 $if-false 值。</p>
+&lt;p&gt;上面表達式的意思是當 $condition 條件成立時，返回的值為 $if-true，否則返回的是 $if-false 值。&lt;/p&gt;
 
-<pre><code>if(true,1px,2px)
+&lt;pre&gt;&lt;code&gt;if(true,1px,2px)
 1px
 if(false,1px,2px)
 2px
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="顏色函數">顏色函數</h2>
+&lt;h2 id=&#34;顏色函數&#34;&gt;顏色函數&lt;/h2&gt;
 
-<h3 id="rgb顏色函數簡介">RGB顏色函數簡介</h3>
+&lt;h3 id=&#34;rgb顏色函數簡介&#34;&gt;RGB顏色函數簡介&lt;/h3&gt;
 
-<p>RGB 顏色只是顏色中的一種表達式，其中 R 是 red 表示紅色，G 是 green 表示綠色而 B 是 blue 表示藍色。在 Sass 中為 RGB 顏色提供六種函數：</p>
+&lt;p&gt;RGB 顏色只是顏色中的一種表達式，其中 R 是 red 表示紅色，G 是 green 表示綠色而 B 是 blue 表示藍色。在 Sass 中為 RGB 顏色提供六種函數：&lt;/p&gt;
 
-<ul>
-<li>rgb($red,$green,$blue)：根據紅、綠、藍三個值創建一個顏色；</li>
-<li>rgba($red,$green,$blue,$alpha)：根據紅、綠、藍和透明度值創建一個顏色；</li>
-<li>red($color)：從一個顏色中獲取其中紅色值；</li>
-<li>green($color)：從一個顏色中獲取其中綠色值；</li>
-<li>blue($color)：從一個顏色中獲取其中藍色值；</li>
-<li>mix($color-1,$color-2,[$weight])：把兩種顏色混合在一起。[$weight]是合併的比例</li>
-</ul>
+&lt;ul&gt;
+&lt;li&gt;rgb($red,$green,$blue)：根據紅、綠、藍三個值創建一個顏色；&lt;/li&gt;
+&lt;li&gt;rgba($red,$green,$blue,$alpha)：根據紅、綠、藍和透明度值創建一個顏色；&lt;/li&gt;
+&lt;li&gt;red($color)：從一個顏色中獲取其中紅色值；&lt;/li&gt;
+&lt;li&gt;green($color)：從一個顏色中獲取其中綠色值；&lt;/li&gt;
+&lt;li&gt;blue($color)：從一個顏色中獲取其中藍色值；&lt;/li&gt;
+&lt;li&gt;mix($color-1,$color-2,[$weight])：把兩種顏色混合在一起。[$weight]是合併的比例&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="hsl函數簡介">HSL函數簡介</h3>
+&lt;h3 id=&#34;hsl函數簡介&#34;&gt;HSL函數簡介&lt;/h3&gt;
 
-<ul>
-<li>hsl($hue,$saturation,$lightness)：通過色相（hue）、飽和度(saturation)和亮度（lightness）的值創建一個顏色；</li>
-<li>hsla($hue,$saturation,$lightness,$alpha)：通過色相（hue）、飽和度(saturation)、亮度（lightness）和透明（alpha）的值創建一個顏色；</li>
-<li>hue($color)：從一個顏色中獲取色相（hue）值；</li>
-<li>saturation($color)：從一個顏色中獲取飽和度（saturation）值；</li>
-<li>lightness($color)：從一個顏色中獲取亮度（lightness）值；</li>
-<li>adjust-hue($color,$degrees)：通過改變一個顏色的色相值，創建一個新的顏色；</li>
-<li>lighten($color,$amount)：通過改變顏色的亮度值，讓顏色變亮，創建一個新的顏色；</li>
-<li>darken($color,$amount)：通過改變顏色的亮度值，讓顏色變暗，創建一個新的顏色；</li>
-<li>saturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更飽和，從而創建一個新的顏色</li>
-<li>desaturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更少的飽和，從而創建出一個新的顏色；</li>
-<li>grayscale($color)：將一個顏色變成灰色，相當於desaturate($color,100%);</li>
-<li>complement($color)：返回一個補充色，相當於adjust-hue($color,180deg);</li>
-<li>invert($color)：反回一個反相色，紅、綠、藍色值倒過來，而透明度不變。</li>
-</ul>
+&lt;ul&gt;
+&lt;li&gt;hsl($hue,$saturation,$lightness)：通過色相（hue）、飽和度(saturation)和亮度（lightness）的值創建一個顏色；&lt;/li&gt;
+&lt;li&gt;hsla($hue,$saturation,$lightness,$alpha)：通過色相（hue）、飽和度(saturation)、亮度（lightness）和透明（alpha）的值創建一個顏色；&lt;/li&gt;
+&lt;li&gt;hue($color)：從一個顏色中獲取色相（hue）值；&lt;/li&gt;
+&lt;li&gt;saturation($color)：從一個顏色中獲取飽和度（saturation）值；&lt;/li&gt;
+&lt;li&gt;lightness($color)：從一個顏色中獲取亮度（lightness）值；&lt;/li&gt;
+&lt;li&gt;adjust-hue($color,$degrees)：通過改變一個顏色的色相值，創建一個新的顏色；&lt;/li&gt;
+&lt;li&gt;lighten($color,$amount)：通過改變顏色的亮度值，讓顏色變亮，創建一個新的顏色；&lt;/li&gt;
+&lt;li&gt;darken($color,$amount)：通過改變顏色的亮度值，讓顏色變暗，創建一個新的顏色；&lt;/li&gt;
+&lt;li&gt;saturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更飽和，從而創建一個新的顏色&lt;/li&gt;
+&lt;li&gt;desaturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更少的飽和，從而創建出一個新的顏色；&lt;/li&gt;
+&lt;li&gt;grayscale($color)：將一個顏色變成灰色，相當於desaturate($color,100%);&lt;/li&gt;
+&lt;li&gt;complement($color)：返回一個補充色，相當於adjust-hue($color,180deg);&lt;/li&gt;
+&lt;li&gt;invert($color)：反回一個反相色，紅、綠、藍色值倒過來，而透明度不變。&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="opacity函數簡介">Opacity函數簡介</h3>
+&lt;h3 id=&#34;opacity函數簡介&#34;&gt;Opacity函數簡介&lt;/h3&gt;
 
-<ul>
-<li>alpha($color) /opacity($color)：獲取顏色透明度值；</li>
-<li>rgba($color, $alpha)：改變顏色的透明度值；</li>
-<li>opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；</li>
-<li>transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。</li>
-</ul>
-]]>
+&lt;ul&gt;
+&lt;li&gt;alpha($color) /opacity($color)：獲取顏色透明度值；&lt;/li&gt;
+&lt;li&gt;rgba($color, $alpha)：改變顏色的透明度值；&lt;/li&gt;
+&lt;li&gt;opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；&lt;/li&gt;
+&lt;li&gt;transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。&lt;/li&gt;
+&lt;/ul&gt;
+
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
@@ -704,81 +830,113 @@ if(false,1px,2px)
             <guid>https://vicky335.github.io/post/other/mac_shortcutkeys.html</guid>
 
             <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd &#43; ↑ 類似windows下的 ctrl &#43; home 跳到頁尾 cmd &#43; ↓ 類似windows下的 ctrl &#43; end 光標移到行首 cmd &#43;</description>
-            
+
             <content:encoded>
+                
                 <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
 
-<h2 id="文本編輯">文本編輯</h2>
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Mac 常用快捷鍵整理</title>
+                    </head>
 
-<p>以下適用於文本編輯器，瀏覽器等：</p>
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
+                                
+                                <title>
+                                    Mac 常用快捷鍵整理
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            
 
-<p>跳到頁首  <code>cmd</code> + <code>↑</code>  類似windows下的 <code>ctrl + home</code></p>
+&lt;h2 id=&#34;文本編輯&#34;&gt;文本編輯&lt;/h2&gt;
 
-<p>跳到頁尾  <code>cmd</code> + <code>↓</code>  類似windows下的 <code>ctrl + end</code></p>
+&lt;p&gt;以下適用於文本編輯器，瀏覽器等：&lt;/p&gt;
 
-<p>光標移到行首  <code>cmd</code> + <code>←</code>  類似windows下的 <code>home</code></p>
+&lt;p&gt;跳到頁首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;  類似windows下的 &lt;code&gt;ctrl + home&lt;/code&gt;&lt;/p&gt;
 
-<p>光標移到行尾  <code>cmd</code> + <code>→</code>  類似windows下的 <code>end</code></p>
+&lt;p&gt;跳到頁尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;  類似windows下的 &lt;code&gt;ctrl + end&lt;/code&gt;&lt;/p&gt;
 
-<p>選擇一行  <code>cmd</code> + <code>shift</code> + <code>→</code> 或 <code>cmd</code> + <code>shift</code> + <code>→</code></p>
+&lt;p&gt;光標移到行首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt;  類似windows下的 &lt;code&gt;home&lt;/code&gt;&lt;/p&gt;
 
-<p>選擇一個單詞  <code>option</code> + <code>shift</code> + <code>←</code> 或 <code>option</code> + <code>shift</code> + <code>→</code></p>
+&lt;p&gt;光標移到行尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;  類似windows下的 &lt;code&gt;end&lt;/code&gt;&lt;/p&gt;
 
-<p>向上滾一屏 <code>fn</code> + <code>↑</code></p>
+&lt;p&gt;選擇一行  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt; 或 &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
 
-<p>向下滾一屏 <code>fn</code> + <code>↓</code></p>
+&lt;p&gt;選擇一個單詞  &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt; 或 &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
 
-<p>刪除一整行文字  <code>cmd + delete</code></p>
+&lt;p&gt;向上滾一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;&lt;/p&gt;
 
-<p>刪除一個單詞    <code>option + delete</code></p>
+&lt;p&gt;向下滾一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;&lt;/p&gt;
 
-<p>光標移動一個單詞 <code>option + ←</code> 或者 <code>option + →</code></p>
+&lt;p&gt;刪除一整行文字  &lt;code&gt;cmd + delete&lt;/code&gt;&lt;/p&gt;
 
-<p>##截屏</p>
+&lt;p&gt;刪除一個單詞    &lt;code&gt;option + delete&lt;/code&gt;&lt;/p&gt;
 
-<p>全屏截圖自動保存為文件 <code>cmd + shift + 3</code></p>
+&lt;p&gt;光標移動一個單詞 &lt;code&gt;option + ←&lt;/code&gt; 或者 &lt;code&gt;option + →&lt;/code&gt;&lt;/p&gt;
 
-<p>區域截圖自動保存為文件 <code>cmd + shift + 4</code>，這裡有個小技巧，按下<code>cmd + shift + 4</code>後單擊空格鍵，會出現一個相機的icon，表示自動捕捉這個區域。</p>
+&lt;p&gt;##截屏&lt;/p&gt;
 
-<p>##窗口</p>
+&lt;p&gt;全屏截圖自動保存為文件 &lt;code&gt;cmd + shift + 3&lt;/code&gt;&lt;/p&gt;
 
-<p>關閉當前窗口  <code>cmd + w</code></p>
+&lt;p&gt;區域截圖自動保存為文件 &lt;code&gt;cmd + shift + 4&lt;/code&gt;，這裡有個小技巧，按下&lt;code&gt;cmd + shift + 4&lt;/code&gt;後單擊空格鍵，會出現一個相機的icon，表示自動捕捉這個區域。&lt;/p&gt;
 
-<p>退出當前程序  <code>cmd + q</code></p>
+&lt;p&gt;##窗口&lt;/p&gt;
 
-<p>最小化窗口  <code>cmd + m</code></p>
+&lt;p&gt;關閉當前窗口  &lt;code&gt;cmd + w&lt;/code&gt;&lt;/p&gt;
 
-<p>切換窗口程序  <code>cmd + tab</code></p>
+&lt;p&gt;退出當前程序  &lt;code&gt;cmd + q&lt;/code&gt;&lt;/p&gt;
 
-<p>快速顯示桌面  <code>cmd + F3</code></p>
+&lt;p&gt;最小化窗口  &lt;code&gt;cmd + m&lt;/code&gt;&lt;/p&gt;
 
-<p>顯示當前程序縮略圖  <code>ctl + F3</code></p>
+&lt;p&gt;切換窗口程序  &lt;code&gt;cmd + tab&lt;/code&gt;&lt;/p&gt;
 
-<p>顯示桌面和縮略圖  <code>F3</code></p>
+&lt;p&gt;快速顯示桌面  &lt;code&gt;cmd + F3&lt;/code&gt;&lt;/p&gt;
 
-<p>顯示Dashboard  <code>F4</code></p>
+&lt;p&gt;顯示當前程序縮略圖  &lt;code&gt;ctl + F3&lt;/code&gt;&lt;/p&gt;
 
-<h2 id="terminal-終端">Terminal 終端</h2>
+&lt;p&gt;顯示桌面和縮略圖  &lt;code&gt;F3&lt;/code&gt;&lt;/p&gt;
 
-<p>Mac不像<code>Ubuntu</code>可以使用 Ctrl+T 快捷鍵呼出終端，但是可以通過<code>control+space</code>呼出<code>Spotlight</code>，然後輸入terminal回車快速打開終端。</p>
+&lt;p&gt;顯示Dashboard  &lt;code&gt;F4&lt;/code&gt;&lt;/p&gt;
 
-<p>光標移到行首 <code>ctrl</code> + <code>A</code></p>
+&lt;h2 id=&#34;terminal-終端&#34;&gt;Terminal 終端&lt;/h2&gt;
 
-<p>光標移到行尾  <code>ctrl</code> + <code>E</code></p>
+&lt;p&gt;Mac不像&lt;code&gt;Ubuntu&lt;/code&gt;可以使用 Ctrl+T 快捷鍵呼出終端，但是可以通過&lt;code&gt;control+space&lt;/code&gt;呼出&lt;code&gt;Spotlight&lt;/code&gt;，然後輸入terminal回車快速打開終端。&lt;/p&gt;
 
-<p>清除一行  <code>ctrl</code> + <code>U</code></p>
+&lt;p&gt;光標移到行首 &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;A&lt;/code&gt;&lt;/p&gt;
 
-<p>撤銷清除  <code>ctrl</code> + <code>Y</code></p>
+&lt;p&gt;光標移到行尾  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;E&lt;/code&gt;&lt;/p&gt;
 
-<p>清屏  <code>ctrl</code> + <code>L</code></p>
+&lt;p&gt;清除一行  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
 
-<p>新建一個Tab  <code>cmd</code> + <code>T</code></p>
+&lt;p&gt;撤銷清除  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;Y&lt;/code&gt;&lt;/p&gt;
 
-<p>關閉一個Tab  <code>cmd</code> + <code>W</code></p>
+&lt;p&gt;清屏  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;L&lt;/code&gt;&lt;/p&gt;
 
-<h2 id="文件相關">文件相關</h2>
+&lt;p&gt;新建一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
 
-<pre><code># 創建目錄
+&lt;p&gt;關閉一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;文件相關&#34;&gt;文件相關&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# 創建目錄
 $ mkdir newDir
 # 刪除目錄及子目錄中的內容, 慎用!!
 $ rm -rf newDir
@@ -787,13 +945,13 @@ $ cp file toDir
 # 設置目錄讀寫權限
 $ sudo chmod 777 /etc/hosts
 
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="進程相關">進程相關</h2>
+&lt;h2 id=&#34;進程相關&#34;&gt;進程相關&lt;/h2&gt;
 
-<p>mac os x 下殺死進程</p>
+&lt;p&gt;mac os x 下殺死進程&lt;/p&gt;
 
-<pre><code># 找到要殺死進程的id
+&lt;pre&gt;&lt;code&gt;# 找到要殺死進程的id
 $ ps -ef | grep idea
 # 強制kill掉進程
 $ kill 91107
@@ -808,45 +966,55 @@ $ lsof -i:9001
 COMMAND  PID    USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 java    6227 fanyong  254u  IPv6 0xf526b9f456b4bcf5      0t0  TCP *:etlservicemgr (LISTEN)
 
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p><code>cmd + opt + esc</code> ，打開類似windows下任務管理器的快捷鍵。</p>
+&lt;p&gt;&lt;code&gt;cmd + opt + esc&lt;/code&gt; ，打開類似windows下任務管理器的快捷鍵。&lt;/p&gt;
 
-<p><img src="https://vicky335.github.io/images/other/kill-window.jpg" alt="" /></p>
+&lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/other/kill-window.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-<h2 id="網絡相關">網絡相關</h2>
+&lt;h2 id=&#34;網絡相關&#34;&gt;網絡相關&lt;/h2&gt;
 
-<pre><code># 查看本機IP、Mac地址等信息
+&lt;pre&gt;&lt;code&gt;# 查看本機IP、Mac地址等信息
 $ ifconfig en0
-# 查看nameserver 修改 nameserver 172.19.8.1 -&gt; nameserver 172.19.8.2
+# 查看nameserver 修改 nameserver 172.19.8.1 -&amp;gt; nameserver 172.19.8.2
 $ sudo vim /etc/resolv.conf
 # 診斷
 $ dig lujs.cn
 $ nslookup lujs.cn
 
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="chrome-快捷鍵">chrome 快捷鍵</h2>
+&lt;h2 id=&#34;chrome-快捷鍵&#34;&gt;chrome 快捷鍵&lt;/h2&gt;
 
-<p>新建一個Tab  <code>cmd</code> + <code>T</code></p>
+&lt;p&gt;新建一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
 
-<p>關閉一個Tab  <code>cmd</code> + <code>W</code></p>
+&lt;p&gt;關閉一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
 
-<p>打開開發者工具，<code>cmd</code> + <code>option</code> + <code>I</code> Mac下F12不管用,因為系統默認把<code>F12</code>分配給了音量</p>
+&lt;p&gt;打開開發者工具，&lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;I&lt;/code&gt; Mac下F12不管用,因為系統默認把&lt;code&gt;F12&lt;/code&gt;分配給了音量&lt;/p&gt;
 
-<p>查看源代碼  <code>cmd</code> + <code>option</code> + <code>U</code></p>
+&lt;p&gt;查看源代碼  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
 
-<p>調試js - step over <code>cmd</code> + <code>\</code></p>
+&lt;p&gt;調試js - step over &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;\&lt;/code&gt;&lt;/p&gt;
 
-<p>調試js - step in <code>cmd</code> + <code>;</code></p>
+&lt;p&gt;調試js - step in &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;;&lt;/code&gt;&lt;/p&gt;
 
-<p>調試js - step out <code>cmd</code> + <code>'</code></p>
+&lt;p&gt;調試js - step out &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;&#39;&lt;/code&gt;&lt;/p&gt;
 
-<p>快速定位Tab  <code>cmd</code> + <code>1/2/3/等</code>
-向左切換Tab順序  <code>cmd</code> + <code>shift</code> + <code>{</code></p>
+&lt;p&gt;快速定位Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;1/2/3/等&lt;/code&gt;
+向左切換Tab順序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;{&lt;/code&gt;&lt;/p&gt;
 
-<p>向右切換Tab順序  <code>cmd</code> + <code>shift</code> + <code>}</code></p>
-]]>
+&lt;p&gt;向右切換Tab順序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;}&lt;/code&gt;&lt;/p&gt;
+
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
@@ -864,1710 +1032,1752 @@ $ nslookup lujs.cn
             <guid>https://vicky335.github.io/post/other/country.html</guid>
 
             <description>縮寫 英文 中文 位置 ac Ascension Island 亞森欣島 在南太平洋，屬英 ad Andorra 安道爾侯國 位於法國和西班牙交界之東庇里牛斯山中 ae Unuted Arab Emirates 阿拉伯聯合大公國 af Afghanistan 阿富汗 亞洲西部高</description>
-            
+
             <content:encoded>
-                <![CDATA[<table>
-<thead>
-<tr>
-<th align="center">縮寫</th>
-<th align="center">英文</th>
-<th align="center">中文</th>
-<th align="center">位置</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center">ac</td>
-<td align="center">Ascension Island</td>
-<td align="center">亞森欣島</td>
-<td align="center">在南太平洋，屬英</td>
-</tr>
-
-<tr>
-<td align="center">ad</td>
-<td align="center">Andorra</td>
-<td align="center">安道爾侯國</td>
-<td align="center">位於法國和西班牙交界之東庇里牛斯山中</td>
-</tr>
-
-<tr>
-<td align="center">ae</td>
-<td align="center">Unuted Arab Emirates</td>
-<td align="center">阿拉伯聯合大公國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">af</td>
-<td align="center">Afghanistan</td>
-<td align="center">阿富汗</td>
-<td align="center">亞洲西部高原上</td>
-</tr>
-
-<tr>
-<td align="center">ai</td>
-<td align="center">Anguilla</td>
-<td align="center">安圭拉島</td>
-<td align="center">英屬西印度群島中之一島</td>
-</tr>
-
-<tr>
-<td align="center">al</td>
-<td align="center">Albania</td>
-<td align="center">阿爾巴尼亞</td>
-<td align="center">巴爾幹島的一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">am</td>
-<td align="center">Armenia</td>
-<td align="center">亞美尼亞</td>
-<td align="center">在伊朗西北部，蘇聯之一共和國</td>
-</tr>
-
-<tr>
-<td align="center">an</td>
-<td align="center">Netherlands Antilles</td>
-<td align="center">荷屬安地列斯群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ao</td>
-<td align="center">Angola</td>
-<td align="center">安哥拉</td>
-<td align="center">位於西南非之共和國</td>
-</tr>
-
-<tr>
-<td align="center">aq</td>
-<td align="center">Antartica</td>
-<td align="center">南極洲</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">as</td>
-<td align="center">Argentina</td>
-<td align="center">阿根廷</td>
-<td align="center">南美洲之一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">at</td>
-<td align="center">Austria</td>
-<td align="center">奧地利</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">au</td>
-<td align="center">Australia</td>
-<td align="center">澳大利亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">aw</td>
-<td align="center">Aruba</td>
-<td align="center">阿盧巴島</td>
-<td align="center">在委內瑞拉海岸以北20哩的島</td>
-</tr>
-
-<tr>
-<td align="center">az</td>
-<td align="center">Azerbaijan</td>
-<td align="center">亞塞拜然共和國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ba</td>
-<td align="center">Bosnia and Herzegovina</td>
-<td align="center">波士尼亞和赫芝格微納</td>
-<td align="center">巴爾幹半島上的兩個地區</td>
-</tr>
-
-<tr>
-<td align="center">bb</td>
-<td align="center">Barbados</td>
-<td align="center">巴貝多</td>
-<td align="center">西印度群島東端的一個島</td>
-</tr>
-
-<tr>
-<td align="center">bd</td>
-<td align="center">Bangladesh</td>
-<td align="center">孟加拉</td>
-<td align="center">亞洲一個國家</td>
-</tr>
-
-<tr>
-<td align="center">be</td>
-<td align="center">Belgium</td>
-<td align="center">比利時</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bf</td>
-<td align="center">Burkina Faso</td>
-<td align="center">布基納法索</td>
-<td align="center">舊：上伏爾塔</td>
-</tr>
-
-<tr>
-<td align="center">bg</td>
-<td align="center">Bulgaria</td>
-<td align="center">保加利亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bh</td>
-<td align="center">Bahrain</td>
-<td align="center">巴林</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bi</td>
-<td align="center">Burundi</td>
-<td align="center">蒲隆地</td>
-<td align="center">非洲東部的共國</td>
-</tr>
-
-<tr>
-<td align="center">bj</td>
-<td align="center">Benin</td>
-<td align="center">貝南</td>
-<td align="center">非洲西部一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">bm</td>
-<td align="center">Bermuda</td>
-<td align="center">百慕達</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bn</td>
-<td align="center">Brunei Darussalam</td>
-<td align="center">汶萊</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bo</td>
-<td align="center">Bolivia</td>
-<td align="center">波利維亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">br</td>
-<td align="center">Brazil</td>
-<td align="center">巴西</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bs</td>
-<td align="center">Bahamas</td>
-<td align="center">巴哈馬</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bt</td>
-<td align="center">Bhutan</td>
-<td align="center">不丹</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bv</td>
-<td align="center">Bouvet Island</td>
-<td align="center">鮑威島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">by</td>
-<td align="center">Byelorussian SSR</td>
-<td align="center">白俄羅斯</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">bz</td>
-<td align="center">Belize</td>
-<td align="center">貝里斯</td>
-<td align="center">中美洲的一個國家</td>
-</tr>
-
-<tr>
-<td align="center">ca</td>
-<td align="center">Canada</td>
-<td align="center">加拿大</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">cc</td>
-<td align="center">Cocos(Keeling) Islands</td>
-<td align="center">可可斯群島</td>
-<td align="center">澳屬</td>
-</tr>
-
-<tr>
-<td align="center">cd</td>
-<td align="center">Congo,Democratic People&rsquo;s Requblic</td>
-<td align="center">剛果民主共和國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">cf</td>
-<td align="center">Central African Republic</td>
-<td align="center">中非共和國</td>
-<td align="center">位於非洲中部</td>
-</tr>
-
-<tr>
-<td align="center">cg</td>
-<td align="center">Republic of Congo</td>
-<td align="center">剛果</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ch</td>
-<td align="center">Switzerland</td>
-<td align="center">瑞士</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ci</td>
-<td align="center">Lvory Coast</td>
-<td align="center">象牙海岸</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ck</td>
-<td align="center">Cook Islands</td>
-<td align="center">科克群島</td>
-<td align="center">為南太平洋，屬紐西蘭</td>
-</tr>
-
-<tr>
-<td align="center">cl</td>
-<td align="center">Chile</td>
-<td align="center">智利</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">cm</td>
-<td align="center">Cameroon</td>
-<td align="center">喀麥隆</td>
-<td align="center">西非大西洋岸的一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">cn</td>
-<td align="center">China</td>
-<td align="center">中國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">co</td>
-<td align="center">Colombia</td>
-<td align="center">哥倫比亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">cr</td>
-<td align="center">Costa Rica</td>
-<td align="center">哥斯大黎加</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">cu</td>
-<td align="center">Cuba</td>
-<td align="center">古巴</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">cv</td>
-<td align="center">Cap Verde</td>
-<td align="center">維德角</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">cx</td>
-<td align="center">Christmas Island</td>
-<td align="center">聖誕島</td>
-<td align="center">1.在印度洋，近爪哇，屬澳; 2.在太平洋，近赤道，屬英</td>
-</tr>
-
-<tr>
-<td align="center">cy</td>
-<td align="center">Cyprus</td>
-<td align="center">賽普勒斯</td>
-<td align="center">位於地中海東部的一島</td>
-</tr>
-
-<tr>
-<td align="center">cz</td>
-<td align="center">Czech Republic</td>
-<td align="center">捷克</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">de</td>
-<td align="center">Germany</td>
-<td align="center">德國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">dj</td>
-<td align="center">Djibouti</td>
-<td align="center">吉布地</td>
-<td align="center">非洲東部的一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">dk</td>
-<td align="center">Denmark</td>
-<td align="center">丹麥</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">dm</td>
-<td align="center">Dominica</td>
-<td align="center">多米尼亞</td>
-<td align="center">西印度群島中的一島</td>
-</tr>
-
-<tr>
-<td align="center">do</td>
-<td align="center">Dominican Republic</td>
-<td align="center">多明尼加共和國</td>
-<td align="center">居西印度群島中 希斯盤鈕拉島的東半部</td>
-</tr>
-
-<tr>
-<td align="center">dz</td>
-<td align="center">Algeria</td>
-<td align="center">阿爾及利亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ec</td>
-<td align="center">Ecuador</td>
-<td align="center">厄瓜多爾</td>
-<td align="center">南美西北部的一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">ee</td>
-<td align="center">Estonia</td>
-<td align="center">愛沙尼亞</td>
-<td align="center">位於波羅的海沿岸</td>
-</tr>
-
-<tr>
-<td align="center">eg</td>
-<td align="center">Egypt</td>
-<td align="center">埃及</td>
-<td align="center">　</td>
-</tr>
-
-<tr>
-<td align="center">eh</td>
-<td align="center">Western Sahara</td>
-<td align="center">西撒哈拉</td>
-<td align="center">　</td>
-</tr>
-
-<tr>
-<td align="center">er</td>
-<td align="center">Eritrea</td>
-<td align="center">埃立特里亞</td>
-<td align="center">衣索比亞北部的一自治省</td>
-</tr>
-
-<tr>
-<td align="center">es</td>
-<td align="center">Spain</td>
-<td align="center">西班牙</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">et</td>
-<td align="center">Ethiopia</td>
-<td align="center">衣索比亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">fi</td>
-<td align="center">Finland</td>
-<td align="center">芬蘭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">fj</td>
-<td align="center">Fiji</td>
-<td align="center">斐濟</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">fk</td>
-<td align="center">Faljland Islands(Malvina)</td>
-<td align="center">福克蘭群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">fm</td>
-<td align="center">Micronesia,Federal State of</td>
-<td align="center">麥克羅尼西亞</td>
-<td align="center">太平洋西北部的島群</td>
-</tr>
-
-<tr>
-<td align="center">fo</td>
-<td align="center">Faroe Islands</td>
-<td align="center">法羅群島</td>
-<td align="center">位於北大西洋</td>
-</tr>
-
-<tr>
-<td align="center">fr</td>
-<td align="center">France</td>
-<td align="center">法國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ga</td>
-<td align="center">Gabon</td>
-<td align="center">加彭</td>
-<td align="center">非洲西南部之一共和國</td>
-</tr>
-
-<tr>
-<td align="center">gd</td>
-<td align="center">Grenada</td>
-<td align="center">格瑞納達</td>
-<td align="center">位於西印度群島東部</td>
-</tr>
-
-<tr>
-<td align="center">ge</td>
-<td align="center">Georgia</td>
-<td align="center">喬治亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gf</td>
-<td align="center">French Guiana</td>
-<td align="center">法屬圭亞那</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gg</td>
-<td align="center">Guernsey</td>
-<td align="center">根西島</td>
-<td align="center">海峽群島中的第二大島</td>
-</tr>
-
-<tr>
-<td align="center">gh</td>
-<td align="center">Ghana</td>
-<td align="center">迦納</td>
-<td align="center">位於非洲西部</td>
-</tr>
-
-<tr>
-<td align="center">gi</td>
-<td align="center">Gibraltar</td>
-<td align="center">直布羅陀</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gl</td>
-<td align="center">Greenland</td>
-<td align="center">格林蘭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gm</td>
-<td align="center">Gambia</td>
-<td align="center">甘比亞</td>
-<td align="center">非洲西部之大英國協內一獨立共和國</td>
-</tr>
-
-<tr>
-<td align="center">gn</td>
-<td align="center">Guinea</td>
-<td align="center">幾內亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gp</td>
-<td align="center">Guadeloupe</td>
-<td align="center">哥德普落</td>
-<td align="center">為西印度群島的一部份</td>
-</tr>
-
-<tr>
-<td align="center">gq</td>
-<td align="center">Equatorial Guinea</td>
-<td align="center">赤道幾內亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gr</td>
-<td align="center">Greece</td>
-<td align="center">希臘</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gs</td>
-<td align="center">South Georgia and the South Sandwuch Islands</td>
-<td align="center">南喬治亞和南三明治群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gt</td>
-<td align="center">Guatemala</td>
-<td align="center">瓜地馬拉</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gu</td>
-<td align="center">Guam</td>
-<td align="center">關島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gw</td>
-<td align="center">Guinea-Bissau</td>
-<td align="center">幾內亞比索</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">gy</td>
-<td align="center">Guyana</td>
-<td align="center">蓋亞納</td>
-<td align="center">南美北部的共和國</td>
-</tr>
-
-<tr>
-<td align="center">hk</td>
-<td align="center">Hong Kong</td>
-<td align="center">香港</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">hm</td>
-<td align="center">Heard and McDonald Islands</td>
-<td align="center">赫德-麥唐納群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">hn</td>
-<td align="center">Honduras</td>
-<td align="center">宏都拉斯</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">hr</td>
-<td align="center">Croatia/Hrvatska</td>
-<td align="center">克羅埃西亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ht</td>
-<td align="center">Haiti</td>
-<td align="center">海地</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">hu</td>
-<td align="center">Hungary</td>
-<td align="center">匈牙利</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">id</td>
-<td align="center">Indonesia</td>
-<td align="center">印尼共和國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ie</td>
-<td align="center">Ireland</td>
-<td align="center">愛爾蘭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">il</td>
-<td align="center">Israel</td>
-<td align="center">以色列</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">im</td>
-<td align="center">Isle of Man</td>
-<td align="center">曼島</td>
-<td align="center">在愛爾蘭海中，英國所屬的一個島嶼</td>
-</tr>
-
-<tr>
-<td align="center">in</td>
-<td align="center">India</td>
-<td align="center">印度</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">io</td>
-<td align="center">British Indian Ocean Territory</td>
-<td align="center">英聯邦的印度洋領域</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">iq</td>
-<td align="center">Iraq</td>
-<td align="center">伊拉克</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ir</td>
-<td align="center">Iran (Islamic Republic of)</td>
-<td align="center">伊朗</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">is</td>
-<td align="center">Iceland</td>
-<td align="center">冰島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">it</td>
-<td align="center">Italy</td>
-<td align="center">義大利</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">je</td>
-<td align="center">Jersey</td>
-<td align="center">澤西島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">jm</td>
-<td align="center">Jamaica</td>
-<td align="center">牙買加</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">jo</td>
-<td align="center">Jordan</td>
-<td align="center">約旦王國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">jp</td>
-<td align="center">Japan</td>
-<td align="center">日本</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ke</td>
-<td align="center">Kenya</td>
-<td align="center">肯亞共和國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">kg</td>
-<td align="center">kyrgyzstan</td>
-<td align="center">吉爾吉斯斯坦</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">kh</td>
-<td align="center">Cambodia</td>
-<td align="center">柬埔寨</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ki</td>
-<td align="center">Kiribati</td>
-<td align="center">吉里巴斯</td>
-<td align="center">太平洋中西部的一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">km</td>
-<td align="center">Comoros</td>
-<td align="center">科摩羅</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">kn</td>
-<td align="center">Saint Kitts and Nevis</td>
-<td align="center">聖基次吉尼維斯群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">kp</td>
-<td align="center">Korea, Democratia People&rsquo;s Republic</td>
-<td align="center">南韓</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">kr</td>
-<td align="center">Korea, Republic of</td>
-<td align="center">韓國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">kw</td>
-<td align="center">Kuwait</td>
-<td align="center">科威特</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ky</td>
-<td align="center">Cayman Islands</td>
-<td align="center">開曼群島</td>
-<td align="center">英屬西印度群島之一部</td>
-</tr>
-
-<tr>
-<td align="center">kz</td>
-<td align="center">Kazakhstan</td>
-<td align="center">哈薩克</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">la</td>
-<td align="center">Lao People&rsquo;s Democratic Republic</td>
-<td align="center">寮國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">lb</td>
-<td align="center">Lebanon</td>
-<td align="center">黎巴嫩</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">lc</td>
-<td align="center">Saint Lucia</td>
-<td align="center">聖露西亞</td>
-<td align="center">西印度群島東半部的一個國家</td>
-</tr>
-
-<tr>
-<td align="center">li</td>
-<td align="center">Liechtenstein</td>
-<td align="center">列之敦斯登</td>
-<td align="center">位於歐洲中部奧地利，和瑞士之間的一個小公國</td>
-</tr>
-
-<tr>
-<td align="center">lk</td>
-<td align="center">Sri Lanka</td>
-<td align="center">斯里蘭卡</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">lr</td>
-<td align="center">Liberia</td>
-<td align="center">賴比瑞亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ls</td>
-<td align="center">Lesotho</td>
-<td align="center">賴索扥</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">lt</td>
-<td align="center">Lithuania</td>
-<td align="center">立陶宛</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">lu</td>
-<td align="center">Luxembourg</td>
-<td align="center">盧森堡</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">lv</td>
-<td align="center">Latvia</td>
-<td align="center">拉脫維亞</td>
-<td align="center">位於波羅的海沿岸</td>
-</tr>
-
-<tr>
-<td align="center">ly</td>
-<td align="center">Libyan Arab Jamahiriya</td>
-<td align="center">利比亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ma</td>
-<td align="center">Morocco</td>
-<td align="center">摩洛哥</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mc</td>
-<td align="center">Monaco</td>
-<td align="center">摩納哥</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">md</td>
-<td align="center">Moldova,Republic of</td>
-<td align="center">摩爾達維亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mg</td>
-<td align="center">Madagascar</td>
-<td align="center">馬達加斯加</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mh</td>
-<td align="center">Marshall Islands</td>
-<td align="center">馬紹爾群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mk</td>
-<td align="center">Macedonia, Former Yugoslav Republic</td>
-<td align="center">馬其頓</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ml</td>
-<td align="center">Mali</td>
-<td align="center">馬利</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mm</td>
-<td align="center">Myanmar</td>
-<td align="center">緬甸</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mn</td>
-<td align="center">Mongolia</td>
-<td align="center">蒙古</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mo</td>
-<td align="center">Macau</td>
-<td align="center">澳門</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mp</td>
-<td align="center">Northern Mariana Islands</td>
-<td align="center">北馬里亞納群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mq</td>
-<td align="center">Martinique</td>
-<td align="center">馬丁尼克島</td>
-<td align="center">西印度群島中法屬之一島</td>
-</tr>
-
-<tr>
-<td align="center">mr</td>
-<td align="center">Mauritania</td>
-<td align="center">茅利塔尼亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ms</td>
-<td align="center">Montserrat</td>
-<td align="center">蒙特塞拉特島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mt</td>
-<td align="center">Malta</td>
-<td align="center">馬爾他</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mu</td>
-<td align="center">Mauritius</td>
-<td align="center">摩里西斯</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mv</td>
-<td align="center">Maldives</td>
-<td align="center">馬爾地夫</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mw</td>
-<td align="center">Malawi</td>
-<td align="center">馬拉威</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mx</td>
-<td align="center">Mexico</td>
-<td align="center">墨西哥</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">my</td>
-<td align="center">Malaysia</td>
-<td align="center">馬來西亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">mz</td>
-<td align="center">Mozambique</td>
-<td align="center">莫三比克</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">na</td>
-<td align="center">Namibia</td>
-<td align="center">那米比亞</td>
-<td align="center">非洲西南部的聯合國直轄區</td>
-</tr>
-
-<tr>
-<td align="center">nc</td>
-<td align="center">New Caledonia</td>
-<td align="center">新喀里多尼亞島</td>
-<td align="center">在西南太平洋</td>
-</tr>
-
-<tr>
-<td align="center">ne</td>
-<td align="center">Niger</td>
-<td align="center">尼日</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">nf</td>
-<td align="center">Norfolk Islands</td>
-<td align="center">諾福克島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ng</td>
-<td align="center">Nigeria</td>
-<td align="center">奈及利亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ni</td>
-<td align="center">Nicaragua</td>
-<td align="center">尼加拉瓜</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">nl</td>
-<td align="center">Netherlands</td>
-<td align="center">荷蘭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">no</td>
-<td align="center">Norway</td>
-<td align="center">挪威</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">np</td>
-<td align="center">Nepal</td>
-<td align="center">尼泊爾</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">nr</td>
-<td align="center">Nauru</td>
-<td align="center">諾魯</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">nu</td>
-<td align="center">Niue</td>
-<td align="center">尼烏亞島</td>
-<td align="center">為紐西蘭屬地</td>
-</tr>
-
-<tr>
-<td align="center">nz</td>
-<td align="center">New Zealand</td>
-<td align="center">紐西蘭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">om</td>
-<td align="center">Oman</td>
-<td align="center">阿曼</td>
-<td align="center">在阿拉伯東南部的一個王國</td>
-</tr>
-
-<tr>
-<td align="center">pa</td>
-<td align="center">Panama</td>
-<td align="center">巴拿馬</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">pe</td>
-<td align="center">Peru</td>
-<td align="center">祕魯</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">pf</td>
-<td align="center">French Polynesia</td>
-<td align="center">法屬波里尼西亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">pg</td>
-<td align="center">Papua New Guinea</td>
-<td align="center">巴布亞新幾內亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ph</td>
-<td align="center">Philippines</td>
-<td align="center">菲律賓</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">pk</td>
-<td align="center">Pakistan</td>
-<td align="center">巴基斯坦</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">pl</td>
-<td align="center">Poland</td>
-<td align="center">波蘭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">pm</td>
-<td align="center">St. Pierre and Miquelon</td>
-<td align="center">聖彼爾及米可龍群島</td>
-<td align="center">加拿大鈕芬蘭南岸外</td>
-</tr>
-
-<tr>
-<td align="center">pn</td>
-<td align="center">Pitcairn Island</td>
-<td align="center">皮特肯島</td>
-<td align="center">屬英</td>
-</tr>
-
-<tr>
-<td align="center">pr</td>
-<td align="center">Puerto Rico</td>
-<td align="center">波多黎各</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ps</td>
-<td align="center">Palestinian Territories</td>
-<td align="center">巴勒斯坦</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">pt</td>
-<td align="center">Portugal</td>
-<td align="center">葡萄牙</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">pw</td>
-<td align="center">Palau</td>
-<td align="center">帛琉群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">py</td>
-<td align="center">Paraguay</td>
-<td align="center">巴拉圭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">qa</td>
-<td align="center">Qatar</td>
-<td align="center">卡達</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">re</td>
-<td align="center">Reunion Island</td>
-<td align="center">留尼旺島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ro</td>
-<td align="center">Romania</td>
-<td align="center">羅馬尼亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ru</td>
-<td align="center">Russian Federation</td>
-<td align="center">俄羅斯聯邦</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">rw</td>
-<td align="center">Rwanda</td>
-<td align="center">盧安達</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sa</td>
-<td align="center">Saudi Arabia</td>
-<td align="center">沙烏地阿拉伯王國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sb</td>
-<td align="center">Solomon Islands</td>
-<td align="center">所羅門群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sc</td>
-<td align="center">Seychelles</td>
-<td align="center">塞席爾群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sd</td>
-<td align="center">Sudan</td>
-<td align="center">蘇丹</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">se</td>
-<td align="center">Sweden</td>
-<td align="center">瑞典</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sg</td>
-<td align="center">Singapore</td>
-<td align="center">新加坡</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sh</td>
-<td align="center">St. Helena</td>
-<td align="center">聖赫勒拿島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">si</td>
-<td align="center">Slovenia</td>
-<td align="center">斯拉維尼亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sj</td>
-<td align="center">Svalbard and Jan Maven Islands</td>
-<td align="center">冷岸群島，斯瓦爾巴特-堅麥因群島</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sk</td>
-<td align="center">Slovak Republic</td>
-<td align="center">斯洛伐克</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sl</td>
-<td align="center">Sierra Leone</td>
-<td align="center">獅子山</td>
-<td align="center">非洲西岸的一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">sm</td>
-<td align="center">San Marino</td>
-<td align="center">聖馬利諾共和國</td>
-<td align="center">在義大利東部</td>
-</tr>
-
-<tr>
-<td align="center">sn</td>
-<td align="center">Senegal</td>
-<td align="center">塞內加爾</td>
-<td align="center">西非的一個共和國</td>
-</tr>
-
-<tr>
-<td align="center">so</td>
-<td align="center">Somalia</td>
-<td align="center">索馬利亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sr</td>
-<td align="center">Suriname</td>
-<td align="center">蘇利南</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">st</td>
-<td align="center">Sao Tome and Principe</td>
-<td align="center">聖多美及普林西比</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sv</td>
-<td align="center">El Salvador</td>
-<td align="center">薩爾瓦多</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sy</td>
-<td align="center">Syrian Arab Republic</td>
-<td align="center">敘利亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">sz</td>
-<td align="center">Swaziland</td>
-<td align="center">史瓦濟蘭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">tc</td>
-<td align="center">Turks and Ciacos Islands</td>
-<td align="center">土克斯及開卡斯群島</td>
-<td align="center">為西印度群島中之二個島群</td>
-</tr>
-
-<tr>
-<td align="center">td</td>
-<td align="center">Chad</td>
-<td align="center">查德</td>
-<td align="center">位於非洲中北部</td>
-</tr>
-
-<tr>
-<td align="center">tf</td>
-<td align="center">French Southern Territories</td>
-<td align="center">法屬南方領土</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">tg</td>
-<td align="center">Togo</td>
-<td align="center">多哥</td>
-<td align="center">非洲西部之一共和國</td>
-</tr>
-
-<tr>
-<td align="center">th</td>
-<td align="center">Thailand</td>
-<td align="center">泰國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">tj</td>
-<td align="center">Tajikistan</td>
-<td align="center">塔吉克</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">tk</td>
-<td align="center">Tokelau</td>
-<td align="center">扥客勞群島</td>
-<td align="center">在中太平洋</td>
-</tr>
-
-<tr>
-<td align="center">tm</td>
-<td align="center">Turkmenistan</td>
-<td align="center">土庫曼蘇維埃社會主義共和國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">tn</td>
-<td align="center">Tunisia</td>
-<td align="center">突尼西亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">to</td>
-<td align="center">Tonga</td>
-<td align="center">東加王國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">tp</td>
-<td align="center">East Timor</td>
-<td align="center">東帝汶</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">tr</td>
-<td align="center">Turkey</td>
-<td align="center">土耳其</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">tt</td>
-<td align="center">Trinidad and Tobago</td>
-<td align="center">千里達共和國</td>
-<td align="center">西印度群島之一獨立國</td>
-</tr>
-
-<tr>
-<td align="center">tv</td>
-<td align="center">Tuvalu</td>
-<td align="center">土瓦魯</td>
-<td align="center">太平洋中南部的一個島國</td>
-</tr>
-
-<tr>
-<td align="center">tw</td>
-<td align="center">Taiwan</td>
-<td align="center">台灣</td>
-<td align="center">福爾摩沙</td>
-</tr>
-
-<tr>
-<td align="center">tz</td>
-<td align="center">Tanzania</td>
-<td align="center">坦尚尼亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ua</td>
-<td align="center">Ukraine</td>
-<td align="center">烏克蘭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">ug</td>
-<td align="center">Uganda</td>
-<td align="center">烏乾達</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">uk</td>
-<td align="center">United kingdom</td>
-<td align="center">聯合王國，英國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">um</td>
-<td align="center">US Minor Outlying Islands</td>
-<td align="center">美國邊遠島嶼</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">us</td>
-<td align="center">United States</td>
-<td align="center">美國</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">uy</td>
-<td align="center">Uruguay</td>
-<td align="center">烏拉圭</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">uz</td>
-<td align="center">Uzbekistan</td>
-<td align="center">烏茲別克</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">va</td>
-<td align="center">Holy See (City Vatican State)</td>
-<td align="center">梵蒂岡 (羅馬教庭)</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">vc</td>
-<td align="center">Saint Vincent and Grenadines</td>
-<td align="center">聖文森及格瑞那丁</td>
-<td align="center">在西印度群島的一國家</td>
-</tr>
-
-<tr>
-<td align="center">ve</td>
-<td align="center">Venezuela</td>
-<td align="center">委內瑞拉</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">vg</td>
-<td align="center">Virgin Islands (British)</td>
-<td align="center">英國的</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">vi</td>
-<td align="center">Virgin Islands (USA)</td>
-<td align="center">美國的</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">vn</td>
-<td align="center">Vietnam</td>
-<td align="center">越南</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">vu</td>
-<td align="center">Vanuatu</td>
-<td align="center">萬那社</td>
-<td align="center">位於太平洋西南部的共和國</td>
-</tr>
-
-<tr>
-<td align="center">wf</td>
-<td align="center">Wallis and Futun Island</td>
-<td align="center">沃利斯和富圖納群島</td>
-<td align="center">西南太平洋的二個群島</td>
-</tr>
-
-<tr>
-<td align="center">ws</td>
-<td align="center">Western Samoa</td>
-<td align="center">西薩摩亞</td>
-<td align="center">為大英國協的一個國家</td>
-</tr>
-
-<tr>
-<td align="center">ye</td>
-<td align="center">Yemen</td>
-<td align="center">葉門</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">yt</td>
-<td align="center">Mayotte</td>
-<td align="center">梅約特</td>
-<td align="center">位於印度洋</td>
-</tr>
-
-<tr>
-<td align="center">yu</td>
-<td align="center">Yugoslavia</td>
-<td align="center">南斯拉夫</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">za</td>
-<td align="center">South Africa</td>
-<td align="center">南非</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">zm</td>
-<td align="center">Zambia</td>
-<td align="center">尚比亞</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">zr</td>
-<td align="center">Zaire</td>
-<td align="center">薩伊</td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center">zw</td>
-<td align="center">Zimbabwe</td>
-<td align="center">辛巴威</td>
-<td align="center"></td>
-</tr>
-</tbody>
-</table>
-
-<p>　</p>
-]]>
+                
+                <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/other/country.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>各國網路名稱縮寫</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/other/country.html">
+                                
+                                <title>
+                                    各國網路名稱縮寫
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;縮寫&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;英文&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;中文&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;位置&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ac&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ascension Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞森欣島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在南太平洋，屬英&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ad&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Andorra&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;安道爾侯國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於法國和西班牙交界之東庇里牛斯山中&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ae&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Unuted Arab Emirates&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿拉伯聯合大公國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;af&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Afghanistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿富汗&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞洲西部高原上&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ai&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Anguilla&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;安圭拉島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;英屬西印度群島中之一島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;al&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Albania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿爾巴尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴爾幹島的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;am&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Armenia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞美尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在伊朗西北部，蘇聯之一共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;an&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Netherlands Antilles&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;荷屬安地列斯群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ao&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Angola&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;安哥拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於西南非之共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;aq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Antartica&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南極洲&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;as&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Argentina&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿根廷&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南美洲之一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;at&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Austria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;奧地利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;au&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Australia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;澳大利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;aw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aruba&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿盧巴島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在委內瑞拉海岸以北20哩的島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;az&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Azerbaijan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞塞拜然共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ba&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bosnia and Herzegovina&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;波士尼亞和赫芝格微納&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴爾幹半島上的兩個地區&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bb&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Barbados&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴貝多&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島東端的一個島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bd&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bangladesh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;孟加拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;亞洲一個國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;be&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Belgium&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;比利時&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Burkina Faso&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;布基納法索&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;舊：上伏爾塔&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bulgaria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;保加利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bahrain&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴林&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Burundi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蒲隆地&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲東部的共國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Benin&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;貝南&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西部一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bermuda&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;百慕達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Brunei Darussalam&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;汶萊&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bolivia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;波利維亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;br&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Brazil&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴西&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bs&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bahamas&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴哈馬&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bhutan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;不丹&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Bouvet Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;鮑威島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;by&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Byelorussian SSR&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;白俄羅斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;bz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Belize&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;貝里斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;中美洲的一個國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ca&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Canada&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;加拿大&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cocos(Keeling) Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;可可斯群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;澳屬&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cd&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Congo,Democratic People&amp;rsquo;s Requblic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剛果民主共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Central African Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;中非共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於非洲中部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Republic of Congo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;剛果&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ch&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Switzerland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;瑞士&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ci&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lvory Coast&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;象牙海岸&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ck&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cook Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;科克群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為南太平洋，屬紐西蘭&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Chile&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;智利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cameroon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;喀麥隆&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西非大西洋岸的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;China&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;中國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;co&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Colombia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哥倫比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Costa Rica&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哥斯大黎加&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cuba&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;古巴&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cap Verde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;維德角&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cx&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Christmas Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖誕島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1.在印度洋，近爪哇，屬澳; 2.在太平洋，近赤道，屬英&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cyprus&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;賽普勒斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於地中海東部的一島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;cz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Czech Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;捷克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;de&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Germany&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;德國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Djibouti&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;吉布地&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲東部的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Denmark&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;丹麥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Dominica&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;多米尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島中的一島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;do&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Dominican Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;多明尼加共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;居西印度群島中 希斯盤鈕拉島的東半部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Algeria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿爾及利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ec&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ecuador&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;厄瓜多爾&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南美西北部的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ee&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Estonia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;愛沙尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於波羅的海沿岸&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;eg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Egypt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;埃及&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;　&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;eh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Western Sahara&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西撒哈拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;　&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;er&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Eritrea&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;埃立特里亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;衣索比亞北部的一自治省&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;es&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Spain&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西班牙&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;et&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ethiopia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;衣索比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Finland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;芬蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Fiji&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;斐濟&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Faljland Islands(Malvina)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;福克蘭群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Micronesia,Federal State of&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;麥克羅尼西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;太平洋西北部的島群&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Faroe Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法羅群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於北大西洋&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;fr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;France&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ga&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Gabon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;加彭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西南部之一共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gd&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Grenada&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;格瑞納達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於西印度群島東部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ge&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Georgia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;喬治亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;French Guiana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法屬圭亞那&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guernsey&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;根西島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;海峽群島中的第二大島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ghana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;迦納&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於非洲西部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Gibraltar&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;直布羅陀&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Greenland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;格林蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Gambia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;甘比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西部之大英國協內一獨立共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guinea&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;幾內亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guadeloupe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哥德普落&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為西印度群島的一部份&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Equatorial Guinea&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;赤道幾內亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Greece&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;希臘&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gs&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;South Georgia and the South Sandwuch Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南喬治亞和南三明治群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guatemala&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;瓜地馬拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guam&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;關島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guinea-Bissau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;幾內亞比索&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;gy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guyana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蓋亞納&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南美北部的共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Hong Kong&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;香港&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Heard and McDonald Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;赫德-麥唐納群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Honduras&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;宏都拉斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Croatia/Hrvatska&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;克羅埃西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ht&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Haiti&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;海地&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Hungary&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;匈牙利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;id&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Indonesia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;印尼共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ie&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ireland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;愛爾蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;il&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Israel&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;以色列&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;im&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Isle of Man&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;曼島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在愛爾蘭海中，英國所屬的一個島嶼&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;in&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;India&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;印度&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;io&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;British Indian Ocean Territory&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;英聯邦的印度洋領域&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;iq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Iraq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;伊拉克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ir&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Iran (Islamic Republic of)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;伊朗&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;is&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Iceland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;冰島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;it&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Italy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;義大利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;je&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Jersey&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;澤西島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;jm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Jamaica&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;牙買加&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;jo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Jordan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;約旦王國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;jp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Japan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;日本&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ke&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Kenya&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;肯亞共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;kyrgyzstan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;吉爾吉斯斯坦&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cambodia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;柬埔寨&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ki&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Kiribati&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;吉里巴斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;太平洋中西部的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;km&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Comoros&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;科摩羅&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Saint Kitts and Nevis&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖基次吉尼維斯群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Korea, Democratia People&amp;rsquo;s Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南韓&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Korea, Republic of&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;韓國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Kuwait&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;科威特&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ky&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cayman Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;開曼群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;英屬西印度群島之一部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;kz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Kazakhstan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哈薩克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;la&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lao People&amp;rsquo;s Democratic Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;寮國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lb&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lebanon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;黎巴嫩&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Saint Lucia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖露西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島東半部的一個國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;li&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Liechtenstein&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;列之敦斯登&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於歐洲中部奧地利，和瑞士之間的一個小公國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sri Lanka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;斯里蘭卡&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Liberia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;賴比瑞亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ls&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lesotho&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;賴索扥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Lithuania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;立陶宛&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Luxembourg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;盧森堡&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Latvia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;拉脫維亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於波羅的海沿岸&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ly&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Libyan Arab Jamahiriya&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;利比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ma&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Morocco&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;摩洛哥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Monaco&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;摩納哥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;md&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Moldova,Republic of&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;摩爾達維亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Madagascar&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬達加斯加&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Marshall Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬紹爾群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Macedonia, Former Yugoslav Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬其頓&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ml&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mali&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬利&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Myanmar&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;緬甸&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mongolia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蒙古&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Macau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;澳門&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Northern Mariana Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;北馬里亞納群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mq&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Martinique&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬丁尼克島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島中法屬之一島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mauritania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;茅利塔尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ms&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Montserrat&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蒙特塞拉特島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Malta&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬爾他&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mauritius&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;摩里西斯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Maldives&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬爾地夫&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Malawi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬拉威&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mx&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mexico&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;墨西哥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;my&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Malaysia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;馬來西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mozambique&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;莫三比克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;na&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Namibia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;那米比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西南部的聯合國直轄區&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;New Caledonia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;新喀里多尼亞島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在西南太平洋&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ne&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Niger&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尼日&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Norfolk Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;諾福克島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ng&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nigeria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;奈及利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ni&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nicaragua&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尼加拉瓜&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Netherlands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;荷蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;no&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Norway&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;挪威&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;np&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尼泊爾&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nauru&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;諾魯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Niue&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尼烏亞島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為紐西蘭屬地&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;nz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;New Zealand&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;紐西蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;om&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Oman&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;阿曼&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在阿拉伯東南部的一個王國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Panama&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴拿馬&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Peru&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;祕魯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;French Polynesia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法屬波里尼西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Papua New Guinea&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴布亞新幾內亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ph&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Philippines&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;菲律賓&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Pakistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴基斯坦&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Poland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;波蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;St. Pierre and Miquelon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖彼爾及米可龍群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;加拿大鈕芬蘭南岸外&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Pitcairn Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;皮特肯島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;屬英&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Puerto Rico&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;波多黎各&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ps&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Palestinian Territories&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴勒斯坦&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Portugal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;葡萄牙&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;pw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Palau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;帛琉群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;py&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Paraguay&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;巴拉圭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;qa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Qatar&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;卡達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;re&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Reunion Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;留尼旺島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ro&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Romania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;羅馬尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ru&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Russian Federation&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;俄羅斯聯邦&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;rw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Rwanda&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;盧安達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Saudi Arabia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;沙烏地阿拉伯王國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sb&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Solomon Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;所羅門群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Seychelles&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;塞席爾群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sd&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sudan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蘇丹&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;se&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sweden&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;瑞典&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Singapore&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;新加坡&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sh&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;St. Helena&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖赫勒拿島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;si&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Slovenia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;斯拉維尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Svalbard and Jan Maven Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;冷岸群島，斯瓦爾巴特-堅麥因群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Slovak Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;斯洛伐克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sl&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sierra Leone&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;獅子山&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西岸的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;San Marino&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖馬利諾共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在義大利東部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Senegal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;塞內加爾&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西非的一個共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;so&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Somalia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;索馬利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Suriname&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;蘇利南&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;st&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Sao Tome and Principe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖多美及普林西比&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;El Salvador&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;薩爾瓦多&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Syrian Arab Republic&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;敘利亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;sz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Swaziland&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;史瓦濟蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Turks and Ciacos Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;土克斯及開卡斯群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為西印度群島中之二個島群&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;td&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Chad&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;查德&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於非洲中北部&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;French Southern Territories&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;法屬南方領土&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Togo&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;多哥&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非洲西部之一共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;th&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Thailand&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;泰國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tj&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tajikistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;塔吉克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tokelau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;扥客勞群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在中太平洋&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Turkmenistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;土庫曼蘇維埃社會主義共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tunisia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;突尼西亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;to&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tonga&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;東加王國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tp&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;East Timor&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;東帝汶&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Turkey&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;土耳其&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Trinidad and Tobago&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;千里達共和國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西印度群島之一獨立國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tv&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tuvalu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;土瓦魯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;太平洋中南部的一個島國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Taiwan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;台灣&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;福爾摩沙&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Tanzania&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;坦尚尼亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ua&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ukraine&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;烏克蘭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ug&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Uganda&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;烏乾達&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;uk&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;United kingdom&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聯合王國，英國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;um&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;US Minor Outlying Islands&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;美國邊遠島嶼&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;us&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;United States&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;美國&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;uy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Uruguay&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;烏拉圭&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;uz&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Uzbekistan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;烏茲別克&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;va&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Holy See (City Vatican State)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;梵蒂岡 (羅馬教庭)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vc&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Saint Vincent and Grenadines&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;聖文森及格瑞那丁&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;在西印度群島的一國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ve&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Venezuela&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;委內瑞拉&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vg&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Virgin Islands (British)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;英國的&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Virgin Islands (USA)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;美國的&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Vietnam&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;越南&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;vu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Vanuatu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;萬那社&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於太平洋西南部的共和國&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;wf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Wallis and Futun Island&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;沃利斯和富圖納群島&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西南太平洋的二個群島&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ws&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Western Samoa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;西薩摩亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;為大英國協的一個國家&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ye&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Yemen&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;葉門&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;yt&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mayotte&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;梅約特&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;位於印度洋&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;yu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Yugoslavia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南斯拉夫&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;za&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;South Africa&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南非&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Zambia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;尚比亞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zr&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Zaire&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;薩伊&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zw&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Zimbabwe&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;辛巴威&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;　&lt;/p&gt;
+
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
@@ -2585,9 +2795,51 @@ $ nslookup lujs.cn
             <guid>https://vicky335.github.io/about.html</guid>
 
             <description></description>
-            
+
             <content:encoded>
-                <![CDATA[]]>
+                
+                <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/about.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>About me...</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/about.html">
+                                
+                                <title>
+                                    About me...
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
@@ -2605,365 +2857,397 @@ $ nslookup lujs.cn
             <guid>https://vicky335.github.io/post/markdown/markdown.html</guid>
 
             <description>Markdown 是一種「輕量級標記式語言」，創始人為約翰·格魯伯（John Gruber）。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並</description>
-            
+
             <content:encoded>
+                
                 <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
 
-<blockquote>
-<p><a href="https://zh.wikipedia.org/wiki/Markdown" title="Markdown">Markdown</a> 是一種<strong>「輕量級標記式語言」</strong>，創始人為<strong>約翰·格魯伯（John Gruber）</strong>。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並選擇性的轉換成有效的 XHTML (或是HTML)」。</p>
-</blockquote>
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/markdown/markdown.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Markdown入門</title>
+                    </head>
 
-<h2 id="介紹">介紹</h2>
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/markdown/markdown.html">
+                                
+                                <title>
+                                    Markdown入門
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            
 
-<p><a href="https://zh.wikipedia.org/wiki/Markdown">Markdown</a> 是一種<strong>「輕量級標記式語言」</strong>，它的語法簡單，不像一般的文字處理軟件Word或Pages有大量的排版、字體設置。它使我們只專心於文字和內容，用<strong>「標記式語法」</strong> 來代替常見的排版格式。從內容到格式，甚至插圖，都是鍵盤就可以通通搞定了。</p>
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34; title=&#34;Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，創始人為&lt;strong&gt;約翰·格魯伯（John Gruber）&lt;/strong&gt;。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並選擇性的轉換成有效的 XHTML (或是HTML)」。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-<p>目前支持Markdown語法的編輯器和網站都好多。例如：<a href="https://macdown.uranusjr.com/">MacDown</a>、<a href="https://typora.io/">typora</a>、<a href="http://25.io/mou/">Mou</a>、<a href="https://github.com/">GitHub</a>、<a href="http://www.jianshu.com/">簡書</a>等等。</p>
+&lt;h2 id=&#34;介紹&#34;&gt;介紹&lt;/h2&gt;
 
-<p>Markdown能導出多種格式，可以導出HTML格式的文件用來網站發佈，也可以導出PDF格式。</p>
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，它的語法簡單，不像一般的文字處理軟件Word或Pages有大量的排版、字體設置。它使我們只專心於文字和內容，用&lt;strong&gt;「標記式語法」&lt;/strong&gt; 來代替常見的排版格式。從內容到格式，甚至插圖，都是鍵盤就可以通通搞定了。&lt;/p&gt;
 
-<blockquote>
-<p>Markdown語法參考：</p>
+&lt;p&gt;目前支持Markdown語法的編輯器和網站都好多。例如：&lt;a href=&#34;https://macdown.uranusjr.com/&#34;&gt;MacDown&lt;/a&gt;、&lt;a href=&#34;https://typora.io/&#34;&gt;typora&lt;/a&gt;、&lt;a href=&#34;http://25.io/mou/&#34;&gt;Mou&lt;/a&gt;、&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;、&lt;a href=&#34;http://www.jianshu.com/&#34;&gt;簡書&lt;/a&gt;等等。&lt;/p&gt;
 
-<ul>
-<li><a href="http://daringfireball.net/projects/markdown/syntax">創始人約翰·格魯伯（John Gruber）的Markdown語法</a></li>
-<li><a href="http://wowubuntu.com/markdown">Markdown中文版語法</a></li>
-</ul>
-</blockquote>
+&lt;p&gt;Markdown能導出多種格式，可以導出HTML格式的文件用來網站發佈，也可以導出PDF格式。&lt;/p&gt;
 
-<h2 id="特點">特點</h2>
+&lt;blockquote&gt;
+&lt;p&gt;Markdown語法參考：&lt;/p&gt;
 
-<ol>
-<li>純文本，兼容性極強，可以用所有文本編輯器打開</li>
-<li>Markdown專注於文字和內容，而不是排版，能讓我們安心寫作</li>
-<li>Markdown的語法簡單，有極好的可讀性，常用的標記符號不超過十個</li>
-<li>格式轉換方便，除了本身的.md文件外，還能輕鬆轉換為HTML、PDF等格式</li>
-<li>Markdown還能支持流程圖、複雜的表格、公式等等</li>
-</ol>
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;創始人約翰·格魯伯（John Gruber）的Markdown語法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wowubuntu.com/markdown&#34;&gt;Markdown中文版語法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 
-<h2 id="語法規則">語法規則</h2>
+&lt;h2 id=&#34;特點&#34;&gt;特點&lt;/h2&gt;
 
-<h3 id="代碼區域">代碼區域</h3>
+&lt;ol&gt;
+&lt;li&gt;純文本，兼容性極強，可以用所有文本編輯器打開&lt;/li&gt;
+&lt;li&gt;Markdown專注於文字和內容，而不是排版，能讓我們安心寫作&lt;/li&gt;
+&lt;li&gt;Markdown的語法簡單，有極好的可讀性，常用的標記符號不超過十個&lt;/li&gt;
+&lt;li&gt;格式轉換方便，除了本身的.md文件外，還能輕鬆轉換為HTML、PDF等格式&lt;/li&gt;
+&lt;li&gt;Markdown還能支持流程圖、複雜的表格、公式等等&lt;/li&gt;
+&lt;/ol&gt;
 
-<p>對於程序員，文章中有代碼是肯定的。我們需要代碼框把代碼引起來，這個時候，我們可以用3個<code>`</code>把代碼引起來就可以了，</p>
+&lt;h2 id=&#34;語法規則&#34;&gt;語法規則&lt;/h2&gt;
 
-<pre><code>var a = 3;
+&lt;h3 id=&#34;代碼區域&#34;&gt;代碼區域&lt;/h3&gt;
+
+&lt;p&gt;對於程序員，文章中有代碼是肯定的。我們需要代碼框把代碼引起來，這個時候，我們可以用3個&lt;code&gt;`&lt;/code&gt;把代碼引起來就可以了，&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
 int b = 33;
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<pre><code>	寫法：
+&lt;pre&gt;&lt;code&gt;	寫法：
 
 	```
 	code
 	```
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="標題">標題</h3>
+&lt;h3 id=&#34;標題&#34;&gt;標題&lt;/h3&gt;
 
-<p>可以在標題內容前輸入特定數量的<code>#</code>號來實現對應級別的HTML樣式標題。</p>
+&lt;p&gt;可以在標題內容前輸入特定數量的&lt;code&gt;#&lt;/code&gt;號來實現對應級別的HTML樣式標題。&lt;/p&gt;
 
-<pre><code># 一級標題
+&lt;pre&gt;&lt;code&gt;# 一級標題
 ## 二級標題
 ### 三級標題
 #### 四級標題
 ##### 五級標題
 ###### 六級標題
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>一級和二級標題還可以寫成：</p>
+&lt;p&gt;一級和二級標題還可以寫成：&lt;/p&gt;
 
-<pre><code>一級標題
+&lt;pre&gt;&lt;code&gt;一級標題
 ===================
 
 二級標題
 --------------------
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>Markdown會轉成：</p>
+&lt;p&gt;Markdown會轉成：&lt;/p&gt;
 
-<pre><code>&lt;h1&gt;一級標題&lt;/h1&gt;
-&lt;h2&gt;二級標題&lt;/h2&gt;
-&lt;h6&gt;六級標題&lt;/h6&gt;
-</code></pre>
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;一級標題&amp;lt;/h1&amp;gt;
+&amp;lt;h2&amp;gt;二級標題&amp;lt;/h2&amp;gt;
+&amp;lt;h6&amp;gt;六級標題&amp;lt;/h6&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="列表">列表</h3>
+&lt;h3 id=&#34;列表&#34;&gt;列表&lt;/h3&gt;
 
-<p>我們知道列表有 有序列表 和 無序列表 兩種。在Markdown下，只需要在文字前加上 <code>-</code> 或 <code>*</code> 即變為無序列表，而有序列表則是直接在文字前面加<code>1.</code> <code>2.</code> <code>3.</code>。</p>
+&lt;p&gt;我們知道列表有 有序列表 和 無序列表 兩種。在Markdown下，只需要在文字前加上 &lt;code&gt;-&lt;/code&gt; 或 &lt;code&gt;*&lt;/code&gt; 即變為無序列表，而有序列表則是直接在文字前面加&lt;code&gt;1.&lt;/code&gt; &lt;code&gt;2.&lt;/code&gt; &lt;code&gt;3.&lt;/code&gt;。&lt;/p&gt;
 
-<pre><code>* 列表1
+&lt;pre&gt;&lt;code&gt;* 列表1
 * 列表2
 * 列表3
 
 - 列表1
 - 列表2
 - 列表3
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<pre><code>1. 列表1
+&lt;pre&gt;&lt;code&gt;1. 列表1
 2. 列表2
 3. 列表3
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>Markdown會轉成：</p>
+&lt;p&gt;Markdown會轉成：&lt;/p&gt;
 
-<pre><code>&lt;ul&gt;
-	&lt;li&gt;列表1&lt;/li&gt;
-	&lt;li&gt;列表2&lt;/li&gt;
-	&lt;li&gt;列表3&lt;/li&gt;
-&lt;/ul&gt;
-</code></pre>
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+	&amp;lt;li&amp;gt;列表1&amp;lt;/li&amp;gt;
+	&amp;lt;li&amp;gt;列表2&amp;lt;/li&amp;gt;
+	&amp;lt;li&amp;gt;列表3&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-<pre><code>&lt;ol&gt;
-	&lt;li&gt;列表1&lt;/li&gt;
-	&lt;li&gt;列表2&lt;/li&gt;
-	&lt;li&gt;列表3&lt;/li&gt;
-&lt;/ol&gt;
-</code></pre>
+&lt;pre&gt;&lt;code&gt;&amp;lt;ol&amp;gt;
+	&amp;lt;li&amp;gt;列表1&amp;lt;/li&amp;gt;
+	&amp;lt;li&amp;gt;列表2&amp;lt;/li&amp;gt;
+	&amp;lt;li&amp;gt;列表3&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-<p><strong>注意：符號與文字之間要加上一個字符的空格</strong></p>
+&lt;p&gt;&lt;strong&gt;注意：符號與文字之間要加上一個字符的空格&lt;/strong&gt;&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="引用">引用</h3>
+&lt;h3 id=&#34;引用&#34;&gt;引用&lt;/h3&gt;
 
-<p>引用只需要在內容段落開頭前加上右尖括弧(<code>&gt;</code>)就可以了。可以是開頭加或每行加，效果都是一樣。</p>
+&lt;p&gt;引用只需要在內容段落開頭前加上右尖括弧(&lt;code&gt;&amp;gt;&lt;/code&gt;)就可以了。可以是開頭加或每行加，效果都是一樣。&lt;/p&gt;
 
-<pre><code>&gt; 這一整段的內容都會作為一個HTML的引用元素。
+&lt;pre&gt;&lt;code&gt;&amp;gt; 這一整段的內容都會作為一個HTML的引用元素。
 引用元素是會自動優化排版的（reflowable，可回流）。
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>或</p>
+&lt;p&gt;或&lt;/p&gt;
 
-<pre><code>&gt; 這一整段的內容都會作為一個HTML的引用元素。
-&gt; 引用元素是會自動優化排版的（reflowable，可回流）。
-</code></pre>
+&lt;pre&gt;&lt;code&gt;&amp;gt; 這一整段的內容都會作為一個HTML的引用元素。
+&amp;gt; 引用元素是會自動優化排版的（reflowable，可回流）。
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>Markdown會轉成：</p>
+&lt;p&gt;Markdown會轉成：&lt;/p&gt;
 
-<pre><code>&lt;blockquote&gt;&lt;p&gt;這一整段的內容都會作為一個HTML的引用元素。引用元素是會自動優化排版的（reflowable，可回流）。&lt;/p&gt;&lt;/blockquote&gt;
-</code></pre>
+&lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;&amp;lt;p&amp;gt;這一整段的內容都會作為一個HTML的引用元素。引用元素是會自動優化排版的（reflowable，可回流）。&amp;lt;/p&amp;gt;&amp;lt;/blockquote&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>如果是引用中的引用，可以同兩個(<code>&gt;</code>)開頭，如此類推，即可實現多級引用。</p>
+&lt;p&gt;如果是引用中的引用，可以同兩個(&lt;code&gt;&amp;gt;&lt;/code&gt;)開頭，如此類推，即可實現多級引用。&lt;/p&gt;
 
-<pre><code>&gt; 這一整段的內容都會作為一個HTML的引用元素。
-&gt;&gt; 引用元素是會自動優化排版的（reflowable，可回流）。
-</code></pre>
+&lt;pre&gt;&lt;code&gt;&amp;gt; 這一整段的內容都會作為一個HTML的引用元素。
+&amp;gt;&amp;gt; 引用元素是會自動優化排版的（reflowable，可回流）。
+&lt;/code&gt;&lt;/pre&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="換行">換行</h3>
+&lt;h3 id=&#34;換行&#34;&gt;換行&lt;/h3&gt;
 
-<ul>
-<li><p>單一段落</p>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;單一段落&lt;/p&gt;
 
-<pre><code>&lt;p&gt;
-</code></pre></li>
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p>多行</p>
+&lt;li&gt;&lt;p&gt;多行&lt;/p&gt;
 
-<pre><code>&lt;br /&gt;
-</code></pre></li>
-</ul>
+&lt;pre&gt;&lt;code&gt;&amp;lt;br /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>如果你真的想在Markdown中插入換行標籤<code> &lt;br/&gt; </code>，你可以在行尾輸入兩個或以上的空格，然後Enter。 這樣插入換行十分麻煩，但是「每個換行都轉換為<code> &lt;br/&gt; </code>」在 Markdown中並不合適，所以只在你確定你需要時手動添加。</p>
+&lt;p&gt;如果你真的想在Markdown中插入換行標籤&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;，你可以在行尾輸入兩個或以上的空格，然後Enter。 這樣插入換行十分麻煩，但是「每個換行都轉換為&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;」在 Markdown中並不合適，所以只在你確定你需要時手動添加。&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="連結">連結</h3>
+&lt;h3 id=&#34;連結&#34;&gt;連結&lt;/h3&gt;
 
-<ul>
-<li><p>文字連結。只需要使用<code>[連結文字](連結地址)</code>，如</p>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;文字連結。只需要使用&lt;code&gt;[連結文字](連結地址)&lt;/code&gt;，如&lt;/p&gt;
 
-<pre><code>[vicky335](https://vicky335.github.io &quot;vicky335&quot;)
-</code></pre>
+&lt;pre&gt;&lt;code&gt;[vicky335](https://vicky335.github.io &amp;quot;vicky335&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>顯示效果：<a href="https://vicky335.github.io" title="vicky335">vicky335</a></p></li>
+&lt;p&gt;顯示效果：&lt;a href=&#34;https://vicky335.github.io&#34; title=&#34;vicky335&#34;&gt;vicky335&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-<li><p>索引連結。連結地址可以放在段落後面的注腳，前面放上連結參照標籤區分。如，先在內容行內插入</p>
+&lt;li&gt;&lt;p&gt;索引連結。連結地址可以放在段落後面的注腳，前面放上連結參照標籤區分。如，先在內容行內插入&lt;/p&gt;
 
-<pre><code>[連結文字][連結引用標籤]
-</code></pre>
+&lt;pre&gt;&lt;code&gt;[連結文字][連結引用標籤]
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>然後在段落後面（或文件結尾）放上以下內容，就可以生成連結：</p>
+&lt;p&gt;然後在段落後面（或文件結尾）放上以下內容，就可以生成連結：&lt;/p&gt;
 
-<pre><code>[連結引用標籤]：連結地址 &quot;連結標題&quot;
-</code></pre></li>
+&lt;pre&gt;&lt;code&gt;[連結引用標籤]：連結地址 &amp;quot;連結標題&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p>自動連結。Markdown還支持以比較簡短的自動連結形式來處理網址和電子郵件，只要使用尖括號<code>&lt;&gt;</code>包起來，就會自動把它轉成連結。如</p>
+&lt;li&gt;&lt;p&gt;自動連結。Markdown還支持以比較簡短的自動連結形式來處理網址和電子郵件，只要使用尖括號&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包起來，就會自動把它轉成連結。如&lt;/p&gt;
 
-<pre><code>&lt;https://vicky335.github.io&gt;
-&lt;address@example.com&gt;
-</code></pre>
+&lt;pre&gt;&lt;code&gt;&amp;lt;https://vicky335.github.io&amp;gt;
+&amp;lt;address@example.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>顯示效果：<a href="https://vicky335.github.io">https://vicky335.github.io</a> <a href="mailto:address@example.com">address@example.com</a></p>
+&lt;p&gt;顯示效果：&lt;a href=&#34;https://vicky335.github.io&#34;&gt;https://vicky335.github.io&lt;/a&gt; &lt;a href=&#34;mailto:address@example.com&#34;&gt;address@example.com&lt;/a&gt;&lt;/p&gt;
 
-<p>此時，Markdown會轉為：</p>
+&lt;p&gt;此時，Markdown會轉為：&lt;/p&gt;
 
-<pre><code>&lt;a href=&quot;http://example.com/&quot;&gt;http://example.com/&lt;/a&gt;
-</code></pre></li>
-</ul>
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://example.com/&amp;quot;&amp;gt;http://example.com/&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>如果希望添加的連結是另開新視窗打開：</p>
+&lt;p&gt;如果希望添加的連結是另開新視窗打開：&lt;/p&gt;
 
-<ol>
-<li><p>直接使用HTML語法</p>
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;直接使用HTML語法&lt;/p&gt;
 
-<pre><code>&lt;a href=&quot;https://vicky335.github.io/&quot; target=&quot;_blank&quot;&gt;vicky335&lt;/a&gt;
-</code></pre></li>
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;https://vicky335.github.io/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;vicky335&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p>使用Javascript語言</p>
+&lt;li&gt;&lt;p&gt;使用Javascript語言&lt;/p&gt;
 
-<pre><code>&lt;script&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
     var links = document.links;
 
-    for (var i = 0, linksLength = links.length; i &lt; linksLength; i++) {
+    for (var i = 0, linksLength = links.length; i &amp;lt; linksLength; i++) {
        if (links[i].hostname != window.location.hostname) {
-           links[i].target = '_blank';
+           links[i].target = &#39;_blank&#39;;
        }
     }
-&lt;/script&gt;
-</code></pre>
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>使用JQuery的可以是：</p>
+&lt;p&gt;使用JQuery的可以是：&lt;/p&gt;
 
-<pre><code>&lt;script&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
     $(document.links).filter(function() {
         return this.hostname != window.location.hostname;
-    }).attr('target', '_blank');
-&lt;/script&gt;
-</code></pre></li>
+    }).attr(&#39;target&#39;, &#39;_blank&#39;);
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p>有些Markdown的編輯器可以使用</p>
+&lt;li&gt;&lt;p&gt;有些Markdown的編輯器可以使用&lt;/p&gt;
 
-<pre><code>[vicky335](https://vicky335.github.io){:target=&quot;_blank&quot;}
-</code></pre></li>
-</ol>
+&lt;pre&gt;&lt;code&gt;[vicky335](https://vicky335.github.io){:target=&amp;quot;_blank&amp;quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-<blockquote>
-<p>Markdown另外新窗參考：
-<a href="https://stackoverflow.com/questions/4425198/markdown-target-blank">https://stackoverflow.com/questions/4425198/markdown-target-blank</a></p>
-</blockquote>
+&lt;blockquote&gt;
+&lt;p&gt;Markdown另外新窗參考：
+&lt;a href=&#34;https://stackoverflow.com/questions/4425198/markdown-target-blank&#34;&gt;https://stackoverflow.com/questions/4425198/markdown-target-blank&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="圖片">圖片</h3>
+&lt;h3 id=&#34;圖片&#34;&gt;圖片&lt;/h3&gt;
 
-<p>插入圖片，只需要使用 <code>![替代文字(可省略)](圖片連結地址 &quot;title文字&quot;)</code> 即可。不過目前Markdown還不能指定圖片的寬高，如有需要，可以使用普通的 <code>&lt;img&gt;</code> 標籤。</p>
+&lt;p&gt;插入圖片，只需要使用 &lt;code&gt;![替代文字(可省略)](圖片連結地址 &amp;quot;title文字&amp;quot;)&lt;/code&gt; 即可。不過目前Markdown還不能指定圖片的寬高，如有需要，可以使用普通的 &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; 標籤。&lt;/p&gt;
 
-<p><img src="https://vicky335.github.io/images/logo.png" alt="vicky335" title="vicky335" /></p>
+&lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/logo.png&#34; alt=&#34;vicky335&#34; title=&#34;vicky335&#34; /&gt;&lt;/p&gt;
 
-<pre><code>寫法:  ![](https://vicky335.github.io/images/logo.png)
+&lt;pre&gt;&lt;code&gt;寫法:  ![](https://vicky335.github.io/images/logo.png)
 
 ![Alt text](/path/to/img.jpg)
 
-![Alt text](/path/to/img.jpg &quot;Optional title&quot;)
-</code></pre>
+![Alt text](/path/to/img.jpg &amp;quot;Optional title&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>目前Markdown還不能指定圖片的寬高，如有需要，可以使用普通的<code>&lt;img&gt;</code>標籤</p>
+&lt;p&gt;目前Markdown還不能指定圖片的寬高，如有需要，可以使用普通的&lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;標籤&lt;/p&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="表格">表格</h3>
+&lt;h3 id=&#34;表格&#34;&gt;表格&lt;/h3&gt;
 
-<p>代碼如下：</p>
+&lt;p&gt;代碼如下：&lt;/p&gt;
 
-<pre><code>| Tables        | Are           | Cool  |
+&lt;pre&gt;&lt;code&gt;| Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col *3* is    | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>顯示效果：</p>
+&lt;p&gt;顯示效果：&lt;/p&gt;
 
-<table>
-<thead>
-<tr>
-<th>Tables</th>
-<th align="center">Are</th>
-<th align="right">Cool</th>
-</tr>
-</thead>
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tables&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Are&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Cool&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-<tbody>
-<tr>
-<td>col <em>3</em> is</td>
-<td align="center">right-aligned</td>
-<td align="right">$1600</td>
-</tr>
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;col &lt;em&gt;3&lt;/em&gt; is&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;right-aligned&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td>col 2 is</td>
-<td align="center">centered</td>
-<td align="right">$12</td>
-</tr>
+&lt;tr&gt;
+&lt;td&gt;col 2 is&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;centered&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
 
-<tr>
-<td>zebra stripes</td>
-<td align="center">are neat</td>
-<td align="right">$1</td>
-</tr>
-</tbody>
-</table>
+&lt;tr&gt;
+&lt;td&gt;zebra stripes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;are neat&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="強調">強調</h3>
+&lt;h3 id=&#34;強調&#34;&gt;強調&lt;/h3&gt;
 
-<ul>
-<li><p><strong>粗體</strong></p>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;粗體&lt;/strong&gt;&lt;/p&gt;
 
-<p>使用2個<code>**</code>或用2個<code>__</code>，把要加粗的內容包住，如：</p>
+&lt;p&gt;使用2個&lt;code&gt;**&lt;/code&gt;或用2個&lt;code&gt;__&lt;/code&gt;，把要加粗的內容包住，如：&lt;/p&gt;
 
-<pre><code>**粗體**
+&lt;pre&gt;&lt;code&gt;**粗體**
 
 __粗體__
-</code></pre></li>
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p><em>斜體</em></p>
+&lt;li&gt;&lt;p&gt;&lt;em&gt;斜體&lt;/em&gt;&lt;/p&gt;
 
-<p>使用2個<code>**</code>或用2個<code>__</code>，把需要顯示斜體的內容包住，如：</p>
+&lt;p&gt;使用2個&lt;code&gt;**&lt;/code&gt;或用2個&lt;code&gt;__&lt;/code&gt;，把需要顯示斜體的內容包住，如：&lt;/p&gt;
 
-<pre><code>*斜體*
+&lt;pre&gt;&lt;code&gt;*斜體*
 
 _粗體_
-</code></pre></li>
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p><strong><em>粗斜體</em></strong></p>
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;粗斜體&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-<p>使用3個<code>***</code> 或用2個<code>___</code>，把要加粗斜體的內容包住，如：</p>
+&lt;p&gt;使用3個&lt;code&gt;***&lt;/code&gt; 或用2個&lt;code&gt;___&lt;/code&gt;，把要加粗斜體的內容包住，如：&lt;/p&gt;
 
-<pre><code>***斜體***
+&lt;pre&gt;&lt;code&gt;***斜體***
 
 ___粗體___
-</code></pre></li>
-</ul>
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<hr />
+&lt;hr /&gt;
 
-<h3 id="特殊">特殊</h3>
+&lt;h3 id=&#34;特殊&#34;&gt;特殊&lt;/h3&gt;
 
-<ul>
-<li><p>水平分割線</p>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;水平分割線&lt;/p&gt;
 
-<p>在單獨一行裡使用3個或以上的<code> - - - </code> <code> * * * </code> <code> ____ </code>，如：</p>
+&lt;p&gt;在單獨一行裡使用3個或以上的&lt;code&gt; - - - &lt;/code&gt; &lt;code&gt; * * * &lt;/code&gt; &lt;code&gt; ____ &lt;/code&gt;，如：&lt;/p&gt;
 
-<pre><code>* * *
+&lt;pre&gt;&lt;code&gt;* * *
 ***
 *****
 - - -
 ---------------------------------------
-</code></pre></li>
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p>轉義</p>
+&lt;li&gt;&lt;p&gt;轉義&lt;/p&gt;
 
-<p>Markdown可以利用反斜槓來插入一些在語法中有特殊意義的符號，例如想顯示*，就在星號前加上反斜槓<code>\*</code>。
-Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符號：</p>
+&lt;p&gt;Markdown可以利用反斜槓來插入一些在語法中有特殊意義的符號，例如想顯示*，就在星號前加上反斜槓&lt;code&gt;\*&lt;/code&gt;。
+Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符號：&lt;/p&gt;
 
-<pre><code>    \\    反斜線
+&lt;pre&gt;&lt;code&gt;    \\    反斜線
     \`    反引號
     \*    星號
     \_    下划線
@@ -2975,32 +3259,42 @@ Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符
     \-    減號
     \.    英文句號
     \!    感嘆號
-</code></pre></li>
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p>分割</p>
+&lt;li&gt;&lt;p&gt;分割&lt;/p&gt;
 
-<p>使用三個<code>-</code>，即是<code>---</code></p></li>
+&lt;p&gt;使用三個&lt;code&gt;-&lt;/code&gt;，即是&lt;code&gt;---&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 
-<li><p>縮進</p>
+&lt;li&gt;&lt;p&gt;縮進&lt;/p&gt;
 
-<p>程序中常用的tab縮進是</p>
+&lt;p&gt;程序中常用的tab縮進是&lt;/p&gt;
 
-<pre><code>寫法：` `這樣寫就會縮進了。
-</code></pre></li>
+&lt;pre&gt;&lt;code&gt;寫法：` `這樣寫就會縮進了。
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p><code>特殊顯示</code></p>
+&lt;li&gt;&lt;p&gt;&lt;code&gt;特殊顯示&lt;/code&gt;&lt;/p&gt;
 
-<p>即inline代碼。用1個<code>`</code>把要顯示的內容包住，如：</p>
+&lt;p&gt;即inline代碼。用1個&lt;code&gt;`&lt;/code&gt;把要顯示的內容包住，如：&lt;/p&gt;
 
-<pre><code>寫法：
+&lt;pre&gt;&lt;code&gt;寫法：
 `我是特殊形式`
-</code></pre></li>
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-<li><p>直接使用Html</p>
+&lt;li&gt;&lt;p&gt;直接使用Html&lt;/p&gt;
 
-<p>可以直接使用HTML標籤，但要在前後加上空行。</p></li>
-</ul>
-]]>
+&lt;p&gt;可以直接使用HTML標籤，但要在前後加上空行。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
@@ -3018,163 +3312,205 @@ Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符
             <guid>https://vicky335.github.io/post/f2e/hugo.html</guid>
 
             <description>Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo</description>
-            
+
             <content:encoded>
+                
                 <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
 
-<blockquote>
-<p><a href="http://gohugo.io" title="hugo">Hugo</a>是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。</p>
-</blockquote>
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>使用Hugo搭建靜態個人站點</title>
+                    </head>
 
-<h2 id="安裝">安裝</h2>
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
+                                
+                                <title>
+                                    使用Hugo搭建靜態個人站點
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            
 
-<p>Mac 下的安裝</p>
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-<pre><code>$ brew install hugo
+&lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
+
+&lt;p&gt;Mac 下的安裝&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install hugo
 $ hugo version // 是否安裝成功
 $ hugo --help 
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="生成blog">生成Blog</h2>
+&lt;h2 id=&#34;生成blog&#34;&gt;生成Blog&lt;/h2&gt;
 
-<p>創建網站</p>
+&lt;p&gt;創建網站&lt;/p&gt;
 
-<pre><code>$ hugo new site vicky335.github.io
-</code></pre>
+&lt;pre&gt;&lt;code&gt;$ hugo new site vicky335.github.io
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="目錄結構">目錄結構</h2>
+&lt;h2 id=&#34;目錄結構&#34;&gt;目錄結構&lt;/h2&gt;
 
-<p>由 <code>hugo</code> 生成的博客的基本目錄如下</p>
+&lt;p&gt;由 &lt;code&gt;hugo&lt;/code&gt; 生成的博客的基本目錄如下&lt;/p&gt;
 
-<ul>
-<li><code>archetypes</code> - 預定義看板，在這類，你可以定制你生成的博客的基本模板。</li>
-<li><code>content</code> - 網站的所有內容都保存在這裡</li>
-<li><code>data</code> - 保存站點可使用的配置文件</li>
-<li><code>layouts</code> - 自定義的模板</li>
-<li><code>public</code> - 生成的可直接部署的博客</li>
-<li><code>static</code> - 靜態文件，比如你站點需要用到的 logo、頭像等</li>
-</ul>
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;archetypes&lt;/code&gt; - 預定義看板，在這類，你可以定制你生成的博客的基本模板。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content&lt;/code&gt; - 網站的所有內容都保存在這裡&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;data&lt;/code&gt; - 保存站點可使用的配置文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts&lt;/code&gt; - 自定義的模板&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public&lt;/code&gt; - 生成的可直接部署的博客&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;static&lt;/code&gt; - 靜態文件，比如你站點需要用到的 logo、頭像等&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。</p>
+&lt;p&gt;目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。&lt;/p&gt;
 
-<h2 id="安裝主題">安裝主題</h2>
+&lt;h2 id=&#34;安裝主題&#34;&gt;安裝主題&lt;/h2&gt;
 
-<h3 id="安裝主題-1">安裝主題</h3>
+&lt;h3 id=&#34;安裝主題-1&#34;&gt;安裝主題&lt;/h3&gt;
 
-<p>生成網站之後，首先要做的就是下載主題，通常有兩種方法。</p>
+&lt;p&gt;生成網站之後，首先要做的就是下載主題，通常有兩種方法。&lt;/p&gt;
 
-<p>第一種是下載所有主題，簡單粗暴</p>
+&lt;p&gt;第一種是下載所有主題，簡單粗暴&lt;/p&gt;
 
-<pre><code>$ cd vicky335.github.io
+&lt;pre&gt;&lt;code&gt;$ cd vicky335.github.io
 $ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>第二種是下載感興趣的主題(以Casper為例)</p>
+&lt;p&gt;第二種是下載感興趣的主題(以Casper為例)&lt;/p&gt;
 
-<pre><code>$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
-</code></pre>
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。</p>
+&lt;p&gt;你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。&lt;/p&gt;
 
-<h3 id="使用主題">使用主題</h3>
+&lt;h3 id=&#34;使用主題&#34;&gt;使用主題&lt;/h3&gt;
 
-<p>在 <code>config.toml</code> 中配置 theme = &ldquo;casper&rdquo; 即可。</p>
+&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 中配置 theme = &amp;ldquo;casper&amp;rdquo; 即可。&lt;/p&gt;
 
-<h2 id="編輯-config-toml">編輯 config.toml</h2>
+&lt;h2 id=&#34;編輯-config-toml&#34;&gt;編輯 config.toml&lt;/h2&gt;
 
-<p>使用文字編輯器打開 <code>config.toml</code>，並調整內容。</p>
+&lt;p&gt;使用文字編輯器打開 &lt;code&gt;config.toml&lt;/code&gt;，並調整內容。&lt;/p&gt;
 
-<pre><code>baseURL = &quot;https://vicky335.github.io/&quot;    #改成你的GitHub帳號名稱
-languageCode = &quot;zh-cn&quot;
-title = &quot;Vicky Blog&quot;    #自由命名
-</code></pre>
+&lt;pre&gt;&lt;code&gt;baseURL = &amp;quot;https://vicky335.github.io/&amp;quot;    #改成你的GitHub帳號名稱
+languageCode = &amp;quot;zh-cn&amp;quot;
+title = &amp;quot;Vicky Blog&amp;quot;    #自由命名
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="創建文章">創建文章</h2>
+&lt;h2 id=&#34;創建文章&#34;&gt;創建文章&lt;/h2&gt;
 
-<p>首先，生成第一篇文章。</p>
+&lt;p&gt;首先，生成第一篇文章。&lt;/p&gt;
 
-<pre><code>$ hugo new post/first.md
-</code></pre>
+&lt;pre&gt;&lt;code&gt;$ hugo new post/first.md
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>生成的文章內容如下：</p>
+&lt;p&gt;生成的文章內容如下：&lt;/p&gt;
 
-<pre><code>+++
-title: &quot;First&quot;
+&lt;pre&gt;&lt;code&gt;+++
+title: &amp;quot;First&amp;quot;
 date: 2019-06-03T17:10:40+08:00
 draft: true
 +++
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式</p>
+&lt;p&gt;該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式&lt;/p&gt;
 
-<pre><code>+++
-title: &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
-date: {{ now.Format &quot;2006-01-02&quot;  }} 
+&lt;pre&gt;&lt;code&gt;+++
+title: &amp;quot;{{ replace .Name &amp;quot;-&amp;quot; &amp;quot; &amp;quot; | title }}&amp;quot;
+date: {{ now.Format &amp;quot;2006-01-02&amp;quot;  }} 
 draft: false
 categories: [] 
 tags: []
 toc: false
 +++
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>再次生成文章</p>
+&lt;p&gt;再次生成文章&lt;/p&gt;
 
-<pre><code>$ hugo new post/second.md
-</code></pre>
+&lt;pre&gt;&lt;code&gt;$ hugo new post/second.md
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>生成的文章內容變成了</p>
+&lt;p&gt;生成的文章內容變成了&lt;/p&gt;
 
-<pre><code>+++
-title: &quot;Second&quot;
+&lt;pre&gt;&lt;code&gt;+++
+title: &amp;quot;Second&amp;quot;
 date: 2019-06-03 
 draft: false
 categories: [] 
 tags: []
 toc: false
 +++
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="生成最終網站">生成最終網站</h2>
+&lt;h2 id=&#34;生成最終網站&#34;&gt;生成最終網站&lt;/h2&gt;
 
-<p>生成靜態博客並在本地查看</p>
+&lt;p&gt;生成靜態博客並在本地查看&lt;/p&gt;
 
-<pre><code>$ hugo server
-</code></pre>
+&lt;pre&gt;&lt;code&gt;$ hugo server
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>執行完後，在瀏覽器中輸入網址 <a href="http://localhost:1313，就可以看到網站的雛形。">http://localhost:1313，就可以看到網站的雛形。</a></p>
+&lt;p&gt;執行完後，在瀏覽器中輸入網址 &lt;a href=&#34;http://localhost:1313，就可以看到網站的雛形。&#34;&gt;http://localhost:1313，就可以看到網站的雛形。&lt;/a&gt;&lt;/p&gt;
 
-<p>默認的話，只會顯示 <code>draft</code> 為 <code>false</code> 的文章。</p>
+&lt;p&gt;默認的話，只會顯示 &lt;code&gt;draft&lt;/code&gt; 為 &lt;code&gt;false&lt;/code&gt; 的文章。&lt;/p&gt;
 
-<p>服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新</p>
+&lt;p&gt;服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新&lt;/p&gt;
 
-<pre><code>$ hugo server --watch=false
-</code></pre>
+&lt;pre&gt;&lt;code&gt;$ hugo server --watch=false
+&lt;/code&gt;&lt;/pre&gt;
 
-<p><code>hugo server</code> 並不會生成真正的站點，一般在部署之前，需要運行 <code>hugo</code> 命令生成 <code>public</code> 站點</p>
+&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt; 並不會生成真正的站點，一般在部署之前，需要運行 &lt;code&gt;hugo&lt;/code&gt; 命令生成 &lt;code&gt;public&lt;/code&gt; 站點&lt;/p&gt;
 
-<pre><code>$ hugo
-</code></pre>
+&lt;pre&gt;&lt;code&gt;$ hugo
+&lt;/code&gt;&lt;/pre&gt;
 
-<h2 id="部署到-github">部署到 GitHub</h2>
+&lt;h2 id=&#34;部署到-github&#34;&gt;部署到 GitHub&lt;/h2&gt;
 
-<p>Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。</p>
+&lt;p&gt;Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。&lt;/p&gt;
 
-<h3 id="在-github-建立repo">在 GitHub 建立repo</h3>
+&lt;h3 id=&#34;在-github-建立repo&#34;&gt;在 GitHub 建立repo&lt;/h3&gt;
 
-<p>在 GitHub 建立 <strong><em>vicky335</em></strong>.github.io (粗斜體處改成自己的帳號名稱) repo。</p>
+&lt;p&gt;在 GitHub 建立 &lt;strong&gt;&lt;em&gt;vicky335&lt;/em&gt;&lt;/strong&gt;.github.io (粗斜體處改成自己的帳號名稱) repo。&lt;/p&gt;
 
-<h3 id="將-public-資料夾連結到-github-上的-vicky335-github-io">將 /public 資料夾連結到 GitHub 上的 vicky335.github.io</h3>
+&lt;h3 id=&#34;將-public-資料夾連結到-github-上的-vicky335-github-io&#34;&gt;將 /public 資料夾連結到 GitHub 上的 vicky335.github.io&lt;/h3&gt;
 
-<pre><code>cd public
+&lt;pre&gt;&lt;code&gt;cd public
 git init
 git remote add origin https://github.com/vicky335/vicky335.github.io.git
 git add .
-git commit -m &quot;Initial commit&quot;
+git commit -m &amp;quot;Initial commit&amp;quot;
 git push -u origin master
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>等個幾分鐘，輸入網址 <a href="https://vicky335.github.io/">https://vicky335.github.io/</a> 就大功告成囉！</p>
-]]>
+&lt;p&gt;等個幾分鐘，輸入網址 &lt;a href=&#34;https://vicky335.github.io/&#34;&gt;https://vicky335.github.io/&lt;/a&gt; 就大功告成囉！&lt;/p&gt;
+
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
@@ -3192,24 +3528,66 @@ git push -u origin master
             <guid>https://vicky335.github.io/post/f2e/tagheight.html</guid>
 
             <description>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~ 這次主要是講Html裡面標籤的行高所帶來的問題。 在做Html時，是否有設置過某個標籤元</description>
-            
+
             <content:encoded>
-                <![CDATA[<p>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~</p>
+                
+                <![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
 
-<p>這次主要是講Html裡面標籤的行高所帶來的問題。</p>
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>「標籤的行高」和「標籤之間的間距」問題</title>
+                    </head>
 
-<p>在做Html時，是否有設置過某個標籤元素的行高（line-height）呢？以<code>&lt;P&gt;&lt;/p&gt;</code>為例，你們在裡面寫入好幾段文字，之後輸入來用瀏覽器看的時候有發現每行文字之間都存在一定的距離嗎？那就是行高所造成的。</p>
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html">
+                                
+                                <title>
+                                    「標籤的行高」和「標籤之間的間距」問題
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            &lt;p&gt;第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~&lt;/p&gt;
 
-<p>那標籤之間的間距又是怎麼回事呢？</p>
+&lt;p&gt;這次主要是講Html裡面標籤的行高所帶來的問題。&lt;/p&gt;
 
-<p>做重構的童鞋們肯定知道margin和padding是用來做什麼，在這也解釋下吧！margin是用來設置某個標籤元素的外邊距的，而padding則是設定它的內邊距的。如果設置了這兩個或其中一個，就會造成標籤之間的間距了。當然，如果你沒有設置margin和padding，但有設定行高的話，那也會造成標籤之間的間距的。</p>
+&lt;p&gt;在做Html時，是否有設置過某個標籤元素的行高（line-height）呢？以&lt;code&gt;&amp;lt;P&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;為例，你們在裡面寫入好幾段文字，之後輸入來用瀏覽器看的時候有發現每行文字之間都存在一定的距離嗎？那就是行高所造成的。&lt;/p&gt;
 
-<p>實際上，在瀏覽器看到之間存在的空白是由[ ( 行高 - 字的像素 ) / 2 + 間距 ]而來的。（解釋如圖）</p>
+&lt;p&gt;那標籤之間的間距又是怎麼回事呢？&lt;/p&gt;
 
-<p><img src="https://vicky335.github.io/images/f2e/tagsHeight.jpg" alt="" /></p>
+&lt;p&gt;做重構的童鞋們肯定知道margin和padding是用來做什麼，在這也解釋下吧！margin是用來設置某個標籤元素的外邊距的，而padding則是設定它的內邊距的。如果設置了這兩個或其中一個，就會造成標籤之間的間距了。當然，如果你沒有設置margin和padding，但有設定行高的話，那也會造成標籤之間的間距的。&lt;/p&gt;
 
-<p>所以在調整網頁上的間距時，要注意行高所帶來的影響。</p>
-]]>
+&lt;p&gt;實際上，在瀏覽器看到之間存在的空白是由[ ( 行高 - 字的像素 ) / 2 + 間距 ]而來的。（解釋如圖）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/f2e/tagsHeight.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;所以在調整網頁上的間距時，要注意行高所帶來的影響。&lt;/p&gt;
+
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]>
             </content:encoded>
         </item>
         
