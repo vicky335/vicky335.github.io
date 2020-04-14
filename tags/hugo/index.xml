@@ -53,7 +53,8 @@
 
             <description>Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo</description>
             <content:encoded>
-                <![CDATA[
+                
+                &lt;![CDATA[
 
 <blockquote>
 <p><a href="http://gohugo.io" title="hugo">Hugo</a>是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。</p>
@@ -207,7 +208,7 @@ git push -u origin master
 </code></pre>
 
 <p>等個幾分鐘，輸入網址 <a href="https://vicky335.github.io/">https://vicky335.github.io/</a> 就大功告成囉！</p>
-]]> 
+]]>
             </content:encoded>
 
         </item>

@@ -53,7 +53,8 @@
 
             <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
             <content:encoded>
-                <![CDATA[
+                
+                &lt;![CDATA[
 
 <h2 id="新建代碼庫">新建代碼庫</h2>
 
@@ -376,7 +377,7 @@ $ git stash pop
 <pre><code># 生成一個可供發佈的壓縮包
 $ git archive
 </code></pre>
-]]> 
+]]>
             </content:encoded>
 
         </item>
@@ -396,7 +397,8 @@ $ git archive
 
             <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
             <content:encoded>
-                <![CDATA[<table>
+                
+                &lt;![CDATA[<table>
 <thead>
 <tr>
 <th align="center">名稱</th>
@@ -476,7 +478,7 @@ $ git archive
 </tr>
 </tbody>
 </table>
-]]> 
+]]>
             </content:encoded>
 
         </item>
@@ -496,7 +498,8 @@ $ git archive
 
             <description>字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中</description>
             <content:encoded>
-                <![CDATA[
+                
+                &lt;![CDATA[
 
 <h2 id="字符串函數">字符串函數</h2>
 
@@ -685,7 +688,7 @@ if(false,1px,2px)
 <li>opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；</li>
 <li>transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。</li>
 </ul>
-]]> 
+]]>
             </content:encoded>
 
         </item>
@@ -705,7 +708,8 @@ if(false,1px,2px)
 
             <description>Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo</description>
             <content:encoded>
-                <![CDATA[
+                
+                &lt;![CDATA[
 
 <blockquote>
 <p><a href="http://gohugo.io" title="hugo">Hugo</a>是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。</p>
@@ -859,7 +863,7 @@ git push -u origin master
 </code></pre>
 
 <p>等個幾分鐘，輸入網址 <a href="https://vicky335.github.io/">https://vicky335.github.io/</a> 就大功告成囉！</p>
-]]> 
+]]>
             </content:encoded>
 
         </item>
@@ -879,7 +883,8 @@ git push -u origin master
 
             <description>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~ 這次主要是講Html裡面標籤的行高所帶來的問題。 在做Html時，是否有設置過某個標籤元</description>
             <content:encoded>
-                <![CDATA[<p>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~</p>
+                
+                &lt;![CDATA[<p>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~</p>
 
 <p>這次主要是講Html裡面標籤的行高所帶來的問題。</p>
 
@@ -894,7 +899,7 @@ git push -u origin master
 <p><img src="https://vicky335.github.io/images/f2e/tagsHeight.jpg" alt="" /></p>
 
 <p>所以在調整網頁上的間距時，要注意行高所帶來的影響。</p>
-]]> 
+]]>
             </content:encoded>
 
         </item>

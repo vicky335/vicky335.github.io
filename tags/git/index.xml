@@ -53,7 +53,8 @@
 
             <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
             <content:encoded>
-                <![CDATA[
+                
+                &lt;![CDATA[
 
 <h2 id="新建代碼庫">新建代碼庫</h2>
 
@@ -376,7 +377,7 @@ $ git stash pop
 <pre><code># 生成一個可供發佈的壓縮包
 $ git archive
 </code></pre>
-]]> 
+]]>
             </content:encoded>
 
         </item>

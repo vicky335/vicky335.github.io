@@ -53,7 +53,8 @@
 
             <description>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~ 這次主要是講Html裡面標籤的行高所帶來的問題。 在做Html時，是否有設置過某個標籤元</description>
             <content:encoded>
-                <![CDATA[<p>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~</p>
+                
+                &lt;![CDATA[<p>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~</p>
 
 <p>這次主要是講Html裡面標籤的行高所帶來的問題。</p>
 
@@ -68,7 +69,7 @@
 <p><img src="https://vicky335.github.io/images/f2e/tagsHeight.jpg" alt="" /></p>
 
 <p>所以在調整網頁上的間距時，要注意行高所帶來的影響。</p>
-]]> 
+]]>
             </content:encoded>
 
         </item>

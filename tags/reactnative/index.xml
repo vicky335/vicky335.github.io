@@ -53,7 +53,8 @@
 
             <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
             <content:encoded>
-                <![CDATA[<table>
+                
+                &lt;![CDATA[<table>
 <thead>
 <tr>
 <th align="center">名稱</th>
@@ -133,7 +134,7 @@
 </tr>
 </tbody>
 </table>
-]]> 
+]]>
             </content:encoded>
 
         </item>

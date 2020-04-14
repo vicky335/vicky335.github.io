@@ -53,7 +53,8 @@
 
             <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd &#43; ↑ 類似windows下的 ctrl &#43; home 跳到頁尾 cmd &#43; ↓ 類似windows下的 ctrl &#43; end 光標移到行首 cmd &#43;</description>
             <content:encoded>
-                <![CDATA[
+                
+                &lt;![CDATA[
 
 <h2 id="文本編輯">文本編輯</h2>
 
@@ -193,7 +194,7 @@ $ nslookup lujs.cn
 向左切換Tab順序  <code>cmd</code> + <code>shift</code> + <code>{</code></p>
 
 <p>向右切換Tab順序  <code>cmd</code> + <code>shift</code> + <code>}</code></p>
-]]> 
+]]>
             </content:encoded>
 
         </item>
