@@ -24,7 +24,7 @@
         </description>
 
         
-        <language>zh-hant</language>
+        <language>zh-Hant</language>
         
 
         <copyright>
@@ -32,185 +32,354 @@
         </copyright>
 
         
-        <lastBuildDate>Sun, 12 Apr 2020 21:57:04 UTC+08:00</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2020 10:21:24 UTC+08:00</lastBuildDate>
         
 
         <atom:link href="https://vicky335.github.io/tags/f2e.html" rel="self" type="application/rss+xml" />
 
         
         <item>
-            <title>使用Hugo搭建靜態個人站點</title>
+            <title>Git常用命令清單</title>
 
-            <link>https://vicky335.github.io/post/f2e/hugo.html</link>
+            <link>https://vicky335.github.io/post/f2e/git.html</link>
 
-            <pubDate>Sun, 12 Apr 2020 21:57:04 UTC+08:00</pubDate>
+            <pubDate>Tue, 14 Apr 2020 10:21:24 UTC+08:00</pubDate>
 
             
             <author>vicky335 (https://vicky335.github.io/)</author>
             
 
-            <guid>https://vicky335.github.io/post/f2e/hugo.html</guid>
+            <guid>https://vicky335.github.io/post/f2e/git.html</guid>
 
             <description>
 
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由 GO 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&#34;新建代碼庫&#34;&gt;新建代碼庫&lt;/h2&gt;
 
-&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;# 在當前目錄新建一個Git代碼庫
+$ git init
 
-&lt;p&gt;Mac 下的安装&lt;/p&gt;
+# 新建一個目錄，將其初始化為Git代碼庫
+$ git init [project-name]
 
-&lt;pre&gt;&lt;code&gt;$ brew install hugo
-$ hugo version // 是否安装成功
-$ hugo --help
+# 下載一個項目和它的整個代碼歷史
+$ git clone [url]
+
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;生成-blog&#34;&gt;生成 Blog&lt;/h2&gt;
-
-&lt;p&gt;创建网站&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ hugo new site vicky335.github.io
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;目录结构&#34;&gt;目录结构&lt;/h2&gt;
-
-&lt;p&gt;由 &lt;code&gt;hugo&lt;/code&gt; 生成的博客的基本目录如下&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;archetypes&lt;/code&gt; - 预定义看板，在这类，你可以定制你生成的博客的基本模板。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;content&lt;/code&gt; - 网站的所有内容都保存在这里&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;data&lt;/code&gt; - 保存站点可使用的配置文件&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;layouts&lt;/code&gt; - 自定义的模板&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;public&lt;/code&gt; - 生成的可直接部署的博客&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;static&lt;/code&gt; - 静态文件，比如你站点需要用到的 logo、头像等&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;git clone：當你已經有一個遠程的Git版本庫，只需要在本地克隆一份，例如：
+&lt;code&gt;git clone git://github.com/someone/some_project.git some_project&lt;/code&gt;
+上面的命令就是將&lt;code&gt;git://github.com/someone/some_project.git&lt;/code&gt;這個URL地址的遠程版本庫，完全克隆到本地&lt;code&gt;some_project&lt;/code&gt;目錄下&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&amp;rsquo;git init&amp;rsquo;命令進行初始化；Git以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的URL記錄下來，此時你就可以利用&amp;rsquo;git remote add&amp;rsquo;命令來增加一個遠程服務器端，例如：
+&lt;code&gt;git remote add origin git://github.com/someone/another_project.git&lt;/code&gt;
+上面的命令就會增加URL地址為&lt;code&gt;git://github.com/someone/another_project.git&lt;/code&gt;，名稱為&lt;code&gt;origin&lt;/code&gt;的遠程服務器，以後提交代碼的時候只需要使用&lt;code&gt;origin&lt;/code&gt;別名即可&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;目录的话，其实用到的地方不多，一般人只需要按照默认的主题来就行。&lt;/p&gt;
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
 
-&lt;h2 id=&#34;安装主题&#34;&gt;安装主题&lt;/h2&gt;
+&lt;p&gt;Git的設置文件為&lt;code&gt;.gitconfig&lt;/code&gt;，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。&lt;/p&gt;
 
-&lt;h3 id=&#34;安装主题-1&#34;&gt;安装主题&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;# 顯示當前的Git配置
+$ git config --list
 
-&lt;p&gt;生成网站之后，首先要做的就是下载主题，通常有两种方法。&lt;/p&gt;
+# 編輯Git配置文件
+$ git config -e [--global]
 
-&lt;p&gt;第一种是下载所有主题，简单粗暴&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ cd vicky335.github.io
-$ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
+# 設置提交代碼時的用戶信息
+$ git config [--global] user.name &amp;quot;[name]&amp;quot;
+$ git config [--global] user.email &amp;quot;[email address]&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;第二种是下载感兴趣的主题(以 Casper 为例)&lt;/p&gt;
+&lt;h2 id=&#34;忽略一些文件-文件夾不提交&#34;&gt;忽略一些文件、文件夾不提交&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
+&lt;p&gt;在倉庫根目錄下創建名稱為&lt;code&gt;.gitignore&lt;/code&gt;的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;target
+
+bin
+
+*.db
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;你也可以选其他主题，进到该主题的 GitHub repo，将上面的网址改成 repo 的网址、themes/casper 改成 themes/你的主题名称。&lt;/p&gt;
+&lt;h2 id=&#34;增加-刪除文件&#34;&gt;增加/刪除文件&lt;/h2&gt;
 
-&lt;h3 id=&#34;使用主题&#34;&gt;使用主题&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;# 添加指定文件到暫存區
+$ git add [file1] [file2] ...
 
-&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 中配置 theme = &amp;ldquo;casper&amp;rdquo; 即可。&lt;/p&gt;
+# 添加指定目錄到暫存區，包括子目錄
+$ git add [dir]
 
-&lt;h2 id=&#34;编辑-config-toml&#34;&gt;编辑 config.toml&lt;/h2&gt;
+# 添加當前目錄的所有文件到暫存區
+$ git add .
 
-&lt;p&gt;使用文字编辑器打开 &lt;code&gt;config.toml&lt;/code&gt;，并调整内容。&lt;/p&gt;
+# 添加每個變化前，都會要求確認
+# 對於同一個文件的多處變化，可以實現分次提交
+$ git add -p
 
-&lt;pre&gt;&lt;code&gt;baseURL = &amp;quot;https://vicky335.github.io/&amp;quot;    #改成你的GitHub帐号名称
-languageCode = &amp;quot;zh-cn&amp;quot;
-title = &amp;quot;Vicky Blog&amp;quot;    #自由命名
+# 刪除工作區文件，並且將這次刪除放入暫存區
+$ git rm [file1] [file2] ...
+
+# 停止追蹤指定文件，但該文件會保留在工作區
+$ git rm --cached [file]
+
+# 改名文件，並且將這個改名放入暫存區
+$ git mv [file-original] [file-renamed]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;创建文章&#34;&gt;创建文章&lt;/h2&gt;
+&lt;h2 id=&#34;代碼提交&#34;&gt;代碼提交&lt;/h2&gt;
 
-&lt;p&gt;首先，生成第一篇文章。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# 提交暫存區到倉庫區
+$ git commit -m [message]
 
-&lt;pre&gt;&lt;code&gt;$ hugo new post/first.md
+# 提交暫存區的指定文件到倉庫區
+$ git commit [file1] [file2] ... -m [message]
+
+# 提交工作區自上次commit之後的變化，直接到倉庫區
+$ git commit -a
+
+# 提交時顯示所有diff信息
+$ git commit -v
+
+# 使用一次新的commit，替代上一次提交
+# 如果代碼沒有任何新變化，則用來改寫上一次commit的提交信息
+$ git commit --amend -m [message]
+
+# 重做上一次commit，並包括指定文件的新變化
+$ git commit --amend [file1] [file2] ...
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;生成的文章内容如下：&lt;/p&gt;
+&lt;h2 id=&#34;分支&#34;&gt;分支&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;First&amp;quot;
-date: 2019-06-03T17:10:40+08:00
-draft: true
-+++
+&lt;pre&gt;&lt;code&gt;# 列出所有本地分支
+$ git branch
+
+# 列出所有遠程分支
+$ git branch -r
+
+# 列出所有本地分支和遠程分支
+$ git branch -a
+
+# 新建一個分支，但依然停留在當前分支
+$ git branch [branch-name]
+
+# 新建一個分支，並切換到該分支
+$ git checkout -b [branch]
+
+# 新建一個分支，指向指定commit
+$ git branch [branch] [commit]
+
+# 新建一個分支，與指定的遠程分支建立追蹤關係
+$ git branch --track [branch] [remote-branch]
+
+# 切換到指定分支，並更新工作區
+$ git checkout [branch-name]
+
+# 切換到上一個分支
+$ git checkout -
+
+# 建立追蹤關係，在現有分支與指定的遠程分支之間
+$ git branch --set-upstream [branch] [remote-branch]
+
+# 合併指定分支到當前分支
+$ git merge [branch]
+
+# 選擇一個commit，合併進當前分支
+$ git cherry-pick [commit]
+
+# 刪除分支
+$ git branch -d [branch-name]
+
+# 刪除遠程分支
+$ git push origin --delete [branch-name]
+$ git branch -dr [remote/branch]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;该文章的默认模板是根据 archetypes 目录下的 default.md 来的，可以自己修改模板，比如，修改文章的时间格式&lt;/p&gt;
+&lt;h2 id=&#34;標籤-tag&#34;&gt;標籤(tag)&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;{{ replace .Name &amp;quot;-&amp;quot; &amp;quot; &amp;quot; | title }}&amp;quot;
-date: {{ now.Format &amp;quot;2006-01-02&amp;quot;  }}
-draft: false
-categories: []
-tags: []
-toc: false
-+++
+&lt;pre&gt;&lt;code&gt;# 列出所有tag
+$ git tag
+
+# 新建一個tag在當前commit
+$ git tag [tag]
+
+# 新建一個tag在指定commit
+$ git tag [tag] [commit]
+
+# 刪除本地tag
+$ git tag -d [tag]
+
+# 刪除遠程tag
+$ git push origin :refs/tags/[tagName]
+
+# 查看tag信息
+$ git show [tag]
+
+# 提交指定tag
+$ git push [remote] [tag]
+
+# 提交所有tag
+$ git push [remote] --tags
+
+# 新建一個分支，指向某個tag
+$ git checkout -b [branch] [tag]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;再次生成文章&lt;/p&gt;
+&lt;h2 id=&#34;子模塊-submodule&#34;&gt;子模塊(submodule)&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;$ hugo new post/second.md
+&lt;pre&gt;&lt;code&gt;# 添加子模塊
+$ git submodule add [url] [path]
+
+# 初始化子模塊，只在首次檢出倉庫時運行一次就行
+$ git submodule init
+
+# 更新子模塊，每次更新或切換分支後都需要運行一下
+$ git submodule update 
+
+# 刪除子模塊(分4步)
+- $ git rm --cached [path]
+- 編輯 .gitmodules 文件，將子模塊的相關配置節點刪除掉
+- 編輯 .git/config 文件，將子模塊的相關配置節點刪除掉
+- 手動刪除子模塊殘留的目錄
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;生成的文章内容变成了&lt;/p&gt;
+&lt;h2 id=&#34;查看信息&#34;&gt;查看信息&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;Second&amp;quot;
-date: 2019-06-03
-draft: false
-categories: []
-tags: []
-toc: false
-+++
+&lt;pre&gt;&lt;code&gt;# 顯示有變更的文件
+$ git status
+
+# 顯示當前分支的版本歷史
+$ git log
+
+# 顯示commit歷史，以及每次commit發生變更的文件
+$ git log --stat
+
+# 搜索提交歷史，根據關鍵詞
+$ git log -S [keyword]
+
+# 顯示某個commit之後的所有變動，每個commit佔據一行
+$ git log [tag] HEAD --pretty=format:%s
+
+# 顯示某個commit之後的所有變動，其&amp;quot;提交說明&amp;quot;必須符合搜索條件
+$ git log [tag] HEAD --grep feature
+
+# 顯示某個文件的版本歷史，包括文件改名
+$ git log --follow [file]
+$ git whatchanged [file]
+
+# 顯示指定文件相關的每一次diff
+$ git log -p [file]
+
+# 顯示過去5次提交
+$ git log -5 --pretty --oneline
+
+# 顯示所有提交過的用戶，按提交次數排序
+$ git shortlog -sn
+
+# 顯示指定文件是什麼人在什麼時間修改過
+$ git blame [file]
+
+# 顯示暫存區和工作區的差異
+$ git diff
+
+# 顯示暫存區和上一個commit的差異
+$ git diff --cached [file]
+
+# 顯示工作區與當前分支最新commit之間的差異
+$ git diff HEAD
+
+# 顯示兩次提交之間的差異
+$ git diff [first-branch]...[second-branch]
+
+# 顯示今天你寫了多少行代碼
+$ git diff --shortstat &amp;quot;@{0 day ago}&amp;quot;
+
+# 顯示某次提交的元數據和內容變化
+$ git show [commit]
+
+# 顯示某次提交發生變化的文件
+$ git show --name-only [commit]
+
+# 顯示某次提交時，某個文件的內容
+$ git show [commit]:[filename]
+
+# 顯示當前分支的最近幾次提交
+$ git reflog
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;生成最终网站&#34;&gt;生成最终网站&lt;/h2&gt;
+&lt;h2 id=&#34;遠程同步&#34;&gt;遠程同步&lt;/h2&gt;
 
-&lt;p&gt;生成静态博客并在本地查看&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# 下載遠程倉庫的所有變動
+$ git fetch [remote]
 
-&lt;pre&gt;&lt;code&gt;$ hugo server
+# 顯示所有遠程倉庫
+$ git remote -v
+
+# 顯示某個遠程倉庫的信息
+$ git remote show [remote]
+
+# 增加一個新的遠程倉庫，並命名
+$ git remote add [shortname] [url]
+
+# 取回遠程倉庫的變化，並與本地分支合併
+$ git pull [remote] [branch]
+
+# 上傳本地指定分支到遠程倉庫
+$ git push [remote] [branch]
+
+# 強行推送當前分支到遠程倉庫，即使有衝突
+$ git push [remote] --force
+
+# 推送所有分支到遠程倉庫
+$ git push [remote] --all
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;执行完后，在浏览器中输入网址 &lt;a href=&#34;http://localhost:1313，就可以看到网站的雏形。&#34;&gt;http://localhost:1313，就可以看到网站的雏形。&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;撤銷&#34;&gt;撤銷&lt;/h2&gt;
 
-&lt;p&gt;默认的话，只会显示 &lt;code&gt;draft&lt;/code&gt; 为 &lt;code&gt;false&lt;/code&gt; 的文章。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# 恢復暫存區的指定文件到工作區
+$ git checkout [file]
 
-&lt;p&gt;服务器是实时更新的，只要你的内容发生了变化，本地服务器会实时更新变化后的内容，也可以设置成不实时更新&lt;/p&gt;
+# 恢復某個commit的指定文件到暫存區和工作區
+$ git checkout [commit] [file]
 
-&lt;pre&gt;&lt;code&gt;$ hugo server --watch=false
+# 恢復暫存區的所有文件到工作區
+$ git checkout .
+
+# 重置暫存區的指定文件，與上一次commit保持一致，但工作區不變
+$ git reset [file]
+
+# 重置暫存區與工作區，與上一次commit保持一致
+$ git reset --hard
+
+# 重置當前分支的指針為指定commit，同時重置暫存區，但工作區不變
+$ git reset [commit]
+
+# 重置當前分支的HEAD為指定commit，同時重置暫存區和工作區，與指定commit一致
+$ git reset --hard [commit]
+
+# 重置當前HEAD為指定commit，但保持暫存區和工作區不變
+$ git reset --keep [commit]
+
+# 新建一個commit，用來撤銷指定commit
+# 後者的所有變化都將被前者抵消，並且應用到當前分支
+$ git revert [commit]
+
+# 暫時將未提交的變化移除，稍後再移入
+$ git stash
+$ git stash pop
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt; 并不会生成真正的站点，一般在部署之前，需要运行 &lt;code&gt;hugo&lt;/code&gt; 命令生成 &lt;code&gt;public&lt;/code&gt; 站点&lt;/p&gt;
+&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;$ hugo
+&lt;pre&gt;&lt;code&gt;# 生成一個可供發佈的壓縮包
+$ git archive
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;部署到-github&#34;&gt;部署到 GitHub&lt;/h2&gt;
-
-&lt;p&gt;Hugo 部署在 GitHub 的方式有两种，这边介绍部署个人唯一主页的方式。&lt;/p&gt;
-
-&lt;h3 id=&#34;在-github-建立-repo&#34;&gt;在 GitHub 建立 repo&lt;/h3&gt;
-
-&lt;p&gt;在 GitHub 建立 &lt;strong&gt;&lt;em&gt;vicky335&lt;/em&gt;&lt;/strong&gt;.github.io (粗斜体处改成自己的帐号名称) repo。&lt;/p&gt;
-
-&lt;h3 id=&#34;将-public-资料夹连结到-github-上的-vicky335-github-io&#34;&gt;将 /public 资料夹连结到 GitHub 上的 vicky335.github.io&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;cd public
-git init
-git remote add origin https://github.com/vicky335/vicky335.github.io.git
-git add .
-git commit -m &amp;quot;Initial commit&amp;quot;
-git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;等个几分钟，输入网址 &lt;a href=&#34;https://vicky335.github.io/&#34;&gt;https://vicky335.github.io/&lt;/a&gt; 就大功告成啰！&lt;/p&gt;
 </description>
 
         </item>
         
         <item>
-            <title>React Native目录结构</title>
+            <title>React Native目錄結構</title>
 
             <link>https://vicky335.github.io/post/f2e/rndirectorystructure.html</link>
 
@@ -225,80 +394,80 @@ git push -u origin master
             <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;名称&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;名稱&lt;/th&gt;
 &lt;th align=&#34;center&#34;&gt;描述&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;android目录&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Android专案目录，包含了使用AndroidStudio开发专案的环境配置档案；&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;android目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案；&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;ios目录&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;iOS专案目录，包含了XCode的环境&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;ios目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;iOS專案目錄，包含了XCode的環境&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;node_modules目录&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;基于node档案依赖系统产生的相关依赖和第三方lib&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;node_modules目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;基於node檔案依賴系統產生的相關依賴和第三方lib&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;index.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;ios或android的入口，已经使用index.js代替index.ios.js/index.android.js，android中配置application档案的getJSMainModuleName()配置入口&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;ios或android的入口，已經使用index.js代替index.ios.js/index.android.js，android中配置application檔案的getJSMainModuleName()配置入口&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;app.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;app的json档案&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;app的json檔案&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;package.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;专案基本资讯以及依赖资讯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;專案基本資訊以及依賴資訊&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;package-lock.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;npm install生成的档案，记录当前npm package的资讯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;npm install生成的檔案，記錄當前npm package的資訊&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;App.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;相当于Android的MainActivity，可以根据自己的需要进行修改或者删除（同时要修改index.js的注册的元件入口js档名）&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;相當於Android的MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改index.js的註冊的元件入口js檔名）&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.babelrc&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Babel配置档案，在.babelrc配置档案中，主要是对预设（presets）和外挂（plugins）进行配置，因此不同的转译器作用不同的配置项&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Babel配置檔案，在.babelrc配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.buckconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Buck的配置档案，buck是Facebook开源的高效构建系统&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Buck的配置檔案，buck是Facebook開源的高效構建系統&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.flowconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Flow的配置档案，flowconfig是是Flow的配置档案&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Flow的配置檔案，flowconfig是是Flow的配置檔案&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.gitattributes&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git配置档案，指定非文字档案的对比合并方式&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;git配置檔案，指定非文字檔案的對比合併方式&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.gitignore&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git配置档案，用于忽略你不想提交到Git上的档案&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;git配置檔案，用於忽略你不想提交到Git上的檔案&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.watchmanconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;watchman的配置档案，watchman用于监控档案变化，辅助实现工程修改资讯&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;watchman的配置檔案，watchman用於監控檔案變化，輔助實現工程修改資訊&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -508,6 +677,177 @@ if(false,1px,2px)
 &lt;li&gt;opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；&lt;/li&gt;
 &lt;li&gt;transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+
+        </item>
+        
+        <item>
+            <title>使用Hugo搭建靜態個人站點</title>
+
+            <link>https://vicky335.github.io/post/f2e/hugo.html</link>
+
+            <pubDate>Wed, 12 Apr 2017 21:57:04 UTC+08:00</pubDate>
+
+            
+            <author>vicky335 (https://vicky335.github.io/)</author>
+            
+
+            <guid>https://vicky335.github.io/post/f2e/hugo.html</guid>
+
+            <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
+
+&lt;p&gt;Mac 下的安裝&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install hugo
+$ hugo version // 是否安裝成功
+$ hugo --help 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;生成blog&#34;&gt;生成Blog&lt;/h2&gt;
+
+&lt;p&gt;創建網站&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new site vicky335.github.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;目錄結構&#34;&gt;目錄結構&lt;/h2&gt;
+
+&lt;p&gt;由 &lt;code&gt;hugo&lt;/code&gt; 生成的博客的基本目錄如下&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;archetypes&lt;/code&gt; - 預定義看板，在這類，你可以定制你生成的博客的基本模板。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content&lt;/code&gt; - 網站的所有內容都保存在這裡&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;data&lt;/code&gt; - 保存站點可使用的配置文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts&lt;/code&gt; - 自定義的模板&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public&lt;/code&gt; - 生成的可直接部署的博客&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;static&lt;/code&gt; - 靜態文件，比如你站點需要用到的 logo、頭像等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。&lt;/p&gt;
+
+&lt;h2 id=&#34;安裝主題&#34;&gt;安裝主題&lt;/h2&gt;
+
+&lt;h3 id=&#34;安裝主題-1&#34;&gt;安裝主題&lt;/h3&gt;
+
+&lt;p&gt;生成網站之後，首先要做的就是下載主題，通常有兩種方法。&lt;/p&gt;
+
+&lt;p&gt;第一種是下載所有主題，簡單粗暴&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd vicky335.github.io
+$ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;第二種是下載感興趣的主題(以Casper為例)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。&lt;/p&gt;
+
+&lt;h3 id=&#34;使用主題&#34;&gt;使用主題&lt;/h3&gt;
+
+&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 中配置 theme = &amp;ldquo;casper&amp;rdquo; 即可。&lt;/p&gt;
+
+&lt;h2 id=&#34;編輯-config-toml&#34;&gt;編輯 config.toml&lt;/h2&gt;
+
+&lt;p&gt;使用文字編輯器打開 &lt;code&gt;config.toml&lt;/code&gt;，並調整內容。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;baseURL = &amp;quot;https://vicky335.github.io/&amp;quot;    #改成你的GitHub帳號名稱
+languageCode = &amp;quot;zh-cn&amp;quot;
+title = &amp;quot;Vicky Blog&amp;quot;    #自由命名
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;創建文章&#34;&gt;創建文章&lt;/h2&gt;
+
+&lt;p&gt;首先，生成第一篇文章。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new post/first.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;生成的文章內容如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+title: &amp;quot;First&amp;quot;
+date: 2019-06-03T17:10:40+08:00
+draft: true
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+title: &amp;quot;{{ replace .Name &amp;quot;-&amp;quot; &amp;quot; &amp;quot; | title }}&amp;quot;
+date: {{ now.Format &amp;quot;2006-01-02&amp;quot;  }} 
+draft: false
+categories: [] 
+tags: []
+toc: false
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;再次生成文章&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new post/second.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;生成的文章內容變成了&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+title: &amp;quot;Second&amp;quot;
+date: 2019-06-03 
+draft: false
+categories: [] 
+tags: []
+toc: false
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;生成最終網站&#34;&gt;生成最終網站&lt;/h2&gt;
+
+&lt;p&gt;生成靜態博客並在本地查看&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;執行完後，在瀏覽器中輸入網址 &lt;a href=&#34;http://localhost:1313，就可以看到網站的雛形。&#34;&gt;http://localhost:1313，就可以看到網站的雛形。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;默認的話，只會顯示 &lt;code&gt;draft&lt;/code&gt; 為 &lt;code&gt;false&lt;/code&gt; 的文章。&lt;/p&gt;
+
+&lt;p&gt;服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server --watch=false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt; 並不會生成真正的站點，一般在部署之前，需要運行 &lt;code&gt;hugo&lt;/code&gt; 命令生成 &lt;code&gt;public&lt;/code&gt; 站點&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;部署到-github&#34;&gt;部署到 GitHub&lt;/h2&gt;
+
+&lt;p&gt;Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。&lt;/p&gt;
+
+&lt;h3 id=&#34;在-github-建立repo&#34;&gt;在 GitHub 建立repo&lt;/h3&gt;
+
+&lt;p&gt;在 GitHub 建立 &lt;strong&gt;&lt;em&gt;vicky335&lt;/em&gt;&lt;/strong&gt;.github.io (粗斜體處改成自己的帳號名稱) repo。&lt;/p&gt;
+
+&lt;h3 id=&#34;將-public-資料夾連結到-github-上的-vicky335-github-io&#34;&gt;將 /public 資料夾連結到 GitHub 上的 vicky335.github.io&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;cd public
+git init
+git remote add origin https://github.com/vicky335/vicky335.github.io.git
+git add .
+git commit -m &amp;quot;Initial commit&amp;quot;
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;等個幾分鐘，輸入網址 &lt;a href=&#34;https://vicky335.github.io/&#34;&gt;https://vicky335.github.io/&lt;/a&gt; 就大功告成囉！&lt;/p&gt;
 </description>
 
         </item>

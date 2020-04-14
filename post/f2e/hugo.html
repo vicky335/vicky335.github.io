@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-hant">
+<html lang="zh-Hant">
 <head>
 
     <meta charset="utf-8" />
@@ -70,7 +70,7 @@
     
     <meta property="og:description" content="" />
     <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2020-04-12T21:57:04&#43;08:00" />
+    <meta property="article:published_time" content="2017-04-12T21:57:04&#43;08:00" />
 
     
     <meta property="article:tag" content="f2e" />
@@ -82,7 +82,7 @@
     <title>使用Hugo搭建靜態個人站點 &middot; Vicky&#39;s Blog</title>
 
     
-    <meta name="description" content="Hugo是一款由 GO 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 安装 Mac 下的安装 $ brew install hugo $ hugo version // 是否安装成功 $ hugo --help 生成 Blog 创建网" />
+    <meta name="description" content="Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -157,15 +157,15 @@
     },
     "headline": 使用Hugo搭建靜態個人站點,
     "name": 使用Hugo搭建靜態個人站點,
-    "wordCount": 876,
+    "wordCount": 891,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
     "url": https://vicky335.github.io/post/f2e/hugo.html,
-    "datePublished": 2020-04-12T21:57Z,
-    "dateModified": 2020-04-12T21:57Z,
+    "datePublished": 2017-04-12T21:57Z,
+    "dateModified": 2017-04-12T21:57Z,
     
     "keywords": f2e, hugo,
     "description": ,
@@ -259,8 +259,8 @@
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2020-04-12T21:57:04&#43;08:00">
-            Apr 12, 2020
+          <time class="post-date" datetime="2017-04-12T21:57:04&#43;08:00">
+            Apr 12, 2017
           </time>
         
          
@@ -297,80 +297,80 @@
       
 
 <blockquote>
-<p><a href="http://gohugo.io" title="hugo">Hugo</a>是一款由 GO 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</p>
+<p><a href="http://gohugo.io" title="hugo">Hugo</a>是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。</p>
 </blockquote>
 
-<h2 id="安装">安装</h2>
+<h2 id="安裝">安裝</h2>
 
-<p>Mac 下的安装</p>
+<p>Mac 下的安裝</p>
 
 <pre><code>$ brew install hugo
-$ hugo version // 是否安装成功
-$ hugo --help
+$ hugo version // 是否安裝成功
+$ hugo --help 
 </code></pre>
 
-<h2 id="生成-blog">生成 Blog</h2>
+<h2 id="生成blog">生成Blog</h2>
 
-<p>创建网站</p>
+<p>創建網站</p>
 
 <pre><code>$ hugo new site vicky335.github.io
 </code></pre>
 
-<h2 id="目录结构">目录结构</h2>
+<h2 id="目錄結構">目錄結構</h2>
 
-<p>由 <code>hugo</code> 生成的博客的基本目录如下</p>
+<p>由 <code>hugo</code> 生成的博客的基本目錄如下</p>
 
 <ul>
-<li><code>archetypes</code> - 预定义看板，在这类，你可以定制你生成的博客的基本模板。</li>
-<li><code>content</code> - 网站的所有内容都保存在这里</li>
-<li><code>data</code> - 保存站点可使用的配置文件</li>
-<li><code>layouts</code> - 自定义的模板</li>
+<li><code>archetypes</code> - 預定義看板，在這類，你可以定制你生成的博客的基本模板。</li>
+<li><code>content</code> - 網站的所有內容都保存在這裡</li>
+<li><code>data</code> - 保存站點可使用的配置文件</li>
+<li><code>layouts</code> - 自定義的模板</li>
 <li><code>public</code> - 生成的可直接部署的博客</li>
-<li><code>static</code> - 静态文件，比如你站点需要用到的 logo、头像等</li>
+<li><code>static</code> - 靜態文件，比如你站點需要用到的 logo、頭像等</li>
 </ul>
 
-<p>目录的话，其实用到的地方不多，一般人只需要按照默认的主题来就行。</p>
+<p>目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。</p>
 
-<h2 id="安装主题">安装主题</h2>
+<h2 id="安裝主題">安裝主題</h2>
 
-<h3 id="安装主题-1">安装主题</h3>
+<h3 id="安裝主題-1">安裝主題</h3>
 
-<p>生成网站之后，首先要做的就是下载主题，通常有两种方法。</p>
+<p>生成網站之後，首先要做的就是下載主題，通常有兩種方法。</p>
 
-<p>第一种是下载所有主题，简单粗暴</p>
+<p>第一種是下載所有主題，簡單粗暴</p>
 
 <pre><code>$ cd vicky335.github.io
 $ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
 </code></pre>
 
-<p>第二种是下载感兴趣的主题(以 Casper 为例)</p>
+<p>第二種是下載感興趣的主題(以Casper為例)</p>
 
 <pre><code>$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
 </code></pre>
 
-<p>你也可以选其他主题，进到该主题的 GitHub repo，将上面的网址改成 repo 的网址、themes/casper 改成 themes/你的主题名称。</p>
+<p>你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。</p>
 
-<h3 id="使用主题">使用主题</h3>
+<h3 id="使用主題">使用主題</h3>
 
 <p>在 <code>config.toml</code> 中配置 theme = &ldquo;casper&rdquo; 即可。</p>
 
-<h2 id="编辑-config-toml">编辑 config.toml</h2>
+<h2 id="編輯-config-toml">編輯 config.toml</h2>
 
-<p>使用文字编辑器打开 <code>config.toml</code>，并调整内容。</p>
+<p>使用文字編輯器打開 <code>config.toml</code>，並調整內容。</p>
 
-<pre><code>baseURL = &quot;https://vicky335.github.io/&quot;    #改成你的GitHub帐号名称
+<pre><code>baseURL = &quot;https://vicky335.github.io/&quot;    #改成你的GitHub帳號名稱
 languageCode = &quot;zh-cn&quot;
 title = &quot;Vicky Blog&quot;    #自由命名
 </code></pre>
 
-<h2 id="创建文章">创建文章</h2>
+<h2 id="創建文章">創建文章</h2>
 
 <p>首先，生成第一篇文章。</p>
 
 <pre><code>$ hugo new post/first.md
 </code></pre>
 
-<p>生成的文章内容如下：</p>
+<p>生成的文章內容如下：</p>
 
 <pre><code>+++
 title: &quot;First&quot;
@@ -379,13 +379,13 @@ draft: true
 +++
 </code></pre>
 
-<p>该文章的默认模板是根据 archetypes 目录下的 default.md 来的，可以自己修改模板，比如，修改文章的时间格式</p>
+<p>該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式</p>
 
 <pre><code>+++
 title: &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
-date: {{ now.Format &quot;2006-01-02&quot;  }}
+date: {{ now.Format &quot;2006-01-02&quot;  }} 
 draft: false
-categories: []
+categories: [] 
 tags: []
 toc: false
 +++
@@ -396,48 +396,48 @@ toc: false
 <pre><code>$ hugo new post/second.md
 </code></pre>
 
-<p>生成的文章内容变成了</p>
+<p>生成的文章內容變成了</p>
 
 <pre><code>+++
 title: &quot;Second&quot;
-date: 2019-06-03
+date: 2019-06-03 
 draft: false
-categories: []
+categories: [] 
 tags: []
 toc: false
 +++
 </code></pre>
 
-<h2 id="生成最终网站">生成最终网站</h2>
+<h2 id="生成最終網站">生成最終網站</h2>
 
-<p>生成静态博客并在本地查看</p>
+<p>生成靜態博客並在本地查看</p>
 
 <pre><code>$ hugo server
 </code></pre>
 
-<p>执行完后，在浏览器中输入网址 <a href="http://localhost:1313，就可以看到网站的雏形。">http://localhost:1313，就可以看到网站的雏形。</a></p>
+<p>執行完後，在瀏覽器中輸入網址 <a href="http://localhost:1313，就可以看到網站的雛形。">http://localhost:1313，就可以看到網站的雛形。</a></p>
 
-<p>默认的话，只会显示 <code>draft</code> 为 <code>false</code> 的文章。</p>
+<p>默認的話，只會顯示 <code>draft</code> 為 <code>false</code> 的文章。</p>
 
-<p>服务器是实时更新的，只要你的内容发生了变化，本地服务器会实时更新变化后的内容，也可以设置成不实时更新</p>
+<p>服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新</p>
 
 <pre><code>$ hugo server --watch=false
 </code></pre>
 
-<p><code>hugo server</code> 并不会生成真正的站点，一般在部署之前，需要运行 <code>hugo</code> 命令生成 <code>public</code> 站点</p>
+<p><code>hugo server</code> 並不會生成真正的站點，一般在部署之前，需要運行 <code>hugo</code> 命令生成 <code>public</code> 站點</p>
 
 <pre><code>$ hugo
 </code></pre>
 
 <h2 id="部署到-github">部署到 GitHub</h2>
 
-<p>Hugo 部署在 GitHub 的方式有两种，这边介绍部署个人唯一主页的方式。</p>
+<p>Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。</p>
 
-<h3 id="在-github-建立-repo">在 GitHub 建立 repo</h3>
+<h3 id="在-github-建立repo">在 GitHub 建立repo</h3>
 
-<p>在 GitHub 建立 <strong><em>vicky335</em></strong>.github.io (粗斜体处改成自己的帐号名称) repo。</p>
+<p>在 GitHub 建立 <strong><em>vicky335</em></strong>.github.io (粗斜體處改成自己的帳號名稱) repo。</p>
 
-<h3 id="将-public-资料夹连结到-github-上的-vicky335-github-io">将 /public 资料夹连结到 GitHub 上的 vicky335.github.io</h3>
+<h3 id="將-public-資料夾連結到-github-上的-vicky335-github-io">將 /public 資料夾連結到 GitHub 上的 vicky335.github.io</h3>
 
 <pre><code>cd public
 git init
@@ -447,7 +447,7 @@ git commit -m &quot;Initial commit&quot;
 git push -u origin master
 </code></pre>
 
-<p>等个几分钟，输入网址 <a href="https://vicky335.github.io/">https://vicky335.github.io/</a> 就大功告成啰！</p>
+<p>等個幾分鐘，輸入網址 <a href="https://vicky335.github.io/">https://vicky335.github.io/</a> 就大功告成囉！</p>
 
 
     </section>
@@ -598,10 +598,17 @@ git push -u origin master
   
 <aside class="read-next">
   
-  
-      <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+      <a class="read-next-story" style="no-cover" href="https://vicky335.github.io/post/markdown/markdown.html">
           <section class="post">
-              <h2>React Native目录结构</h2>
+              <h2>Markdown入門</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/f2e/tagheight.html">
+          <section class="post">
+              <h2>「標籤的行高」和「標籤之間的間距」問題</h2>
           </section>
       </a>
   

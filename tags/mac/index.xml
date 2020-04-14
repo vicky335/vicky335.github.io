@@ -24,7 +24,7 @@
         </description>
 
         
-        <language>zh-hant</language>
+        <language>zh-Hant</language>
         
 
         <copyright>
@@ -39,7 +39,7 @@
 
         
         <item>
-            <title>Mac 常用快捷键整理</title>
+            <title>Mac 常用快捷鍵整理</title>
 
             <link>https://vicky335.github.io/post/other/mac_shortcutkeys.html</link>
 
@@ -53,96 +53,96 @@
 
             <description>
 
-&lt;h2 id=&#34;文本编辑&#34;&gt;文本编辑&lt;/h2&gt;
+&lt;h2 id=&#34;文本編輯&#34;&gt;文本編輯&lt;/h2&gt;
 
-&lt;p&gt;以下适用于文本编辑器，浏览器等：&lt;/p&gt;
+&lt;p&gt;以下適用於文本編輯器，瀏覽器等：&lt;/p&gt;
 
-&lt;p&gt;跳到页首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;  类似windows下的 &lt;code&gt;ctrl + home&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;跳到頁首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;  類似windows下的 &lt;code&gt;ctrl + home&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;跳到页尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;  类似windows下的 &lt;code&gt;ctrl + end&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;跳到頁尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;  類似windows下的 &lt;code&gt;ctrl + end&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;光标移到行首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt;  类似windows下的 &lt;code&gt;home&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;光標移到行首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt;  類似windows下的 &lt;code&gt;home&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;光标移到行尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;  类似windows下的 &lt;code&gt;end&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;光標移到行尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;  類似windows下的 &lt;code&gt;end&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;选择一行  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt; 或 &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;選擇一行  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt; 或 &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;选择一个单词  &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt; 或 &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;選擇一個單詞  &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt; 或 &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;向上滚一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;向上滾一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;向下滚一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;向下滾一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;删除一整行文字  &lt;code&gt;cmd + delete&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;刪除一整行文字  &lt;code&gt;cmd + delete&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;删除一个单词    &lt;code&gt;option + delete&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;刪除一個單詞    &lt;code&gt;option + delete&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;光标移动一个单词 &lt;code&gt;option + ←&lt;/code&gt; 或者 &lt;code&gt;option + →&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;光標移動一個單詞 &lt;code&gt;option + ←&lt;/code&gt; 或者 &lt;code&gt;option + →&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;##截屏&lt;/p&gt;
 
-&lt;p&gt;全屏截图自动保存为文件 &lt;code&gt;cmd + shift + 3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;全屏截圖自動保存為文件 &lt;code&gt;cmd + shift + 3&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;区域截图自动保存为文件 &lt;code&gt;cmd + shift + 4&lt;/code&gt;，这里有个小技巧，按下&lt;code&gt;cmd + shift + 4&lt;/code&gt;后单击空格键，会出现一个相机的icon，表示自动捕捉这个区域。&lt;/p&gt;
+&lt;p&gt;區域截圖自動保存為文件 &lt;code&gt;cmd + shift + 4&lt;/code&gt;，這裡有個小技巧，按下&lt;code&gt;cmd + shift + 4&lt;/code&gt;後單擊空格鍵，會出現一個相機的icon，表示自動捕捉這個區域。&lt;/p&gt;
 
 &lt;p&gt;##窗口&lt;/p&gt;
 
-&lt;p&gt;关闭当前窗口  &lt;code&gt;cmd + w&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;關閉當前窗口  &lt;code&gt;cmd + w&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;退出当前程序  &lt;code&gt;cmd + q&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;退出當前程序  &lt;code&gt;cmd + q&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;最小化窗口  &lt;code&gt;cmd + m&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;切换窗口程序  &lt;code&gt;cmd + tab&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;切換窗口程序  &lt;code&gt;cmd + tab&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;快速显示桌面  &lt;code&gt;cmd + F3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;快速顯示桌面  &lt;code&gt;cmd + F3&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;显示当前程序缩略图  &lt;code&gt;ctl + F3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;顯示當前程序縮略圖  &lt;code&gt;ctl + F3&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;显示桌面和缩略图  &lt;code&gt;F3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;顯示桌面和縮略圖  &lt;code&gt;F3&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;显示Dashboard  &lt;code&gt;F4&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;顯示Dashboard  &lt;code&gt;F4&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;terminal-终端&#34;&gt;Terminal 终端&lt;/h2&gt;
+&lt;h2 id=&#34;terminal-終端&#34;&gt;Terminal 終端&lt;/h2&gt;
 
-&lt;p&gt;Mac不像&lt;code&gt;Ubuntu&lt;/code&gt;可以使用 Ctrl+T 快捷键呼出终端，但是可以通过&lt;code&gt;control+space&lt;/code&gt;呼出&lt;code&gt;Spotlight&lt;/code&gt;，然后输入terminal回车快速打开终端。&lt;/p&gt;
+&lt;p&gt;Mac不像&lt;code&gt;Ubuntu&lt;/code&gt;可以使用 Ctrl+T 快捷鍵呼出終端，但是可以通過&lt;code&gt;control+space&lt;/code&gt;呼出&lt;code&gt;Spotlight&lt;/code&gt;，然後輸入terminal回車快速打開終端。&lt;/p&gt;
 
-&lt;p&gt;光标移到行首 &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;A&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;光標移到行首 &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;A&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;光标移到行尾  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;E&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;光標移到行尾  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;E&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;清除一行  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;撤销清除  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;Y&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;撤銷清除  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;Y&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;清屏  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;L&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;新建一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;新建一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;关闭一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;關閉一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;文件相关&#34;&gt;文件相关&lt;/h2&gt;
+&lt;h2 id=&#34;文件相關&#34;&gt;文件相關&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;# 创建目录
+&lt;pre&gt;&lt;code&gt;# 創建目錄
 $ mkdir newDir
-# 删除目录及子目录中的内容, 慎用!!
+# 刪除目錄及子目錄中的內容, 慎用!!
 $ rm -rf newDir
-# 复制
+# 複製
 $ cp file toDir
-# 设置目录读写权限
+# 設置目錄讀寫權限
 $ sudo chmod 777 /etc/hosts
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;进程相关&#34;&gt;进程相关&lt;/h2&gt;
+&lt;h2 id=&#34;進程相關&#34;&gt;進程相關&lt;/h2&gt;
 
-&lt;p&gt;mac os x 下杀死进程&lt;/p&gt;
+&lt;p&gt;mac os x 下殺死進程&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# 找到要杀死进程的id
+&lt;pre&gt;&lt;code&gt;# 找到要殺死進程的id
 $ ps -ef | grep idea
-# 强制kill掉进程
+# 強制kill掉進程
 $ kill 91107
-# 根据项目找对应的进程id
+# 根據項目找對應的進程id
 $ ps -ef | grep m-web
 $ lsof -i:55010
 
@@ -155,42 +155,42 @@ java    6227 fanyong  254u  IPv6 0xf526b9f456b4bcf5      0t0  TCP *:etlservicemg
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;code&gt;cmd + opt + esc&lt;/code&gt; ，打开类似windows下任务管理器的快捷键。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cmd + opt + esc&lt;/code&gt; ，打開類似windows下任務管理器的快捷鍵。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/other/kill-window.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;网络相关&#34;&gt;网络相关&lt;/h2&gt;
+&lt;h2 id=&#34;網絡相關&#34;&gt;網絡相關&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;# 查看本机IP、Mac地址等信息
+&lt;pre&gt;&lt;code&gt;# 查看本機IP、Mac地址等信息
 $ ifconfig en0
 # 查看nameserver 修改 nameserver 172.19.8.1 -&amp;gt; nameserver 172.19.8.2
 $ sudo vim /etc/resolv.conf
-# 诊断
+# 診斷
 $ dig lujs.cn
 $ nslookup lujs.cn
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;chrome-快捷键&#34;&gt;chrome 快捷键&lt;/h2&gt;
+&lt;h2 id=&#34;chrome-快捷鍵&#34;&gt;chrome 快捷鍵&lt;/h2&gt;
 
-&lt;p&gt;新建一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;新建一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;关闭一个Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;關閉一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;打开开发者工具，&lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;I&lt;/code&gt; Mac下F12不管用,因为系统默认把&lt;code&gt;F12&lt;/code&gt;分配给了音量&lt;/p&gt;
+&lt;p&gt;打開開發者工具，&lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;I&lt;/code&gt; Mac下F12不管用,因為系統默認把&lt;code&gt;F12&lt;/code&gt;分配給了音量&lt;/p&gt;
 
-&lt;p&gt;查看源代码  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查看源代碼  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;调试js - step over &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;\&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;調試js - step over &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;\&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;调试js - step in &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;調試js - step in &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;调试js - step out &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;調試js - step out &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;&#39;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;快速定位Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;1/2/3/等&lt;/code&gt;
-向左切换Tab顺序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;{&lt;/code&gt;&lt;/p&gt;
+向左切換Tab順序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;{&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;向右切换Tab顺序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;向右切換Tab順序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;}&lt;/code&gt;&lt;/p&gt;
 </description>
 
         </item>
