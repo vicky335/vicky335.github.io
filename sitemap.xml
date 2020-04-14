@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://vicky335.github.io/post/f2e/hugo.html</loc>
-    <lastmod>2020-04-12T21:57:04+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://vicky335.github.io/post/f2e/rndirectorystructure.html</loc>
     <lastmod>2020-04-12T20:52:15+08:00</lastmod>
   </url>
@@ -40,6 +35,11 @@
   <url>
     <loc>https://vicky335.github.io/post/markdown/markdown.html</loc>
     <lastmod>2017-06-18T17:05:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vicky335.github.io/post/f2e/hugo.html</loc>
+    <lastmod>2017-04-12T21:57:04+08:00</lastmod>
   </url>
   
   <url>
@@ -72,7 +72,7 @@
   
   <url>
     <loc>https://vicky335.github.io/tags/hugo.html</loc>
-    <lastmod>2020-04-12T21:57:04+08:00</lastmod>
+    <lastmod>2017-04-12T21:57:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   
