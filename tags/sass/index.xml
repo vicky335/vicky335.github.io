@@ -51,7 +51,39 @@
 
             <guid>https://vicky335.github.io/post/f2e/sass_fun.html</guid>
 
-            <description>
+            <description>字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Sass基本語法 - 常用函數</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html">
+                                
+                                <title>
+                                    Sass基本語法 - 常用函數
+                                </title>
+                            </header>
+                            
+                            
 
 &lt;h2 id=&#34;字符串函數&#34;&gt;字符串函數&lt;/h2&gt;
 
@@ -240,7 +272,17 @@ if(false,1px,2px)
 &lt;li&gt;opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；&lt;/li&gt;
 &lt;li&gt;transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         

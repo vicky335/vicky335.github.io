@@ -51,7 +51,39 @@
 
             <guid>https://vicky335.github.io/post/f2e/git.html</guid>
 
-            <description>
+            <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Git常用命令清單</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
+                                
+                                <title>
+                                    Git常用命令清單
+                                </title>
+                            </header>
+                            
+                            
 
 &lt;h2 id=&#34;新建代碼庫&#34;&gt;新建代碼庫&lt;/h2&gt;
 
@@ -374,7 +406,17 @@ $ git stash pop
 &lt;pre&gt;&lt;code&gt;# 生成一個可供發佈的壓縮包
 $ git archive
 &lt;/code&gt;&lt;/pre&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         

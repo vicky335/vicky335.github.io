@@ -51,7 +51,39 @@
 
             <guid>https://vicky335.github.io/post/other/mac_shortcutkeys.html</guid>
 
-            <description>
+            <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd &#43; ↑ 類似windows下的 ctrl &#43; home 跳到頁尾 cmd &#43; ↓ 類似windows下的 ctrl &#43; end 光標移到行首 cmd &#43;</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Mac 常用快捷鍵整理</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
+                                
+                                <title>
+                                    Mac 常用快捷鍵整理
+                                </title>
+                            </header>
+                            
+                            
 
 &lt;h2 id=&#34;文本編輯&#34;&gt;文本編輯&lt;/h2&gt;
 
@@ -191,7 +223,17 @@ $ nslookup lujs.cn
 向左切換Tab順序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;{&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;向右切換Tab順序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;}&lt;/code&gt;&lt;/p&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         
@@ -208,7 +250,39 @@ $ nslookup lujs.cn
 
             <guid>https://vicky335.github.io/post/other/country.html</guid>
 
-            <description>&lt;table&gt;
+            <description>縮寫 英文 中文 位置 ac Ascension Island 亞森欣島 在南太平洋，屬英 ad Andorra 安道爾侯國 位於法國和西班牙交界之東庇里牛斯山中 ae Unuted Arab Emirates 阿拉伯聯合大公國 af Afghanistan 阿富汗 亞洲西部高</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/other/country.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>各國網路名稱縮寫</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/other/country.html">
+                                
+                                <title>
+                                    各國網路名稱縮寫
+                                </title>
+                            </header>
+                            
+                            &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;center&#34;&gt;縮寫&lt;/th&gt;
@@ -1909,7 +1983,17 @@ $ nslookup lujs.cn
 &lt;/table&gt;
 
 &lt;p&gt;　&lt;/p&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         

@@ -51,7 +51,39 @@
 
             <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
 
-            <description>&lt;table&gt;
+            <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>React Native目錄結構</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+                                
+                                <title>
+                                    React Native目錄結構
+                                </title>
+                            </header>
+                            
+                            &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;center&#34;&gt;名稱&lt;/th&gt;
@@ -131,7 +163,17 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         

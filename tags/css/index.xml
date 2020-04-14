@@ -51,7 +51,39 @@
 
             <guid>https://vicky335.github.io/post/f2e/tagheight.html</guid>
 
-            <description>&lt;p&gt;第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~&lt;/p&gt;
+            <description>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~ 這次主要是講Html裡面標籤的行高所帶來的問題。 在做Html時，是否有設置過某個標籤元</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>「標籤的行高」和「標籤之間的間距」問題</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html">
+                                
+                                <title>
+                                    「標籤的行高」和「標籤之間的間距」問題
+                                </title>
+                            </header>
+                            
+                            &lt;p&gt;第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~&lt;/p&gt;
 
 &lt;p&gt;這次主要是講Html裡面標籤的行高所帶來的問題。&lt;/p&gt;
 
@@ -66,7 +98,17 @@
 &lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/f2e/tagsHeight.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;所以在調整網頁上的間距時，要注意行高所帶來的影響。&lt;/p&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         

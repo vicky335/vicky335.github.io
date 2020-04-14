@@ -51,7 +51,39 @@
 
             <guid>https://vicky335.github.io/post/f2e/hugo.html</guid>
 
-            <description>
+            <description>Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>使用Hugo搭建靜態個人站點</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
+                                
+                                <title>
+                                    使用Hugo搭建靜態個人站點
+                                </title>
+                            </header>
+                            
+                            
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。&lt;/p&gt;
@@ -205,7 +237,17 @@ git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;等個幾分鐘，輸入網址 &lt;a href=&#34;https://vicky335.github.io/&#34;&gt;https://vicky335.github.io/&lt;/a&gt; 就大功告成囉！&lt;/p&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         

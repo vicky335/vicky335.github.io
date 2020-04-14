@@ -51,7 +51,39 @@
 
             <guid>https://vicky335.github.io/post/markdown/markdown.html</guid>
 
-            <description>
+            <description>Markdown 是一種「輕量級標記式語言」，創始人為約翰·格魯伯（John Gruber）。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/markdown/markdown.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Markdown入門</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/markdown/markdown.html">
+                                
+                                <title>
+                                    Markdown入門
+                                </title>
+                            </header>
+                            
+                            
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34; title=&#34;Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，創始人為&lt;strong&gt;約翰·格魯伯（John Gruber）&lt;/strong&gt;。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並選擇性的轉換成有效的 XHTML (或是HTML)」。&lt;/p&gt;
@@ -444,7 +476,17 @@ Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符
 
 &lt;p&gt;可以直接使用HTML標籤，但要在前後加上空行。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         

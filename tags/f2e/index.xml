@@ -51,7 +51,39 @@
 
             <guid>https://vicky335.github.io/post/f2e/git.html</guid>
 
-            <description>
+            <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Git常用命令清單</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
+                                
+                                <title>
+                                    Git常用命令清單
+                                </title>
+                            </header>
+                            
+                            
 
 &lt;h2 id=&#34;新建代碼庫&#34;&gt;新建代碼庫&lt;/h2&gt;
 
@@ -374,7 +406,17 @@ $ git stash pop
 &lt;pre&gt;&lt;code&gt;# 生成一個可供發佈的壓縮包
 $ git archive
 &lt;/code&gt;&lt;/pre&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         
@@ -391,7 +433,39 @@ $ git archive
 
             <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
 
-            <description>&lt;table&gt;
+            <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>React Native目錄結構</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+                                
+                                <title>
+                                    React Native目錄結構
+                                </title>
+                            </header>
+                            
+                            &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;center&#34;&gt;名稱&lt;/th&gt;
@@ -471,7 +545,17 @@ $ git archive
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         
@@ -488,7 +572,39 @@ $ git archive
 
             <guid>https://vicky335.github.io/post/f2e/sass_fun.html</guid>
 
-            <description>
+            <description>字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Sass基本語法 - 常用函數</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html">
+                                
+                                <title>
+                                    Sass基本語法 - 常用函數
+                                </title>
+                            </header>
+                            
+                            
 
 &lt;h2 id=&#34;字符串函數&#34;&gt;字符串函數&lt;/h2&gt;
 
@@ -677,7 +793,17 @@ if(false,1px,2px)
 &lt;li&gt;opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；&lt;/li&gt;
 &lt;li&gt;transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         
@@ -694,7 +820,39 @@ if(false,1px,2px)
 
             <guid>https://vicky335.github.io/post/f2e/hugo.html</guid>
 
-            <description>
+            <description>Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>使用Hugo搭建靜態個人站點</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
+                                
+                                <title>
+                                    使用Hugo搭建靜態個人站點
+                                </title>
+                            </header>
+                            
+                            
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。&lt;/p&gt;
@@ -848,7 +1006,17 @@ git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;等個幾分鐘，輸入網址 &lt;a href=&#34;https://vicky335.github.io/&#34;&gt;https://vicky335.github.io/&lt;/a&gt; 就大功告成囉！&lt;/p&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         
@@ -865,7 +1033,39 @@ git push -u origin master
 
             <guid>https://vicky335.github.io/post/f2e/tagheight.html</guid>
 
-            <description>&lt;p&gt;第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~&lt;/p&gt;
+            <description>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~ 這次主要是講Html裡面標籤的行高所帶來的問題。 在做Html時，是否有設置過某個標籤元</description>
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>「標籤的行高」和「標籤之間的間距」問題</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html">
+                                
+                                <title>
+                                    「標籤的行高」和「標籤之間的間距」問題
+                                </title>
+                            </header>
+                            
+                            &lt;p&gt;第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~&lt;/p&gt;
 
 &lt;p&gt;這次主要是講Html裡面標籤的行高所帶來的問題。&lt;/p&gt;
 
@@ -880,7 +1080,17 @@ git push -u origin master
 &lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/f2e/tagsHeight.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;所以在調整網頁上的間距時，要注意行高所帶來的影響。&lt;/p&gt;
-</description>
+
+                            
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+
+                </html>
+                ]]>
+            </content:encoded>
 
         </item>
         
