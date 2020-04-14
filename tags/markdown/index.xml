@@ -52,9 +52,9 @@
             <guid>https://vicky335.github.io/post/markdown/markdown.html</guid>
 
             <description>Markdown 是一種「輕量級標記式語言」，創始人為約翰·格魯伯（John Gruber）。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並</description>
+            
             <content:encoded>
-                
-                &lt;![CDATA[
+                <![CDATA[
 
 <blockquote>
 <p><a href="https://zh.wikipedia.org/wiki/Markdown" title="Markdown">Markdown</a> 是一種<strong>「輕量級標記式語言」</strong>，創始人為<strong>約翰·格魯伯（John Gruber）</strong>。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並選擇性的轉換成有效的 XHTML (或是HTML)」。</p>
@@ -449,7 +449,6 @@ Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符
 </ul>
 ]]>
             </content:encoded>
-
         </item>
         
     </channel>

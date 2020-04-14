@@ -52,9 +52,9 @@
             <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
 
             <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
+            
             <content:encoded>
-                
-                &lt;![CDATA[<table>
+                <![CDATA[<table>
 <thead>
 <tr>
 <th align="center">名稱</th>
@@ -136,7 +136,6 @@
 </table>
 ]]>
             </content:encoded>
-
         </item>
         
     </channel>

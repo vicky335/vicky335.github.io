@@ -52,9 +52,9 @@
             <guid>https://vicky335.github.io/post/f2e/sass_fun.html</guid>
 
             <description>字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中</description>
+            
             <content:encoded>
-                
-                &lt;![CDATA[
+                <![CDATA[
 
 <h2 id="字符串函數">字符串函數</h2>
 
@@ -245,7 +245,6 @@ if(false,1px,2px)
 </ul>
 ]]>
             </content:encoded>
-
         </item>
         
     </channel>
