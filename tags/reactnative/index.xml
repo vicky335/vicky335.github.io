@@ -53,126 +53,87 @@
 
             <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[<table>
+<thead>
+<tr>
+<th align="center">名稱</th>
+<th align="center">描述</th>
+</tr>
+</thead>
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>React Native目錄結構</title>
-                    </head>
+<tbody>
+<tr>
+<td align="center">android目錄</td>
+<td align="center">Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案；</td>
+</tr>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
-                                
-                                <title>
-                                    React Native目錄結構
-                                </title>
-                            </header>
-                            
-                            &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;名稱&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
+<tr>
+<td align="center">ios目錄</td>
+<td align="center">iOS專案目錄，包含了XCode的環境</td>
+</tr>
 
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;android目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案；&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">node_modules目錄</td>
+<td align="center">基於node檔案依賴系統產生的相關依賴和第三方lib</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;ios目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;iOS專案目錄，包含了XCode的環境&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">index.js</td>
+<td align="center">ios或android的入口，已經使用index.js代替index.ios.js/index.android.js，android中配置application檔案的getJSMainModuleName()配置入口</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;node_modules目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;基於node檔案依賴系統產生的相關依賴和第三方lib&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">app.json</td>
+<td align="center">app的json檔案</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;index.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;ios或android的入口，已經使用index.js代替index.ios.js/index.android.js，android中配置application檔案的getJSMainModuleName()配置入口&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">package.json</td>
+<td align="center">專案基本資訊以及依賴資訊</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;app.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;app的json檔案&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">package-lock.json</td>
+<td align="center">npm install生成的檔案，記錄當前npm package的資訊</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;package.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;專案基本資訊以及依賴資訊&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">App.js</td>
+<td align="center">相當於Android的MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改index.js的註冊的元件入口js檔名）</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;package-lock.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;npm install生成的檔案，記錄當前npm package的資訊&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.babelrc</td>
+<td align="center">Babel配置檔案，在.babelrc配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;App.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;相當於Android的MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改index.js的註冊的元件入口js檔名）&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.buckconfig</td>
+<td align="center">Buck的配置檔案，buck是Facebook開源的高效構建系統</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.babelrc&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Babel配置檔案，在.babelrc配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.flowconfig</td>
+<td align="center">Flow的配置檔案，flowconfig是是Flow的配置檔案</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.buckconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Buck的配置檔案，buck是Facebook開源的高效構建系統&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.gitattributes</td>
+<td align="center">git配置檔案，指定非文字檔案的對比合併方式</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.flowconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Flow的配置檔案，flowconfig是是Flow的配置檔案&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.gitignore</td>
+<td align="center">git配置檔案，用於忽略你不想提交到Git上的檔案</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.gitattributes&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git配置檔案，指定非文字檔案的對比合併方式&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.gitignore&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git配置檔案，用於忽略你不想提交到Git上的檔案&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.watchmanconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;watchman的配置檔案，watchman用於監控檔案變化，輔助實現工程修改資訊&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+<tr>
+<td align="center">.watchmanconfig</td>
+<td align="center">watchman的配置檔案，watchman用於監控檔案變化，輔助實現工程修改資訊</td>
+</tr>
+</tbody>
+</table>
+]]> 
             </content:encoded>
 
         </item>

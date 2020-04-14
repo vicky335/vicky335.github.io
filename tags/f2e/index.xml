@@ -53,41 +53,11 @@
 
             <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>Git常用命令清單</title>
-                    </head>
+<h2 id="新建代碼庫">新建代碼庫</h2>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
-                                
-                                <title>
-                                    Git常用命令清單
-                                </title>
-                            </header>
-                            
-                            
-
-&lt;h2 id=&#34;新建代碼庫&#34;&gt;新建代碼庫&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;# 在當前目錄新建一個Git代碼庫
+<pre><code># 在當前目錄新建一個Git代碼庫
 $ git init
 
 # 新建一個目錄，將其初始化為Git代碼庫
@@ -96,47 +66,47 @@ $ git init [project-name]
 # 下載一個項目和它的整個代碼歷史
 $ git clone [url]
 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;git clone：當你已經有一個遠程的Git版本庫，只需要在本地克隆一份，例如：
-&lt;code&gt;git clone git://github.com/someone/some_project.git some_project&lt;/code&gt;
-上面的命令就是將&lt;code&gt;git://github.com/someone/some_project.git&lt;/code&gt;這個URL地址的遠程版本庫，完全克隆到本地&lt;code&gt;some_project&lt;/code&gt;目錄下&lt;/p&gt;&lt;/li&gt;
+<ul>
+<li><p>git clone：當你已經有一個遠程的Git版本庫，只需要在本地克隆一份，例如：
+<code>git clone git://github.com/someone/some_project.git some_project</code>
+上面的命令就是將<code>git://github.com/someone/some_project.git</code>這個URL地址的遠程版本庫，完全克隆到本地<code>some_project</code>目錄下</p></li>
 
-&lt;li&gt;&lt;p&gt;git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&amp;rsquo;git init&amp;rsquo;命令進行初始化；Git以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的URL記錄下來，此時你就可以利用&amp;rsquo;git remote add&amp;rsquo;命令來增加一個遠程服務器端，例如：
-&lt;code&gt;git remote add origin git://github.com/someone/another_project.git&lt;/code&gt;
-上面的命令就會增加URL地址為&lt;code&gt;git://github.com/someone/another_project.git&lt;/code&gt;，名稱為&lt;code&gt;origin&lt;/code&gt;的遠程服務器，以後提交代碼的時候只需要使用&lt;code&gt;origin&lt;/code&gt;別名即可&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<li><p>git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&rsquo;git init&rsquo;命令進行初始化；Git以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的URL記錄下來，此時你就可以利用&rsquo;git remote add&rsquo;命令來增加一個遠程服務器端，例如：
+<code>git remote add origin git://github.com/someone/another_project.git</code>
+上面的命令就會增加URL地址為<code>git://github.com/someone/another_project.git</code>，名稱為<code>origin</code>的遠程服務器，以後提交代碼的時候只需要使用<code>origin</code>別名即可</p></li>
+</ul>
 
-&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
+<h2 id="配置">配置</h2>
 
-&lt;p&gt;Git的設置文件為&lt;code&gt;.gitconfig&lt;/code&gt;，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。&lt;/p&gt;
+<p>Git的設置文件為<code>.gitconfig</code>，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。</p>
 
-&lt;pre&gt;&lt;code&gt;# 顯示當前的Git配置
+<pre><code># 顯示當前的Git配置
 $ git config --list
 
 # 編輯Git配置文件
 $ git config -e [--global]
 
 # 設置提交代碼時的用戶信息
-$ git config [--global] user.name &amp;quot;[name]&amp;quot;
-$ git config [--global] user.email &amp;quot;[email address]&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
+$ git config [--global] user.name &quot;[name]&quot;
+$ git config [--global] user.email &quot;[email address]&quot;
+</code></pre>
 
-&lt;h2 id=&#34;忽略一些文件-文件夾不提交&#34;&gt;忽略一些文件、文件夾不提交&lt;/h2&gt;
+<h2 id="忽略一些文件-文件夾不提交">忽略一些文件、文件夾不提交</h2>
 
-&lt;p&gt;在倉庫根目錄下創建名稱為&lt;code&gt;.gitignore&lt;/code&gt;的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如&lt;/p&gt;
+<p>在倉庫根目錄下創建名稱為<code>.gitignore</code>的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如</p>
 
-&lt;pre&gt;&lt;code&gt;target
+<pre><code>target
 
 bin
 
 *.db
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;增加-刪除文件&#34;&gt;增加/刪除文件&lt;/h2&gt;
+<h2 id="增加-刪除文件">增加/刪除文件</h2>
 
-&lt;pre&gt;&lt;code&gt;# 添加指定文件到暫存區
+<pre><code># 添加指定文件到暫存區
 $ git add [file1] [file2] ...
 
 # 添加指定目錄到暫存區，包括子目錄
@@ -157,11 +127,11 @@ $ git rm --cached [file]
 
 # 改名文件，並且將這個改名放入暫存區
 $ git mv [file-original] [file-renamed]
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;代碼提交&#34;&gt;代碼提交&lt;/h2&gt;
+<h2 id="代碼提交">代碼提交</h2>
 
-&lt;pre&gt;&lt;code&gt;# 提交暫存區到倉庫區
+<pre><code># 提交暫存區到倉庫區
 $ git commit -m [message]
 
 # 提交暫存區的指定文件到倉庫區
@@ -179,11 +149,11 @@ $ git commit --amend -m [message]
 
 # 重做上一次commit，並包括指定文件的新變化
 $ git commit --amend [file1] [file2] ...
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;分支&#34;&gt;分支&lt;/h2&gt;
+<h2 id="分支">分支</h2>
 
-&lt;pre&gt;&lt;code&gt;# 列出所有本地分支
+<pre><code># 列出所有本地分支
 $ git branch
 
 # 列出所有遠程分支
@@ -225,11 +195,11 @@ $ git branch -d [branch-name]
 # 刪除遠程分支
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;標籤-tag&#34;&gt;標籤(tag)&lt;/h2&gt;
+<h2 id="標籤-tag">標籤(tag)</h2>
 
-&lt;pre&gt;&lt;code&gt;# 列出所有tag
+<pre><code># 列出所有tag
 $ git tag
 
 # 新建一個tag在當前commit
@@ -255,11 +225,11 @@ $ git push [remote] --tags
 
 # 新建一個分支，指向某個tag
 $ git checkout -b [branch] [tag]
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;子模塊-submodule&#34;&gt;子模塊(submodule)&lt;/h2&gt;
+<h2 id="子模塊-submodule">子模塊(submodule)</h2>
 
-&lt;pre&gt;&lt;code&gt;# 添加子模塊
+<pre><code># 添加子模塊
 $ git submodule add [url] [path]
 
 # 初始化子模塊，只在首次檢出倉庫時運行一次就行
@@ -273,11 +243,11 @@ $ git submodule update
 - 編輯 .gitmodules 文件，將子模塊的相關配置節點刪除掉
 - 編輯 .git/config 文件，將子模塊的相關配置節點刪除掉
 - 手動刪除子模塊殘留的目錄
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;查看信息&#34;&gt;查看信息&lt;/h2&gt;
+<h2 id="查看信息">查看信息</h2>
 
-&lt;pre&gt;&lt;code&gt;# 顯示有變更的文件
+<pre><code># 顯示有變更的文件
 $ git status
 
 # 顯示當前分支的版本歷史
@@ -292,7 +262,7 @@ $ git log -S [keyword]
 # 顯示某個commit之後的所有變動，每個commit佔據一行
 $ git log [tag] HEAD --pretty=format:%s
 
-# 顯示某個commit之後的所有變動，其&amp;quot;提交說明&amp;quot;必須符合搜索條件
+# 顯示某個commit之後的所有變動，其&quot;提交說明&quot;必須符合搜索條件
 $ git log [tag] HEAD --grep feature
 
 # 顯示某個文件的版本歷史，包括文件改名
@@ -324,7 +294,7 @@ $ git diff HEAD
 $ git diff [first-branch]...[second-branch]
 
 # 顯示今天你寫了多少行代碼
-$ git diff --shortstat &amp;quot;@{0 day ago}&amp;quot;
+$ git diff --shortstat &quot;@{0 day ago}&quot;
 
 # 顯示某次提交的元數據和內容變化
 $ git show [commit]
@@ -337,11 +307,11 @@ $ git show [commit]:[filename]
 
 # 顯示當前分支的最近幾次提交
 $ git reflog
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;遠程同步&#34;&gt;遠程同步&lt;/h2&gt;
+<h2 id="遠程同步">遠程同步</h2>
 
-&lt;pre&gt;&lt;code&gt;# 下載遠程倉庫的所有變動
+<pre><code># 下載遠程倉庫的所有變動
 $ git fetch [remote]
 
 # 顯示所有遠程倉庫
@@ -364,11 +334,11 @@ $ git push [remote] --force
 
 # 推送所有分支到遠程倉庫
 $ git push [remote] --all
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;撤銷&#34;&gt;撤銷&lt;/h2&gt;
+<h2 id="撤銷">撤銷</h2>
 
-&lt;pre&gt;&lt;code&gt;# 恢復暫存區的指定文件到工作區
+<pre><code># 恢復暫存區的指定文件到工作區
 $ git checkout [file]
 
 # 恢復某個commit的指定文件到暫存區和工作區
@@ -399,23 +369,14 @@ $ git revert [commit]
 # 暫時將未提交的變化移除，稍後再移入
 $ git stash
 $ git stash pop
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+<h2 id="其他">其他</h2>
 
-&lt;pre&gt;&lt;code&gt;# 生成一個可供發佈的壓縮包
+<pre><code># 生成一個可供發佈的壓縮包
 $ git archive
-&lt;/code&gt;&lt;/pre&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+</code></pre>
+]]> 
             </content:encoded>
 
         </item>
@@ -435,126 +396,87 @@ $ git archive
 
             <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[<table>
+<thead>
+<tr>
+<th align="center">名稱</th>
+<th align="center">描述</th>
+</tr>
+</thead>
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>React Native目錄結構</title>
-                    </head>
+<tbody>
+<tr>
+<td align="center">android目錄</td>
+<td align="center">Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案；</td>
+</tr>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
-                                
-                                <title>
-                                    React Native目錄結構
-                                </title>
-                            </header>
-                            
-                            &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;名稱&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
+<tr>
+<td align="center">ios目錄</td>
+<td align="center">iOS專案目錄，包含了XCode的環境</td>
+</tr>
 
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;android目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案；&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">node_modules目錄</td>
+<td align="center">基於node檔案依賴系統產生的相關依賴和第三方lib</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;ios目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;iOS專案目錄，包含了XCode的環境&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">index.js</td>
+<td align="center">ios或android的入口，已經使用index.js代替index.ios.js/index.android.js，android中配置application檔案的getJSMainModuleName()配置入口</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;node_modules目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;基於node檔案依賴系統產生的相關依賴和第三方lib&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">app.json</td>
+<td align="center">app的json檔案</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;index.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;ios或android的入口，已經使用index.js代替index.ios.js/index.android.js，android中配置application檔案的getJSMainModuleName()配置入口&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">package.json</td>
+<td align="center">專案基本資訊以及依賴資訊</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;app.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;app的json檔案&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">package-lock.json</td>
+<td align="center">npm install生成的檔案，記錄當前npm package的資訊</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;package.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;專案基本資訊以及依賴資訊&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">App.js</td>
+<td align="center">相當於Android的MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改index.js的註冊的元件入口js檔名）</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;package-lock.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;npm install生成的檔案，記錄當前npm package的資訊&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.babelrc</td>
+<td align="center">Babel配置檔案，在.babelrc配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;App.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;相當於Android的MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改index.js的註冊的元件入口js檔名）&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.buckconfig</td>
+<td align="center">Buck的配置檔案，buck是Facebook開源的高效構建系統</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.babelrc&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Babel配置檔案，在.babelrc配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.flowconfig</td>
+<td align="center">Flow的配置檔案，flowconfig是是Flow的配置檔案</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.buckconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Buck的配置檔案，buck是Facebook開源的高效構建系統&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.gitattributes</td>
+<td align="center">git配置檔案，指定非文字檔案的對比合併方式</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.flowconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Flow的配置檔案，flowconfig是是Flow的配置檔案&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td align="center">.gitignore</td>
+<td align="center">git配置檔案，用於忽略你不想提交到Git上的檔案</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.gitattributes&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git配置檔案，指定非文字檔案的對比合併方式&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.gitignore&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git配置檔案，用於忽略你不想提交到Git上的檔案&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.watchmanconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;watchman的配置檔案，watchman用於監控檔案變化，輔助實現工程修改資訊&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+<tr>
+<td align="center">.watchmanconfig</td>
+<td align="center">watchman的配置檔案，watchman用於監控檔案變化，輔助實現工程修改資訊</td>
+</tr>
+</tbody>
+</table>
+]]> 
             </content:encoded>
 
         </item>
@@ -574,80 +496,50 @@ $ git archive
 
             <description>字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>Sass基本語法 - 常用函數</title>
-                    </head>
+<h2 id="字符串函數">字符串函數</h2>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html">
-                                
-                                <title>
-                                    Sass基本語法 - 常用函數
-                                </title>
-                            </header>
-                            
-                            
+<ul>
+<li><p>unquote($string)：刪除字符串中的引號；</p>
 
-&lt;h2 id=&#34;字符串函數&#34;&gt;字符串函數&lt;/h2&gt;
+<p>unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中間的引號。如果字符沒有帶引號，返回的將是字符串本身。</p></li>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;unquote($string)：刪除字符串中的引號；&lt;/p&gt;
+<li><p>quote($string)：給字符串添加引號。</p>
 
-&lt;p&gt;unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中間的引號。如果字符沒有帶引號，返回的將是字符串本身。&lt;/p&gt;&lt;/li&gt;
+<p>quote() 函數只能給字符串增加雙引號，而且字符串中間有單引號或者空格時，需要用單引號或雙引號括起，否則編譯的時候將會報錯。</p></li>
 
-&lt;li&gt;&lt;p&gt;quote($string)：給字符串添加引號。&lt;/p&gt;
+<li><p>To-upper-case()：函數將字符串小寫字母轉換成大寫字母</p></li>
 
-&lt;p&gt;quote() 函數只能給字符串增加雙引號，而且字符串中間有單引號或者空格時，需要用單引號或雙引號括起，否則編譯的時候將會報錯。&lt;/p&gt;&lt;/li&gt;
+<li><p>To-lower-case()：函數 與 To-upper-case() 剛好相反，將字符串轉換成小寫字母</p></li>
+</ul>
 
-&lt;li&gt;&lt;p&gt;To-upper-case()：函數將字符串小寫字母轉換成大寫字母&lt;/p&gt;&lt;/li&gt;
+<h2 id="數字函數">數字函數</h2>
 
-&lt;li&gt;&lt;p&gt;To-lower-case()：函數 與 To-upper-case() 剛好相反，將字符串轉換成小寫字母&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>Sass 中的數字函數提要針對數字方面提供一系列的函數功能：</p>
 
-&lt;h2 id=&#34;數字函數&#34;&gt;數字函數&lt;/h2&gt;
+<ul>
+<li>percentage($value)：將一個不帶單位的數轉換成百分比值；</li>
+<li>round($value)：將數值四捨五入，轉換成一個最接近的整數；（四捨五入）</li>
+<li>ceil($value)：將大於自己的小數轉換成下一位整數；（向上取整）</li>
+<li>floor($value)：將一個數去除他的小數部分；（向下取整）</li>
+<li>abs($value)：返回一個數的絕對值；（絕對整數）</li>
+<li>min($numbers…)：找出幾個數值之間的最小值；（min（1，2，3））</li>
+<li>max($numbers…)：找出幾個數值之間的最大值；</li>
+<li>random(): 獲取隨機數（random（））</li>
+</ul>
 
-&lt;p&gt;Sass 中的數字函數提要針對數字方面提供一系列的函數功能：&lt;/p&gt;
+<h2 id="列表函數">列表函數</h2>
 
-&lt;ul&gt;
-&lt;li&gt;percentage($value)：將一個不帶單位的數轉換成百分比值；&lt;/li&gt;
-&lt;li&gt;round($value)：將數值四捨五入，轉換成一個最接近的整數；（四捨五入）&lt;/li&gt;
-&lt;li&gt;ceil($value)：將大於自己的小數轉換成下一位整數；（向上取整）&lt;/li&gt;
-&lt;li&gt;floor($value)：將一個數去除他的小數部分；（向下取整）&lt;/li&gt;
-&lt;li&gt;abs($value)：返回一個數的絕對值；（絕對整數）&lt;/li&gt;
-&lt;li&gt;min($numbers…)：找出幾個數值之間的最小值；（min（1，2，3））&lt;/li&gt;
-&lt;li&gt;max($numbers…)：找出幾個數值之間的最大值；&lt;/li&gt;
-&lt;li&gt;random(): 獲取隨機數（random（））&lt;/li&gt;
-&lt;/ul&gt;
+<p>列表函數主要包括一些對列表參數的函數使用，主要包括以下幾種：</p>
 
-&lt;h2 id=&#34;列表函數&#34;&gt;列表函數&lt;/h2&gt;
+<ul>
+<li>length($list)：返回一個列表的長度值；===length(border 1px solid)===3</li>
+<li>nth($list, $n)：返回一個列表中指定的某個標籤值===nth(border 1px solid,1)===border</li>
+<li>join($list1, $list2, [$separator])：將兩個列給連接在一起，變成一個列表；===</li>
+</ul>
 
-&lt;p&gt;列表函數主要包括一些對列表參數的函數使用，主要包括以下幾種：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;length($list)：返回一個列表的長度值；===length(border 1px solid)===3&lt;/li&gt;
-&lt;li&gt;nth($list, $n)：返回一個列表中指定的某個標籤值===nth(border 1px solid,1)===border&lt;/li&gt;
-&lt;li&gt;join($list1, $list2, [$separator])：將兩個列給連接在一起，變成一個列表；===&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;    join(10px 20px, 30px 40px)
+<pre><code>    join(10px 20px, 30px 40px)
     (10px 20px 30px 40px)
 
     join((blue,red),(#abc,#def))
@@ -655,13 +547,13 @@ $ git archive
 
     join((blue,red),(#abc #def))
     (#0000ff, #ff0000, #aabbcc, #ddeeff)
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;ul&gt;
-&lt;li&gt;append($list1, $val, [$separator])：將某個值放在列表的最後；&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>append($list1, $val, [$separator])：將某個值放在列表的最後；</li>
+</ul>
 
-&lt;pre&gt;&lt;code&gt;    append(10px 20px ,30px)
+<pre><code>    append(10px 20px ,30px)
     (10px 20px 30px)
 
     append((10px,20px),30px)
@@ -672,27 +564,27 @@ $ git archive
 
     append(red,(green,blue))
     (#ff0000 (#008000, #0000ff))
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;如果沒有明確的指定 $separator 參數值，其默認值是 auto。&lt;/p&gt;
+<p>如果沒有明確的指定 $separator 參數值，其默認值是 auto。</p>
 
-&lt;p&gt;如果列表只有一個列表項時，那麼插入進來的值將和原來的值會以空格的方式分隔。&lt;/p&gt;
+<p>如果列表只有一個列表項時，那麼插入進來的值將和原來的值會以空格的方式分隔。</p>
 
-&lt;p&gt;如果列表中列表項是以空格分隔列表項，那麼插入進來的列表項也將以空格分隔；&lt;/p&gt;
+<p>如果列表中列表項是以空格分隔列表項，那麼插入進來的列表項也將以空格分隔；</p>
 
-&lt;p&gt;如果列表中列表項是以逗號分隔列表項，那麼插入進來的列表項也將以逗號分隔。&lt;/p&gt;
+<p>如果列表中列表項是以逗號分隔列表項，那麼插入進來的列表項也將以逗號分隔。</p>
 
-&lt;ul&gt;
-&lt;li&gt;zip($lists…)：將幾個列表結合成一個多維的列表；（ 每個單一的列表個數值必須是相同的）&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>zip($lists…)：將幾個列表結合成一個多維的列表；（ 每個單一的列表個數值必須是相同的）</li>
+</ul>
 
-&lt;pre&gt;&lt;code&gt;zip(1px 2px 3px,solid dashed dotted,green blue red)
-((1px &amp;quot;solid&amp;quot; #008000), (2px &amp;quot;dashed&amp;quot; #0000ff), (3px &amp;quot;dotted&amp;quot; #ff0000))
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>zip(1px 2px 3px,solid dashed dotted,green blue red)
+((1px &quot;solid&quot; #008000), (2px &quot;dashed&quot; #0000ff), (3px &quot;dotted&quot; #ff0000))
+</code></pre>
 
-&lt;p&gt;zip()函數中每個單一列表的值對應的取其相同位置值：&lt;/p&gt;
+<p>zip()函數中每個單一列表的值對應的取其相同位置值：</p>
 
-&lt;pre&gt;&lt;code&gt;|--- List ---|--- nth(1) ---|--- nth(2) ---|--- nth(3) ---|
+<pre><code>|--- List ---|--- nth(1) ---|--- nth(2) ---|--- nth(3) ---|
 |------------|--------------|--------------|--------------|
 |    List1   |      1px     |      2px     |      3px     |
 |------------|--------------|--------------|--------------|
@@ -700,109 +592,100 @@ $ git archive
 |------------|--------------|--------------|--------------|
 |    List3   |      green   |      blue    |      red     |
 |------------|--------------|--------------|--------------|
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;ul&gt;
-&lt;li&gt;index($list, $value)：返回一個值在列表中的位置值。&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>index($list, $value)：返回一個值在列表中的位置值。</li>
+</ul>
 
-&lt;pre&gt;&lt;code&gt;index(1px solid red,dotted) //列表中沒有找到 dotted
+<pre><code>index(1px solid red,dotted) //列表中沒有找到 dotted
 false
 index(1px solid red,solid) //列表中找到 solid 值，並且返回他的位置值 2
 2
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;introspection函數&#34;&gt;Introspection函數&lt;/h2&gt;
+<h2 id="introspection函數">Introspection函數</h2>
 
-&lt;p&gt;Introspection函數包括了幾個判斷型函數：&lt;/p&gt;
+<p>Introspection函數包括了幾個判斷型函數：</p>
 
-&lt;ul&gt;
-&lt;li&gt;type-of($value)：返回一個值的類型
-返回值：&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>type-of($value)：返回一個值的類型
+返回值：</li>
+</ul>
 
-&lt;pre&gt;&lt;code&gt;number 為數值型。
+<pre><code>number 為數值型。
 string 為字符串型。
 bool 為布爾型。
 color 為顏色型。
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;unit($number)：返回一個值的單位；&lt;/p&gt;
+<ul>
+<li><p>unit($number)：返回一個值的單位；</p>
 
-&lt;p&gt;碰到複雜的計算時，其能根據運算得到一個「多單位組合」的值，不過只充許乘、除運算：&lt;/p&gt;
+<p>碰到複雜的計算時，其能根據運算得到一個「多單位組合」的值，不過只充許乘、除運算：</p>
 
-&lt;p&gt;但加、減碰到不同單位時，unit() 函數將會報錯，除 px 與 cm、mm 運算之外&lt;/p&gt;&lt;/li&gt;
+<p>但加、減碰到不同單位時，unit() 函數將會報錯，除 px 與 cm、mm 運算之外</p></li>
 
-&lt;li&gt;&lt;p&gt;comparable($number-1, $number-2)：判斷兩個值是否可以做加、減和合併&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<li><p>comparable($number-1, $number-2)：判斷兩個值是否可以做加、減和合併</p></li>
+</ul>
 
-&lt;h2 id=&#34;miscellaneous函數&#34;&gt;Miscellaneous函數&lt;/h2&gt;
+<h2 id="miscellaneous函數">Miscellaneous函數</h2>
 
-&lt;p&gt;Miscellaneous 函數稱為三元條件函數，主要因為他和 JavaScript 中的三元判斷非常的相似。他有兩個值，當條件成立返回一種值，當條件不成立時返回另一種值：&lt;/p&gt;
+<p>Miscellaneous 函數稱為三元條件函數，主要因為他和 JavaScript 中的三元判斷非常的相似。他有兩個值，當條件成立返回一種值，當條件不成立時返回另一種值：</p>
 
-&lt;pre&gt;&lt;code&gt;if($condition,$if-true,$if-false)
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>if($condition,$if-true,$if-false)
+</code></pre>
 
-&lt;p&gt;上面表達式的意思是當 $condition 條件成立時，返回的值為 $if-true，否則返回的是 $if-false 值。&lt;/p&gt;
+<p>上面表達式的意思是當 $condition 條件成立時，返回的值為 $if-true，否則返回的是 $if-false 值。</p>
 
-&lt;pre&gt;&lt;code&gt;if(true,1px,2px)
+<pre><code>if(true,1px,2px)
 1px
 if(false,1px,2px)
 2px
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;顏色函數&#34;&gt;顏色函數&lt;/h2&gt;
+<h2 id="顏色函數">顏色函數</h2>
 
-&lt;h3 id=&#34;rgb顏色函數簡介&#34;&gt;RGB顏色函數簡介&lt;/h3&gt;
+<h3 id="rgb顏色函數簡介">RGB顏色函數簡介</h3>
 
-&lt;p&gt;RGB 顏色只是顏色中的一種表達式，其中 R 是 red 表示紅色，G 是 green 表示綠色而 B 是 blue 表示藍色。在 Sass 中為 RGB 顏色提供六種函數：&lt;/p&gt;
+<p>RGB 顏色只是顏色中的一種表達式，其中 R 是 red 表示紅色，G 是 green 表示綠色而 B 是 blue 表示藍色。在 Sass 中為 RGB 顏色提供六種函數：</p>
 
-&lt;ul&gt;
-&lt;li&gt;rgb($red,$green,$blue)：根據紅、綠、藍三個值創建一個顏色；&lt;/li&gt;
-&lt;li&gt;rgba($red,$green,$blue,$alpha)：根據紅、綠、藍和透明度值創建一個顏色；&lt;/li&gt;
-&lt;li&gt;red($color)：從一個顏色中獲取其中紅色值；&lt;/li&gt;
-&lt;li&gt;green($color)：從一個顏色中獲取其中綠色值；&lt;/li&gt;
-&lt;li&gt;blue($color)：從一個顏色中獲取其中藍色值；&lt;/li&gt;
-&lt;li&gt;mix($color-1,$color-2,[$weight])：把兩種顏色混合在一起。[$weight]是合併的比例&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>rgb($red,$green,$blue)：根據紅、綠、藍三個值創建一個顏色；</li>
+<li>rgba($red,$green,$blue,$alpha)：根據紅、綠、藍和透明度值創建一個顏色；</li>
+<li>red($color)：從一個顏色中獲取其中紅色值；</li>
+<li>green($color)：從一個顏色中獲取其中綠色值；</li>
+<li>blue($color)：從一個顏色中獲取其中藍色值；</li>
+<li>mix($color-1,$color-2,[$weight])：把兩種顏色混合在一起。[$weight]是合併的比例</li>
+</ul>
 
-&lt;h3 id=&#34;hsl函數簡介&#34;&gt;HSL函數簡介&lt;/h3&gt;
+<h3 id="hsl函數簡介">HSL函數簡介</h3>
 
-&lt;ul&gt;
-&lt;li&gt;hsl($hue,$saturation,$lightness)：通過色相（hue）、飽和度(saturation)和亮度（lightness）的值創建一個顏色；&lt;/li&gt;
-&lt;li&gt;hsla($hue,$saturation,$lightness,$alpha)：通過色相（hue）、飽和度(saturation)、亮度（lightness）和透明（alpha）的值創建一個顏色；&lt;/li&gt;
-&lt;li&gt;hue($color)：從一個顏色中獲取色相（hue）值；&lt;/li&gt;
-&lt;li&gt;saturation($color)：從一個顏色中獲取飽和度（saturation）值；&lt;/li&gt;
-&lt;li&gt;lightness($color)：從一個顏色中獲取亮度（lightness）值；&lt;/li&gt;
-&lt;li&gt;adjust-hue($color,$degrees)：通過改變一個顏色的色相值，創建一個新的顏色；&lt;/li&gt;
-&lt;li&gt;lighten($color,$amount)：通過改變顏色的亮度值，讓顏色變亮，創建一個新的顏色；&lt;/li&gt;
-&lt;li&gt;darken($color,$amount)：通過改變顏色的亮度值，讓顏色變暗，創建一個新的顏色；&lt;/li&gt;
-&lt;li&gt;saturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更飽和，從而創建一個新的顏色&lt;/li&gt;
-&lt;li&gt;desaturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更少的飽和，從而創建出一個新的顏色；&lt;/li&gt;
-&lt;li&gt;grayscale($color)：將一個顏色變成灰色，相當於desaturate($color,100%);&lt;/li&gt;
-&lt;li&gt;complement($color)：返回一個補充色，相當於adjust-hue($color,180deg);&lt;/li&gt;
-&lt;li&gt;invert($color)：反回一個反相色，紅、綠、藍色值倒過來，而透明度不變。&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>hsl($hue,$saturation,$lightness)：通過色相（hue）、飽和度(saturation)和亮度（lightness）的值創建一個顏色；</li>
+<li>hsla($hue,$saturation,$lightness,$alpha)：通過色相（hue）、飽和度(saturation)、亮度（lightness）和透明（alpha）的值創建一個顏色；</li>
+<li>hue($color)：從一個顏色中獲取色相（hue）值；</li>
+<li>saturation($color)：從一個顏色中獲取飽和度（saturation）值；</li>
+<li>lightness($color)：從一個顏色中獲取亮度（lightness）值；</li>
+<li>adjust-hue($color,$degrees)：通過改變一個顏色的色相值，創建一個新的顏色；</li>
+<li>lighten($color,$amount)：通過改變顏色的亮度值，讓顏色變亮，創建一個新的顏色；</li>
+<li>darken($color,$amount)：通過改變顏色的亮度值，讓顏色變暗，創建一個新的顏色；</li>
+<li>saturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更飽和，從而創建一個新的顏色</li>
+<li>desaturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更少的飽和，從而創建出一個新的顏色；</li>
+<li>grayscale($color)：將一個顏色變成灰色，相當於desaturate($color,100%);</li>
+<li>complement($color)：返回一個補充色，相當於adjust-hue($color,180deg);</li>
+<li>invert($color)：反回一個反相色，紅、綠、藍色值倒過來，而透明度不變。</li>
+</ul>
 
-&lt;h3 id=&#34;opacity函數簡介&#34;&gt;Opacity函數簡介&lt;/h3&gt;
+<h3 id="opacity函數簡介">Opacity函數簡介</h3>
 
-&lt;ul&gt;
-&lt;li&gt;alpha($color) /opacity($color)：獲取顏色透明度值；&lt;/li&gt;
-&lt;li&gt;rgba($color, $alpha)：改變顏色的透明度值；&lt;/li&gt;
-&lt;li&gt;opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；&lt;/li&gt;
-&lt;li&gt;transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。&lt;/li&gt;
-&lt;/ul&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+<ul>
+<li>alpha($color) /opacity($color)：獲取顏色透明度值；</li>
+<li>rgba($color, $alpha)：改變顏色的透明度值；</li>
+<li>opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；</li>
+<li>transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。</li>
+</ul>
+]]> 
             </content:encoded>
 
         </item>
@@ -822,200 +705,161 @@ if(false,1px,2px)
 
             <description>Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>使用Hugo搭建靜態個人站點</title>
-                    </head>
+<blockquote>
+<p><a href="http://gohugo.io" title="hugo">Hugo</a>是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。</p>
+</blockquote>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
-                                
-                                <title>
-                                    使用Hugo搭建靜態個人站點
-                                </title>
-                            </header>
-                            
-                            
+<h2 id="安裝">安裝</h2>
 
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>Mac 下的安裝</p>
 
-&lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
-
-&lt;p&gt;Mac 下的安裝&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ brew install hugo
+<pre><code>$ brew install hugo
 $ hugo version // 是否安裝成功
 $ hugo --help 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;生成blog&#34;&gt;生成Blog&lt;/h2&gt;
+<h2 id="生成blog">生成Blog</h2>
 
-&lt;p&gt;創建網站&lt;/p&gt;
+<p>創建網站</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo new site vicky335.github.io
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo new site vicky335.github.io
+</code></pre>
 
-&lt;h2 id=&#34;目錄結構&#34;&gt;目錄結構&lt;/h2&gt;
+<h2 id="目錄結構">目錄結構</h2>
 
-&lt;p&gt;由 &lt;code&gt;hugo&lt;/code&gt; 生成的博客的基本目錄如下&lt;/p&gt;
+<p>由 <code>hugo</code> 生成的博客的基本目錄如下</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;archetypes&lt;/code&gt; - 預定義看板，在這類，你可以定制你生成的博客的基本模板。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;content&lt;/code&gt; - 網站的所有內容都保存在這裡&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;data&lt;/code&gt; - 保存站點可使用的配置文件&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;layouts&lt;/code&gt; - 自定義的模板&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;public&lt;/code&gt; - 生成的可直接部署的博客&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;static&lt;/code&gt; - 靜態文件，比如你站點需要用到的 logo、頭像等&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><code>archetypes</code> - 預定義看板，在這類，你可以定制你生成的博客的基本模板。</li>
+<li><code>content</code> - 網站的所有內容都保存在這裡</li>
+<li><code>data</code> - 保存站點可使用的配置文件</li>
+<li><code>layouts</code> - 自定義的模板</li>
+<li><code>public</code> - 生成的可直接部署的博客</li>
+<li><code>static</code> - 靜態文件，比如你站點需要用到的 logo、頭像等</li>
+</ul>
 
-&lt;p&gt;目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。&lt;/p&gt;
+<p>目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。</p>
 
-&lt;h2 id=&#34;安裝主題&#34;&gt;安裝主題&lt;/h2&gt;
+<h2 id="安裝主題">安裝主題</h2>
 
-&lt;h3 id=&#34;安裝主題-1&#34;&gt;安裝主題&lt;/h3&gt;
+<h3 id="安裝主題-1">安裝主題</h3>
 
-&lt;p&gt;生成網站之後，首先要做的就是下載主題，通常有兩種方法。&lt;/p&gt;
+<p>生成網站之後，首先要做的就是下載主題，通常有兩種方法。</p>
 
-&lt;p&gt;第一種是下載所有主題，簡單粗暴&lt;/p&gt;
+<p>第一種是下載所有主題，簡單粗暴</p>
 
-&lt;pre&gt;&lt;code&gt;$ cd vicky335.github.io
+<pre><code>$ cd vicky335.github.io
 $ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;第二種是下載感興趣的主題(以Casper為例)&lt;/p&gt;
+<p>第二種是下載感興趣的主題(以Casper為例)</p>
 
-&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
+</code></pre>
 
-&lt;p&gt;你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。&lt;/p&gt;
+<p>你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。</p>
 
-&lt;h3 id=&#34;使用主題&#34;&gt;使用主題&lt;/h3&gt;
+<h3 id="使用主題">使用主題</h3>
 
-&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 中配置 theme = &amp;ldquo;casper&amp;rdquo; 即可。&lt;/p&gt;
+<p>在 <code>config.toml</code> 中配置 theme = &ldquo;casper&rdquo; 即可。</p>
 
-&lt;h2 id=&#34;編輯-config-toml&#34;&gt;編輯 config.toml&lt;/h2&gt;
+<h2 id="編輯-config-toml">編輯 config.toml</h2>
 
-&lt;p&gt;使用文字編輯器打開 &lt;code&gt;config.toml&lt;/code&gt;，並調整內容。&lt;/p&gt;
+<p>使用文字編輯器打開 <code>config.toml</code>，並調整內容。</p>
 
-&lt;pre&gt;&lt;code&gt;baseURL = &amp;quot;https://vicky335.github.io/&amp;quot;    #改成你的GitHub帳號名稱
-languageCode = &amp;quot;zh-cn&amp;quot;
-title = &amp;quot;Vicky Blog&amp;quot;    #自由命名
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>baseURL = &quot;https://vicky335.github.io/&quot;    #改成你的GitHub帳號名稱
+languageCode = &quot;zh-cn&quot;
+title = &quot;Vicky Blog&quot;    #自由命名
+</code></pre>
 
-&lt;h2 id=&#34;創建文章&#34;&gt;創建文章&lt;/h2&gt;
+<h2 id="創建文章">創建文章</h2>
 
-&lt;p&gt;首先，生成第一篇文章。&lt;/p&gt;
+<p>首先，生成第一篇文章。</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo new post/first.md
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo new post/first.md
+</code></pre>
 
-&lt;p&gt;生成的文章內容如下：&lt;/p&gt;
+<p>生成的文章內容如下：</p>
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;First&amp;quot;
+<pre><code>+++
+title: &quot;First&quot;
 date: 2019-06-03T17:10:40+08:00
 draft: true
 +++
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式&lt;/p&gt;
+<p>該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式</p>
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;{{ replace .Name &amp;quot;-&amp;quot; &amp;quot; &amp;quot; | title }}&amp;quot;
-date: {{ now.Format &amp;quot;2006-01-02&amp;quot;  }} 
+<pre><code>+++
+title: &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
+date: {{ now.Format &quot;2006-01-02&quot;  }} 
 draft: false
 categories: [] 
 tags: []
 toc: false
 +++
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;再次生成文章&lt;/p&gt;
+<p>再次生成文章</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo new post/second.md
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo new post/second.md
+</code></pre>
 
-&lt;p&gt;生成的文章內容變成了&lt;/p&gt;
+<p>生成的文章內容變成了</p>
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;Second&amp;quot;
+<pre><code>+++
+title: &quot;Second&quot;
 date: 2019-06-03 
 draft: false
 categories: [] 
 tags: []
 toc: false
 +++
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;生成最終網站&#34;&gt;生成最終網站&lt;/h2&gt;
+<h2 id="生成最終網站">生成最終網站</h2>
 
-&lt;p&gt;生成靜態博客並在本地查看&lt;/p&gt;
+<p>生成靜態博客並在本地查看</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo server
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo server
+</code></pre>
 
-&lt;p&gt;執行完後，在瀏覽器中輸入網址 &lt;a href=&#34;http://localhost:1313，就可以看到網站的雛形。&#34;&gt;http://localhost:1313，就可以看到網站的雛形。&lt;/a&gt;&lt;/p&gt;
+<p>執行完後，在瀏覽器中輸入網址 <a href="http://localhost:1313，就可以看到網站的雛形。">http://localhost:1313，就可以看到網站的雛形。</a></p>
 
-&lt;p&gt;默認的話，只會顯示 &lt;code&gt;draft&lt;/code&gt; 為 &lt;code&gt;false&lt;/code&gt; 的文章。&lt;/p&gt;
+<p>默認的話，只會顯示 <code>draft</code> 為 <code>false</code> 的文章。</p>
 
-&lt;p&gt;服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新&lt;/p&gt;
+<p>服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo server --watch=false
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo server --watch=false
+</code></pre>
 
-&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt; 並不會生成真正的站點，一般在部署之前，需要運行 &lt;code&gt;hugo&lt;/code&gt; 命令生成 &lt;code&gt;public&lt;/code&gt; 站點&lt;/p&gt;
+<p><code>hugo server</code> 並不會生成真正的站點，一般在部署之前，需要運行 <code>hugo</code> 命令生成 <code>public</code> 站點</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo
+</code></pre>
 
-&lt;h2 id=&#34;部署到-github&#34;&gt;部署到 GitHub&lt;/h2&gt;
+<h2 id="部署到-github">部署到 GitHub</h2>
 
-&lt;p&gt;Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。&lt;/p&gt;
+<p>Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。</p>
 
-&lt;h3 id=&#34;在-github-建立repo&#34;&gt;在 GitHub 建立repo&lt;/h3&gt;
+<h3 id="在-github-建立repo">在 GitHub 建立repo</h3>
 
-&lt;p&gt;在 GitHub 建立 &lt;strong&gt;&lt;em&gt;vicky335&lt;/em&gt;&lt;/strong&gt;.github.io (粗斜體處改成自己的帳號名稱) repo。&lt;/p&gt;
+<p>在 GitHub 建立 <strong><em>vicky335</em></strong>.github.io (粗斜體處改成自己的帳號名稱) repo。</p>
 
-&lt;h3 id=&#34;將-public-資料夾連結到-github-上的-vicky335-github-io&#34;&gt;將 /public 資料夾連結到 GitHub 上的 vicky335.github.io&lt;/h3&gt;
+<h3 id="將-public-資料夾連結到-github-上的-vicky335-github-io">將 /public 資料夾連結到 GitHub 上的 vicky335.github.io</h3>
 
-&lt;pre&gt;&lt;code&gt;cd public
+<pre><code>cd public
 git init
 git remote add origin https://github.com/vicky335/vicky335.github.io.git
 git add .
-git commit -m &amp;quot;Initial commit&amp;quot;
+git commit -m &quot;Initial commit&quot;
 git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;等個幾分鐘，輸入網址 &lt;a href=&#34;https://vicky335.github.io/&#34;&gt;https://vicky335.github.io/&lt;/a&gt; 就大功告成囉！&lt;/p&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+<p>等個幾分鐘，輸入網址 <a href="https://vicky335.github.io/">https://vicky335.github.io/</a> 就大功告成囉！</p>
+]]> 
             </content:encoded>
 
         </item>
@@ -1035,61 +879,22 @@ git push -u origin master
 
             <description>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~ 這次主要是講Html裡面標籤的行高所帶來的問題。 在做Html時，是否有設置過某個標籤元</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[<p>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~</p>
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>「標籤的行高」和「標籤之間的間距」問題</title>
-                    </head>
+<p>這次主要是講Html裡面標籤的行高所帶來的問題。</p>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html">
-                                
-                                <title>
-                                    「標籤的行高」和「標籤之間的間距」問題
-                                </title>
-                            </header>
-                            
-                            &lt;p&gt;第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~&lt;/p&gt;
+<p>在做Html時，是否有設置過某個標籤元素的行高（line-height）呢？以<code>&lt;P&gt;&lt;/p&gt;</code>為例，你們在裡面寫入好幾段文字，之後輸入來用瀏覽器看的時候有發現每行文字之間都存在一定的距離嗎？那就是行高所造成的。</p>
 
-&lt;p&gt;這次主要是講Html裡面標籤的行高所帶來的問題。&lt;/p&gt;
+<p>那標籤之間的間距又是怎麼回事呢？</p>
 
-&lt;p&gt;在做Html時，是否有設置過某個標籤元素的行高（line-height）呢？以&lt;code&gt;&amp;lt;P&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;為例，你們在裡面寫入好幾段文字，之後輸入來用瀏覽器看的時候有發現每行文字之間都存在一定的距離嗎？那就是行高所造成的。&lt;/p&gt;
+<p>做重構的童鞋們肯定知道margin和padding是用來做什麼，在這也解釋下吧！margin是用來設置某個標籤元素的外邊距的，而padding則是設定它的內邊距的。如果設置了這兩個或其中一個，就會造成標籤之間的間距了。當然，如果你沒有設置margin和padding，但有設定行高的話，那也會造成標籤之間的間距的。</p>
 
-&lt;p&gt;那標籤之間的間距又是怎麼回事呢？&lt;/p&gt;
+<p>實際上，在瀏覽器看到之間存在的空白是由[ ( 行高 - 字的像素 ) / 2 + 間距 ]而來的。（解釋如圖）</p>
 
-&lt;p&gt;做重構的童鞋們肯定知道margin和padding是用來做什麼，在這也解釋下吧！margin是用來設置某個標籤元素的外邊距的，而padding則是設定它的內邊距的。如果設置了這兩個或其中一個，就會造成標籤之間的間距了。當然，如果你沒有設置margin和padding，但有設定行高的話，那也會造成標籤之間的間距的。&lt;/p&gt;
+<p><img src="https://vicky335.github.io/images/f2e/tagsHeight.jpg" alt="" /></p>
 
-&lt;p&gt;實際上，在瀏覽器看到之間存在的空白是由[ ( 行高 - 字的像素 ) / 2 + 間距 ]而來的。（解釋如圖）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/f2e/tagsHeight.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;所以在調整網頁上的間距時，要注意行高所帶來的影響。&lt;/p&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+<p>所以在調整網頁上的間距時，要注意行高所帶來的影響。</p>
+]]> 
             </content:encoded>
 
         </item>

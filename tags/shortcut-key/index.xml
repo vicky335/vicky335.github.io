@@ -53,109 +53,79 @@
 
             <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd &#43; ↑ 類似windows下的 ctrl &#43; home 跳到頁尾 cmd &#43; ↓ 類似windows下的 ctrl &#43; end 光標移到行首 cmd &#43;</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>Mac 常用快捷鍵整理</title>
-                    </head>
+<h2 id="文本編輯">文本編輯</h2>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
-                                
-                                <title>
-                                    Mac 常用快捷鍵整理
-                                </title>
-                            </header>
-                            
-                            
+<p>以下適用於文本編輯器，瀏覽器等：</p>
 
-&lt;h2 id=&#34;文本編輯&#34;&gt;文本編輯&lt;/h2&gt;
+<p>跳到頁首  <code>cmd</code> + <code>↑</code>  類似windows下的 <code>ctrl + home</code></p>
 
-&lt;p&gt;以下適用於文本編輯器，瀏覽器等：&lt;/p&gt;
+<p>跳到頁尾  <code>cmd</code> + <code>↓</code>  類似windows下的 <code>ctrl + end</code></p>
 
-&lt;p&gt;跳到頁首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;  類似windows下的 &lt;code&gt;ctrl + home&lt;/code&gt;&lt;/p&gt;
+<p>光標移到行首  <code>cmd</code> + <code>←</code>  類似windows下的 <code>home</code></p>
 
-&lt;p&gt;跳到頁尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;  類似windows下的 &lt;code&gt;ctrl + end&lt;/code&gt;&lt;/p&gt;
+<p>光標移到行尾  <code>cmd</code> + <code>→</code>  類似windows下的 <code>end</code></p>
 
-&lt;p&gt;光標移到行首  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt;  類似windows下的 &lt;code&gt;home&lt;/code&gt;&lt;/p&gt;
+<p>選擇一行  <code>cmd</code> + <code>shift</code> + <code>→</code> 或 <code>cmd</code> + <code>shift</code> + <code>→</code></p>
 
-&lt;p&gt;光標移到行尾  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;  類似windows下的 &lt;code&gt;end&lt;/code&gt;&lt;/p&gt;
+<p>選擇一個單詞  <code>option</code> + <code>shift</code> + <code>←</code> 或 <code>option</code> + <code>shift</code> + <code>→</code></p>
 
-&lt;p&gt;選擇一行  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt; 或 &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
+<p>向上滾一屏 <code>fn</code> + <code>↑</code></p>
 
-&lt;p&gt;選擇一個單詞  &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;←&lt;/code&gt; 或 &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;→&lt;/code&gt;&lt;/p&gt;
+<p>向下滾一屏 <code>fn</code> + <code>↓</code></p>
 
-&lt;p&gt;向上滾一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↑&lt;/code&gt;&lt;/p&gt;
+<p>刪除一整行文字  <code>cmd + delete</code></p>
 
-&lt;p&gt;向下滾一屏 &lt;code&gt;fn&lt;/code&gt; + &lt;code&gt;↓&lt;/code&gt;&lt;/p&gt;
+<p>刪除一個單詞    <code>option + delete</code></p>
 
-&lt;p&gt;刪除一整行文字  &lt;code&gt;cmd + delete&lt;/code&gt;&lt;/p&gt;
+<p>光標移動一個單詞 <code>option + ←</code> 或者 <code>option + →</code></p>
 
-&lt;p&gt;刪除一個單詞    &lt;code&gt;option + delete&lt;/code&gt;&lt;/p&gt;
+<p>##截屏</p>
 
-&lt;p&gt;光標移動一個單詞 &lt;code&gt;option + ←&lt;/code&gt; 或者 &lt;code&gt;option + →&lt;/code&gt;&lt;/p&gt;
+<p>全屏截圖自動保存為文件 <code>cmd + shift + 3</code></p>
 
-&lt;p&gt;##截屏&lt;/p&gt;
+<p>區域截圖自動保存為文件 <code>cmd + shift + 4</code>，這裡有個小技巧，按下<code>cmd + shift + 4</code>後單擊空格鍵，會出現一個相機的icon，表示自動捕捉這個區域。</p>
 
-&lt;p&gt;全屏截圖自動保存為文件 &lt;code&gt;cmd + shift + 3&lt;/code&gt;&lt;/p&gt;
+<p>##窗口</p>
 
-&lt;p&gt;區域截圖自動保存為文件 &lt;code&gt;cmd + shift + 4&lt;/code&gt;，這裡有個小技巧，按下&lt;code&gt;cmd + shift + 4&lt;/code&gt;後單擊空格鍵，會出現一個相機的icon，表示自動捕捉這個區域。&lt;/p&gt;
+<p>關閉當前窗口  <code>cmd + w</code></p>
 
-&lt;p&gt;##窗口&lt;/p&gt;
+<p>退出當前程序  <code>cmd + q</code></p>
 
-&lt;p&gt;關閉當前窗口  &lt;code&gt;cmd + w&lt;/code&gt;&lt;/p&gt;
+<p>最小化窗口  <code>cmd + m</code></p>
 
-&lt;p&gt;退出當前程序  &lt;code&gt;cmd + q&lt;/code&gt;&lt;/p&gt;
+<p>切換窗口程序  <code>cmd + tab</code></p>
 
-&lt;p&gt;最小化窗口  &lt;code&gt;cmd + m&lt;/code&gt;&lt;/p&gt;
+<p>快速顯示桌面  <code>cmd + F3</code></p>
 
-&lt;p&gt;切換窗口程序  &lt;code&gt;cmd + tab&lt;/code&gt;&lt;/p&gt;
+<p>顯示當前程序縮略圖  <code>ctl + F3</code></p>
 
-&lt;p&gt;快速顯示桌面  &lt;code&gt;cmd + F3&lt;/code&gt;&lt;/p&gt;
+<p>顯示桌面和縮略圖  <code>F3</code></p>
 
-&lt;p&gt;顯示當前程序縮略圖  &lt;code&gt;ctl + F3&lt;/code&gt;&lt;/p&gt;
+<p>顯示Dashboard  <code>F4</code></p>
 
-&lt;p&gt;顯示桌面和縮略圖  &lt;code&gt;F3&lt;/code&gt;&lt;/p&gt;
+<h2 id="terminal-終端">Terminal 終端</h2>
 
-&lt;p&gt;顯示Dashboard  &lt;code&gt;F4&lt;/code&gt;&lt;/p&gt;
+<p>Mac不像<code>Ubuntu</code>可以使用 Ctrl+T 快捷鍵呼出終端，但是可以通過<code>control+space</code>呼出<code>Spotlight</code>，然後輸入terminal回車快速打開終端。</p>
 
-&lt;h2 id=&#34;terminal-終端&#34;&gt;Terminal 終端&lt;/h2&gt;
+<p>光標移到行首 <code>ctrl</code> + <code>A</code></p>
 
-&lt;p&gt;Mac不像&lt;code&gt;Ubuntu&lt;/code&gt;可以使用 Ctrl+T 快捷鍵呼出終端，但是可以通過&lt;code&gt;control+space&lt;/code&gt;呼出&lt;code&gt;Spotlight&lt;/code&gt;，然後輸入terminal回車快速打開終端。&lt;/p&gt;
+<p>光標移到行尾  <code>ctrl</code> + <code>E</code></p>
 
-&lt;p&gt;光標移到行首 &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;A&lt;/code&gt;&lt;/p&gt;
+<p>清除一行  <code>ctrl</code> + <code>U</code></p>
 
-&lt;p&gt;光標移到行尾  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;E&lt;/code&gt;&lt;/p&gt;
+<p>撤銷清除  <code>ctrl</code> + <code>Y</code></p>
 
-&lt;p&gt;清除一行  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
+<p>清屏  <code>ctrl</code> + <code>L</code></p>
 
-&lt;p&gt;撤銷清除  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;Y&lt;/code&gt;&lt;/p&gt;
+<p>新建一個Tab  <code>cmd</code> + <code>T</code></p>
 
-&lt;p&gt;清屏  &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;L&lt;/code&gt;&lt;/p&gt;
+<p>關閉一個Tab  <code>cmd</code> + <code>W</code></p>
 
-&lt;p&gt;新建一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
+<h2 id="文件相關">文件相關</h2>
 
-&lt;p&gt;關閉一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;文件相關&#34;&gt;文件相關&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;# 創建目錄
+<pre><code># 創建目錄
 $ mkdir newDir
 # 刪除目錄及子目錄中的內容, 慎用!!
 $ rm -rf newDir
@@ -164,13 +134,13 @@ $ cp file toDir
 # 設置目錄讀寫權限
 $ sudo chmod 777 /etc/hosts
 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;進程相關&#34;&gt;進程相關&lt;/h2&gt;
+<h2 id="進程相關">進程相關</h2>
 
-&lt;p&gt;mac os x 下殺死進程&lt;/p&gt;
+<p>mac os x 下殺死進程</p>
 
-&lt;pre&gt;&lt;code&gt;# 找到要殺死進程的id
+<pre><code># 找到要殺死進程的id
 $ ps -ef | grep idea
 # 強制kill掉進程
 $ kill 91107
@@ -185,54 +155,45 @@ $ lsof -i:9001
 COMMAND  PID    USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 java    6227 fanyong  254u  IPv6 0xf526b9f456b4bcf5      0t0  TCP *:etlservicemgr (LISTEN)
 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;&lt;code&gt;cmd + opt + esc&lt;/code&gt; ，打開類似windows下任務管理器的快捷鍵。&lt;/p&gt;
+<p><code>cmd + opt + esc</code> ，打開類似windows下任務管理器的快捷鍵。</p>
 
-&lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/other/kill-window.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+<p><img src="https://vicky335.github.io/images/other/kill-window.jpg" alt="" /></p>
 
-&lt;h2 id=&#34;網絡相關&#34;&gt;網絡相關&lt;/h2&gt;
+<h2 id="網絡相關">網絡相關</h2>
 
-&lt;pre&gt;&lt;code&gt;# 查看本機IP、Mac地址等信息
+<pre><code># 查看本機IP、Mac地址等信息
 $ ifconfig en0
-# 查看nameserver 修改 nameserver 172.19.8.1 -&amp;gt; nameserver 172.19.8.2
+# 查看nameserver 修改 nameserver 172.19.8.1 -&gt; nameserver 172.19.8.2
 $ sudo vim /etc/resolv.conf
 # 診斷
 $ dig lujs.cn
 $ nslookup lujs.cn
 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;chrome-快捷鍵&#34;&gt;chrome 快捷鍵&lt;/h2&gt;
+<h2 id="chrome-快捷鍵">chrome 快捷鍵</h2>
 
-&lt;p&gt;新建一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;
+<p>新建一個Tab  <code>cmd</code> + <code>T</code></p>
 
-&lt;p&gt;關閉一個Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt;&lt;/p&gt;
+<p>關閉一個Tab  <code>cmd</code> + <code>W</code></p>
 
-&lt;p&gt;打開開發者工具，&lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;I&lt;/code&gt; Mac下F12不管用,因為系統默認把&lt;code&gt;F12&lt;/code&gt;分配給了音量&lt;/p&gt;
+<p>打開開發者工具，<code>cmd</code> + <code>option</code> + <code>I</code> Mac下F12不管用,因為系統默認把<code>F12</code>分配給了音量</p>
 
-&lt;p&gt;查看源代碼  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;option&lt;/code&gt; + &lt;code&gt;U&lt;/code&gt;&lt;/p&gt;
+<p>查看源代碼  <code>cmd</code> + <code>option</code> + <code>U</code></p>
 
-&lt;p&gt;調試js - step over &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;\&lt;/code&gt;&lt;/p&gt;
+<p>調試js - step over <code>cmd</code> + <code>\</code></p>
 
-&lt;p&gt;調試js - step in &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;;&lt;/code&gt;&lt;/p&gt;
+<p>調試js - step in <code>cmd</code> + <code>;</code></p>
 
-&lt;p&gt;調試js - step out &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;&#39;&lt;/code&gt;&lt;/p&gt;
+<p>調試js - step out <code>cmd</code> + <code>'</code></p>
 
-&lt;p&gt;快速定位Tab  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;1/2/3/等&lt;/code&gt;
-向左切換Tab順序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;{&lt;/code&gt;&lt;/p&gt;
+<p>快速定位Tab  <code>cmd</code> + <code>1/2/3/等</code>
+向左切換Tab順序  <code>cmd</code> + <code>shift</code> + <code>{</code></p>
 
-&lt;p&gt;向右切換Tab順序  &lt;code&gt;cmd&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;}&lt;/code&gt;&lt;/p&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+<p>向右切換Tab順序  <code>cmd</code> + <code>shift</code> + <code>}</code></p>
+]]> 
             </content:encoded>
 
         </item>

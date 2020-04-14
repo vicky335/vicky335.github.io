@@ -53,41 +53,11 @@
 
             <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>Git常用命令清單</title>
-                    </head>
+<h2 id="新建代碼庫">新建代碼庫</h2>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html">
-                                
-                                <title>
-                                    Git常用命令清單
-                                </title>
-                            </header>
-                            
-                            
-
-&lt;h2 id=&#34;新建代碼庫&#34;&gt;新建代碼庫&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;# 在當前目錄新建一個Git代碼庫
+<pre><code># 在當前目錄新建一個Git代碼庫
 $ git init
 
 # 新建一個目錄，將其初始化為Git代碼庫
@@ -96,47 +66,47 @@ $ git init [project-name]
 # 下載一個項目和它的整個代碼歷史
 $ git clone [url]
 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;git clone：當你已經有一個遠程的Git版本庫，只需要在本地克隆一份，例如：
-&lt;code&gt;git clone git://github.com/someone/some_project.git some_project&lt;/code&gt;
-上面的命令就是將&lt;code&gt;git://github.com/someone/some_project.git&lt;/code&gt;這個URL地址的遠程版本庫，完全克隆到本地&lt;code&gt;some_project&lt;/code&gt;目錄下&lt;/p&gt;&lt;/li&gt;
+<ul>
+<li><p>git clone：當你已經有一個遠程的Git版本庫，只需要在本地克隆一份，例如：
+<code>git clone git://github.com/someone/some_project.git some_project</code>
+上面的命令就是將<code>git://github.com/someone/some_project.git</code>這個URL地址的遠程版本庫，完全克隆到本地<code>some_project</code>目錄下</p></li>
 
-&lt;li&gt;&lt;p&gt;git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&amp;rsquo;git init&amp;rsquo;命令進行初始化；Git以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的URL記錄下來，此時你就可以利用&amp;rsquo;git remote add&amp;rsquo;命令來增加一個遠程服務器端，例如：
-&lt;code&gt;git remote add origin git://github.com/someone/another_project.git&lt;/code&gt;
-上面的命令就會增加URL地址為&lt;code&gt;git://github.com/someone/another_project.git&lt;/code&gt;，名稱為&lt;code&gt;origin&lt;/code&gt;的遠程服務器，以後提交代碼的時候只需要使用&lt;code&gt;origin&lt;/code&gt;別名即可&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<li><p>git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&rsquo;git init&rsquo;命令進行初始化；Git以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的URL記錄下來，此時你就可以利用&rsquo;git remote add&rsquo;命令來增加一個遠程服務器端，例如：
+<code>git remote add origin git://github.com/someone/another_project.git</code>
+上面的命令就會增加URL地址為<code>git://github.com/someone/another_project.git</code>，名稱為<code>origin</code>的遠程服務器，以後提交代碼的時候只需要使用<code>origin</code>別名即可</p></li>
+</ul>
 
-&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
+<h2 id="配置">配置</h2>
 
-&lt;p&gt;Git的設置文件為&lt;code&gt;.gitconfig&lt;/code&gt;，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。&lt;/p&gt;
+<p>Git的設置文件為<code>.gitconfig</code>，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。</p>
 
-&lt;pre&gt;&lt;code&gt;# 顯示當前的Git配置
+<pre><code># 顯示當前的Git配置
 $ git config --list
 
 # 編輯Git配置文件
 $ git config -e [--global]
 
 # 設置提交代碼時的用戶信息
-$ git config [--global] user.name &amp;quot;[name]&amp;quot;
-$ git config [--global] user.email &amp;quot;[email address]&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
+$ git config [--global] user.name &quot;[name]&quot;
+$ git config [--global] user.email &quot;[email address]&quot;
+</code></pre>
 
-&lt;h2 id=&#34;忽略一些文件-文件夾不提交&#34;&gt;忽略一些文件、文件夾不提交&lt;/h2&gt;
+<h2 id="忽略一些文件-文件夾不提交">忽略一些文件、文件夾不提交</h2>
 
-&lt;p&gt;在倉庫根目錄下創建名稱為&lt;code&gt;.gitignore&lt;/code&gt;的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如&lt;/p&gt;
+<p>在倉庫根目錄下創建名稱為<code>.gitignore</code>的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如</p>
 
-&lt;pre&gt;&lt;code&gt;target
+<pre><code>target
 
 bin
 
 *.db
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;增加-刪除文件&#34;&gt;增加/刪除文件&lt;/h2&gt;
+<h2 id="增加-刪除文件">增加/刪除文件</h2>
 
-&lt;pre&gt;&lt;code&gt;# 添加指定文件到暫存區
+<pre><code># 添加指定文件到暫存區
 $ git add [file1] [file2] ...
 
 # 添加指定目錄到暫存區，包括子目錄
@@ -157,11 +127,11 @@ $ git rm --cached [file]
 
 # 改名文件，並且將這個改名放入暫存區
 $ git mv [file-original] [file-renamed]
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;代碼提交&#34;&gt;代碼提交&lt;/h2&gt;
+<h2 id="代碼提交">代碼提交</h2>
 
-&lt;pre&gt;&lt;code&gt;# 提交暫存區到倉庫區
+<pre><code># 提交暫存區到倉庫區
 $ git commit -m [message]
 
 # 提交暫存區的指定文件到倉庫區
@@ -179,11 +149,11 @@ $ git commit --amend -m [message]
 
 # 重做上一次commit，並包括指定文件的新變化
 $ git commit --amend [file1] [file2] ...
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;分支&#34;&gt;分支&lt;/h2&gt;
+<h2 id="分支">分支</h2>
 
-&lt;pre&gt;&lt;code&gt;# 列出所有本地分支
+<pre><code># 列出所有本地分支
 $ git branch
 
 # 列出所有遠程分支
@@ -225,11 +195,11 @@ $ git branch -d [branch-name]
 # 刪除遠程分支
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;標籤-tag&#34;&gt;標籤(tag)&lt;/h2&gt;
+<h2 id="標籤-tag">標籤(tag)</h2>
 
-&lt;pre&gt;&lt;code&gt;# 列出所有tag
+<pre><code># 列出所有tag
 $ git tag
 
 # 新建一個tag在當前commit
@@ -255,11 +225,11 @@ $ git push [remote] --tags
 
 # 新建一個分支，指向某個tag
 $ git checkout -b [branch] [tag]
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;子模塊-submodule&#34;&gt;子模塊(submodule)&lt;/h2&gt;
+<h2 id="子模塊-submodule">子模塊(submodule)</h2>
 
-&lt;pre&gt;&lt;code&gt;# 添加子模塊
+<pre><code># 添加子模塊
 $ git submodule add [url] [path]
 
 # 初始化子模塊，只在首次檢出倉庫時運行一次就行
@@ -273,11 +243,11 @@ $ git submodule update
 - 編輯 .gitmodules 文件，將子模塊的相關配置節點刪除掉
 - 編輯 .git/config 文件，將子模塊的相關配置節點刪除掉
 - 手動刪除子模塊殘留的目錄
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;查看信息&#34;&gt;查看信息&lt;/h2&gt;
+<h2 id="查看信息">查看信息</h2>
 
-&lt;pre&gt;&lt;code&gt;# 顯示有變更的文件
+<pre><code># 顯示有變更的文件
 $ git status
 
 # 顯示當前分支的版本歷史
@@ -292,7 +262,7 @@ $ git log -S [keyword]
 # 顯示某個commit之後的所有變動，每個commit佔據一行
 $ git log [tag] HEAD --pretty=format:%s
 
-# 顯示某個commit之後的所有變動，其&amp;quot;提交說明&amp;quot;必須符合搜索條件
+# 顯示某個commit之後的所有變動，其&quot;提交說明&quot;必須符合搜索條件
 $ git log [tag] HEAD --grep feature
 
 # 顯示某個文件的版本歷史，包括文件改名
@@ -324,7 +294,7 @@ $ git diff HEAD
 $ git diff [first-branch]...[second-branch]
 
 # 顯示今天你寫了多少行代碼
-$ git diff --shortstat &amp;quot;@{0 day ago}&amp;quot;
+$ git diff --shortstat &quot;@{0 day ago}&quot;
 
 # 顯示某次提交的元數據和內容變化
 $ git show [commit]
@@ -337,11 +307,11 @@ $ git show [commit]:[filename]
 
 # 顯示當前分支的最近幾次提交
 $ git reflog
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;遠程同步&#34;&gt;遠程同步&lt;/h2&gt;
+<h2 id="遠程同步">遠程同步</h2>
 
-&lt;pre&gt;&lt;code&gt;# 下載遠程倉庫的所有變動
+<pre><code># 下載遠程倉庫的所有變動
 $ git fetch [remote]
 
 # 顯示所有遠程倉庫
@@ -364,11 +334,11 @@ $ git push [remote] --force
 
 # 推送所有分支到遠程倉庫
 $ git push [remote] --all
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;撤銷&#34;&gt;撤銷&lt;/h2&gt;
+<h2 id="撤銷">撤銷</h2>
 
-&lt;pre&gt;&lt;code&gt;# 恢復暫存區的指定文件到工作區
+<pre><code># 恢復暫存區的指定文件到工作區
 $ git checkout [file]
 
 # 恢復某個commit的指定文件到暫存區和工作區
@@ -399,23 +369,14 @@ $ git revert [commit]
 # 暫時將未提交的變化移除，稍後再移入
 $ git stash
 $ git stash pop
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+<h2 id="其他">其他</h2>
 
-&lt;pre&gt;&lt;code&gt;# 生成一個可供發佈的壓縮包
+<pre><code># 生成一個可供發佈的壓縮包
 $ git archive
-&lt;/code&gt;&lt;/pre&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+</code></pre>
+]]> 
             </content:encoded>
 
         </item>

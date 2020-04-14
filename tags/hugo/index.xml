@@ -53,200 +53,161 @@
 
             <description>Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo</description>
             <content:encoded>
-                
-                &lt;![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
+                <![CDATA[
 
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>使用Hugo搭建靜態個人站點</title>
-                    </head>
+<blockquote>
+<p><a href="http://gohugo.io" title="hugo">Hugo</a>是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。</p>
+</blockquote>
 
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html">
-                                
-                                <title>
-                                    使用Hugo搭建靜態個人站點
-                                </title>
-                            </header>
-                            
-                            
+<h2 id="安裝">安裝</h2>
 
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>Mac 下的安裝</p>
 
-&lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
-
-&lt;p&gt;Mac 下的安裝&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ brew install hugo
+<pre><code>$ brew install hugo
 $ hugo version // 是否安裝成功
 $ hugo --help 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;生成blog&#34;&gt;生成Blog&lt;/h2&gt;
+<h2 id="生成blog">生成Blog</h2>
 
-&lt;p&gt;創建網站&lt;/p&gt;
+<p>創建網站</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo new site vicky335.github.io
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo new site vicky335.github.io
+</code></pre>
 
-&lt;h2 id=&#34;目錄結構&#34;&gt;目錄結構&lt;/h2&gt;
+<h2 id="目錄結構">目錄結構</h2>
 
-&lt;p&gt;由 &lt;code&gt;hugo&lt;/code&gt; 生成的博客的基本目錄如下&lt;/p&gt;
+<p>由 <code>hugo</code> 生成的博客的基本目錄如下</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;archetypes&lt;/code&gt; - 預定義看板，在這類，你可以定制你生成的博客的基本模板。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;content&lt;/code&gt; - 網站的所有內容都保存在這裡&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;data&lt;/code&gt; - 保存站點可使用的配置文件&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;layouts&lt;/code&gt; - 自定義的模板&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;public&lt;/code&gt; - 生成的可直接部署的博客&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;static&lt;/code&gt; - 靜態文件，比如你站點需要用到的 logo、頭像等&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><code>archetypes</code> - 預定義看板，在這類，你可以定制你生成的博客的基本模板。</li>
+<li><code>content</code> - 網站的所有內容都保存在這裡</li>
+<li><code>data</code> - 保存站點可使用的配置文件</li>
+<li><code>layouts</code> - 自定義的模板</li>
+<li><code>public</code> - 生成的可直接部署的博客</li>
+<li><code>static</code> - 靜態文件，比如你站點需要用到的 logo、頭像等</li>
+</ul>
 
-&lt;p&gt;目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。&lt;/p&gt;
+<p>目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。</p>
 
-&lt;h2 id=&#34;安裝主題&#34;&gt;安裝主題&lt;/h2&gt;
+<h2 id="安裝主題">安裝主題</h2>
 
-&lt;h3 id=&#34;安裝主題-1&#34;&gt;安裝主題&lt;/h3&gt;
+<h3 id="安裝主題-1">安裝主題</h3>
 
-&lt;p&gt;生成網站之後，首先要做的就是下載主題，通常有兩種方法。&lt;/p&gt;
+<p>生成網站之後，首先要做的就是下載主題，通常有兩種方法。</p>
 
-&lt;p&gt;第一種是下載所有主題，簡單粗暴&lt;/p&gt;
+<p>第一種是下載所有主題，簡單粗暴</p>
 
-&lt;pre&gt;&lt;code&gt;$ cd vicky335.github.io
+<pre><code>$ cd vicky335.github.io
 $ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;第二種是下載感興趣的主題(以Casper為例)&lt;/p&gt;
+<p>第二種是下載感興趣的主題(以Casper為例)</p>
 
-&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
+</code></pre>
 
-&lt;p&gt;你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。&lt;/p&gt;
+<p>你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。</p>
 
-&lt;h3 id=&#34;使用主題&#34;&gt;使用主題&lt;/h3&gt;
+<h3 id="使用主題">使用主題</h3>
 
-&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 中配置 theme = &amp;ldquo;casper&amp;rdquo; 即可。&lt;/p&gt;
+<p>在 <code>config.toml</code> 中配置 theme = &ldquo;casper&rdquo; 即可。</p>
 
-&lt;h2 id=&#34;編輯-config-toml&#34;&gt;編輯 config.toml&lt;/h2&gt;
+<h2 id="編輯-config-toml">編輯 config.toml</h2>
 
-&lt;p&gt;使用文字編輯器打開 &lt;code&gt;config.toml&lt;/code&gt;，並調整內容。&lt;/p&gt;
+<p>使用文字編輯器打開 <code>config.toml</code>，並調整內容。</p>
 
-&lt;pre&gt;&lt;code&gt;baseURL = &amp;quot;https://vicky335.github.io/&amp;quot;    #改成你的GitHub帳號名稱
-languageCode = &amp;quot;zh-cn&amp;quot;
-title = &amp;quot;Vicky Blog&amp;quot;    #自由命名
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>baseURL = &quot;https://vicky335.github.io/&quot;    #改成你的GitHub帳號名稱
+languageCode = &quot;zh-cn&quot;
+title = &quot;Vicky Blog&quot;    #自由命名
+</code></pre>
 
-&lt;h2 id=&#34;創建文章&#34;&gt;創建文章&lt;/h2&gt;
+<h2 id="創建文章">創建文章</h2>
 
-&lt;p&gt;首先，生成第一篇文章。&lt;/p&gt;
+<p>首先，生成第一篇文章。</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo new post/first.md
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo new post/first.md
+</code></pre>
 
-&lt;p&gt;生成的文章內容如下：&lt;/p&gt;
+<p>生成的文章內容如下：</p>
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;First&amp;quot;
+<pre><code>+++
+title: &quot;First&quot;
 date: 2019-06-03T17:10:40+08:00
 draft: true
 +++
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式&lt;/p&gt;
+<p>該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式</p>
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;{{ replace .Name &amp;quot;-&amp;quot; &amp;quot; &amp;quot; | title }}&amp;quot;
-date: {{ now.Format &amp;quot;2006-01-02&amp;quot;  }} 
+<pre><code>+++
+title: &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
+date: {{ now.Format &quot;2006-01-02&quot;  }} 
 draft: false
 categories: [] 
 tags: []
 toc: false
 +++
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;再次生成文章&lt;/p&gt;
+<p>再次生成文章</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo new post/second.md
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo new post/second.md
+</code></pre>
 
-&lt;p&gt;生成的文章內容變成了&lt;/p&gt;
+<p>生成的文章內容變成了</p>
 
-&lt;pre&gt;&lt;code&gt;+++
-title: &amp;quot;Second&amp;quot;
+<pre><code>+++
+title: &quot;Second&quot;
 date: 2019-06-03 
 draft: false
 categories: [] 
 tags: []
 toc: false
 +++
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h2 id=&#34;生成最終網站&#34;&gt;生成最終網站&lt;/h2&gt;
+<h2 id="生成最終網站">生成最終網站</h2>
 
-&lt;p&gt;生成靜態博客並在本地查看&lt;/p&gt;
+<p>生成靜態博客並在本地查看</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo server
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo server
+</code></pre>
 
-&lt;p&gt;執行完後，在瀏覽器中輸入網址 &lt;a href=&#34;http://localhost:1313，就可以看到網站的雛形。&#34;&gt;http://localhost:1313，就可以看到網站的雛形。&lt;/a&gt;&lt;/p&gt;
+<p>執行完後，在瀏覽器中輸入網址 <a href="http://localhost:1313，就可以看到網站的雛形。">http://localhost:1313，就可以看到網站的雛形。</a></p>
 
-&lt;p&gt;默認的話，只會顯示 &lt;code&gt;draft&lt;/code&gt; 為 &lt;code&gt;false&lt;/code&gt; 的文章。&lt;/p&gt;
+<p>默認的話，只會顯示 <code>draft</code> 為 <code>false</code> 的文章。</p>
 
-&lt;p&gt;服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新&lt;/p&gt;
+<p>服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo server --watch=false
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo server --watch=false
+</code></pre>
 
-&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt; 並不會生成真正的站點，一般在部署之前，需要運行 &lt;code&gt;hugo&lt;/code&gt; 命令生成 &lt;code&gt;public&lt;/code&gt; 站點&lt;/p&gt;
+<p><code>hugo server</code> 並不會生成真正的站點，一般在部署之前，需要運行 <code>hugo</code> 命令生成 <code>public</code> 站點</p>
 
-&lt;pre&gt;&lt;code&gt;$ hugo
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code>$ hugo
+</code></pre>
 
-&lt;h2 id=&#34;部署到-github&#34;&gt;部署到 GitHub&lt;/h2&gt;
+<h2 id="部署到-github">部署到 GitHub</h2>
 
-&lt;p&gt;Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。&lt;/p&gt;
+<p>Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。</p>
 
-&lt;h3 id=&#34;在-github-建立repo&#34;&gt;在 GitHub 建立repo&lt;/h3&gt;
+<h3 id="在-github-建立repo">在 GitHub 建立repo</h3>
 
-&lt;p&gt;在 GitHub 建立 &lt;strong&gt;&lt;em&gt;vicky335&lt;/em&gt;&lt;/strong&gt;.github.io (粗斜體處改成自己的帳號名稱) repo。&lt;/p&gt;
+<p>在 GitHub 建立 <strong><em>vicky335</em></strong>.github.io (粗斜體處改成自己的帳號名稱) repo。</p>
 
-&lt;h3 id=&#34;將-public-資料夾連結到-github-上的-vicky335-github-io&#34;&gt;將 /public 資料夾連結到 GitHub 上的 vicky335.github.io&lt;/h3&gt;
+<h3 id="將-public-資料夾連結到-github-上的-vicky335-github-io">將 /public 資料夾連結到 GitHub 上的 vicky335.github.io</h3>
 
-&lt;pre&gt;&lt;code&gt;cd public
+<pre><code>cd public
 git init
 git remote add origin https://github.com/vicky335/vicky335.github.io.git
 git add .
-git commit -m &amp;quot;Initial commit&amp;quot;
+git commit -m &quot;Initial commit&quot;
 git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;等個幾分鐘，輸入網址 &lt;a href=&#34;https://vicky335.github.io/&#34;&gt;https://vicky335.github.io/&lt;/a&gt; 就大功告成囉！&lt;/p&gt;
-
-                            
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-
-                </html>
-                ]]>
+<p>等個幾分鐘，輸入網址 <a href="https://vicky335.github.io/">https://vicky335.github.io/</a> 就大功告成囉！</p>
+]]> 
             </content:encoded>
 
         </item>
