@@ -3207,7 +3207,7 @@ $ nslookup lujs.cn
 int b = 33;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;	寫法：
+&lt;pre&gt;&lt;code&gt;寫法：
 	
 	```
 	code
@@ -3322,10 +3322,10 @@ int b = 33;
 &lt;li&gt;&lt;p&gt;多行&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;br /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;如果你真的想在Markdown中插入換行標籤&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;，你可以在行尾輸入兩個或以上的空格，然後Enter。 這樣插入換行十分麻煩，但是「每個換行都轉換為&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;」在 Markdown中並不合適，所以只在你確定你需要時手動添加。&lt;/p&gt;
+&lt;p&gt;如果你真的想在Markdown中插入換行標籤&lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;，你可以在行尾輸入兩個或以上的空格，然後Enter。 這樣插入換行十分麻煩，但是「每個換行都轉換為&lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;」在 Markdown中並不合適，所以只在你確定你需要時手動添加。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
@@ -3499,8 +3499,6 @@ ___粗體___
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
 &lt;h3 id=&#34;特殊&#34;&gt;特殊&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -3520,18 +3518,18 @@ ___粗體___
 &lt;p&gt;Markdown可以利用反斜槓來插入一些在語法中有特殊意義的符號，例如想顯示*，就在星號前加上反斜槓&lt;code&gt;\*&lt;/code&gt;。
 Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符號：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    \\    反斜線
-    \`    反引號
-    \*    星號
-    \_    下划線
-    \{\}  大括號
-    \[\]  中括號
-    \(\)  小括弧
-    \#    井號
-    \+    加號
-    \-    減號
-    \.    英文句號
-    \!    感嘆號
+&lt;pre&gt;&lt;code&gt;\\    反斜線
+\`    反引號
+\*    星號
+\_    下划線
+\{\}  大括號
+\[\]  中括號
+\(\)  小括弧
+\#    井號
+\+    加號
+\-    減號
+\.    英文句號
+\!    感嘆號
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;分割&lt;/p&gt;
