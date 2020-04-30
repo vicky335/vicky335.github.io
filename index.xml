@@ -767,7 +767,7 @@ $ git archive
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;index.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;ios 或 android 的入口，已經使用&lt;code&gt;index.js&lt;/code&gt;代替&lt;code&gt;index.ios.js/index.android.js&lt;/code&gt;，android 中配置 application 檔案的&lt;code&gt;getJSMainModuleName()&lt;/code&gt;配置入口&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;ios 或 android 的入口，已經使用&lt;code&gt;index.js&lt;/code&gt;代替&lt;code&gt;index.ios.js&lt;/code&gt; 或 &lt;code&gt;index.android.js&lt;/code&gt;，android 中配置 application 檔案的&lt;code&gt;getJSMainModuleName()&lt;/code&gt;配置入口&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
