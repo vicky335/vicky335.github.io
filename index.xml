@@ -3164,48 +3164,51 @@ $ nslookup lujs.cn
                             
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34; title=&#34;Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，創始人為&lt;strong&gt;約翰·格魯伯（John Gruber）&lt;/strong&gt;。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並選擇性的轉換成有效的 XHTML (或是 HTML)」。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34; title=&#34;Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，創始人為&lt;strong&gt;約翰·格魯伯（John Gruber）&lt;/strong&gt;。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並選擇性的轉換成有效的 XHTML (或是HTML)」。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&#34;介紹&#34;&gt;介紹&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，它的語法簡單，不像一般的文字處理軟件 Word 或 Pages 有大量的排版、字體設置。它使我們只專心於文字和內容，用&lt;strong&gt;「標記式語法」&lt;/strong&gt; 來代替常見的排版格式。從內容到格式，甚至插圖，都是鍵盤就可以通通搞定了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一種&lt;strong&gt;「輕量級標記式語言」&lt;/strong&gt;，它的語法簡單，不像一般的文字處理軟件Word或Pages有大量的排版、字體設置。它使我們只專心於文字和內容，用&lt;strong&gt;「標記式語法」&lt;/strong&gt; 來代替常見的排版格式。從內容到格式，甚至插圖，都是鍵盤就可以通通搞定了。&lt;/p&gt;
 
-&lt;p&gt;目前支持 Markdown 語法的編輯器和網站都好多。例如：&lt;a href=&#34;https://macdown.uranusjr.com/&#34;&gt;MacDown&lt;/a&gt;、&lt;a href=&#34;https://typora.io/&#34;&gt;typora&lt;/a&gt;、&lt;a href=&#34;http://25.io/mou/&#34;&gt;Mou&lt;/a&gt;、&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;、&lt;a href=&#34;http://www.jianshu.com/&#34;&gt;簡書&lt;/a&gt;等等。&lt;/p&gt;
+&lt;p&gt;目前支持Markdown語法的編輯器和網站都好多。例如：&lt;a href=&#34;https://macdown.uranusjr.com/&#34;&gt;MacDown&lt;/a&gt;、&lt;a href=&#34;https://typora.io/&#34;&gt;typora&lt;/a&gt;、&lt;a href=&#34;http://25.io/mou/&#34;&gt;Mou&lt;/a&gt;、&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;、&lt;a href=&#34;http://www.jianshu.com/&#34;&gt;簡書&lt;/a&gt;等等。&lt;/p&gt;
 
-&lt;p&gt;Markdown 能導出多種格式，可以導出 HTML 格式的文件用來網站發佈，也可以導出 PDF 格式。&lt;/p&gt;
+&lt;p&gt;Markdown能導出多種格式，可以導出HTML格式的文件用來網站發佈，也可以導出PDF格式。&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Markdown 語法參考：&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Markdown語法參考：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;創始人約翰·格魯伯（John Gruber）的 Markdown 語法&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://wowubuntu.com/markdown&#34;&gt;Markdown 中文版語法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;創始人約翰·格魯伯（John Gruber）的Markdown語法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wowubuntu.com/markdown&#34;&gt;Markdown中文版語法&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;特點&#34;&gt;特點&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;純文本，兼容性極強，可以用所有文本編輯器打開&lt;/li&gt;
-&lt;li&gt;Markdown 專注於文字和內容，而不是排版，能讓我們安心寫作&lt;/li&gt;
-&lt;li&gt;Markdown 的語法簡單，有極好的可讀性，常用的標記符號不超過十個&lt;/li&gt;
-&lt;li&gt;格式轉換方便，除了本身的.md 文件外，還能輕鬆轉換為 HTML、PDF 等格式&lt;/li&gt;
-&lt;li&gt;Markdown 還能支持流程圖、複雜的表格、公式等等&lt;/li&gt;
+&lt;li&gt;Markdown專注於文字和內容，而不是排版，能讓我們安心寫作&lt;/li&gt;
+&lt;li&gt;Markdown的語法簡單，有極好的可讀性，常用的標記符號不超過十個&lt;/li&gt;
+&lt;li&gt;格式轉換方便，除了本身的.md文件外，還能輕鬆轉換為HTML、PDF等格式&lt;/li&gt;
+&lt;li&gt;Markdown還能支持流程圖、複雜的表格、公式等等
+
+
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&#34;語法規則&#34;&gt;語法規則&lt;/h2&gt;
 
 &lt;h3 id=&#34;代碼區域&#34;&gt;代碼區域&lt;/h3&gt;
 
-&lt;p&gt;對於程序員，文章中有代碼是肯定的。我們需要代碼框把代碼引起來，這個時候，我們可以用 3 個&lt;code&gt;`&lt;/code&gt;把代碼引起來就可以了，&lt;/p&gt;
+&lt;p&gt;對於程序員，文章中有代碼是肯定的。我們需要代碼框把代碼引起來，這個時候，我們可以用3個&lt;code&gt;`&lt;/code&gt;把代碼引起來就可以了，&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;var a = 3;
 int b = 33;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;	寫法：
-
+	
 	```
 	code
 	```
@@ -3215,7 +3218,7 @@ int b = 33;
 
 &lt;h3 id=&#34;標題&#34;&gt;標題&lt;/h3&gt;
 
-&lt;p&gt;可以在標題內容前輸入特定數量的&lt;code&gt;#&lt;/code&gt;號來實現對應級別的 HTML 樣式標題。&lt;/p&gt;
+&lt;p&gt;可以在標題內容前輸入特定數量的&lt;code&gt;#&lt;/code&gt;號來實現對應級別的HTML樣式標題。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# 一級標題
 ## 二級標題
@@ -3234,7 +3237,7 @@ int b = 33;
 --------------------
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Markdown 會轉成：&lt;/p&gt;
+&lt;p&gt;Markdown會轉成：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;一級標題&amp;lt;/h1&amp;gt;
 &amp;lt;h2&amp;gt;二級標題&amp;lt;/h2&amp;gt;
@@ -3245,7 +3248,7 @@ int b = 33;
 
 &lt;h3 id=&#34;列表&#34;&gt;列表&lt;/h3&gt;
 
-&lt;p&gt;我們知道列表有 有序列表 和 無序列表 兩種。在 Markdown 下，只需要在文字前加上 &lt;code&gt;-&lt;/code&gt; 或 &lt;code&gt;*&lt;/code&gt; 即變為無序列表，而有序列表則是直接在文字前面加&lt;code&gt;1.&lt;/code&gt; &lt;code&gt;2.&lt;/code&gt; &lt;code&gt;3.&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;我們知道列表有 有序列表 和 無序列表 兩種。在Markdown下，只需要在文字前加上 &lt;code&gt;-&lt;/code&gt; 或 &lt;code&gt;*&lt;/code&gt; 即變為無序列表，而有序列表則是直接在文字前面加&lt;code&gt;1.&lt;/code&gt; &lt;code&gt;2.&lt;/code&gt; &lt;code&gt;3.&lt;/code&gt;。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;* 列表1
 * 列表2
@@ -3261,7 +3264,7 @@ int b = 33;
 3. 列表3
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Markdown 會轉成：&lt;/p&gt;
+&lt;p&gt;Markdown會轉成：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
 	&amp;lt;li&amp;gt;列表1&amp;lt;/li&amp;gt;
@@ -3295,7 +3298,7 @@ int b = 33;
 &amp;gt; 引用元素是會自動優化排版的（reflowable，可回流）。
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Markdown 會轉成：&lt;/p&gt;
+&lt;p&gt;Markdown會轉成：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;&amp;lt;p&amp;gt;這一整段的內容都會作為一個HTML的引用元素。引用元素是會自動優化排版的（reflowable，可回流）。&amp;lt;/p&amp;gt;&amp;lt;/blockquote&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -3311,94 +3314,93 @@ int b = 33;
 &lt;h3 id=&#34;換行&#34;&gt;換行&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;單一段落
-&lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;單一段落&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;多行
-&lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;多行&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;br /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;如果你真的想在 Markdown 中插入換行標籤&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;，你可以在行尾輸入兩個或以上的空格，然後 Enter。 這樣插入換行十分麻煩，但是「每個換行都轉換為&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;」在 Markdown 中並不合適，所以只在你確定你需要時手動添加。&lt;/p&gt;
+&lt;p&gt;如果你真的想在Markdown中插入換行標籤&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;，你可以在行尾輸入兩個或以上的空格，然後Enter。 這樣插入換行十分麻煩，但是「每個換行都轉換為&lt;code&gt; &amp;lt;br/&amp;gt; &lt;/code&gt;」在 Markdown中並不合適，所以只在你確定你需要時手動添加。&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&#34;連結&#34;&gt;連結&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;文字連結。只需要使用&lt;code&gt;[連結文字](連結地址)&lt;/code&gt;，如
-&lt;code&gt;[vicky335](https://vicky335.github.io &amp;quot;vicky335&amp;quot;)&lt;/code&gt;
-顯示效果：&lt;a href=&#34;https://vicky335.github.io&#34; title=&#34;vicky335&#34;&gt;vicky335&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;文字連結。只需要使用&lt;code&gt;[連結文字](連結地址)&lt;/code&gt;，如&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[vicky335](https://vicky335.github.io &amp;quot;vicky335&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;顯示效果：&lt;a href=&#34;https://vicky335.github.io&#34; title=&#34;vicky335&#34;&gt;vicky335&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;索引連結。連結地址可以放在段落後面的注腳，前面放上連結參照標籤區分。如，先在內容行內插入&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;```
-[連結文字][連結引用標籤]
-```
-然後在段落後面（或文件結尾）放上以下內容，就可以生成連結：
+&lt;pre&gt;&lt;code&gt;[連結文字][連結引用標籤]
+&lt;/code&gt;&lt;/pre&gt;
 
-```
-[連結引用標籤]：連結地址 &amp;quot;連結標題&amp;quot;
-```
+&lt;p&gt;然後在段落後面（或文件結尾）放上以下內容，就可以生成連結：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[連結引用標籤]：連結地址 &amp;quot;連結標題&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;自動連結。Markdown 還支持以比較簡短的自動連結形式來處理網址和電子郵件，只要使用尖括號&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包起來，就會自動把它轉成連結。如&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;自動連結。Markdown還支持以比較簡短的自動連結形式來處理網址和電子郵件，只要使用尖括號&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包起來，就會自動把它轉成連結。如&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;```
-&amp;lt;https://vicky335.github.io&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;https://vicky335.github.io&amp;gt;
 &amp;lt;address@example.com&amp;gt;
-```
-顯示效果：&amp;lt;https://vicky335.github.io&amp;gt; &amp;lt;address@example.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-此時，Markdown會轉為：
+&lt;p&gt;顯示效果：&lt;a href=&#34;https://vicky335.github.io&#34;&gt;https://vicky335.github.io&lt;/a&gt; &lt;a href=&#34;mailto:address@example.com&#34;&gt;address@example.com&lt;/a&gt;&lt;/p&gt;
 
-```
-&amp;lt;a href=&amp;quot;http://example.com/&amp;quot;&amp;gt;http://example.com/&amp;lt;/a&amp;gt;
-```
+&lt;p&gt;此時，Markdown會轉為：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://example.com/&amp;quot;&amp;gt;http://example.com/&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;如果希望添加的連結是另開新視窗打開：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;直接使用 HTML 語法&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;直接使用HTML語法&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;https://vicky335.github.io/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;vicky335&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;使用Javascript語言&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+    var links = document.links;
+        
+    for (var i = 0, linksLength = links.length; i &amp;lt; linksLength; i++) {
+       if (links[i].hostname != window.location.hostname) {
+           links[i].target = &#39;_blank&#39;;
+       } 
+    }
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;使用JQuery的可以是：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+    $(document.links).filter(function() {
+        return this.hostname != window.location.hostname;
+    }).attr(&#39;target&#39;, &#39;_blank&#39;);
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;有些Markdown的編輯器可以使用&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[vicky335](https://vicky335.github.io){:target=&amp;quot;_blank&amp;quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;pre&gt;&lt;code&gt;   &amp;lt;a href=&amp;quot;https://vicky335.github.io/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;vicky335&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;使用 Javascript 語言&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code&gt;   &amp;lt;script&amp;gt;
-   	var links = document.links;
-
-   	for (var i = 0, linksLength = links.length; i &amp;lt; linksLength; i++) {
-   	   if (links[i].hostname != window.location.hostname) {
-   	       links[i].target = &#39;_blank&#39;;
-   	   }
-   	}
-   &amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;使用 JQuery 的可以是：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;   &amp;lt;script&amp;gt;
-   	$(document.links).filter(function() {
-   	    return this.hostname != window.location.hostname;
-   	}).attr(&#39;target&#39;, &#39;_blank&#39;);
-   &amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;有些 Markdown 的編輯器可以使用&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code&gt;   [vicky335](https://vicky335.github.io){:target=&amp;quot;_blank&amp;quot;}
-&lt;/code&gt;&lt;/pre&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Markdown 另外新窗參考：
+&lt;p&gt;Markdown另外新窗參考：
 &lt;a href=&#34;https://stackoverflow.com/questions/4425198/markdown-target-blank&#34;&gt;https://stackoverflow.com/questions/4425198/markdown-target-blank&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -3406,7 +3408,7 @@ int b = 33;
 
 &lt;h3 id=&#34;圖片&#34;&gt;圖片&lt;/h3&gt;
 
-&lt;p&gt;插入圖片，只需要使用 &lt;code&gt;![替代文字(可省略)](圖片連結地址 &amp;quot;title文字&amp;quot;)&lt;/code&gt; 即可。不過目前 Markdown 還不能指定圖片的寬高，如有需要，可以使用普通的 &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; 標籤。&lt;/p&gt;
+&lt;p&gt;插入圖片，只需要使用 &lt;code&gt;![替代文字(可省略)](圖片連結地址 &amp;quot;title文字&amp;quot;)&lt;/code&gt; 即可。不過目前Markdown還不能指定圖片的寬高，如有需要，可以使用普通的 &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; 標籤。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://vicky335.github.io/images/logo.png&#34; alt=&#34;vicky335&#34; title=&#34;vicky335&#34; /&gt;&lt;/p&gt;
 
@@ -3417,7 +3419,7 @@ int b = 33;
 ![Alt text](/path/to/img.jpg &amp;quot;Optional title&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;目前 Markdown 還不能指定圖片的寬高，如有需要，可以使用普通的&lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;標籤&lt;/p&gt;
+&lt;p&gt;目前Markdown還不能指定圖片的寬高，如有需要，可以使用普通的&lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;標籤&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -3447,19 +3449,19 @@ int b = 33;
 &lt;tr&gt;
 &lt;td&gt;col &lt;em&gt;3&lt;/em&gt; is&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;right-aligned&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;\$1600&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$1600&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;col 2 is&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;centered&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;\$12&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$12&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;zebra stripes&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;are neat&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;\$1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3471,35 +3473,29 @@ int b = 33;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;em&gt;斜體&lt;/em&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;使用1個&amp;lt;code&amp;gt;*&amp;lt;/code&amp;gt;或用1個&amp;lt;code&amp;gt;_&amp;lt;/code&amp;gt;，把需要顯示斜體的內容包住，如：
+&lt;p&gt;使用1個&lt;code&gt;*&lt;/code&gt;或用1個&lt;code&gt;_&lt;/code&gt;，把需要顯示斜體的內容包住，如：&lt;/p&gt;
 
-```
-*斜體*
-
+&lt;pre&gt;&lt;code&gt;*斜體*
+    
 _粗體_
-```
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;粗體&lt;/strong&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;使用2個&amp;lt;code&amp;gt;**&amp;lt;/code&amp;gt;或用2個&amp;lt;code&amp;gt;__&amp;lt;/code&amp;gt;，把要加粗的內容包住，如：
+&lt;p&gt;使用2個&lt;code&gt;**&lt;/code&gt;或用2個&lt;code&gt;__&lt;/code&gt;，把要加粗的內容包住，如：&lt;/p&gt;
 
-```
-**粗體**
-
+&lt;pre&gt;&lt;code&gt;**粗體**
+    
 __粗體__
-```
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;粗斜體&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;使用3個&amp;lt;code&amp;gt;***&amp;lt;/code&amp;gt; 或用3個&amp;lt;code&amp;gt;___&amp;lt;/code&amp;gt;，把要加粗斜體的內容包住，如：
+&lt;p&gt;使用3個&lt;code&gt;***&lt;/code&gt; 或用3個&lt;code&gt;___&lt;/code&gt;，把要加粗斜體的內容包住，如：&lt;/p&gt;
 
-```
-***斜體***
-
+&lt;pre&gt;&lt;code&gt;***斜體***
+    
 ___粗體___
-```
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -3510,24 +3506,21 @@ ___粗體___
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;水平分割線&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;在單獨一行裡使用3個或以上的&amp;lt;code&amp;gt; - - - &amp;lt;/code&amp;gt; &amp;lt;code&amp;gt; * * * &amp;lt;/code&amp;gt; &amp;lt;code&amp;gt; ____ &amp;lt;/code&amp;gt;，如：
+&lt;p&gt;在單獨一行裡使用3個或以上的&lt;code&gt; - - - &lt;/code&gt; &lt;code&gt; * * * &lt;/code&gt; &lt;code&gt; ____ &lt;/code&gt;，如：&lt;/p&gt;
 
-```
-* * *
+&lt;pre&gt;&lt;code&gt;* * *
 ***
 *****
 - - -
 ---------------------------------------
-```
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;轉義&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Markdown可以利用反斜槓來插入一些在語法中有特殊意義的符號，例如想顯示\*，就在星號前加上反斜槓`\*`。
-Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符號：
+&lt;p&gt;Markdown可以利用反斜槓來插入一些在語法中有特殊意義的符號，例如想顯示*，就在星號前加上反斜槓&lt;code&gt;\*&lt;/code&gt;。
+Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符號：&lt;/p&gt;
 
-```
-    \\    反斜線
+&lt;pre&gt;&lt;code&gt;    \\    反斜線
     \`    反引號
     \*    星號
     \_    下划線
@@ -3539,37 +3532,30 @@ Markdown支持以下這些符號前面加上反斜槓來幫助插入普通的符
     \-    減號
     \.    英文句號
     \!    感嘆號
-```
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;分割&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;使用三個`-`，即是`---`
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;使用三個&lt;code&gt;-&lt;/code&gt;，即是&lt;code&gt;---&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;縮進&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;程序中常用的tab縮進是
+&lt;p&gt;程序中常用的tab縮進是&lt;/p&gt;
 
-```
-寫法：` `這樣寫就會縮進了。
-```
+&lt;pre&gt;&lt;code&gt;寫法：` `這樣寫就會縮進了。
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;code&gt;特殊顯示&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;即inline代碼。用1個&amp;lt;code&amp;gt;`&amp;lt;/code&amp;gt;把要顯示的內容包住，如：
+&lt;p&gt;即inline代碼。用1個&lt;code&gt;`&lt;/code&gt;把要顯示的內容包住，如：&lt;/p&gt;
 
-```
-寫法：
+&lt;pre&gt;&lt;code&gt;寫法：
 `我是特殊形式`
-```
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;直接使用 Html&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;直接使用Html&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;可以直接使用HTML標籤，但要在前後加上空行。
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;可以直接使用HTML標籤，但要在前後加上空行。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
                             <figure class="op-ad">
