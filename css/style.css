@@ -56,10 +56,11 @@
   padding-bottom: 4rem;
 }
 
-/* .post-content .ui_adblock {
-  background-color: #eee;
+.post-content .ui_adblock {
+  /* background-color: #eee; */
+  margin-bottom: 1.75em;
 }
-.post-content .ui_adblock > .title {
+/* .post-content .ui_adblock > .title {
   display: block;
 } */
 
@@ -76,6 +77,10 @@
 
   .ui_adblock > .content > .adunit:last-child {
     margin-bottom: 0;
+  }
+
+  .post-content .ui_adblock {
+    margin-bottom: 2.5rem;
   }
 }
 

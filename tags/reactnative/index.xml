@@ -51,7 +51,7 @@
 
             <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
 
-            <description>名稱 描述 android目錄 Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案； ios目錄 iOS專案目錄，包含</description>
+            <description>名稱 描述 android 目錄 Android 專案目錄，包含了使用 AndroidStudio 開發專案的環境配置檔案； ios 目錄 iOS 專案目錄，包含了 XCode 的環境 node_modules 目錄 基於 node 檔案依賴系統產生的相關依賴和第三方</description>
 
             <content:encoded>
                 
@@ -96,28 +96,28 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;android目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Android專案目錄，包含了使用AndroidStudio開發專案的環境配置檔案；&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;android 目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Android 專案目錄，包含了使用 AndroidStudio 開發專案的環境配置檔案；&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;ios目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;iOS專案目錄，包含了XCode的環境&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;ios 目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;iOS 專案目錄，包含了 XCode 的環境&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;node_modules目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;基於node檔案依賴系統產生的相關依賴和第三方lib&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;node_modules 目錄&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;基於 node 檔案依賴系統產生的相關依賴和第三方 lib&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;index.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;ios或android的入口，已經使用index.js代替index.ios.js/index.android.js，android中配置application檔案的getJSMainModuleName()配置入口&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;ios 或 android 的入口，已經使用&lt;code&gt;index.js&lt;/code&gt;代替&lt;code&gt;index.ios.js/index.android.js&lt;/code&gt;，android 中配置 application 檔案的&lt;code&gt;getJSMainModuleName()&lt;/code&gt;配置入口&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;app.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;app的json檔案&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;app 的 json 檔案&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -127,42 +127,42 @@
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;package-lock.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;npm install生成的檔案，記錄當前npm package的資訊&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;npm install 生成的檔案，記錄當前 npm package 的資訊&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;App.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;相當於Android的MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改index.js的註冊的元件入口js檔名）&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;相當於 Android 的 MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改&lt;code&gt;index.js&lt;/code&gt;的註冊的元件入口 js 檔名）&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.babelrc&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Babel配置檔案，在.babelrc配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Babel 配置檔案，在&lt;code&gt;.babelrc&lt;/code&gt;配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.buckconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Buck的配置檔案，buck是Facebook開源的高效構建系統&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Buck 的配置檔案，buck 是 Facebook 開源的高效構建系統&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.flowconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Flow的配置檔案，flowconfig是是Flow的配置檔案&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Flow 的配置檔案，flowconfig 是是 Flow 的配置檔案&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.gitattributes&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git配置檔案，指定非文字檔案的對比合併方式&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;git 配置檔案，指定非文字檔案的對比合並方式&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.gitignore&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git配置檔案，用於忽略你不想提交到Git上的檔案&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;git 配置檔案，用於忽略你不想提交到 Git 上的檔案&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;.watchmanconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;watchman的配置檔案，watchman用於監控檔案變化，輔助實現工程修改資訊&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;watchman 的配置檔案，watchman 用於監控檔案變化，輔助實現工程修改資訊&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

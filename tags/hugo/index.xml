@@ -51,7 +51,7 @@
 
             <guid>https://vicky335.github.io/post/f2e/hugo.html</guid>
 
-            <description>Hugo是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成Blo</description>
+            <description>Hugo是一款由 GO 語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成 Blog 創建網</description>
 
             <content:encoded>
                 
@@ -89,7 +89,7 @@
                             
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由GO語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt;是一款由 GO 語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
@@ -98,10 +98,10 @@
 
 &lt;pre&gt;&lt;code&gt;$ brew install hugo
 $ hugo version // 是否安裝成功
-$ hugo --help 
+$ hugo --help
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;生成blog&#34;&gt;生成Blog&lt;/h2&gt;
+&lt;h2 id=&#34;生成-blog&#34;&gt;生成 Blog&lt;/h2&gt;
 
 &lt;p&gt;創建網站&lt;/p&gt;
 
@@ -135,12 +135,12 @@ $ hugo --help
 $ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;第二種是下載感興趣的主題(以Casper為例)&lt;/p&gt;
+&lt;p&gt;第二種是下載感興趣的主題(以 Casper 為例)&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo的網址、themes/casper 改成 themes/你的主題名稱。&lt;/p&gt;
+&lt;p&gt;你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo 的網址、themes/casper 改成 themes/你的主題名稱。&lt;/p&gt;
 
 &lt;h3 id=&#34;使用主題&#34;&gt;使用主題&lt;/h3&gt;
 
@@ -166,7 +166,7 @@ title = &amp;quot;Vicky Blog&amp;quot;    #自由命名
 
 &lt;pre&gt;&lt;code&gt;+++
 title: &amp;quot;First&amp;quot;
-date: 2019-06-03T17:10:40+08:00
+date: 2017-04-12T21:57:04+08:00
 draft: true
 +++
 &lt;/code&gt;&lt;/pre&gt;
@@ -175,9 +175,9 @@ draft: true
 
 &lt;pre&gt;&lt;code&gt;+++
 title: &amp;quot;{{ replace .Name &amp;quot;-&amp;quot; &amp;quot; &amp;quot; | title }}&amp;quot;
-date: {{ now.Format &amp;quot;2006-01-02&amp;quot;  }} 
+date: {{ now.Format &amp;quot;2006-01-01&amp;quot;  }}
 draft: false
-categories: [] 
+categories: []
 tags: []
 toc: false
 +++
@@ -192,9 +192,9 @@ toc: false
 
 &lt;pre&gt;&lt;code&gt;+++
 title: &amp;quot;Second&amp;quot;
-date: 2019-06-03 
+date: 2017-04-12
 draft: false
-categories: [] 
+categories: []
 tags: []
 toc: false
 +++
@@ -207,7 +207,7 @@ toc: false
 &lt;pre&gt;&lt;code&gt;$ hugo server
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;執行完後，在瀏覽器中輸入網址 &lt;a href=&#34;http://localhost:1313，就可以看到網站的雛形。&#34;&gt;http://localhost:1313，就可以看到網站的雛形。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;執行完後，在瀏覽器中輸入網址 &lt;code&gt;http://localhost:1313&lt;/code&gt;，就可以看到網站的雛形。&lt;/p&gt;
 
 &lt;p&gt;默認的話，只會顯示 &lt;code&gt;draft&lt;/code&gt; 為 &lt;code&gt;false&lt;/code&gt; 的文章。&lt;/p&gt;
 
@@ -225,7 +225,7 @@ toc: false
 
 &lt;p&gt;Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。&lt;/p&gt;
 
-&lt;h3 id=&#34;在-github-建立repo&#34;&gt;在 GitHub 建立repo&lt;/h3&gt;
+&lt;h3 id=&#34;在-github-建立-repo&#34;&gt;在 GitHub 建立 repo&lt;/h3&gt;
 
 &lt;p&gt;在 GitHub 建立 &lt;strong&gt;&lt;em&gt;vicky335&lt;/em&gt;&lt;/strong&gt;.github.io (粗斜體處改成自己的帳號名稱) repo。&lt;/p&gt;
 
@@ -239,7 +239,7 @@ git commit -m &amp;quot;Initial commit&amp;quot;
 git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;等個幾分鐘，輸入網址 &lt;a href=&#34;https://vicky335.github.io/&#34;&gt;https://vicky335.github.io/&lt;/a&gt; 就大功告成囉！&lt;/p&gt;
+&lt;p&gt;等個幾分鐘，輸入網址 &lt;code&gt;https://vicky335.github.io/&lt;/code&gt; 就大功告成囉！&lt;/p&gt;
 
                             <figure class="op-ad">
                               <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
