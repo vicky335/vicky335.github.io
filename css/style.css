@@ -19,10 +19,6 @@
   /* line-height: 0; */
 }
 
-.ui_adblock:last-child {
-  margin-bottom: 0;
-}
-
 .ui_adblock > .title {
   display: none;
   padding: 1rem 0rem;
@@ -56,13 +52,18 @@
   padding-bottom: 4rem;
 }
 
-.post-content .ui_adblock {
+.post-content .ui_adblock,
+.post-content .google-auto-placed {
   /* background-color: #eee; */
   margin-bottom: 1.75em;
 }
 /* .post-content .ui_adblock > .title {
   display: block;
 } */
+
+.google-auto-placed iframe {
+  margin: 0 auto;
+}
 
 @media only screen and (max-width: 750px) {
   .ui_block > .title {
@@ -79,9 +80,15 @@
     margin-bottom: 0;
   }
 
-  .post-content .ui_adblock {
+  .post-content .ui_adblock,
+  .post-content .google-auto-placed {
     margin-bottom: 2.5rem;
   }
+}
+
+.ui_adblock:last-child,
+.google-auto-placed:last-child {
+  margin-bottom: 0;
 }
 
 .test-form {
