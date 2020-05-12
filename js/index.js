@@ -67,9 +67,9 @@
       let heightSum = 0;
       let adCount = 0;
       let maxNum = 7;
-      if (!paltformOs.desktop) {
-        maxNum = 10;
-      }
+      // if (!paltformOs.desktop) {
+      //   maxNum = 10;
+      // }
       $(".post-content")
         .children()
         .not(".ui_adblock")
