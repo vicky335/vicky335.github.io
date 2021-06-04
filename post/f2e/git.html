@@ -114,7 +114,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.21" />
+    <meta name="generator" content="Hugo 0.73.0" />
 
     <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html" />
 
@@ -127,21 +127,21 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": ,
-        "logo": https://vicky335.github.io/images/logo.png
+        "name":  null ,
+        "logo": "https://vicky335.github.io/images/logo.png"
     },
     "author": {
         "@type": "Person",
-        "name": ,
+        "name":  null ,
         
         "image": {
             "@type": "ImageObject",
-            "url": https://vicky335.github.io/images/logo.png,
+            "url": "https://vicky335.github.io/images/logo.png",
             "width": 250,
             "height": 250
         }, 
         
-        "url": ,
+        "url":  null ,
         "sameAs": [
             
             
@@ -152,26 +152,26 @@
              
             
         ],
-        "description": I&#39;m a Front-end Engineer
+        "description": "I'm a Front-end Engineer"
         
     },
-    "headline": Git常用命令清單,
-    "name": Git常用命令清單,
-    "wordCount": 2541,
+    "headline": "Git常用命令清單",
+    "name": "Git常用命令清單",
+    "wordCount":  2556 ,
     "timeRequired": "PT6M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": https://vicky335.github.io/post/f2e/git.html,
-    "datePublished": 2020-04-14T10:21Z,
-    "dateModified": 2020-04-14T10:21Z,
+    "url": "https://vicky335.github.io/post/f2e/git.html",
+    "datePublished": "2020-04-14T10:21Z",
+    "dateModified": "2020-04-14T10:21Z",
     
-    "keywords": f2e, git,
-    "description": ,
+    "keywords": "f2e, git",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": https://vicky335.github.io/post/f2e/git.html
+        "@id": "https://vicky335.github.io/post/f2e/git.html"
     }
 }
     </script>
@@ -294,10 +294,7 @@
 
     <section class="post-content">
 
-      
-
-<h2 id="新建代碼庫">新建代碼庫</h2>
-
+      <h2 id="新建代碼庫">新建代碼庫</h2>
 <pre><code># 在當前目錄新建一個Git代碼庫
 $ git init
 
@@ -307,31 +304,18 @@ $ git init [project-name]
 # 下載一個項目和它的整個代碼歷史
 $ git clone [url]
 
-</code></pre>
-
-<ul>
+</code></pre><ul>
 <li>git clone：當你已經有一個遠程的 Git 版本庫，只需要在本地克隆一份，例如：</li>
 </ul>
-
 <pre><code>git clone git://github.com/someone/some_project.git some_project
-</code></pre>
-
-<p>上面的命令就是將<code>git://github.com/someone/some_project.git</code>這個URL地址的遠程版本庫，完全克隆到本地<code>some_project</code>目錄下。</p>
-
+</code></pre><p>上面的命令就是將<code>git://github.com/someone/some_project.git</code>這個URL地址的遠程版本庫，完全克隆到本地<code>some_project</code>目錄下。</p>
 <ul>
-<li>git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&rsquo;git init&rsquo;命令進行初始化；Git 以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的 URL 記錄下來，此時你就可以利用&rsquo;git remote add&rsquo;命令來增加一個遠程服務器端，例如：
-<br /></li>
+<li>git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&rsquo;git init&rsquo;命令進行初始化；Git 以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的 URL 記錄下來，此時你就可以利用&rsquo;git remote add&rsquo;命令來增加一個遠程服務器端，例如：</li>
 </ul>
-
 <pre><code>git remote add origin git://github.com/someone/another_project.git
-</code></pre>
-
-<p>上面的命令就會增加URL地址為<code>git://github.com/someone/another_project.git</code>，名稱為<code>origin</code>的遠程服務器，以後提交代碼的時候只需要使用<code>origin</code>別名即可</p>
-
+</code></pre><p>上面的命令就會增加URL地址為<code>git://github.com/someone/another_project.git</code>，名稱為<code>origin</code>的遠程服務器，以後提交代碼的時候只需要使用<code>origin</code>別名即可</p>
 <h2 id="配置">配置</h2>
-
 <p>Git 的設置文件為<code>.gitconfig</code>，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。</p>
-
 <pre><code># 顯示當前的Git配置
 $ git config --list
 
@@ -341,21 +325,14 @@ $ git config -e [--global]
 # 設置提交代碼時的用戶信息
 $ git config [--global] user.name &quot;[name]&quot;
 $ git config [--global] user.email &quot;[email address]&quot;
-</code></pre>
-
-<h2 id="忽略一些文件-文件夾不提交">忽略一些文件、文件夾不提交</h2>
-
+</code></pre><h2 id="忽略一些文件文件夾不提交">忽略一些文件、文件夾不提交</h2>
 <p>在倉庫根目錄下創建名稱為<code>.gitignore</code>的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如</p>
-
 <pre><code>target
 
 bin
 
 *.db
-</code></pre>
-
-<h2 id="增加-刪除文件">增加/刪除文件</h2>
-
+</code></pre><h2 id="增加刪除文件">增加/刪除文件</h2>
 <pre><code># 添加指定文件到暫存區
 $ git add [file1] [file2] ...
 
@@ -377,10 +354,7 @@ $ git rm --cached [file]
 
 # 改名文件，並且將這個改名放入暫存區
 $ git mv [file-original] [file-renamed]
-</code></pre>
-
-<h2 id="代碼提交">代碼提交</h2>
-
+</code></pre><h2 id="代碼提交">代碼提交</h2>
 <pre><code># 提交暫存區到倉庫區
 $ git commit -m [message]
 
@@ -399,10 +373,7 @@ $ git commit --amend -m [message]
 
 # 重做上一次commit，並包括指定文件的新變化
 $ git commit --amend [file1] [file2] ...
-</code></pre>
-
-<h2 id="分支">分支</h2>
-
+</code></pre><h2 id="分支">分支</h2>
 <pre><code># 列出所有本地分支
 $ git branch
 
@@ -445,10 +416,7 @@ $ git branch -d [branch-name]
 # 刪除遠程分支
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
-</code></pre>
-
-<h2 id="標籤-tag">標籤(tag)</h2>
-
+</code></pre><h2 id="標籤tag">標籤(tag)</h2>
 <pre><code># 列出所有tag
 $ git tag
 
@@ -475,10 +443,7 @@ $ git push [remote] --tags
 
 # 新建一個分支，指向某個tag
 $ git checkout -b [branch] [tag]
-</code></pre>
-
-<h2 id="子模塊-submodule">子模塊(submodule)</h2>
-
+</code></pre><h2 id="子模塊submodule">子模塊(submodule)</h2>
 <pre><code># 添加子模塊
 $ git submodule add [url] [path]
 
@@ -493,10 +458,7 @@ $ git submodule update
 - 編輯 .gitmodules 文件，將子模塊的相關配置節點刪除掉
 - 編輯 .git/config 文件，將子模塊的相關配置節點刪除掉
 - 手動刪除子模塊殘留的目錄
-</code></pre>
-
-<h2 id="查看信息">查看信息</h2>
-
+</code></pre><h2 id="查看信息">查看信息</h2>
 <pre><code># 顯示有變更的文件
 $ git status
 
@@ -557,10 +519,7 @@ $ git show [commit]:[filename]
 
 # 顯示當前分支的最近幾次提交
 $ git reflog
-</code></pre>
-
-<h2 id="遠程同步">遠程同步</h2>
-
+</code></pre><h2 id="遠程同步">遠程同步</h2>
 <pre><code># 下載遠程倉庫的所有變動
 $ git fetch [remote]
 
@@ -584,10 +543,7 @@ $ git push [remote] --force
 
 # 推送所有分支到遠程倉庫
 $ git push [remote] --all
-</code></pre>
-
-<h2 id="撤銷">撤銷</h2>
-
+</code></pre><h2 id="撤銷">撤銷</h2>
 <pre><code># 恢復暫存區的指定文件到工作區
 $ git checkout [file]
 
@@ -619,14 +575,10 @@ $ git revert [commit]
 # 暫時將未提交的變化移除，稍後再移入
 $ git stash
 $ git stash pop
-</code></pre>
-
-<h2 id="其他">其他</h2>
-
+</code></pre><h2 id="其他">其他</h2>
 <pre><code># 生成一個可供發佈的壓縮包
 $ git archive
 </code></pre>
-
 
     </section>
 

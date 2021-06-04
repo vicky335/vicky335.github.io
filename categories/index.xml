@@ -1,40 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>
-             Categories on Vicky&#39;s Blog 
-        </title>
-
-        <link>https://vicky335.github.io/categories.html</link>
-
-        
-        <author>vicky335 (https://vicky335.github.io/)</author>
-        
-
-        
-        <managingEditor>vicky335 (https://vicky335.github.io/)</managingEditor>
-        
-
-        
-        <webMaster>vicky335 (https://vicky335.github.io/)</webMaster>
-        
-
-        <description>
-            This is vicky335&#39;s blog
-        </description>
-
-        
-        <language>zh-Hant</language>
-        
-
-        <copyright>
-            <a href="https://vicky335.github.io/">Vicky&#39;s Blog</a> All rights reserved - 2017
-        </copyright>
-
-        
-
-        <atom:link href="https://vicky335.github.io/categories.html" rel="self" type="application/rss+xml" />
-
-        
-    </channel>
+  <channel>
+    <title>Categories on Vicky&#39;s Blog</title>
+    <link>https://vicky335.github.io/categories.html</link>
+    <description>Recent content in Categories on Vicky&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <copyright>All rights reserved - 2017</copyright>
+    
+	<atom:link href="https://vicky335.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
 </rss>

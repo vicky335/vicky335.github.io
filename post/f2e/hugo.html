@@ -114,7 +114,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.21" />
+    <meta name="generator" content="Hugo 0.73.0" />
 
     <link rel="canonical" href="https://vicky335.github.io/post/f2e/hugo.html" />
 
@@ -127,21 +127,21 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": ,
-        "logo": https://vicky335.github.io/images/logo.png
+        "name":  null ,
+        "logo": "https://vicky335.github.io/images/logo.png"
     },
     "author": {
         "@type": "Person",
-        "name": ,
+        "name":  null ,
         
         "image": {
             "@type": "ImageObject",
-            "url": https://vicky335.github.io/images/logo.png,
+            "url": "https://vicky335.github.io/images/logo.png",
             "width": 250,
             "height": 250
         }, 
         
-        "url": ,
+        "url":  null ,
         "sameAs": [
             
             
@@ -152,26 +152,26 @@
              
             
         ],
-        "description": I&#39;m a Front-end Engineer
+        "description": "I'm a Front-end Engineer"
         
     },
-    "headline": 使用Hugo搭建靜態個人站點,
-    "name": 使用Hugo搭建靜態個人站點,
-    "wordCount": 876,
+    "headline": "使用Hugo搭建靜態個人站點",
+    "name": "使用Hugo搭建靜態個人站點",
+    "wordCount":  877 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": https://vicky335.github.io/post/f2e/hugo.html,
-    "datePublished": 2017-04-12T21:57Z,
-    "dateModified": 2017-04-12T21:57Z,
+    "url": "https://vicky335.github.io/post/f2e/hugo.html",
+    "datePublished": "2017-04-12T21:57Z",
+    "dateModified": "2017-04-12T21:57Z",
     
-    "keywords": f2e, hugo,
-    "description": ,
+    "keywords": "f2e, hugo",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": https://vicky335.github.io/post/f2e/hugo.html
+        "@id": "https://vicky335.github.io/post/f2e/hugo.html"
     }
 }
     </script>
@@ -294,32 +294,19 @@
 
     <section class="post-content">
 
-      
-
-<blockquote>
+      <blockquote>
 <p><a href="http://gohugo.io" title="hugo">Hugo</a>是一款由 GO 語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。</p>
 </blockquote>
-
 <h2 id="安裝">安裝</h2>
-
 <p>Mac 下的安裝</p>
-
 <pre><code>$ brew install hugo
 $ hugo version // 是否安裝成功
 $ hugo --help
-</code></pre>
-
-<h2 id="生成-blog">生成 Blog</h2>
-
+</code></pre><h2 id="生成-blog">生成 Blog</h2>
 <p>創建網站</p>
-
 <pre><code>$ hugo new site vicky335.github.io
-</code></pre>
-
-<h2 id="目錄結構">目錄結構</h2>
-
+</code></pre><h2 id="目錄結構">目錄結構</h2>
 <p>由 <code>hugo</code> 生成的博客的基本目錄如下</p>
-
 <ul>
 <li><code>archetypes</code> - 預定義看板，在這類，你可以定制你生成的博客的基本模板。</li>
 <li><code>content</code> - 網站的所有內容都保存在這裡</li>
@@ -328,59 +315,33 @@ $ hugo --help
 <li><code>public</code> - 生成的可直接部署的博客</li>
 <li><code>static</code> - 靜態文件，比如你站點需要用到的 logo、頭像等</li>
 </ul>
-
 <p>目錄的話，其實用到的地方不多，一般人只需要按照默認的主題來就行。</p>
-
 <h2 id="安裝主題">安裝主題</h2>
-
 <h3 id="安裝主題-1">安裝主題</h3>
-
 <p>生成網站之後，首先要做的就是下載主題，通常有兩種方法。</p>
-
 <p>第一種是下載所有主題，簡單粗暴</p>
-
 <pre><code>$ cd vicky335.github.io
 $ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
-</code></pre>
-
-<p>第二種是下載感興趣的主題(以 Casper 為例)</p>
-
+</code></pre><p>第二種是下載感興趣的主題(以 Casper 為例)</p>
 <pre><code>$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
-</code></pre>
-
-<p>你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo 的網址、themes/casper 改成 themes/你的主題名稱。</p>
-
+</code></pre><p>你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo 的網址、themes/casper 改成 themes/你的主題名稱。</p>
 <h3 id="使用主題">使用主題</h3>
-
 <p>在 <code>config.toml</code> 中配置 theme = &ldquo;casper&rdquo; 即可。</p>
-
-<h2 id="編輯-config-toml">編輯 config.toml</h2>
-
+<h2 id="編輯-configtoml">編輯 config.toml</h2>
 <p>使用文字編輯器打開 <code>config.toml</code>，並調整內容。</p>
-
 <pre><code>baseURL = &quot;https://vicky335.github.io/&quot;    #改成你的GitHub帳號名稱
 languageCode = &quot;zh-cn&quot;
 title = &quot;Vicky Blog&quot;    #自由命名
-</code></pre>
-
-<h2 id="創建文章">創建文章</h2>
-
+</code></pre><h2 id="創建文章">創建文章</h2>
 <p>首先，生成第一篇文章。</p>
-
 <pre><code>$ hugo new post/first.md
-</code></pre>
-
-<p>生成的文章內容如下：</p>
-
+</code></pre><p>生成的文章內容如下：</p>
 <pre><code>+++
 title: &quot;First&quot;
 date: 2017-04-12T21:57:04+08:00
 draft: true
 +++
-</code></pre>
-
-<p>該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式</p>
-
+</code></pre><p>該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式</p>
 <pre><code>+++
 title: &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
 date: {{ now.Format &quot;2006-01-01&quot;  }}
@@ -389,15 +350,9 @@ categories: []
 tags: []
 toc: false
 +++
-</code></pre>
-
-<p>再次生成文章</p>
-
+</code></pre><p>再次生成文章</p>
 <pre><code>$ hugo new post/second.md
-</code></pre>
-
-<p>生成的文章內容變成了</p>
-
+</code></pre><p>生成的文章內容變成了</p>
 <pre><code>+++
 title: &quot;Second&quot;
 date: 2017-04-12
@@ -406,48 +361,27 @@ categories: []
 tags: []
 toc: false
 +++
-</code></pre>
-
-<h2 id="生成最終網站">生成最終網站</h2>
-
+</code></pre><h2 id="生成最終網站">生成最終網站</h2>
 <p>生成靜態博客並在本地查看</p>
-
 <pre><code>$ hugo server
-</code></pre>
-
-<p>執行完後，在瀏覽器中輸入網址 <code>http://localhost:1313</code>，就可以看到網站的雛形。</p>
-
+</code></pre><p>執行完後，在瀏覽器中輸入網址 <code>http://localhost:1313</code>，就可以看到網站的雛形。</p>
 <p>默認的話，只會顯示 <code>draft</code> 為 <code>false</code> 的文章。</p>
-
 <p>服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新</p>
-
 <pre><code>$ hugo server --watch=false
-</code></pre>
-
-<p><code>hugo server</code> 並不會生成真正的站點，一般在部署之前，需要運行 <code>hugo</code> 命令生成 <code>public</code> 站點</p>
-
+</code></pre><p><code>hugo server</code> 並不會生成真正的站點，一般在部署之前，需要運行 <code>hugo</code> 命令生成 <code>public</code> 站點</p>
 <pre><code>$ hugo
-</code></pre>
-
-<h2 id="部署到-github">部署到 GitHub</h2>
-
+</code></pre><h2 id="部署到-github">部署到 GitHub</h2>
 <p>Hugo 部署在 GitHub 的方式有兩種，這邊介紹部署個人唯一主頁的方式。</p>
-
 <h3 id="在-github-建立-repo">在 GitHub 建立 repo</h3>
-
 <p>在 GitHub 建立 <strong><em>vicky335</em></strong>.github.io (粗斜體處改成自己的帳號名稱) repo。</p>
-
-<h3 id="將-public-資料夾連結到-github-上的-vicky335-github-io">將 /public 資料夾連結到 GitHub 上的 vicky335.github.io</h3>
-
+<h3 id="將-public-資料夾連結到-github-上的-vicky335githubio">將 /public 資料夾連結到 GitHub 上的 vicky335.github.io</h3>
 <pre><code>cd public
 git init
 git remote add origin https://github.com/vicky335/vicky335.github.io.git
 git add .
 git commit -m &quot;Initial commit&quot;
 git push -u origin master
-</code></pre>
-
-<p>等個幾分鐘，輸入網址 <code>https://vicky335.github.io/</code> 就大功告成囉！</p>
+</code></pre><p>等個幾分鐘，輸入網址 <code>https://vicky335.github.io/</code> 就大功告成囉！</p>
 
 
     </section>
@@ -608,7 +542,7 @@ git push -u origin master
   
       <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/f2e/tagheight.html">
           <section class="post">
-              <h2>「標籤的行高」和「標籤之間的間距」問題</h2>
+              <h2>聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題</h2>
           </section>
       </a>
   

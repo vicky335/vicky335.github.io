@@ -1,184 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>
-             Reactnative on Vicky&#39;s Blog 
-        </title>
-
-        <link>https://vicky335.github.io/tags/reactnative.html</link>
-
-        
-        <author>vicky335 (https://vicky335.github.io/)</author>
-        
-
-        
-        <managingEditor>vicky335 (https://vicky335.github.io/)</managingEditor>
-        
-
-        
-        <webMaster>vicky335 (https://vicky335.github.io/)</webMaster>
-        
-
-        <description>
-            This is vicky335&#39;s blog
-        </description>
-
-        
-        <language>zh-Hant</language>
-        
-
-        <copyright>
-            <a href="https://vicky335.github.io/">Vicky&#39;s Blog</a> All rights reserved - 2017
-        </copyright>
-
-        
-        <lastBuildDate>Sun, 12 Apr 2020 20:52:15 UTC+08:00</lastBuildDate>
-        
-
-        <atom:link href="https://vicky335.github.io/tags/reactnative.html" rel="self" type="application/rss+xml" />
-
-        
-        <item>
-            <title>React Native目錄結構</title>
-
-            <link>https://vicky335.github.io/post/f2e/rndirectorystructure.html</link>
-
-            <pubDate>Sun, 12 Apr 2020 20:52:15 UTC+08:00</pubDate>
-
-            
-            <author>vicky335 (https://vicky335.github.io/)</author>
-            
-
-            <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
-
-            <description>名稱 描述 android 目錄 Android 專案目錄，包含了使用 AndroidStudio 開發專案的環境配置檔案； ios 目錄 iOS 專案目錄，包含了 XCode 的環境 node_modules 目錄 基於 node 檔案依賴系統產生的相關依賴和第三方</description>
-
-            <content:encoded>
-                
-                <![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
-
-                    <head>
-                        <meta charset="utf-8">
-                        <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
-                        <meta property="op:markup_version" content="v1.0">
-                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
-                        <link rel="stylesheet" title="default" href="#">
-                        <title>React Native目錄結構</title>
-                    </head>
-
-                    <body>
-                        <article>
-                            <header>
-                                <meta charset="utf-8">
-                                <meta property="fb:use_automatic_ad_placement" content="true">
-                                <meta property="fb:likes_and_comments" content="enable">
-                                
-                                <meta property="article:author" content="915701871863863" />
-                                
-                                <link rel="canonical" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
-                                
-                                <title>
-                                    React Native目錄結構
-                                </title>
-                            </header>
-                            <figure class="op-ad">
-                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
-                            </figure>
-                            &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;名稱&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;android 目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Android 專案目錄，包含了使用 AndroidStudio 開發專案的環境配置檔案；&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;ios 目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;iOS 專案目錄，包含了 XCode 的環境&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;node_modules 目錄&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;基於 node 檔案依賴系統產生的相關依賴和第三方 lib&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;index.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;ios 或 android 的入口，已經使用&lt;code&gt;index.js&lt;/code&gt;代替&lt;code&gt;index.ios.js&lt;/code&gt; 或 &lt;code&gt;index.android.js&lt;/code&gt;，android 中配置 application 檔案的&lt;code&gt;getJSMainModuleName()&lt;/code&gt;配置入口&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;app.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;app 的 json 檔案&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;package.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;專案基本資訊以及依賴資訊&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;package-lock.json&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;npm install 生成的檔案，記錄當前 npm package 的資訊&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;App.js&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;相當於 Android 的 MainActivity，可以根據自己的需要進行修改或者刪除（同時要修改&lt;code&gt;index.js&lt;/code&gt;的註冊的元件入口 js 檔名）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.babelrc&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Babel 配置檔案，在&lt;code&gt;.babelrc&lt;/code&gt;配置檔案中，主要是對預設（presets）和外掛（plugins）進行配置，因此不同的轉譯器作用不同的配置項&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.buckconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Buck 的配置檔案，buck 是 Facebook 開源的高效構建系統&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.flowconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Flow 的配置檔案，flowconfig 是是 Flow 的配置檔案&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.gitattributes&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git 配置檔案，指定非文字檔案的對比合並方式&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.gitignore&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;git 配置檔案，用於忽略你不想提交到 Git 上的檔案&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;.watchmanconfig&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;watchman 的配置檔案，watchman 用於監控檔案變化，輔助實現工程修改資訊&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-                            <figure class="op-ad">
-                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
-                            </figure>
-                            <footer>
-                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
-                            </footer>
-                        </article>
-                    </body>
-                </html>
-                ]]>
-            </content:encoded>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>reactNative on Vicky&#39;s Blog</title>
+    <link>https://vicky335.github.io/tags/reactnative.html</link>
+    <description>Recent content in reactNative on Vicky&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Sun, 12 Apr 2020 20:52:15 +0800</lastBuildDate>
+    
+	<atom:link href="https://vicky335.github.io/tags/reactnative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Native目錄結構</title>
+      <link>https://vicky335.github.io/post/f2e/rndirectorystructure.html</link>
+      <pubDate>Sun, 12 Apr 2020 20:52:15 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
+      <description>名稱 描述 android 目錄 Android 專案目錄，包含了使用 AndroidStudio 開發專案的環境配置檔案； ios 目錄 iOS 專案目錄，包含了 XCode 的環境 node_modules 目錄 基於 node 檔案依賴系統產生的相關依賴和第三方</description>
+    </item>
+    
+  </channel>
 </rss>

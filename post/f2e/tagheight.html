@@ -47,7 +47,7 @@
 
 
 
-<meta name="twitter:title" content="「標籤的行高」和「標籤之間的間距」問題"/>
+<meta name="twitter:title" content="聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題"/>
 <meta name="twitter:description" content=""/>
 <meta name="twitter:site" content="@"/>
 
@@ -57,7 +57,7 @@
     <meta property="fb:pages" content="915701871863863" />
     
 
-    <meta property="og:title" content="「標籤的行高」和「標籤之間的間距」問題 &middot; Vicky&#39;s Blog" />
+    <meta property="og:title" content="聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題 &middot; Vicky&#39;s Blog" />
     <meta property="og:site_name" content="Vicky&#39;s Blog" />
     <meta property="og:url" content="https://vicky335.github.io/post/f2e/tagheight.html" />
 
@@ -79,10 +79,10 @@
     
     
 
-    <title>「標籤的行高」和「標籤之間的間距」問題 &middot; Vicky&#39;s Blog</title>
+    <title>聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題 &middot; Vicky&#39;s Blog</title>
 
     
-    <meta name="description" content="第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~ 這次主要是講Html裡面標籤的行高所帶來的問題。 在做Html時，是否有設置過某個標籤元" />
+    <meta name="description" content="第一次寫文章，不是很會取標題，寫的不好請見諒，謝謝 🙏 ～ 今天來聊聊 HTML 裡面的標籤的line-height問題。 line-height 用於設置多行元素的空間量，如多行" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -114,7 +114,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.21" />
+    <meta name="generator" content="Hugo 0.73.0" />
 
     <link rel="canonical" href="https://vicky335.github.io/post/f2e/tagheight.html" />
 
@@ -127,21 +127,21 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": ,
-        "logo": https://vicky335.github.io/images/logo.png
+        "name":  null ,
+        "logo": "https://vicky335.github.io/images/logo.png"
     },
     "author": {
         "@type": "Person",
-        "name": ,
+        "name":  null ,
         
         "image": {
             "@type": "ImageObject",
-            "url": https://vicky335.github.io/images/logo.png,
+            "url": "https://vicky335.github.io/images/logo.png",
             "width": 250,
             "height": 250
         }, 
         
-        "url": ,
+        "url":  null ,
         "sameAs": [
             
             
@@ -152,26 +152,26 @@
              
             
         ],
-        "description": I&#39;m a Front-end Engineer
+        "description": "I'm a Front-end Engineer"
         
     },
-    "headline": 「標籤的行高」和「標籤之間的間距」問題,
-    "name": 「標籤的行高」和「標籤之間的間距」問題,
-    "wordCount": 313,
+    "headline": "聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題",
+    "name": "聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題",
+    "wordCount":  499 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": https://vicky335.github.io/post/f2e/tagheight.html,
-    "datePublished": 2014-06-06T14:30Z,
-    "dateModified": 2014-06-06T14:30Z,
+    "url": "https://vicky335.github.io/post/f2e/tagheight.html",
+    "datePublished": "2014-06-06T14:30Z",
+    "dateModified": "2014-06-06T14:30Z",
     
-    "keywords": f2e, css,
-    "description": ,
+    "keywords": "f2e, css",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": https://vicky335.github.io/post/f2e/tagheight.html
+        "@id": "https://vicky335.github.io/post/f2e/tagheight.html"
     }
 }
     </script>
@@ -254,7 +254,7 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">「標籤的行高」和「標籤之間的間距」問題</h1>
+        <h1 class="post-title">聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題</h1>
         <small></small>
 
         <section class="post-meta">
@@ -294,21 +294,15 @@
 
     <section class="post-content">
 
-      <p>第一次寫文章，不是很會取標題，寫的不好請見諒~~謝謝~</p>
-
-<p>這次主要是講Html裡面標籤的行高所帶來的問題。</p>
-
-<p>在做Html時，是否有設置過某個標籤元素的行高（line-height）呢？以<code>&lt;P&gt;&lt;/p&gt;</code>為例，你們在裡面寫入好幾段文字，之後輸入來用瀏覽器看的時候有發現每行文字之間都存在一定的距離嗎？那就是行高所造成的。</p>
-
-<p>那標籤之間的間距又是怎麼回事呢？</p>
-
-<p>做重構的童鞋們肯定知道margin和padding是用來做什麼，在這也解釋下吧！margin是用來設置某個標籤元素的外邊距的，而padding則是設定它的內邊距的。如果設置了這兩個或其中一個，就會造成標籤之間的間距了。當然，如果你沒有設置margin和padding，但有設定行高的話，那也會造成標籤之間的間距的。</p>
-
-<p>實際上，在瀏覽器看到之間存在的空白是由[ ( 行高 - 字的像素 ) / 2 + 間距 ]而來的。（解釋如圖）</p>
-
-<p><img src="https://vicky335.github.io/images/f2e/tagsHeight.jpg" alt="" /></p>
-
-<p>所以在調整網頁上的間距時，要注意行高所帶來的影響。</p>
+      <p>第一次寫文章，不是很會取標題，寫的不好請見諒，謝謝 🙏 ～</p>
+<p>今天來聊聊 HTML 裡面的標籤的<strong><code>line-height</code></strong>問題。</p>
+<p><strong><code>line-height</code></strong> 用於設置多行元素的空間量，如多行文本的間距。對於塊級元素，它指定元素行盒（line boxes）的最小高度。對於非替代的 inline 元素，它用於計算行盒（line box）的高度。</p>
+<p>以<strong><code>&lt;p&gt;&lt;/p&gt;</code></strong>為例，你們在裡面寫入好幾段文字，之後輸入來用瀏覽器看的時候有發現每行文字之間都存在一定的距離嗎？這就是<strong><code>line-height</code></strong>所造成的。</p>
+<p>那標籤之間的間距又是怎麼回事呢？前端的童鞋們肯定知道<strong><code>margin</code></strong>和<strong><code>padding</code></strong>是用來做什麼的，在這也作簡單的解釋吧！</p>
+<p><strong><code>margin</code></strong>是用來設置某個標籤元素的外邊距的，而<strong><code>padding</code></strong>則是設定它的內邊距的。如果設置了這兩個或其中一個，就會造成標籤之間的間距了。當然，如果你沒有設置<strong><code>margin</code></strong>和<strong><code>padding</code></strong>，但有設定<strong><code>line-height</code></strong>的話，那也會造成標籤之間的間距的。</p>
+<p>實際上，在瀏覽器看到之間存在的空白是由<strong><code>(行高-字的像素)/2+間距</code></strong>而來的。</p>
+<p><img src="https://vicky335.github.io/images/f2e/tagsHeight.jpg" alt="img"></p>
+<p>所以在調整網頁上的間距時，除了<strong><code>margin</code></strong>和<strong><code>padding</code></strong>，還需要注意<strong><code>line-height</code></strong>所帶來的影響。</p>
 
 
     </section>
@@ -386,7 +380,7 @@
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=%e3%80%8c%e6%a8%99%e7%b1%a4%e7%9a%84%e8%a1%8c%e9%ab%98%e3%80%8d%e5%92%8c%e3%80%8c%e6%a8%99%e7%b1%a4%e4%b9%8b%e9%96%93%e7%9a%84%e9%96%93%e8%b7%9d%e3%80%8d%e5%95%8f%e9%a1%8c&nbsp;-&nbsp;Vicky%27s%20Blog&amp;url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2ftagheight.html"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=%e8%81%8a%e8%81%8aHTML%e8%a3%a1%e9%9d%a2%e7%9a%84%e3%80%8c%e6%a8%99%e7%b1%a4%e7%9a%84%e8%a1%8c%e9%ab%98%e3%80%8d%e5%92%8c%e3%80%8c%e6%a8%99%e7%b1%a4%e4%b9%8b%e9%96%93%e7%9a%84%e9%96%93%e8%b7%9d%e3%80%8d%e5%95%8f%e9%a1%8c&nbsp;-&nbsp;Vicky%27s%20Blog&amp;url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2ftagheight.html"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
