@@ -42,7 +42,9 @@
 
     
     
-        <meta name="twitter:card" content="summary"/>
+        
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="/images/f2e/git.jpeg"/>
     
 
 
@@ -62,9 +64,7 @@
     <meta property="og:url" content="https://vicky335.github.io/post/f2e/git.html" />
 
     
-        
-            <meta property="og:image" content="/images/cover.jpg"/>
-        
+       <meta property="og:image" content="/images/f2e/git.jpeg"/>
     
 
     
@@ -157,7 +157,7 @@
     },
     "headline": "Git常用命令清單",
     "name": "Git常用命令清單",
-    "wordCount":  2556 ,
+    "wordCount":  2552 ,
     "timeRequired": "PT6M",
     "inLanguage": {
       "@type": "Language",
@@ -166,6 +166,13 @@
     "url": "https://vicky335.github.io/post/f2e/git.html",
     "datePublished": "2020-04-14T10:21Z",
     "dateModified": "2020-04-14T10:21Z",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://vicky335.github.io//images/f2e/git.jpeg",
+        "width": 3000,
+        "height": 1445
+    },
     
     "keywords": "f2e, git",
     "description": "",
@@ -231,8 +238,10 @@
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/f2e/git.jpeg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -308,12 +317,12 @@ $ git clone [url]
 <li>git clone：當你已經有一個遠程的 Git 版本庫，只需要在本地克隆一份，例如：</li>
 </ul>
 <pre><code>git clone git://github.com/someone/some_project.git some_project
-</code></pre><p>上面的命令就是將<code>git://github.com/someone/some_project.git</code>這個URL地址的遠程版本庫，完全克隆到本地<code>some_project</code>目錄下。</p>
+</code></pre><p>上面的命令就是將<code>git://github.com/someone/some_project.git</code>這個 URL 地址的遠程版本庫，完全克隆到本地<code>some_project</code>目錄下。</p>
 <ul>
 <li>git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&rsquo;git init&rsquo;命令進行初始化；Git 以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的 URL 記錄下來，此時你就可以利用&rsquo;git remote add&rsquo;命令來增加一個遠程服務器端，例如：</li>
 </ul>
 <pre><code>git remote add origin git://github.com/someone/another_project.git
-</code></pre><p>上面的命令就會增加URL地址為<code>git://github.com/someone/another_project.git</code>，名稱為<code>origin</code>的遠程服務器，以後提交代碼的時候只需要使用<code>origin</code>別名即可</p>
+</code></pre><p>上面的命令就會增加 URL 地址為<code>git://github.com/someone/another_project.git</code>，名稱為<code>origin</code>的遠程服務器，以後提交代碼的時候只需要使用<code>origin</code>別名即可</p>
 <h2 id="配置">配置</h2>
 <p>Git 的設置文件為<code>.gitconfig</code>，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。</p>
 <pre><code># 顯示當前的Git配置
@@ -775,7 +784,7 @@ $ git archive
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+      <a class="read-next-story prev" style="background-image: url(/images/f2e/reactNative.png)" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
           <section class="post">
               <h2>React Native目錄結構</h2>
           </section>
