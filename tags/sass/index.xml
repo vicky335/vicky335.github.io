@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sass on Vicky&#39;s Blog</title>
+    <link>https://vicky335.github.io/tags/sass.html</link>
+    <description>Recent content in sass on Vicky&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 15:29:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://vicky335.github.io/tags/sass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sass基本語法 - 常用函數</title>
+      <link>https://vicky335.github.io/post/f2e/sass_fun.html</link>
+      <pubDate>Wed, 06 Mar 2019 15:29:02 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/sass_fun.html</guid>
+      <description>字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中</description>
+    </item>
+    
+  </channel>
+</rss>

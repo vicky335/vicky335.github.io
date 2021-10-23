@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="tencent-x5-page-direction" content="landscape">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Vicky&#39;s Blog">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="ie-stand">
+
+    <link rel="preconnect" href="https://vicky335.github.io/">
+    <link rel="dns-prefetch" href="https://vicky335.github.io/">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//partner.gooleadservices.com">
+    <link rel="dns-prefetch" href="//google.com.tw">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//google-analytics.com">
+    <link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//pubads.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//graph.facebook.com">
+    <link rel="dns-prefetch" href="//facebook.com">
+    <link rel="dns-prefetch" href="//connect.facebook.net">
+
+    <meta name=robots content=noarchive>
+    <meta name=google content=notranslate>
+
+    <script type="text/javascript">
+    if (top != self) {
+        top.location.href = self.location.href;
+    }
+    </script>
+
+    <meta name=robots content=noarchive>
+    <meta name=google content=notranslate>
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Sass基本語法 - 常用函數"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@"/>
+
+
+
+    
+    <meta property="fb:pages" content="915701871863863" />
+    
+
+    <meta property="og:title" content="Sass基本語法 - 常用函數 &middot; Vicky&#39;s Blog" />
+    <meta property="og:site_name" content="Vicky&#39;s Blog" />
+    <meta property="og:url" content="https://vicky335.github.io/post/f2e/sass_fun.html" />
+
+    
+        
+            <meta property="og:image" content="/images/cover.jpg"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2019-03-06T15:29:02&#43;08:00" />
+
+    
+    <meta property="article:tag" content="f2e" />
+    
+    <meta property="article:tag" content="sass" />
+    
+    
+
+    <title>Sass基本語法 - 常用函數 &middot; Vicky&#39;s Blog</title>
+
+    
+    <meta name="description" content="字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, target-densitydpi=high-dpi, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    
+    <meta name="GOOGLEAD_POST_CONTENT" content="2530825933">
+    
+
+    <link rel="icon" href="https://vicky335.github.io/images/logo.png" />
+    <link rel="shortcut icon" href="https://vicky335.github.io/images/logo.png">
+    <link rel="bookmark" href="https://vicky335.github.io/images/logo.png" />
+  <link rel="apple-touch-icon" href="https://vicky335.github.io/images/logo.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://vicky335.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://vicky335.github.io/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="https://vicky335.github.io/css/style.css" />
+
+    
+
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/solarized-dark.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+      
+          <link href="https://vicky335.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Vicky&#39;s Blog" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.73.0" />
+
+    <link rel="canonical" href="https://vicky335.github.io/post/f2e/sass_fun.html" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name":  null ,
+        "logo": "https://vicky335.github.io/images/logo.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name":  null ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://vicky335.github.io/images/logo.png",
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url":  null ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ],
+        "description": "I'm a Front-end Engineer"
+        
+    },
+    "headline": "Sass基本語法 - 常用函數",
+    "name": "Sass基本語法 - 常用函數",
+    "wordCount":  2527 ,
+    "timeRequired": "PT6M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "https://vicky335.github.io/post/f2e/sass_fun.html",
+    "datePublished": "2019-03-06T15:29Z",
+    "dateModified": "2019-03-06T15:29Z",
+    
+    "keywords": "f2e, sass",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://vicky335.github.io/post/f2e/sass_fun.html"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98411763-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-98411763-2');
+    </script>
+    
+
+    
+
+    
+    <script data-ad-client="ca-pub-7900212994905360" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+
+
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WGTFFVZ');</script>
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="https://vicky335.github.io/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://vicky335.github.io/"><img src="https://vicky335.github.io/images/logo.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://vicky335.github.io/index.xml" >&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Sass基本語法 - 常用函數</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2019-03-06T15:29:02&#43;08:00">
+            Mar 6, 2019
+          </time>
+        
+         
+          <span class="post-tag small"><a href="https://vicky335.github.io/tags/f2e">#f2e</a></span>
+         
+          <span class="post-tag small"><a href="https://vicky335.github.io/tags/sass">#sass</a></span>
+         
+        </section>
+    </header>
+
+    
+<div class="ui_adblock">
+  <h3 class="title">Sponsored Ad</h3>
+  <div class="content">
+    <div class="adunit">
+      
+      <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-7900212994905360"
+       data-ad-slot="9671567970"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+    <section class="post-content">
+
+      <h2 id="字符串函數">字符串函數</h2>
+<ul>
+<li>
+<p>unquote($string)：刪除字符串中的引號；</p>
+<p>unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中間的引號。如果字符沒有帶引號，返回的將是字符串本身。</p>
+</li>
+<li>
+<p>quote($string)：給字符串添加引號。</p>
+<p>quote() 函數只能給字符串增加雙引號，而且字符串中間有單引號或者空格時，需要用單引號或雙引號括起，否則編譯的時候將會報錯。</p>
+</li>
+<li>
+<p>To-upper-case()：函數將字符串小寫字母轉換成大寫字母</p>
+</li>
+<li>
+<p>To-lower-case()：函數 與 To-upper-case() 剛好相反，將字符串轉換成小寫字母</p>
+</li>
+</ul>
+<h2 id="數字函數">數字函數</h2>
+<p>Sass 中的數字函數提要針對數字方面提供一系列的函數功能：</p>
+<ul>
+<li>percentage($value)：將一個不帶單位的數轉換成百分比值；</li>
+<li>round($value)：將數值四捨五入，轉換成一個最接近的整數；（四捨五入）</li>
+<li>ceil($value)：將大於自己的小數轉換成下一位整數；（向上取整）</li>
+<li>floor($value)：將一個數去除他的小數部分；（向下取整）</li>
+<li>abs($value)：返回一個數的絕對值；（絕對整數）</li>
+<li>min($numbers…)：找出幾個數值之間的最小值；（min（1，2，3））</li>
+<li>max($numbers…)：找出幾個數值之間的最大值；</li>
+<li>random(): 獲取隨機數（random（））</li>
+</ul>
+<h2 id="列表函數">列表函數</h2>
+<p>列表函數主要包括一些對列表參數的函數使用，主要包括以下幾種：</p>
+<ul>
+<li>length($list)：返回一個列表的長度值；===length(border 1px solid)===3</li>
+<li>nth($list, $n)：返回一個列表中指定的某個標籤值===nth(border 1px solid,1)===border</li>
+<li>join($list1, $list2, [$separator])：將兩個列給連接在一起，變成一個列表；===</li>
+</ul>
+<pre><code>    join(10px 20px, 30px 40px)
+    (10px 20px 30px 40px)
+
+    join((blue,red),(#abc,#def))
+    (#0000ff, #ff0000, #aabbcc, #ddeeff)
+
+    join((blue,red),(#abc #def))
+    (#0000ff, #ff0000, #aabbcc, #ddeeff)
+</code></pre><ul>
+<li>append($list1, $val, [$separator])：將某個值放在列表的最後；</li>
+</ul>
+<pre><code>    append(10px 20px ,30px)
+    (10px 20px 30px)
+
+    append((10px,20px),30px)
+    (10px, 20px, 30px)
+
+    append(green,red)
+    (#008000 #ff0000)
+
+    append(red,(green,blue))
+    (#ff0000 (#008000, #0000ff))
+</code></pre><p>如果沒有明確的指定 $separator 參數值，其默認值是 auto。</p>
+<p>如果列表只有一個列表項時，那麼插入進來的值將和原來的值會以空格的方式分隔。</p>
+<p>如果列表中列表項是以空格分隔列表項，那麼插入進來的列表項也將以空格分隔；</p>
+<p>如果列表中列表項是以逗號分隔列表項，那麼插入進來的列表項也將以逗號分隔。</p>
+<ul>
+<li>zip($lists…)：將幾個列表結合成一個多維的列表；（ 每個單一的列表個數值必須是相同的）</li>
+</ul>
+<pre><code>zip(1px 2px 3px,solid dashed dotted,green blue red)
+((1px &quot;solid&quot; #008000), (2px &quot;dashed&quot; #0000ff), (3px &quot;dotted&quot; #ff0000))
+</code></pre><p>zip()函數中每個單一列表的值對應的取其相同位置值：</p>
+<pre><code>|--- List ---|--- nth(1) ---|--- nth(2) ---|--- nth(3) ---|
+|------------|--------------|--------------|--------------|
+|    List1   |      1px     |      2px     |      3px     |
+|------------|--------------|--------------|--------------|
+|    List2   |      solid   |      dashed  |     dotted   |
+|------------|--------------|--------------|--------------|
+|    List3   |      green   |      blue    |      red     |
+|------------|--------------|--------------|--------------|
+</code></pre><ul>
+<li>index($list, $value)：返回一個值在列表中的位置值。</li>
+</ul>
+<pre><code>index(1px solid red,dotted) //列表中沒有找到 dotted
+false
+index(1px solid red,solid) //列表中找到 solid 值，並且返回他的位置值 2
+2
+</code></pre><h2 id="introspection函數">Introspection函數</h2>
+<p>Introspection函數包括了幾個判斷型函數：</p>
+<ul>
+<li>type-of($value)：返回一個值的類型
+返回值：</li>
+</ul>
+<pre><code>number 為數值型。
+string 為字符串型。
+bool 為布爾型。
+color 為顏色型。
+</code></pre><ul>
+<li>
+<p>unit($number)：返回一個值的單位；</p>
+<p>碰到複雜的計算時，其能根據運算得到一個「多單位組合」的值，不過只充許乘、除運算：</p>
+<p>但加、減碰到不同單位時，unit() 函數將會報錯，除 px 與 cm、mm 運算之外</p>
+</li>
+<li>
+<p>comparable($number-1, $number-2)：判斷兩個值是否可以做加、減和合併</p>
+</li>
+</ul>
+<h2 id="miscellaneous函數">Miscellaneous函數</h2>
+<p>Miscellaneous 函數稱為三元條件函數，主要因為他和 JavaScript 中的三元判斷非常的相似。他有兩個值，當條件成立返回一種值，當條件不成立時返回另一種值：</p>
+<pre><code>if($condition,$if-true,$if-false)
+</code></pre><p>上面表達式的意思是當 $condition 條件成立時，返回的值為 $if-true，否則返回的是 $if-false 值。</p>
+<pre><code>if(true,1px,2px)
+1px
+if(false,1px,2px)
+2px
+</code></pre><h2 id="顏色函數">顏色函數</h2>
+<h3 id="rgb顏色函數簡介">RGB顏色函數簡介</h3>
+<p>RGB 顏色只是顏色中的一種表達式，其中 R 是 red 表示紅色，G 是 green 表示綠色而 B 是 blue 表示藍色。在 Sass 中為 RGB 顏色提供六種函數：</p>
+<ul>
+<li>rgb($red,$green,$blue)：根據紅、綠、藍三個值創建一個顏色；</li>
+<li>rgba($red,$green,$blue,$alpha)：根據紅、綠、藍和透明度值創建一個顏色；</li>
+<li>red($color)：從一個顏色中獲取其中紅色值；</li>
+<li>green($color)：從一個顏色中獲取其中綠色值；</li>
+<li>blue($color)：從一個顏色中獲取其中藍色值；</li>
+<li>mix($color-1,$color-2,[$weight])：把兩種顏色混合在一起。[$weight]是合併的比例</li>
+</ul>
+<h3 id="hsl函數簡介">HSL函數簡介</h3>
+<ul>
+<li>hsl($hue,$saturation,$lightness)：通過色相（hue）、飽和度(saturation)和亮度（lightness）的值創建一個顏色；</li>
+<li>hsla($hue,$saturation,$lightness,$alpha)：通過色相（hue）、飽和度(saturation)、亮度（lightness）和透明（alpha）的值創建一個顏色；</li>
+<li>hue($color)：從一個顏色中獲取色相（hue）值；</li>
+<li>saturation($color)：從一個顏色中獲取飽和度（saturation）值；</li>
+<li>lightness($color)：從一個顏色中獲取亮度（lightness）值；</li>
+<li>adjust-hue($color,$degrees)：通過改變一個顏色的色相值，創建一個新的顏色；</li>
+<li>lighten($color,$amount)：通過改變顏色的亮度值，讓顏色變亮，創建一個新的顏色；</li>
+<li>darken($color,$amount)：通過改變顏色的亮度值，讓顏色變暗，創建一個新的顏色；</li>
+<li>saturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更飽和，從而創建一個新的顏色</li>
+<li>desaturate($color,$amount)：通過改變顏色的飽和度值，讓顏色更少的飽和，從而創建出一個新的顏色；</li>
+<li>grayscale($color)：將一個顏色變成灰色，相當於desaturate($color,100%);</li>
+<li>complement($color)：返回一個補充色，相當於adjust-hue($color,180deg);</li>
+<li>invert($color)：反回一個反相色，紅、綠、藍色值倒過來，而透明度不變。</li>
+</ul>
+<h3 id="opacity函數簡介">Opacity函數簡介</h3>
+<ul>
+<li>alpha($color) /opacity($color)：獲取顏色透明度值；</li>
+<li>rgba($color, $alpha)：改變顏色的透明度值；</li>
+<li>opacify($color, $amount) / fade-in($color, $amount)：使顏色更不透明；</li>
+<li>transparentize($color, $amount) / fade-out($color, $amount)：使顏色更加透明。</li>
+</ul>
+
+
+    </section>
+
+    
+<div class="ui_adblock">
+  <h3 class="title">Sponsored Ad</h3>
+  <div class="content">
+    <div class="adunit">
+      
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-7900212994905360"
+           data-ad-slot="5928652136"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://vicky335.github.io/" style="background-image: url(/images/logo.png)"><span class="hidden">vicky335's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://vicky335.github.io/">vicky335</a></h4>
+  
+  <p>I&#39;m a Front-end Engineer</p>
+  
+  <div class="author-meta">
+    
+    
+  </div>
+</section>
+
+
+
+    
+<div class="ui_adblock">
+  <h3 class="title">Sponsored Ad</h3>
+  <div class="content">
+    <div class="adunit">
+      
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-7900212994905360"
+           data-ad-slot="2368681076"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Sass%e5%9f%ba%e6%9c%ac%e8%aa%9e%e6%b3%95%20-%20%e5%b8%b8%e7%94%a8%e5%87%bd%e6%95%b8&nbsp;-&nbsp;Vicky%27s%20Blog&amp;url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fsass_fun.html"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fsass_fun.html"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+ 
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fsass_fun.html"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'vicky335';
+  var disqus_url = 'https:\/\/vicky335.github.io\/post\/f2e\/sass_fun.html';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+<div class="ui_adblock">
+  <h3 class="title">Sponsored Ad</h3>
+  <div class="content">
+    <div class="adunit">
+      <script
+        async
+        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      ></script>
+      
+      <ins
+        class="adsbygoogle"
+        style="display: block;"
+        data-ad-client="ca-pub-7900212994905360"
+        data-ad-slot="5547659559"
+        data-ad-format="auto"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  const page = 'article';
+</script>
+
+
+  
+<aside class="read-next">
+  
+      <a class="read-next-story" style="no-cover" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+          <section class="post">
+              <h2>React Native目錄結構</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
+          <section class="post">
+              <h2>Mac 常用快捷鍵整理</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="https://vicky335.github.io/">Vicky&#39;s Blog</a> All rights reserved - 2017</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://vicky335.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="https://vicky335.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://vicky335.github.io/js/index.js"></script>
+    
+
+
+    
+
+    
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1155862327852170',
+            cookie     : true,
+            xfbml      : true,
+            version    : 'v6.0'
+        });
+        FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/zh_hk/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGTFFVZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+</body>
+</html>
+

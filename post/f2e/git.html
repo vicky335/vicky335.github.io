@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="tencent-x5-page-direction" content="landscape">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Vicky&#39;s Blog">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="renderer" content="ie-stand">
+
+    <link rel="preconnect" href="https://vicky335.github.io/">
+    <link rel="dns-prefetch" href="https://vicky335.github.io/">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//partner.gooleadservices.com">
+    <link rel="dns-prefetch" href="//google.com.tw">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//google-analytics.com">
+    <link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//pubads.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//graph.facebook.com">
+    <link rel="dns-prefetch" href="//facebook.com">
+    <link rel="dns-prefetch" href="//connect.facebook.net">
+
+    <meta name=robots content=noarchive>
+    <meta name=google content=notranslate>
+
+    <script type="text/javascript">
+    if (top != self) {
+        top.location.href = self.location.href;
+    }
+    </script>
+
+    <meta name=robots content=noarchive>
+    <meta name=google content=notranslate>
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Git常用命令清單"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@"/>
+
+
+
+    
+    <meta property="fb:pages" content="915701871863863" />
+    
+
+    <meta property="og:title" content="Git常用命令清單 &middot; Vicky&#39;s Blog" />
+    <meta property="og:site_name" content="Vicky&#39;s Blog" />
+    <meta property="og:url" content="https://vicky335.github.io/post/f2e/git.html" />
+
+    
+        
+            <meta property="og:image" content="/images/cover.jpg"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-04-14T10:21:24&#43;08:00" />
+
+    
+    <meta property="article:tag" content="f2e" />
+    
+    <meta property="article:tag" content="git" />
+    
+    
+
+    <title>Git常用命令清單 &middot; Vicky&#39;s Blog</title>
+
+    
+    <meta name="description" content="新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, target-densitydpi=high-dpi, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    
+    <meta name="GOOGLEAD_POST_CONTENT" content="2530825933">
+    
+
+    <link rel="icon" href="https://vicky335.github.io/images/logo.png" />
+    <link rel="shortcut icon" href="https://vicky335.github.io/images/logo.png">
+    <link rel="bookmark" href="https://vicky335.github.io/images/logo.png" />
+  <link rel="apple-touch-icon" href="https://vicky335.github.io/images/logo.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://vicky335.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://vicky335.github.io/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="https://vicky335.github.io/css/style.css" />
+
+    
+
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/solarized-dark.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+      
+          <link href="https://vicky335.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Vicky&#39;s Blog" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.73.0" />
+
+    <link rel="canonical" href="https://vicky335.github.io/post/f2e/git.html" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name":  null ,
+        "logo": "https://vicky335.github.io/images/logo.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name":  null ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://vicky335.github.io/images/logo.png",
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url":  null ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ],
+        "description": "I'm a Front-end Engineer"
+        
+    },
+    "headline": "Git常用命令清單",
+    "name": "Git常用命令清單",
+    "wordCount":  2556 ,
+    "timeRequired": "PT6M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "https://vicky335.github.io/post/f2e/git.html",
+    "datePublished": "2020-04-14T10:21Z",
+    "dateModified": "2020-04-14T10:21Z",
+    
+    "keywords": "f2e, git",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://vicky335.github.io/post/f2e/git.html"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98411763-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-98411763-2');
+    </script>
+    
+
+    
+
+    
+    <script data-ad-client="ca-pub-7900212994905360" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+
+
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WGTFFVZ');</script>
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="https://vicky335.github.io/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://vicky335.github.io/"><img src="https://vicky335.github.io/images/logo.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://vicky335.github.io/index.xml" >&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Git常用命令清單</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2020-04-14T10:21:24&#43;08:00">
+            Apr 14, 2020
+          </time>
+        
+         
+          <span class="post-tag small"><a href="https://vicky335.github.io/tags/f2e">#f2e</a></span>
+         
+          <span class="post-tag small"><a href="https://vicky335.github.io/tags/git">#git</a></span>
+         
+        </section>
+    </header>
+
+    
+<div class="ui_adblock">
+  <h3 class="title">Sponsored Ad</h3>
+  <div class="content">
+    <div class="adunit">
+      
+      <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-7900212994905360"
+       data-ad-slot="9671567970"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+    <section class="post-content">
+
+      <h2 id="新建代碼庫">新建代碼庫</h2>
+<pre><code># 在當前目錄新建一個Git代碼庫
+$ git init
+
+# 新建一個目錄，將其初始化為Git代碼庫
+$ git init [project-name]
+
+# 下載一個項目和它的整個代碼歷史
+$ git clone [url]
+
+</code></pre><ul>
+<li>git clone：當你已經有一個遠程的 Git 版本庫，只需要在本地克隆一份，例如：</li>
+</ul>
+<pre><code>git clone git://github.com/someone/some_project.git some_project
+</code></pre><p>上面的命令就是將<code>git://github.com/someone/some_project.git</code>這個URL地址的遠程版本庫，完全克隆到本地<code>some_project</code>目錄下。</p>
+<ul>
+<li>git init 和 git remote：當你本地創建了一個工作目錄，你可以進入這個目錄，使用&rsquo;git init&rsquo;命令進行初始化；Git 以後就會對該目錄下的文件進行版本控制，這時候如果你需要將它放到遠程服務器上，可以在遠程服務器上創建一個目錄，並把可訪問的 URL 記錄下來，此時你就可以利用&rsquo;git remote add&rsquo;命令來增加一個遠程服務器端，例如：</li>
+</ul>
+<pre><code>git remote add origin git://github.com/someone/another_project.git
+</code></pre><p>上面的命令就會增加URL地址為<code>git://github.com/someone/another_project.git</code>，名稱為<code>origin</code>的遠程服務器，以後提交代碼的時候只需要使用<code>origin</code>別名即可</p>
+<h2 id="配置">配置</h2>
+<p>Git 的設置文件為<code>.gitconfig</code>，它可以在用戶主目錄下（全局配置），也可以在項目目錄下（項目配置）。</p>
+<pre><code># 顯示當前的Git配置
+$ git config --list
+
+# 編輯Git配置文件
+$ git config -e [--global]
+
+# 設置提交代碼時的用戶信息
+$ git config [--global] user.name &quot;[name]&quot;
+$ git config [--global] user.email &quot;[email address]&quot;
+</code></pre><h2 id="忽略一些文件文件夾不提交">忽略一些文件、文件夾不提交</h2>
+<p>在倉庫根目錄下創建名稱為<code>.gitignore</code>的文件，寫入不需要的文件夾名或文件，每個元素佔一行即可，如</p>
+<pre><code>target
+
+bin
+
+*.db
+</code></pre><h2 id="增加刪除文件">增加/刪除文件</h2>
+<pre><code># 添加指定文件到暫存區
+$ git add [file1] [file2] ...
+
+# 添加指定目錄到暫存區，包括子目錄
+$ git add [dir]
+
+# 添加當前目錄的所有文件到暫存區
+$ git add .
+
+# 添加每個變化前，都會要求確認
+# 對於同一個文件的多處變化，可以實現分次提交
+$ git add -p
+
+# 刪除工作區文件，並且將這次刪除放入暫存區
+$ git rm [file1] [file2] ...
+
+# 停止追蹤指定文件，但該文件會保留在工作區
+$ git rm --cached [file]
+
+# 改名文件，並且將這個改名放入暫存區
+$ git mv [file-original] [file-renamed]
+</code></pre><h2 id="代碼提交">代碼提交</h2>
+<pre><code># 提交暫存區到倉庫區
+$ git commit -m [message]
+
+# 提交暫存區的指定文件到倉庫區
+$ git commit [file1] [file2] ... -m [message]
+
+# 提交工作區自上次commit之後的變化，直接到倉庫區
+$ git commit -a
+
+# 提交時顯示所有diff信息
+$ git commit -v
+
+# 使用一次新的commit，替代上一次提交
+# 如果代碼沒有任何新變化，則用來改寫上一次commit的提交信息
+$ git commit --amend -m [message]
+
+# 重做上一次commit，並包括指定文件的新變化
+$ git commit --amend [file1] [file2] ...
+</code></pre><h2 id="分支">分支</h2>
+<pre><code># 列出所有本地分支
+$ git branch
+
+# 列出所有遠程分支
+$ git branch -r
+
+# 列出所有本地分支和遠程分支
+$ git branch -a
+
+# 新建一個分支，但依然停留在當前分支
+$ git branch [branch-name]
+
+# 新建一個分支，並切換到該分支
+$ git checkout -b [branch]
+
+# 新建一個分支，指向指定commit
+$ git branch [branch] [commit]
+
+# 新建一個分支，與指定的遠程分支建立追蹤關係
+$ git branch --track [branch] [remote-branch]
+
+# 切換到指定分支，並更新工作區
+$ git checkout [branch-name]
+
+# 切換到上一個分支
+$ git checkout -
+
+# 建立追蹤關係，在現有分支與指定的遠程分支之間
+$ git branch --set-upstream [branch] [remote-branch]
+
+# 合併指定分支到當前分支
+$ git merge [branch]
+
+# 選擇一個commit，合併進當前分支
+$ git cherry-pick [commit]
+
+# 刪除分支
+$ git branch -d [branch-name]
+
+# 刪除遠程分支
+$ git push origin --delete [branch-name]
+$ git branch -dr [remote/branch]
+</code></pre><h2 id="標籤tag">標籤(tag)</h2>
+<pre><code># 列出所有tag
+$ git tag
+
+# 新建一個tag在當前commit
+$ git tag [tag]
+
+# 新建一個tag在指定commit
+$ git tag [tag] [commit]
+
+# 刪除本地tag
+$ git tag -d [tag]
+
+# 刪除遠程tag
+$ git push origin :refs/tags/[tagName]
+
+# 查看tag信息
+$ git show [tag]
+
+# 提交指定tag
+$ git push [remote] [tag]
+
+# 提交所有tag
+$ git push [remote] --tags
+
+# 新建一個分支，指向某個tag
+$ git checkout -b [branch] [tag]
+</code></pre><h2 id="子模塊submodule">子模塊(submodule)</h2>
+<pre><code># 添加子模塊
+$ git submodule add [url] [path]
+
+# 初始化子模塊，只在首次檢出倉庫時運行一次就行
+$ git submodule init
+
+# 更新子模塊，每次更新或切換分支後都需要運行一下
+$ git submodule update
+
+# 刪除子模塊(分4步)
+- $ git rm --cached [path]
+- 編輯 .gitmodules 文件，將子模塊的相關配置節點刪除掉
+- 編輯 .git/config 文件，將子模塊的相關配置節點刪除掉
+- 手動刪除子模塊殘留的目錄
+</code></pre><h2 id="查看信息">查看信息</h2>
+<pre><code># 顯示有變更的文件
+$ git status
+
+# 顯示當前分支的版本歷史
+$ git log
+
+# 顯示commit歷史，以及每次commit發生變更的文件
+$ git log --stat
+
+# 搜索提交歷史，根據關鍵詞
+$ git log -S [keyword]
+
+# 顯示某個commit之後的所有變動，每個commit佔據一行
+$ git log [tag] HEAD --pretty=format:%s
+
+# 顯示某個commit之後的所有變動，其&quot;提交說明&quot;必須符合搜索條件
+$ git log [tag] HEAD --grep feature
+
+# 顯示某個文件的版本歷史，包括文件改名
+$ git log --follow [file]
+$ git whatchanged [file]
+
+# 顯示指定文件相關的每一次diff
+$ git log -p [file]
+
+# 顯示過去5次提交
+$ git log -5 --pretty --oneline
+
+# 顯示所有提交過的用戶，按提交次數排序
+$ git shortlog -sn
+
+# 顯示指定文件是什麼人在什麼時間修改過
+$ git blame [file]
+
+# 顯示暫存區和工作區的差異
+$ git diff
+
+# 顯示暫存區和上一個commit的差異
+$ git diff --cached [file]
+
+# 顯示工作區與當前分支最新commit之間的差異
+$ git diff HEAD
+
+# 顯示兩次提交之間的差異
+$ git diff [first-branch]...[second-branch]
+
+# 顯示今天你寫了多少行代碼
+$ git diff --shortstat &quot;@{0 day ago}&quot;
+
+# 顯示某次提交的元數據和內容變化
+$ git show [commit]
+
+# 顯示某次提交發生變化的文件
+$ git show --name-only [commit]
+
+# 顯示某次提交時，某個文件的內容
+$ git show [commit]:[filename]
+
+# 顯示當前分支的最近幾次提交
+$ git reflog
+</code></pre><h2 id="遠程同步">遠程同步</h2>
+<pre><code># 下載遠程倉庫的所有變動
+$ git fetch [remote]
+
+# 顯示所有遠程倉庫
+$ git remote -v
+
+# 顯示某個遠程倉庫的信息
+$ git remote show [remote]
+
+# 增加一個新的遠程倉庫，並命名
+$ git remote add [shortname] [url]
+
+# 取回遠程倉庫的變化，並與本地分支合併
+$ git pull [remote] [branch]
+
+# 上傳本地指定分支到遠程倉庫
+$ git push [remote] [branch]
+
+# 強行推送當前分支到遠程倉庫，即使有衝突
+$ git push [remote] --force
+
+# 推送所有分支到遠程倉庫
+$ git push [remote] --all
+</code></pre><h2 id="撤銷">撤銷</h2>
+<pre><code># 恢復暫存區的指定文件到工作區
+$ git checkout [file]
+
+# 恢復某個commit的指定文件到暫存區和工作區
+$ git checkout [commit] [file]
+
+# 恢復暫存區的所有文件到工作區
+$ git checkout .
+
+# 重置暫存區的指定文件，與上一次commit保持一致，但工作區不變
+$ git reset [file]
+
+# 重置暫存區與工作區，與上一次commit保持一致
+$ git reset --hard
+
+# 重置當前分支的指針為指定commit，同時重置暫存區，但工作區不變
+$ git reset [commit]
+
+# 重置當前分支的HEAD為指定commit，同時重置暫存區和工作區，與指定commit一致
+$ git reset --hard [commit]
+
+# 重置當前HEAD為指定commit，但保持暫存區和工作區不變
+$ git reset --keep [commit]
+
+# 新建一個commit，用來撤銷指定commit
+# 後者的所有變化都將被前者抵消，並且應用到當前分支
+$ git revert [commit]
+
+# 暫時將未提交的變化移除，稍後再移入
+$ git stash
+$ git stash pop
+</code></pre><h2 id="其他">其他</h2>
+<pre><code># 生成一個可供發佈的壓縮包
+$ git archive
+</code></pre>
+
+    </section>
+
+    
+<div class="ui_adblock">
+  <h3 class="title">Sponsored Ad</h3>
+  <div class="content">
+    <div class="adunit">
+      
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-7900212994905360"
+           data-ad-slot="5928652136"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://vicky335.github.io/" style="background-image: url(/images/logo.png)"><span class="hidden">vicky335's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://vicky335.github.io/">vicky335</a></h4>
+  
+  <p>I&#39;m a Front-end Engineer</p>
+  
+  <div class="author-meta">
+    
+    
+  </div>
+</section>
+
+
+
+    
+<div class="ui_adblock">
+  <h3 class="title">Sponsored Ad</h3>
+  <div class="content">
+    <div class="adunit">
+      
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-7900212994905360"
+           data-ad-slot="2368681076"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Git%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4%e6%b8%85%e5%96%ae&nbsp;-&nbsp;Vicky%27s%20Blog&amp;url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fgit.html"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fgit.html"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+ 
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fvicky335.github.io%2fpost%2ff2e%2fgit.html"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'vicky335';
+  var disqus_url = 'https:\/\/vicky335.github.io\/post\/f2e\/git.html';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+<div class="ui_adblock">
+  <h3 class="title">Sponsored Ad</h3>
+  <div class="content">
+    <div class="adunit">
+      <script
+        async
+        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      ></script>
+      
+      <ins
+        class="adsbygoogle"
+        style="display: block;"
+        data-ad-client="ca-pub-7900212994905360"
+        data-ad-slot="5547659559"
+        data-ad-format="auto"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  const page = 'article';
+</script>
+
+
+  
+<aside class="read-next">
+  
+      <a class="read-next-story" style="no-cover" href="https://vicky335.github.io/post/game/animalcrossing/mainlineraiders.html">
+          <section class="post">
+              <h2>Switch《集合啦！動物森友會》主線攻略</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/f2e/rndirectorystructure.html">
+          <section class="post">
+              <h2>React Native目錄結構</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="https://vicky335.github.io/">Vicky&#39;s Blog</a> All rights reserved - 2017</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://vicky335.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="https://vicky335.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://vicky335.github.io/js/index.js"></script>
+    
+
+
+    
+
+    
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1155862327852170',
+            cookie     : true,
+            xfbml      : true,
+            version    : 'v6.0'
+        });
+        FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/zh_hk/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGTFFVZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+</body>
+</html>
+

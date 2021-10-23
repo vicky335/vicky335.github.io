@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcut key on Vicky&#39;s Blog</title>
+    <link>https://vicky335.github.io/tags/shortcut-key.html</link>
+    <description>Recent content in shortcut key on Vicky&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Mon, 28 May 2018 15:00:21 +0800</lastBuildDate>
+    
+	<atom:link href="https://vicky335.github.io/tags/shortcut-key/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac 常用快捷鍵整理</title>
+      <link>https://vicky335.github.io/post/other/mac_shortcutkeys.html</link>
+      <pubDate>Mon, 28 May 2018 15:00:21 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/other/mac_shortcutkeys.html</guid>
+      <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd + ↑ 類似windows下的 ctrl + home 跳到頁尾 cmd + ↓ 類似windows下的 ctrl + end 光標移到行首 cmd +</description>
+    </item>
+    
+  </channel>
+</rss>

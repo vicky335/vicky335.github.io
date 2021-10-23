@@ -1,0 +1,101 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>
+             Vicky&#39;s Blog 
+        </title>
+
+        <link>https://vicky335.github.io/</link>
+
+        
+        <author>vicky335 (https://vicky335.github.io/)</author>
+        
+
+        
+        <managingEditor>vicky335 (https://vicky335.github.io/)</managingEditor>
+        
+
+        
+        <webMaster>vicky335 (https://vicky335.github.io/)</webMaster>
+        
+
+        <description>
+            This is vicky335&#39;s blog
+        </description>
+
+        
+        <language>zh-Hant</language>
+        
+
+        <copyright>
+            <a href="https://vicky335.github.io/">Vicky&#39;s Blog</a> All rights reserved - 2017
+        </copyright>
+
+        
+        <lastBuildDate>Wed, 20 Oct 2021 20:49:35 UTC+08:00</lastBuildDate>
+        
+
+        <atom:link href="https://vicky335.github.io/" rel="self" type="application/rss+xml" />
+
+        
+        <item>
+            <title>Posts</title>
+
+            <link>https://vicky335.github.io/post.html</link>
+
+            <pubDate>Wed, 20 Oct 2021 20:49:35 UTC+08:00</pubDate>
+
+            
+
+            <guid>https://vicky335.github.io/post.html</guid>
+
+            <description></description>
+
+            <content:encoded>
+                
+                &lt;![CDATA[
+                <!doctype html>
+                <html lang="en" prefix="op: http://media.facebook.com/op#">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <link rel="canonical" href="https://vicky335.github.io/post.html">
+                        <meta property="op:markup_version" content="v1.0">
+                        <meta property="fb:use_automatic_ad_placement" content="enable=true ad_density=default">
+                        <link rel="stylesheet" title="default" href="#">
+                        <title>Posts</title>
+                    </head>
+
+                    <body>
+                        <article>
+                            <header>
+                                <meta charset="utf-8">
+                                <meta property="fb:use_automatic_ad_placement" content="true">
+                                <meta property="fb:likes_and_comments" content="enable">
+                                
+                                <meta property="article:author" content="915701871863863" />
+                                
+                                <link rel="canonical" href="https://vicky335.github.io/post.html">
+                                
+                                <title>
+                                    Posts
+                                </title>
+                            </header>
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678220203914&adtype=banner300x250"></iframe>
+                            </figure>
+                            
+                            <figure class="op-ad">
+                              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1155862327852170_1165678583537211&adtype=banner300x250"></iframe>
+                            </figure>
+                            <footer>
+                                <small><a href="">Vicky&#39;s Blog</a> All rights reserved - 2017</small>
+                            </footer>
+                        </article>
+                    </body>
+                </html>
+                ]]&gt;
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>

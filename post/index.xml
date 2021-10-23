@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Vicky&#39;s Blog</title>
+    <link>https://vicky335.github.io/post.html</link>
+    <description>Recent content in Posts on Vicky&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Wed, 20 Oct 2021 20:49:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>要玩過這些才算去過新加坡</title>
+      <link>https://vicky335.github.io/post/travel/singapore1.html</link>
+      <pubDate>Wed, 20 Oct 2021 20:49:35 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/travel/singapore1.html</guid>
+      <description>新加坡的面積只有香港的 7 成大，集自然風光、購物娛樂和親子遊玩為一體，景點挨著都很近，去哪玩都休閒不累。那麼來到新加坡到底住在哪呢？如果只有四</description>
+    </item>
+    
+    <item>
+      <title>Switch《集合啦！動物森友會》主線攻略</title>
+      <link>https://vicky335.github.io/post/game/animalcrossing/mainlineraiders.html</link>
+      <pubDate>Mon, 20 Apr 2020 17:22:35 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/game/animalcrossing/mainlineraiders.html</guid>
+      <description>登島準備工作 本作分房貸線和狸克建設主線，兩條線達成的進度目前看到是有一定的聯繫的，但是沒有太大的影響。 【新手請仔細閱讀 NPC 的教學和對話！如果你</description>
+    </item>
+    
+    <item>
+      <title>Git常用命令清單</title>
+      <link>https://vicky335.github.io/post/f2e/git.html</link>
+      <pubDate>Tue, 14 Apr 2020 10:21:24 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/git.html</guid>
+      <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
+    </item>
+    
+    <item>
+      <title>React Native目錄結構</title>
+      <link>https://vicky335.github.io/post/f2e/rndirectorystructure.html</link>
+      <pubDate>Sun, 12 Apr 2020 20:52:15 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/rndirectorystructure.html</guid>
+      <description>名稱 描述 android 目錄 Android 專案目錄，包含了使用 AndroidStudio 開發專案的環境配置檔案； ios 目錄 iOS 專案目錄，包含了 XCode 的環境 node_modules 目錄 基於 node 檔案依賴系統產生的相關依賴和第三方</description>
+    </item>
+    
+    <item>
+      <title>Sass基本語法 - 常用函數</title>
+      <link>https://vicky335.github.io/post/f2e/sass_fun.html</link>
+      <pubDate>Wed, 06 Mar 2019 15:29:02 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/sass_fun.html</guid>
+      <description>字符串函數 unquote($string)：刪除字符串中的引號； unquote( ) 函數只能刪除字符串最前和最後的引號（雙引號或單引號），而無法刪除字符串中</description>
+    </item>
+    
+    <item>
+      <title>Mac 常用快捷鍵整理</title>
+      <link>https://vicky335.github.io/post/other/mac_shortcutkeys.html</link>
+      <pubDate>Mon, 28 May 2018 15:00:21 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/other/mac_shortcutkeys.html</guid>
+      <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd + ↑ 類似windows下的 ctrl + home 跳到頁尾 cmd + ↓ 類似windows下的 ctrl + end 光標移到行首 cmd +</description>
+    </item>
+    
+    <item>
+      <title>各國網路名稱縮寫</title>
+      <link>https://vicky335.github.io/post/other/country.html</link>
+      <pubDate>Fri, 30 Mar 2018 17:53:21 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/other/country.html</guid>
+      <description>縮寫 英文 中文 位置 ac Ascension Island 亞森欣島 在南太平洋，屬英 ad Andorra 安道爾侯國 位於法國和西班牙交界之東庇里牛斯山中 ae Unuted Arab Emirates 阿拉伯聯合大公國 af Afghanistan 阿富汗 亞洲西部高</description>
+    </item>
+    
+    <item>
+      <title>Markdown入門</title>
+      <link>https://vicky335.github.io/post/markdown/markdown.html</link>
+      <pubDate>Sun, 18 Jun 2017 17:05:04 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/markdown/markdown.html</guid>
+      <description>Markdown 是一種 「輕量級標記式語言」 ，創始人為 約翰·格魯伯（John Gruber） 。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並</description>
+    </item>
+    
+    <item>
+      <title>使用Hugo搭建靜態個人站點</title>
+      <link>https://vicky335.github.io/post/f2e/hugo.html</link>
+      <pubDate>Wed, 12 Apr 2017 21:57:04 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/hugo.html</guid>
+      <description>Hugo是一款由 GO 語言實現的靜態網站生成器。簡單、易用、高效、易擴展、快速部署。 安裝 Mac 下的安裝 $ brew install hugo $ hugo version // 是否安裝成功 $ hugo --help 生成 Blog 創建網</description>
+    </item>
+    
+    <item>
+      <title>聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題</title>
+      <link>https://vicky335.github.io/post/f2e/tagheight.html</link>
+      <pubDate>Fri, 06 Jun 2014 14:30:35 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/tagheight.html</guid>
+      <description>第一次寫文章，不是很會取標題，寫的不好請見諒，謝謝 🙏 ～ 今天來聊聊 HTML 裡面的標籤的line-height問題。 line-height 用於設置多行元素的空間量，如多行</description>
+    </item>
+    
+  </channel>
+</rss>

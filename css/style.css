@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/**************************************/
+/*               style                */
+/**************************************/
+
+.ui_adblock,
+.ui_adblock * {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ui_adblock {
+  margin: 1em 0;
+  /* margin-bottom: 1rem; */
+  text-align: center;
+  /* background-color: #eee; */
+  /* line-height: 0; */
+}
+
+.ui_adblock > .title {
+  display: none;
+  padding: 1rem 0rem;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #aaa;
+}
+
+.ui_adblock > .content {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.ui_adblock > .content > .adunit {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.ui_adblock.post {
+  margin: 4rem auto;
+  padding-bottom: 4rem;
+}
+
+.post-content .ui_adblock,
+.post-content .google-auto-placed {
+  /* background-color: #eee; */
+  margin-bottom: 1.75em;
+}
+/* .post-content .ui_adblock > .title {
+  display: block;
+} */
+
+.google-auto-placed iframe {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .ui_block > .title {
+    padding: 1rem;
+  }
+
+  .ui_adblock > .content > .adunit {
+    margin-bottom: 1rem;
+    flex: 0 0 100%;
+    max-width: 300px;
+  }
+
+  .ui_adblock > .content > .adunit:last-child {
+    margin-bottom: 0;
+  }
+
+  .post-content .ui_adblock,
+  .post-content .google-auto-placed {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.ui_adblock:last-child,
+.google-auto-placed:last-child {
+  margin-bottom: 0;
+}
+
+.test-form {
+  display: flex;
+  align-items: center;
+}
+.test-form .label {
+}
+.test-form .content {
+}

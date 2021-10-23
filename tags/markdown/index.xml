@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Vicky&#39;s Blog</title>
+    <link>https://vicky335.github.io/tags/markdown.html</link>
+    <description>Recent content in markdown on Vicky&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Sun, 18 Jun 2017 17:05:04 +0800</lastBuildDate>
+    
+	<atom:link href="https://vicky335.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown入門</title>
+      <link>https://vicky335.github.io/post/markdown/markdown.html</link>
+      <pubDate>Sun, 18 Jun 2017 17:05:04 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/markdown/markdown.html</guid>
+      <description>Markdown 是一種 「輕量級標記式語言」 ，創始人為 約翰·格魯伯（John Gruber） 。這個語言的目的是希望大家使用「易於閱讀、易於撰寫的純文字格式，並</description>
+    </item>
+    
+  </channel>
+</rss>

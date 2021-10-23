@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Vicky&#39;s Blog</title>
+    <link>https://vicky335.github.io/tags/git.html</link>
+    <description>Recent content in git on Vicky&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Tue, 14 Apr 2020 10:21:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://vicky335.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git常用命令清單</title>
+      <link>https://vicky335.github.io/post/f2e/git.html</link>
+      <pubDate>Tue, 14 Apr 2020 10:21:24 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/git.html</guid>
+      <description>新建代碼庫 # 在當前目錄新建一個Git代碼庫 $ git init # 新建一個目錄，將其初始化為Git代碼庫 $ git init [project-name] # 下載一個項目和它的整個代碼歷史 $ git clone [url] git c</description>
+    </item>
+    
+  </channel>
+</rss>
