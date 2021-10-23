@@ -42,7 +42,9 @@
 
     
     
-        <meta name="twitter:card" content="summary"/>
+        
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="/images/f2e/sass.png"/>
     
 
 
@@ -62,9 +64,7 @@
     <meta property="og:url" content="https://vicky335.github.io/post/f2e/sass_fun.html" />
 
     
-        
-            <meta property="og:image" content="/images/cover.jpg"/>
-        
+       <meta property="og:image" content="/images/f2e/sass.png"/>
     
 
     
@@ -157,8 +157,8 @@
     },
     "headline": "Sass基本語法 - 常用函數",
     "name": "Sass基本語法 - 常用函數",
-    "wordCount":  2527 ,
-    "timeRequired": "PT6M",
+    "wordCount":  2481 ,
+    "timeRequired": "PT5M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
@@ -166,6 +166,13 @@
     "url": "https://vicky335.github.io/post/f2e/sass_fun.html",
     "datePublished": "2019-03-06T15:29Z",
     "dateModified": "2019-03-06T15:29Z",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://vicky335.github.io//images/f2e/sass.png",
+        "width": 3000,
+        "height": 1445
+    },
     
     "keywords": "f2e, sass",
     "description": "",
@@ -231,8 +238,10 @@
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/f2e/sass.png)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -377,8 +386,8 @@
 false
 index(1px solid red,solid) //列表中找到 solid 值，並且返回他的位置值 2
 2
-</code></pre><h2 id="introspection函數">Introspection函數</h2>
-<p>Introspection函數包括了幾個判斷型函數：</p>
+</code></pre><h2 id="introspection-函數">Introspection 函數</h2>
+<p>Introspection 函數包括了幾個判斷型函數：</p>
 <ul>
 <li>type-of($value)：返回一個值的類型
 返回值：</li>
@@ -397,7 +406,7 @@ color 為顏色型。
 <p>comparable($number-1, $number-2)：判斷兩個值是否可以做加、減和合併</p>
 </li>
 </ul>
-<h2 id="miscellaneous函數">Miscellaneous函數</h2>
+<h2 id="miscellaneous-函數">Miscellaneous 函數</h2>
 <p>Miscellaneous 函數稱為三元條件函數，主要因為他和 JavaScript 中的三元判斷非常的相似。他有兩個值，當條件成立返回一種值，當條件不成立時返回另一種值：</p>
 <pre><code>if($condition,$if-true,$if-false)
 </code></pre><p>上面表達式的意思是當 $condition 條件成立時，返回的值為 $if-true，否則返回的是 $if-false 值。</p>
@@ -406,7 +415,7 @@ color 為顏色型。
 if(false,1px,2px)
 2px
 </code></pre><h2 id="顏色函數">顏色函數</h2>
-<h3 id="rgb顏色函數簡介">RGB顏色函數簡介</h3>
+<h3 id="rgb-顏色函數簡介">RGB 顏色函數簡介</h3>
 <p>RGB 顏色只是顏色中的一種表達式，其中 R 是 red 表示紅色，G 是 green 表示綠色而 B 是 blue 表示藍色。在 Sass 中為 RGB 顏色提供六種函數：</p>
 <ul>
 <li>rgb($red,$green,$blue)：根據紅、綠、藍三個值創建一個顏色；</li>
@@ -416,7 +425,7 @@ if(false,1px,2px)
 <li>blue($color)：從一個顏色中獲取其中藍色值；</li>
 <li>mix($color-1,$color-2,[$weight])：把兩種顏色混合在一起。[$weight]是合併的比例</li>
 </ul>
-<h3 id="hsl函數簡介">HSL函數簡介</h3>
+<h3 id="hsl-函數簡介">HSL 函數簡介</h3>
 <ul>
 <li>hsl($hue,$saturation,$lightness)：通過色相（hue）、飽和度(saturation)和亮度（lightness）的值創建一個顏色；</li>
 <li>hsla($hue,$saturation,$lightness,$alpha)：通過色相（hue）、飽和度(saturation)、亮度（lightness）和透明（alpha）的值創建一個顏色；</li>
@@ -432,7 +441,7 @@ if(false,1px,2px)
 <li>complement($color)：返回一個補充色，相當於adjust-hue($color,180deg);</li>
 <li>invert($color)：反回一個反相色，紅、綠、藍色值倒過來，而透明度不變。</li>
 </ul>
-<h3 id="opacity函數簡介">Opacity函數簡介</h3>
+<h3 id="opacity-函數簡介">Opacity 函數簡介</h3>
 <ul>
 <li>alpha($color) /opacity($color)：獲取顏色透明度值；</li>
 <li>rgba($color, $alpha)：改變顏色的透明度值；</li>
@@ -636,7 +645,7 @@ if(false,1px,2px)
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
+      <a class="read-next-story prev" style="background-image: url(/images/other/mac_shortcutkey.png)" href="https://vicky335.github.io/post/other/mac_shortcutkeys.html">
           <section class="post">
               <h2>Mac 常用快捷鍵整理</h2>
           </section>
