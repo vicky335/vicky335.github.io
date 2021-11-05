@@ -329,10 +329,14 @@ $ hugo --help
 <h3 id="安裝主題-1">安裝主題</h3>
 <p>生成網站之後，首先要做的就是下載主題，通常有兩種方法。</p>
 <p>第一種是下載所有主題，簡單粗暴</p>
-<pre><code>$ cd vicky335.github.io
+<pre><code>
+$ cd vicky335.github.io
 $ git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
+
 </code></pre><p>第二種是下載感興趣的主題(以 Casper 為例)</p>
-<pre><code>$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
+<pre><code>
+$ git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
+
 </code></pre><p>你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo 的網址、themes/casper 改成 themes/你的主題名稱。</p>
 <h3 id="使用主題">使用主題</h3>
 <p>在 <code>config.toml</code> 中配置 theme = &ldquo;casper&rdquo; 即可。</p>
@@ -343,15 +347,20 @@ languageCode = &quot;zh-cn&quot;
 title = &quot;Vicky Blog&quot;    #自由命名
 </code></pre><h2 id="創建文章">創建文章</h2>
 <p>首先，生成第一篇文章。</p>
-<pre><code>$ hugo new post/first.md
+<pre><code>
+$ hugo new post/first.md
+
 </code></pre><p>生成的文章內容如下：</p>
-<pre><code>+++
+<pre><code>
++++
 title: &quot;First&quot;
 date: 2017-04-12T21:57:04+08:00
 draft: true
 +++
+
 </code></pre><p>該文章的默認模板是根據 archetypes 目錄下的 default.md 來的，可以自己修改模板，比如，修改文章的時間格式</p>
-<pre><code>+++
+<pre><code>
++++
 title: &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
 date: {{ now.Format &quot;2006-01-01&quot;  }}
 draft: false
@@ -359,10 +368,14 @@ categories: []
 tags: []
 toc: false
 +++
+
 </code></pre><p>再次生成文章</p>
-<pre><code>$ hugo new post/second.md
+<pre><code>
+$ hugo new post/second.md
+
 </code></pre><p>生成的文章內容變成了</p>
-<pre><code>+++
+<pre><code>
++++
 title: &quot;Second&quot;
 date: 2017-04-12
 draft: false
@@ -370,13 +383,18 @@ categories: []
 tags: []
 toc: false
 +++
+
 </code></pre><h2 id="生成最終網站">生成最終網站</h2>
 <p>生成靜態博客並在本地查看</p>
-<pre><code>$ hugo server
+<pre><code>
+$ hugo server
+
 </code></pre><p>執行完後，在瀏覽器中輸入網址 <code>http://localhost:1313</code>，就可以看到網站的雛形。</p>
 <p>默認的話，只會顯示 <code>draft</code> 為 <code>false</code> 的文章。</p>
 <p>服務器是實時更新的，只要你的內容發生了變化，本地服務器會實時更新變化後的內容，也可以設置成不實時更新</p>
-<pre><code>$ hugo server --watch=false
+<pre><code>
+$ hugo server --watch=false
+
 </code></pre><p><code>hugo server</code> 並不會生成真正的站點，一般在部署之前，需要運行 <code>hugo</code> 命令生成 <code>public</code> 站點</p>
 <pre><code>$ hugo
 </code></pre><h2 id="部署到-github">部署到 GitHub</h2>
@@ -384,12 +402,14 @@ toc: false
 <h3 id="在-github-建立-repo">在 GitHub 建立 repo</h3>
 <p>在 GitHub 建立 <strong><em>vicky335</em></strong>.github.io (粗斜體處改成自己的帳號名稱) repo。</p>
 <h3 id="將-public-資料夾連結到-github-上的-vicky335githubio">將 /public 資料夾連結到 GitHub 上的 vicky335.github.io</h3>
-<pre><code>cd public
+<pre><code>
+cd public
 git init
 git remote add origin https://github.com/vicky335/vicky335.github.io.git
 git add .
 git commit -m &quot;Initial commit&quot;
 git push -u origin master
+
 </code></pre><p>等個幾分鐘，輸入網址 <code>https://vicky335.github.io/</code> 就大功告成囉！</p>
 
 
