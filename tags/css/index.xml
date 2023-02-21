@@ -7,18 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
     <copyright>All rights reserved - 2017</copyright>
-    <lastBuildDate>Fri, 06 Jun 2014 14:30:35 +0800</lastBuildDate>
-    
-	<atom:link href="https://vicky335.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 06 Jun 2014 14:30:35 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>聊聊HTML裡面的「標籤的行高」和「標籤之間的間距」問題</title>
       <link>https://vicky335.github.io/post/f2e/tagheight.html</link>
       <pubDate>Fri, 06 Jun 2014 14:30:35 +0800</pubDate>
       
       <guid>https://vicky335.github.io/post/f2e/tagheight.html</guid>
-      <description>第一次寫文章，不是很會取標題，寫的不好請見諒，謝謝 🙏 ～ 今天來聊聊 HTML 裡面的標籤的line-height問題。 line-height 用於設置多行元素的空間量，如多行</description>
+      <description>第一次寫文章，不是很會取標題，寫的不好請見諒，謝謝 🙏 ～ 今天來聊聊 HTML 裡面的標籤的**line-height**問題。 line-height 用於設置多行元素的空間量</description>
     </item>
     
   </channel>
