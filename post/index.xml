@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
     <copyright>All rights reserved - 2017</copyright>
-    <lastBuildDate>Tue, 01 Aug 2023 19:00:21 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 20:53:54 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mac 批量重命名</title>
-      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
-      <pubDate>Tue, 01 Aug 2023 19:00:21 +0800</pubDate>
+      <title>F2E面試題 - JavaScript 閉包(Closure)</title>
+      <link>https://vicky335.github.io/post/f2e/closure.html</link>
+      <pubDate>Tue, 01 Aug 2023 20:53:54 +0800</pubDate>
       
-      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
-      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
+      <guid>https://vicky335.github.io/post/f2e/closure.html</guid>
+      <description>JavaScript 中的闭包（Closure）是指一种函数和其相关的引用环境的组合。当一个函数可以访问其定义时所处的词法作用域中的变量，即使在函数被调用时，这</description>
     </item>
     
     <item>
@@ -60,6 +60,15 @@
       
       <guid>https://vicky335.github.io/post/other/mac_shortcutkeys.html</guid>
       <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd + ↑ 類似 windows 下的 ctrl + home 跳到頁尾 cmd + ↓ 類似 windows 下的 ctrl + end 光標移到行首 cmd + ← 類似 windows 下的 home 光標移到行</description>
+    </item>
+    
+    <item>
+      <title>Mac 批量重命名</title>
+      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
+      <pubDate>Mon, 28 May 2018 15:00:21 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
+      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
     </item>
     
     <item>

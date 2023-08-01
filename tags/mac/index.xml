@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
     <copyright>All rights reserved - 2017</copyright>
-    <lastBuildDate>Tue, 01 Aug 2023 19:00:21 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mac 批量重命名</title>
-      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
-      <pubDate>Tue, 01 Aug 2023 19:00:21 +0800</pubDate>
-      
-      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
-      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
-    </item>
-    
+    <lastBuildDate>Mon, 28 May 2018 15:00:21 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac 常用快捷鍵整理</title>
       <link>https://vicky335.github.io/post/other/mac_shortcutkeys.html</link>
@@ -24,6 +15,15 @@
       
       <guid>https://vicky335.github.io/post/other/mac_shortcutkeys.html</guid>
       <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd + ↑ 類似 windows 下的 ctrl + home 跳到頁尾 cmd + ↓ 類似 windows 下的 ctrl + end 光標移到行首 cmd + ← 類似 windows 下的 home 光標移到行</description>
+    </item>
+    
+    <item>
+      <title>Mac 批量重命名</title>
+      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
+      <pubDate>Mon, 28 May 2018 15:00:21 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
+      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
     </item>
     
   </channel>

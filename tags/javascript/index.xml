@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Vicky&#39;s Blog</title>
+    <link>https://vicky335.github.io/tags/javascript.html</link>
+    <description>Recent content in javascript on Vicky&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Tue, 01 Aug 2023 20:53:54 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F2E面試題 - JavaScript 閉包(Closure)</title>
+      <link>https://vicky335.github.io/post/f2e/closure.html</link>
+      <pubDate>Tue, 01 Aug 2023 20:53:54 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/closure.html</guid>
+      <description>JavaScript 中的闭包（Closure）是指一种函数和其相关的引用环境的组合。当一个函数可以访问其定义时所处的词法作用域中的变量，即使在函数被调用时，这</description>
+    </item>
+    
+  </channel>
+</rss>
