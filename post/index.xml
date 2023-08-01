@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
     <copyright>All rights reserved - 2017</copyright>
-    <lastBuildDate>Wed, 20 Oct 2021 20:49:35 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 19:00:21 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac 批量重命名</title>
+      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
+      <pubDate>Tue, 01 Aug 2023 19:00:21 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
+      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
+    </item>
+    
     <item>
       <title>十大必去新加坡景點</title>
       <link>https://vicky335.github.io/post/travel/singapore1.html</link>
@@ -87,15 +96,6 @@
       
       <guid>https://vicky335.github.io/post/f2e/tagheight.html</guid>
       <description>第一次寫文章，不是很會取標題，寫的不好請見諒，謝謝 🙏 ～ 今天來聊聊 HTML 裡面的標籤的**line-height**問題。 line-height 用於設置多行元素的空間量</description>
-    </item>
-    
-    <item>
-      <title>Mac 批量重命名</title>
-      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
-      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
     </item>
     
   </channel>

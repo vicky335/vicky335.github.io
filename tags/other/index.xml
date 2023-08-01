@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
     <copyright>All rights reserved - 2017</copyright>
-    <lastBuildDate>Mon, 28 May 2018 15:00:21 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 19:00:21 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac 批量重命名</title>
+      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
+      <pubDate>Tue, 01 Aug 2023 19:00:21 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
+      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
+    </item>
+    
     <item>
       <title>Mac 常用快捷鍵整理</title>
       <link>https://vicky335.github.io/post/other/mac_shortcutkeys.html</link>
@@ -24,15 +33,6 @@
       
       <guid>https://vicky335.github.io/post/other/country.html</guid>
       <description>縮寫 英文 中文 位置 ac Ascension Island 亞森欣島 在南太平洋，屬英 ad Andorra 安道爾侯國 位於法國和西班牙交界之東庇里牛斯山中 ae Unuted Arab Emirates 阿拉伯聯合大公國 af Afghanistan 阿富汗 亞洲西部高</description>
-    </item>
-    
-    <item>
-      <title>Mac 批量重命名</title>
-      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
-      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
     </item>
     
   </channel>
