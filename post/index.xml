@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
     <copyright>All rights reserved - 2017</copyright>
-    <lastBuildDate>Tue, 14 Apr 2020 10:21:24 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 20:49:35 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>十大必去新加坡景點</title>
+      <link>https://vicky335.github.io/post/travel/singapore1.html</link>
+      <pubDate>Wed, 20 Oct 2021 20:49:35 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/travel/singapore1.html</guid>
+      <description>新加坡的面積只有香港的 7 成大，集自然風光、購物娛樂和親子遊玩為一體，景點挨著都很近，去哪玩都休閒不累。那麼來到新加坡到底住在哪呢？如果只有四</description>
+    </item>
+    
     <item>
       <title>Git常用命令清單</title>
       <link>https://vicky335.github.io/post/f2e/git.html</link>
@@ -42,6 +51,15 @@
       
       <guid>https://vicky335.github.io/post/other/mac_shortcutkeys.html</guid>
       <description>文本編輯 以下適用於文本編輯器，瀏覽器等： 跳到頁首 cmd + ↑ 類似 windows 下的 ctrl + home 跳到頁尾 cmd + ↓ 類似 windows 下的 ctrl + end 光標移到行首 cmd + ← 類似 windows 下的 home 光標移到行</description>
+    </item>
+    
+    <item>
+      <title>Mac 批量重命名</title>
+      <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
+      <pubDate>Mon, 28 May 2018 15:00:21 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/other/mac_batchrename.html</guid>
+      <description>選擇需要批量重命名的圖片/文件，右鍵-&amp;gt;點擊 重新命名x個項目 示例（以圖片為例） 重命名為「image 1.png」, 「image 2.png</description>
     </item>
     
     <item>
