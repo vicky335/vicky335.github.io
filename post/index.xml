@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
     <copyright>All rights reserved - 2017</copyright>
-    <lastBuildDate>Tue, 01 Aug 2023 19:00:21 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 22:53:54 +0800</lastBuildDate><atom:link href="https://vicky335.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F2E面試題 - JavaScript 閉包(Closure)</title>
+      <link>https://vicky335.github.io/post/f2e/closure.html</link>
+      <pubDate>Wed, 02 Aug 2023 22:53:54 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/f2e/closure.html</guid>
+      <description>F2E 面試題 - JavaScript 閉包(Closure) JavaScript 中的閉包（Closure）是指一種函數和其相關的引用環境的組合。當一個函數可以訪問其定義時所處的詞法作用</description>
+    </item>
+    
     <item>
       <title>Mac 批量重命名</title>
       <link>https://vicky335.github.io/post/other/mac_batchrename.html</link>
@@ -24,6 +33,15 @@
       
       <guid>https://vicky335.github.io/post/travel/singapore1.html</guid>
       <description>新加坡的面積只有香港的 7 成大，集自然風光、購物娛樂和親子遊玩為一體，景點挨著都很近，去哪玩都休閒不累。那麼來到新加坡到底住在哪呢？如果只有四</description>
+    </item>
+    
+    <item>
+      <title>Switch《集合啦！動物森友會》主線攻略</title>
+      <link>https://vicky335.github.io/post/game/animalcrossing/mainlineraiders.html</link>
+      <pubDate>Mon, 20 Apr 2020 17:22:35 +0800</pubDate>
+      
+      <guid>https://vicky335.github.io/post/game/animalcrossing/mainlineraiders.html</guid>
+      <description>登島準備工作 本作分房貸線和狸克建設主線，兩條線達成的進度目前看到是有一定的聯繫的，但是沒有太大的影響。 【新手請仔細閱讀 NPC 的教學和對話！如果你</description>
     </item>
     
     <item>
@@ -95,7 +113,7 @@
       <pubDate>Fri, 06 Jun 2014 14:30:35 +0800</pubDate>
       
       <guid>https://vicky335.github.io/post/f2e/tagheight.html</guid>
-      <description>第一次寫文章，不是很會取標題，寫的不好請見諒，謝謝 🙏 ～ 今天來聊聊 HTML 裡面的標籤的**line-height**問題。 line-height 用於設置多行元素的空間量</description>
+      <description>第一次寫文章，不是很會取標題，寫的不好請見諒，謝謝 🙏 ～ 今天來聊聊 HTML 裡面的標籤的 line-height 問題。 line-height 用於設置多行元素的空間量，如多行文本的間距。對於塊級</description>
     </item>
     
   </channel>

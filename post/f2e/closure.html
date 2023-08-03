@@ -63,10 +63,10 @@
          
         <meta property="og:description" content="" />
         <meta property="og:type" content="article" />
-        <meta property="article:published_time" content="2023-08-01T20:53:54&#43;08:00" /> 
+        <meta property="article:published_time" content="2023-08-02T22:53:54&#43;08:00" /> 
         <meta property="article:tag" content="f2e" />
         
-        <meta property="article:tag" content="closure" />
+        <meta property="article:tag" content="interview" />
         
         <meta property="article:tag" content="javascript" />
          
@@ -78,7 +78,7 @@
         
         <meta
             name="description"
-            content="JavaScript 中的闭包（Closure）是指一种函数和其相关的引用环境的组合。当一个函数可以访问其定义时所处的词法作用域中的变量，即使在函数被调用时，这"
+            content="F2E 面試題 - JavaScript 閉包(Closure) JavaScript 中的閉包（Closure）是指一種函數和其相關的引用環境的組合。當一個函數可以訪問其定義時所處的詞法作用"
         />
         
 
@@ -144,15 +144,15 @@
     },
     "headline": "F2E面試題 - JavaScript 閉包(Closure)",
     "name": "F2E面試題 - JavaScript 閉包(Closure)",
-    "wordCount":  574 ,
+    "wordCount":  588 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "https://vicky335.github.io/post/f2e/closure.html",
-    "datePublished": "2023-08-01T20:53Z",
-    "dateModified": "2023-08-01T20:53Z",
+    "datePublished": "2023-08-02T22:53Z",
+    "dateModified": "2023-08-02T22:53Z",
     
     "image": {
         "@type": "ImageObject",
@@ -161,7 +161,7 @@
         "height": 1445
     },
     
-    "keywords": "f2e, closure, javascript",
+    "keywords": "f2e, interview, javascript",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -268,14 +268,14 @@
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2023-08-01T20:53:54&#43;08:00">
-            Aug 1, 2023
+          <time class="post-date" datetime="2023-08-02T22:53:54&#43;08:00">
+            Aug 2, 2023
           </time>
         
          
           <span class="post-tag small"><a href="https://vicky335.github.io/tags/f2e">#f2e</a></span>
          
-          <span class="post-tag small"><a href="https://vicky335.github.io/tags/closure">#closure</a></span>
+          <span class="post-tag small"><a href="https://vicky335.github.io/tags/interview">#interview</a></span>
          
           <span class="post-tag small"><a href="https://vicky335.github.io/tags/javascript">#javascript</a></span>
          
@@ -286,12 +286,13 @@
 
     <section class="post-content">
 
-      <blockquote>
-<p>JavaScript 中的闭包（Closure）是指一种函数和其相关的引用环境的组合。当一个函数可以访问其定义时所处的词法作用域中的变量，即使在函数被调用时，这些变量已经不再存在，那么这个函数就被称为闭包。</p>
+      <h1 id="f2e-面試題---javascript-閉包closure">F2E 面試題 - JavaScript 閉包(Closure)</h1>
+<blockquote>
+<p>JavaScript 中的閉包（Closure）是指一種函數和其相關的引用環境的組合。當一個函數可以訪問其定義時所處的詞法作用域中的變量，即使在函數被調用時，這些變量已經不再存在，那麼這個函數就被稱為閉包。</p>
 </blockquote>
-<p>闭包的作用是可以访问外部函数的变量和参数，同时也可以访问全局变量。闭包可以用于许多场景，比如实现模块化、延迟执行、实现私有变量和方法、避免全局污染等。</p>
-<p>在 JavaScript 中，当一个函数返回另一个函数时，后者可以访问前者的变量，即使前者已经执行完毕并且其执行上下文已经被销毁。这个后者就是一个闭包。</p>
-<p>以下是一个使用闭包实现计数器的例子：</p>
+<p>閉包的作用是可以訪問外部函數的變量和參數，同時也可以訪問全局變量。閉包可以用於許多場景，比如實現模塊化、延遲執行、實現私有變量和方法、避免全局污染等。</p>
+<p>在 JavaScript 中，當一個函數返回另一個函數時，後者可以訪問前者的變量，即使前者已經執行完畢並且其執行上下文已經被銷毀。這個後者就是一個閉包。</p>
+<p>以下是一個使用閉包實現計數器的例子：</p>
 <pre tabindex="0"><code>function createCounter() {
 
   let count = 0;
@@ -310,25 +311,25 @@
 
 const counter = createCounter();
 
-counter(); // 输出 1
+counter(); // output 1
 
-counter(); // 输出 2
+counter(); // output 2
 
-counter(); // 输出 3
-</code></pre><p>在上面的例子中，<code>createCounter</code> 函数返回一个内部函数，这个内部函数访问了 <code>createCounter</code> 的作用域中的变量 <code>count</code>，并且每次被调用时都将 <code>count</code> 的值加 1 并输出。由于 <code>counter</code> 函数是 <code>createCounter</code> 的返回值，所以它是一个闭包，可以访问 <code>createCounter</code> 的作用域中的变量 <code>count</code>，并且每次执行时都能正确地记录 <code>count</code> 的值。</p>
-<p>闭包的特性包括：</p>
+counter(); // output 3
+</code></pre><p>在上面的例子中，<code>createCounter</code> 函數返回一個內部函數，這個內部函數訪問了 <code>createCounter</code> 的作用域中的變量 <code>count</code>，並且每次被調用時都將 <code>count</code> 的值加 1 並輸出。由於 <code>counter</code> 函數是 <code>createCounter</code> 的返回值，所以它是一個閉包，可以訪問 <code>createCounter</code> 的作用域中的變量 <code>count</code>，並且每次執行時都能正確地記錄 <code>count</code> 的值。</p>
+<p>閉包的特性包括：</p>
 <ol>
 <li>
-<p>可以访问定义时所在的词法作用域。</p>
+<p>可以訪問定義時所在的詞法作用域。</p>
 </li>
 <li>
-<p>可以在函数外部访问闭包内部的变量。</p>
+<p>可以在函數外部訪問閉包內部的變量。</p>
 </li>
 <li>
-<p>闭包中的变量会常驻内存，不会被垃圾回收机制回收，因此需要注意内存泄漏的问题。</p>
+<p>閉包中的變量會常駐內存，不會被垃圾回收機制回收，因此需要注意內存洩漏的問題。</p>
 </li>
 </ol>
-<p>总结来说，闭包是 JavaScript 中非常重要的概念，它可以用来创建模块、实现私有变量和方法、避免全局污染等。在使用闭包时，需要注意内存泄漏的问题，避免造成不必要的性能问题。</p>
+<p>總的來說，閉包是 JavaScript 中非常重要的概念，它可以用來創建模塊、實現私有變量和方法、避免全局污染等。在使用閉包時，需要注意內存洩漏的問題，避免造成不必要的性能問題。</p>
 
 
     </section>
@@ -406,9 +407,9 @@ counter(); // 输出 3
 <aside class="read-next">
   
   
-      <a class="read-next-story prev" style="background-image: url(/images/travel/singapore/singapore.jpeg)" href="https://vicky335.github.io/post/travel/singapore1.html">
+      <a class="read-next-story prev" style="background-image: url(/images/other/mac_shortcutkey.png)" href="https://vicky335.github.io/post/other/mac_batchrename.html">
           <section class="post">
-              <h2>十大必去新加坡景點</h2>
+              <h2>Mac 批量重命名</h2>
           </section>
       </a>
   
